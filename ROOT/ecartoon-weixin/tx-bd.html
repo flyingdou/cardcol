@@ -1,0 +1,143 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>提现-绑定银行卡</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<style type="text/css">
+			.mui-input-group .mui-input-row {
+				height: 45px;
+			}
+			
+			label {
+				height: 45px!important;
+				padding: 15px 10px!important;
+				color: #999999;
+				font-size: 15px;
+			}
+			
+			input {
+				height: 45px!important;
+				padding: 0 10px!important;
+				font-size: 15px;
+			}
+			
+			.mui-input-group .mui-input-row:after {
+				position: absolute;
+				right: 0;
+				bottom: 0;
+				left: 10px;
+				height: 1px;
+				content: '';
+				transform: scaleY(.5);
+				background-color: #c8c7cc;
+			}
+			
+			.cb {
+				color: black
+			}
+			
+			.rz {
+				height: 19px;
+				padding: 2px 4px;
+				background: #FF4401;
+				color: white;
+				font-size: 13px;
+			}
+			.num{
+				width: 50%!important;
+			}
+			.span_hq{
+				height: 60%;
+				top:20% ;
+				margin-right: 10px;
+				padding: 0 10px;
+				border-radius: 4px!important;
+				border: 1px solid #FF4401;
+				border-radius: 0;
+				
+				background: #ffffff;
+				color:#FF4401;
+				
+			} 
+			.fixed_footer{
+			position: fixed;
+		    bottom: 0;
+		    width: 100%;
+		    height: 44px;
+		    padding: 0 10px;
+			}
+			.footer_button{
+				background: #FF4401!important;
+				width: 100%;
+				color:white;
+				font-size: 18px!important;
+				border-radius: 8px!important;
+				
+				
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="mui-content">
+			<form class="mui-input-group">
+				<div class="mui-input-row">
+					<label>户名：</label>
+					<input type="text" class="mui-input-clear" placeholder="">
+				</div>
+				<div class="mui-input-row">
+					<label>卡号：</label>
+					<input type="number" class="mui-input-clear" placeholder="">
+				</div>
+				<div class="mui-input-row">
+					<label>开户行：</label>
+					<input type="text" class="mui-input-clear" placeholder="">
+				</div>
+				<div class="mui-input-row" style="line-height: 44px;padding-left: 10px;">
+					<span class="cb">158522222</span>
+					<span class="rz">已认证</span>
+				</div>
+				<div class="mui-input-row">
+
+					<input type="number" class="mui-input-clear num" placeholder="输入短信验证码">
+						<button class="span_hq mui-pull-right"onclick="setTime(this)">获取验证码</button>
+				</div>
+
+            <div class="fixed_footer">
+            	<input type="submit" id="" value="绑定"class="footer_button" />
+            </div>
+
+			</form>
+		</div>
+		<script src="js/mui.min.js"></script>
+		<script type="text/javascript">
+			mui.init()
+			var waitTime=59;
+			function setTime(obj){
+	   var nc=/^(13[0-9]|14[5|7]|15[0|1|2|3|5|6|7|8|9]|18[0|1|2|3|5|6|7|8|9])\d{8}$/;
+		
+			
+		if(waitTime==0){
+		obj.removeAttribute("disabled");    
+        obj.innerText="获取验证码"; 
+        waitTime = 59; 
+        return;	
+		}else{
+		obj.setAttribute("disabled", true); 
+        obj.innerText="重新发送(" + waitTime + ")"; 
+        waitTime--; 
+		};
+	
+		setTimeout(function(){
+			setTime(obj)},1000)
+			
+		
+	}
+		</script>
+	</body>
+
+</html>

@@ -1,0 +1,183 @@
+
+#user-left0{
+	 float:left;
+	 width:550px;
+     height:400px;
+	}
+#user-left0 p {
+   padding:10px 0 10px 40px;
+   font-size:14px;
+
+}
+#user-left0 p input {
+  width:200px;
+  height:30px;
+  border:1px solid #CCCCCC;
+}
+#user-left0 .spanp {
+ padding-left:10px;
+  font-size:12px;
+  color:#666;
+}
+#user-left0 .left1 {
+	padding-top:20px;
+	padding-bottom:10px;
+	padding-left:40px;
+    font-size:14px;
+}
+#user-left0 .left1-1{
+  padding-left:7px;
+}
+#user-left0 .left2 {
+   margin:20px 0 0 120px;
+}
+#user-left0 .left3 {
+height:27px;
+width:93px;
+cursor:pointer;
+margin:20px 0 0 140px;
+border:none;
+background:url(../images/zhuce.png) no-repeat;
+background-position:0px 0px;
+}
+#user-left0 .left3:hover {
+height:27px;
+width:93px;
+cursor:pointer;
+margin-right:5px;
+background:url(../images/zhuce.png) no-repeat;
+background-position:-94px 0px;
+}
+#user-right0{
+	float:right;
+	margin-right:20px;
+	border-left:#CCCCCC 1px solid;
+	width:310px;
+	height:290px;
+	margin-top:50px;
+}
+#user-right0 .right1 {
+   height:40px;
+   width:100%;
+   font-size:18px;
+   color:#000;
+   text-align:center;
+}
+#user-right0 .right2-1 {
+height:27px;
+width:93px;
+margin-left:120px;
+}
+#user-right0 .right2 {
+height:27px;
+width:93px;
+cursor:pointer;
+border:none;
+background:url(../images/denglu.png) no-repeat;
+background-position:0px 0px;
+}
+#user-right0 .right2:hover {
+height:27px;
+width:93px;
+cursor:pointer;
+background:url(../images/denglu.png) no-repeat;
+background-position:-94px 0px;
+}
+#user-right0 .updiv {
+  width:300px;
+  height:20px;
+  margin-left:30px;
+  margin-top:20px;
+  border-top:1px solid #CCCCCC;
+}
+#user-right0 .updiv1{
+  margin-top:10px;
+  margin-left:10px;
+  color:#666;
+}
+#user-right0 .updiv2 {
+  margin-left:10px;
+}
+#user-right0 .updiv2 a {
+ /* color:#666;*/
+  padding-left:10px;
+  line-height:20px;
+}
+/*#user-right0 .updiv2 a:hover {
+  color:#f60;
+}*/
+#user-right0 .updiv2-1 {
+  width:90px;
+  height:30px;
+  float:left;
+}
+#user-right0 .updiv2-1-1 {
+  width:22px;
+  height:22px;
+  margin-top:5px;
+  float:left;
+}
+#user-right0 .updiv2-1-2 {
+  width:65px;
+   color:#666;
+  padding-top:5px;
+  float:left;
+}
+/*#bottom{
+	width:960px;
+	height:80px;
+	margin:0px auto;
+	border:#999999 1px solid;
+	margin-bottom:10px;
+	margin-top:10px;
+	margin:0 auto;
+	text-align:center;
+	padding-top:35px;
+}
+#bottom p {
+	margin-top:20px;
+	color:#666666;
+}
+#bottom p span {
+	margin:0 7px 0 7px;
+}*/
+
+.onShow {
+	background: url(../images/onShow.gif) no-repeat;
+	padding-left: 25px;
+	font-size: 12px;
+	line-height: 22px;
+	vertical-align: middle;
+}
+
+.onFocus {
+	background: #E9F0FF url(../images/onFocus.gif) no-repeat;
+	padding-left: 25px;
+	font-size: 12px;
+	line-height: 22px;
+	vertical-align: middle;
+}
+
+.onError {
+	background: #FFF2E9 url(../images/onError.gif) no-repeat;
+	padding-left: 25px;
+	font-size: 12px;
+	line-height: 22px;
+	vertical-align: middle;
+}
+
+.onCorrect {
+	background: #E9FFEB url(../images/onCorrect.gif) no-repeat;
+	padding-left: 25px;
+	font-size: 12px;
+	line-height: 22px;
+	vertical-align: middle;
+}
+
+.onLoad {
+	background: #E9FFEB url(../images/onLoad.gif) no-repeat 3px 3px;
+	padding-left: 25px;
+	font-size: 12px;
+	line-height: 22px;
+	vertical-align: middle;
+}

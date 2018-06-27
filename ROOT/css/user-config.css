@@ -1,0 +1,733 @@
+﻿/* CSS Document */
+
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+	text-align:center;
+	line-height:30px;
+	height: 30px;
+	width:100%;
+}
+
+#container {
+	clear:both;
+	margin:0 auto;
+	width:942px;
+	min-height:780px;
+	position:relative;
+	padding-left:8px;
+}
+
+.my-setting {
+	clear: both;
+	width:934px;
+	padding-top:10px;
+	margin-left:10px;
+}
+ul#nextstep {
+	height:30px;
+	width:934px;
+	margin-left:10px;
+	margin-top:10px;
+}
+ul#nextstep li {
+	float:left;
+	width:145px;;
+	height:30px;
+	line-height:30px;
+    text-align:center;
+	font-family:"����";
+	font-size:13px;
+	background:url(../images/nextstep-li_bg_03.png) no-repeat -145px 0;
+	color:#161616;
+}
+#nextstep li.first {
+    background:url(../images/nextstep-li_bg_03.png) no-repeat 0 0;
+}
+#nextstep li.first1 {
+    background:url(../images/nextstep-li_bg_04.png) no-repeat  0 0;
+}
+ul#nextstep li.last {
+    background:url(../images/nextstep-li_bg_04.png) no-repeat -145px 0;
+}
+#center-1 {
+	clear:both;
+	margin:10px 10px 0 10px;
+	height:100%;
+	overflow:hidden;
+}
+#center-1 h1{
+height:30px;
+line-height:30px;
+padding-left:10px;
+color:red;}
+
+#center-1 h2 {
+	float:left;
+	height:29px;
+	padding-left:20px;
+	padding-top:20px;
+	font-size:14px;
+	background:none;
+	border:none;
+	color:#c60438;
+}
+h2.context_title {
+	clear:both;
+	margin-bottom:10px;
+	width:106px;
+	height:29px;
+	padding:0 10px;
+	line-height:27px;
+	font-size:14px;
+	background:none;
+	border:none;
+}
+
+
+}
+/*coach-config.html end*/
+	.xiugai{
+	width:440px;
+	height:100%;
+	overflow:hidden;
+	margin:0 auto;
+	border:1px solid #999;
+	}
+	.xiugai h1{
+	height:30px;
+	line-height:30px;
+	padding-left:10px;}
+	.xiugai h3{
+	height:40px;
+	line-height:40px;
+	padding-left:10px;}
+	.xiugai-1 input,.xiugai-2 input{
+	height:20px;
+	width:120px;
+	line-height:20px;
+	 border:1px solid #CCC;
+	}
+
+	.xiugai-1,.xiugai-2,.xiugai-3{
+	margin-bottom:10px;}
+	.xiugai-2{
+	padding-left:52px;
+	}
+
+	.xiugai-4{
+	margin-bottom:10px;
+	padding-right:10px;
+	line-height:180%;}
+	.xiugai-4 input{
+	vertical-align:middle;
+	margin-left:10px;
+	margin-right:2px;
+
+	}
+	.xiugai-4 select {
+		 border:1px solid #ccc;
+	} 
+	.xiugai-4 input.radio1{
+	margin-left:124px;}
+
+	.xiugai-1 span,.xiugai-4 span{
+	color:red;
+	margin-right:5px;}
+
+	.xiugai-5, .xiugai1-2{
+	margin:10px 0 10px 0;
+	text-align:center;}
+	.xiugai-5 input, .xiugai1-2 input{
+	text-align:center;
+	margin:0 5px 0 5px;
+	cursor:pointer;
+	width:64px;
+	height:28px;
+	line-height:28px;
+	background:url(../images/anjiuall.jpg);
+	background-position:0px -48px;
+	
+	}
+
+
+/*coach-config2.html end*/
+	.xiugai1{
+	width:550px;
+	height:100%;
+	overflow:hidden;
+	margin:0 auto;
+	border:1px solid #999;
+	margin-bottom:5px;
+	}
+	.xiugai1 h1{
+	height:30px;
+	line-height:30px;
+	padding-left:10px;}
+
+	.xiugai1-1, .firstthree, .firstthree-1, .firstthree-2, .firstthree-3{
+	margin-top:10px;
+	margin-left:20px;}
+.text {
+border:1px solid #ccc;
+}
+	.xiugai1-1 input.text1, .firstthree input.text1{
+	width:300px;
+	height:20px;
+	line-height:20px;
+	border:1px solid #999;}
+
+	.firstthree, .firstthree-1, .firstthree-2, .firstthree-3{
+	margin-left:45px;
+	}
+	.firstthree-1{
+	padding-bottom:10px;}
+
+	.firstthree-1 div{
+	float:left;}
+	.firstthree-1 span{
+	width:80px;
+	display:block;
+	float:left;}
+	 
+	.firstthree-2{
+	clear:both;
+	}
+	.firstthree-2 .muscle{
+	float:left;}
+	.muscle1{
+	float:left;
+	margin:0 0 10px 10px;}
+
+	.muscle1 span{
+	display:block;
+	width:90px;
+	float:left;
+	margin-top:5px;}
+
+	.firstthree-3{
+	clear:both;
+	}
+
+/* config all*/
+.configall {
+	clear:both;
+	width:920px;
+	margin:10px 0 0 10px;
+}
+.configall p {
+	margin-left:4px;
+}
+p.favorite_project {
+margin-left:40px;
+width:850px;
+line-height:30px;
+}
+.configall label {
+		margin-right:15px;
+	}
+/*.configall input {
+vertical-align:middle;
+}*/
+.configall h4 {
+	font-weight:normal;
+	margin-bottom:10px;
+	margin-left:10px;
+	padding-left:10px;
+	width:97%;
+	height:30px;
+	line-height:30px;
+	font-size:13px;
+	background:#ededed;
+}
+.configall div {
+   width:100%;
+   margin:10px 0 10px 10px;
+}
+.configall div input {
+  margin-left:30px;
+}
+.configall .educoa ul li{
+display:inline;
+ margin-bottom:10px;
+}
+.configall ul.tiemcoa{
+	margin-left:30px;
+}
+.configall ul.tiemcoa li select{
+	margin-left:5px;
+	width:60px;
+	margin-bottom:10px;
+	border:1px solid #ccc;
+}
+.configall ul.tiemcoa li a{
+	color: #137DDC;
+	cursor:pointer;
+}
+.configall ul.tiemcoa li a:hover{
+text-decoration:underline;
+color: #ff6633;
+}
+
+.my-target {
+	margin:0px auto;
+	width:300px;
+	height:200px;
+	line-height:35px;
+	font-size:16px;
+	text-align:center;
+	padding:5px 5px 5px 5px;
+}
+.my-target .sldiv1 {
+   width:60px;
+   height:55px;
+   float:left;
+   margin-top:65px;
+}
+.my-target .sldiv2 {
+  width:240px;
+  height:200px;
+  float:right;
+}
+.my-target .sldiv2p1 {
+  padding-top:65px;
+  color:#FF0000;
+  text-align:center;
+  font-size:18px;
+}
+.my-target .sldiv2p2 {
+    color:#FF0000;
+    font-size:18px;
+	text-align:center;
+}
+
+/*table*/
+	.conftable {
+		clear:both;
+		border:1px solid #4d4d4b;
+		padding:3px;
+		text-align:center;
+	}
+	.conftable td {
+		height:35px;
+		border:1px solid #cccccc;
+	}
+	.conftable td input {
+	  margin-left:0px;
+	  width:80%;
+	} 
+/*table end*/
+
+/*button*/
+	.saveoperate {
+		text-align:center;
+	}
+	.saveoperate .adat {
+	display: inline-block;
+	width:87px;
+	height:28px;
+	line-height:30px;
+	text-align:left;
+	text-indent:35px;
+	margin-bottom:10px;
+	margin-top:10px;
+	letter-spacing:10px;
+	background:url(../images/anjiuall.jpg) no-repeat;
+	background-position:0px -89px;
+	color:#000;
+	cursor:pointer;
+	}
+	.saveoperate .asev {
+	display: inline-block;
+	width:97px;
+	height:28px;
+	margin-left:10px;
+	line-height:30px;
+	text-align:left;
+	margin-top:10px;
+	text-indent:35px;
+	letter-spacing:10px;
+	background:url(../images/anjiuall.jpg) no-repeat;
+	background-position:-100px -133px;
+	color:#000;
+	cursor:pointer;
+	}
+	.saveoperate .alter {
+	display: inline-block;
+	width:97px;
+	height:28px;
+	margin-left:10px;
+	line-height:30px;
+	text-align:left;
+	text-indent:35px;
+	margin-top:10px;
+	letter-spacing:10px;
+	background:url(../images/anjiuall.jpg) no-repeat;
+	background-position:0px -135px;
+	color:#000;
+	cursor:pointer;
+	}
+	.saveoperate .adel {
+	display: inline-block;
+	width:97px;
+	height:28px;
+	line-height:30px;
+	text-align:left;
+	margin-top:10px;
+	text-indent:35px;
+	letter-spacing:10px;
+	background:url(../images/anjiuall.jpg) no-repeat;
+	background-position:-100px -89px;
+	color:#000;
+	cursor:pointer;
+	}
+	.saveoperate a:hover {
+		color:#000;
+	}
+	.stepoperate {
+	text-align:center;
+	margin-top:20px;
+	margin-bottom:20px;
+	}
+	.stepoperate a {
+	display:inline-block;
+	margin-right:25px;
+	width:103px;
+	height:27px;
+	text-align:center;
+	line-height:27px;
+	font-size:14px;
+	}
+/*button end*/
+.partlab input{
+ margin-right:5px;
+}
+.input2 {
+width:68px;
+background:transparent;
+}
+.input3 {
+width:99%;
+background:transparent;
+}
+
+.goalcontent {
+		clear:both; 
+		padding-right::5px;
+		margin-bottom:10px;
+	}
+  .goalcontent input{
+       margin-left: 20px;
+	}
+ .goalcontent .dinput{
+		height:20px;
+		line-height:20px;
+		width:80px;
+		width:50px; 
+		margin-left:0px;
+		border:1px solid #999;
+	}
+ .check_list {
+		margin:10px 0 10px 0px;
+	}
+.check_list li{
+		height:25px;
+		line-height:25px;
+	}
+ .goalsetting {
+		margin-top:12px;
+		margin-bottom:12px;	
+	}
+ .goalsetting input{
+		vertical-align:middle;
+		margin-left:20px;
+		margin-right:5px;
+	}
+
+/* bmi*/
+
+	 .sevdmi {
+		 height:65px;
+		}
+	 .option {
+	    float:left;
+		}
+	 .option p {
+	    width:300px;
+		margin-left:30px;
+		margin-top:0px;
+		margin-bottom:10px;
+	 }
+	  .option p input {
+	   margin-left:0px;
+	   width:50px;
+	   height:15px;
+	   border:1px solid #CCC;
+	  }
+	 .sevdmi #tishi {
+			float:right;
+			width:300px;
+			margin:10px 20px 0 0; 
+			line-height:150%;
+			margin-top:-65px;
+		}
+	 .fourbim {
+		 height:110px;
+		 margin-bottom:10px;
+		}
+
+	 .bmionti {
+		  float:left;
+		  width:400px;
+		  margin-top:-10px;
+		}
+	 .bmionti input {
+		  margin-left:20px;
+		}
+
+	 .fourbim  #tishi {
+			float:right;
+			width:300px;
+			margin:10px 20px 0 0; 
+			line-height:150%;
+			margin-top:-35px;
+		}
+
+/*bmi end*/
+
+/*config all end*/
+
+
+/* For Firefox Hack course coach*/
+	.newdatatable, x:-moz-any-link, x:default {
+	line-height: 27px;
+	}
+
+	#dow {
+		width:713px;
+		height:100%;
+		overflow:hidden;
+		margin:0 auto;
+
+	}
+	#dow h1 {
+		width:713px;
+		height:30px;
+		line-height:30px;
+		float:left;
+		padding-left:10px;
+		font-size:16px;
+	}
+	#dow1 {
+		width:100%;
+		height:100%;
+	}
+	#dow1 p {
+	   line-height:40px;
+	}
+	.pleft {
+	   padding-left:5px;
+	}
+	.pltext {
+	   width:90px;
+	   height:20px;
+	   border:1px solid #ccc;
+	}
+	.inp  {
+	   width:143px;
+	}
+	.pleft select {
+	  width:150px;
+	  height:20px;
+	  border:1px solid #ccc;
+	}
+	.pleft1 {
+	   padding-left:30px;
+	}
+	.pleft select {
+	   width:90px;
+	   height:20px;
+	   border:1px solid #ccc;
+	}
+	.pleft2 {
+	  padding-left:30px;
+	}
+	.int {
+	  margin:13px;
+	  width:300px;
+	  border:1px solid #ccc;
+	  height:20px;
+	}
+	.pcenter {
+	   text-align:center;
+	}
+	.pdown1 {
+	   margin-left:300px;
+	}
+	/*.pdown2 {
+	   margin-left:50px;
+	}*/
+	.but { 
+	margin:8px 10px 0 10px;
+	cursor:pointer;
+	width:64px;
+	height:28px;
+	line-height:28px;
+	background:url(../images/anjiuall.jpg);
+	background-position:0px -48px;
+
+	}
+	.tabtd {
+	   text-indent: 10px;
+	   text-align:left;
+	 }
+/* For Firefox Hack course coach*/
+
+/*rate*/
+	.conrate {
+		width:430px;
+		margin:0 auto;
+		margin-top:50px;
+		margin-bottom:50px;	
+	}
+	.conrate h1.myrate {
+		background:none;
+		border-bottom:none;
+		margin:0 auto;
+		width:430px;
+		height:40px;
+		line-height:30px;
+		font-size:16px;
+		text-align:center;
+	}
+	.conrate h1 p {
+		margin:5px 5px 5px 5px;
+
+	}
+	input.text1 {
+		width:90px;
+		height:20px;
+		line-height:25px;
+		border:1px solid #999;
+	}
+/*rate end*/
+
+/*done club*/
+
+	.my-sldiv {
+		margin:0px auto;
+		width:600px;
+		height:200px;
+		line-height:35px;
+		font-size:16px;
+		text-align:center;
+		padding:5px 5px 5px 5px;
+	}
+	.sldiv1 {
+	   width:60px;
+	   height:55px;
+	   float:left;
+	   margin-top:30px;
+	}
+	.sldiv2 {
+	  width:530px;
+	  height:100px;
+	  float:right;
+	}
+	.sldiv2p1 {
+	  padding-top:10px;
+	  color:#FF0000;
+	  font-size:18px;
+	  text-align: left;
+	}
+	.sldiv2p2 {
+		color:#FF0000;
+		font-size:18px;
+		text-align: left;
+	}
+
+	.fengge input {
+	  margin-right:5px;
+	}
+/*club done end*/
+#dialog_altdiv1{
+	margin-left:7px;
+	margin-top:5px;
+	height:100%;
+}
+/* .altleft { */
+/* 	width: 490px; */
+/* 	height: 210px; */
+/* 	margin: 0 auto; */
+/* } */
+
+/* #altdiv .altleft1 { */
+/* 	width: 180px; */
+/* 	height: 210px; */
+/* 	margin-top:5px; */
+/* 	background:none; */
+/* 	border: 1px solid #999; */
+/* } */
+
+/* #altdiv .altleft1 h1 { */
+/* 	height: 30px; */
+/* 	font-size: 12px; */
+/* 	line-height: 30px; */
+/* 	letter-spacing: 2px; */
+/* 	background:none; */
+/* 	text-align: center; */
+/* } */
+/* .action_title{ */
+/* 	height:20px; */
+/* 	color:black; */
+/* 	line-height:15px; */
+/* 	font-weight:bold;  */
+/* 	margin-bottom:10px; */
+/* } */
+/* .action_img { */
+/* 	width:180px; */
+/* 	height:180px; */
+/* 	margin:10px 0px 10px 5px; */
+/* 	float:left; */
+/* 	display:inline; */
+/* } */
+/* .action_img img { */
+/* 	width:180px; */
+/* 	height:180px; */
+/* } */
+/* .action_anm { */
+/* 	width:280px; */
+/* 	height:180px; */
+/* 	margin:10px 0px 10px 5px; */
+/* 	display:inline; */
+/* 	float:left; */
+/* } */
+/* .action_desc { */
+/* 	height:100%; */
+/* 	margin:10px auto; */
+/* 	line-height:18px; */
+/* 	font-size:13px;	 */
+/* 	text-indent:2em; */
+/* 	padding:3px; */
+/* 	border:thin solid #bdcc88; */
+/* 	background: url(../images/jianshents.jpg); */
+/* } */
+.open_time li {
+	margin-left:30px;
+	list-style: none;
+}
+.sldiv2 .auto-create-plan {
+	margin-top: 14px;
+	border: 1px solid #4BC96A;
+	border-radius: 3px;
+	color: white;
+	background-color: #49A748;
+	cursor: pointer;
+	width: 185px;
+	height: 40px;
+	margin-left: 30px;
+	font-size:16px;
+}
+.become-member {
+	font-size:13px;
+}

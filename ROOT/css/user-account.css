@@ -1,0 +1,251 @@
+/* CSS Document */
+#left-1 {
+	width: 146px;
+	height: 100%;
+	overflow: hidden;
+	float: left;
+	margin-top: 20px;
+	padding-bottom: 10px;
+}
+
+#left-1 h1 {
+	width: 790px;
+	height: 30px;
+	line-height: 30px;
+	padding-left: 10px;
+}
+
+#left-1 ul {
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+#left-1 ul li {
+ line-height:230%;
+}
+
+#left-1 ul li a {
+	text-decoration: none;
+	font-size:14px;
+}
+
+
+#right-2-1{
+
+   width:800px;
+   height:100%;
+   overflow:hidden;
+   float:right;
+   margin-top:20px;
+   padding-bottom:20px;
+
+
+}
+
+
+#right-2 {
+	width: 800px;
+	height: 100%;
+	overflow: hidden;
+	float: right;
+	margin-top: 20px;
+	padding-bottom: 20px;
+}
+
+#right-2 h1 {
+	margin-left:-20px;
+	margin-top:-10px;
+	width: 790px;
+	height: 30px;
+	line-height: 30px;
+	padding-left: 10px;
+}
+.steps .stepcont{height:30px;line-height:30px;background:url(../images/order_03.gif) no-repeat;}
+.steps ul li{width:220px;height:30px;float:left;text-align:center;}
+.nextp{text-align:center;}
+.nextp .nextstep{margin:0px auto;display:block;width:80px;height:30px;background:url(../images/anjiuall.jpg) left -165px  no-repeat;}
+.steps .stepphoneyy{height:30px;line-height:30px;background:url(../images/pay_navh.gif) no-repeat;}
+.steps .stepsyanzheng{height:30px;line-height:30px;background:url(../images/success_back.gif) no-repeat;}
+.change-mail p{height:30px; line-height:30px;margin-bottom:15px;}
+.current{color:#ffffff;}
+.headp {
+	width:130px;
+	height:130px;
+	background:#ccc;
+	overflow:hidden;
+}
+#right-2 div .p_div img {
+	width:130px;
+	height:130px;
+}
+#right-2 div .p_div p {
+	width:325px;
+	float: left;
+}
+#right-2 div .p_div p .name-1{
+/* 	float:right; */
+	margin-left: 16px;
+}
+#right-2 div .p_div select {
+	border: 1px solid #CCC;
+	margin: 0px -16px 0px 16px;
+}
+
+#right-2 div .p_div input {
+	height: 25px;
+	line-height: 25px;
+	margin-left: 10px;
+}
+/*link*/
+#right-2 div .p_div input.name-1 {
+	width: 240px;
+	border: 1px solid #CCCCCC;
+}
+/*link end*/
+
+/*cert*/
+#right-2 div #divcontent p{
+   height:30px;
+   line-height:30px;
+    margin-bottom:10px;
+}
+#right-2 #divcontent p img{
+  width:80px;
+  height:60px;
+ 
+
+}
+#right-2 div input.name-2 {
+    width:150px;
+	float:left;
+	margin-left:0px;
+	margin-right:20px;
+	color:#999999;
+	border:1px solid #999;
+}
+
+#right-2 div input.name-3{
+   width:250px;
+   border:1px solid #999;
+}
+.span1 {
+   margin-left:50px;
+   color:#999;
+}
+#right-2 div a.a1 {
+	text-decoration:none;
+	float:left;
+	color:#137DDC; 
+	line-height:30px;
+	cursor:pointer;
+}
+#right-2 div a:hover {
+	text-decoration: none;
+	color: #ff6633;
+}
+#right-2 div a.a2 {
+	text-decoration:none;
+	color:red; 
+	cursor:pointer;
+	margin-left: 20px;
+}
+#right-2 div {
+	overflow: hidden;
+	padding-top: 10px;
+	padding-left: 20px;
+}
+ #wb{ margin-left: 10px;}    /*去掉margin-right:10px;增加margin-left:10px; */
+#wb div{padding:0px;}
+#right-2 div .p_div {
+height: 30px;
+line-height: 30px;
+color: black;
+}
+#right-2 div .description {
+	height:380px;
+	color:black;
+}
+/*cert end*/
+
+/*account*/
+#right-2 div .p_div select.list {
+	margin-left: 10px;
+	margin-right: 8px;
+	border:1px solid #ccc;
+}
+#right-2 div .paaco {
+   	height: 50px;
+	line-height: 50px;
+	margin-left:0px;
+	color:black;
+}
+#right-2 div .paaco input {
+   height:10px;	
+   margin-left:18px;
+   margin-right:5px;
+}
+/*account end*/
+
+/*descr*/
+#right-2 .descra {
+	width: 780px;
+	height: 100%;
+	overflow: hidden;
+	padding-top: 10px;
+	padding-left: 20px;
+}
+#right-2 .descrb {
+  width:98%;
+  margin-top:20px;
+  margin-left:-20px;
+}
+/*descr end*/
+
+#right-2 input.save-to {
+	border:none;
+	display: inline-block;
+	width:87px;
+	height:28px;
+	margin-top:10px;
+	margin-left: 330px;
+	line-height:30px;
+	text-align:left;
+	text-indent:35px;
+	letter-spacing:10px;
+	background:url(../images/anjiuall.jpg) no-repeat;
+	background-position:0px -135px;
+	color:#000;
+	cursor:pointer;
+}
+.photo {
+	width:200px;
+	height:30px;
+}
+#right-2 p.tou_xiang img {
+	width:130px;
+	height:130px;
+	margin: 10px 0px 10px 270px;
+}
+.certificate {
+	margin-left:20px; 
+	height:20px; 
+	line-height:20px;
+}
+#samples {
+	display:none;
+}
+.checkmobile-btn button {
+	margin:2px;
+	width:74px;
+	height:21px;
+	background-color:#EEE;
+	line-height:21px;
+	border:1px solid #999;
+}
+#container .red_sign {
+	color: #F60;
+}
+.worning {
+	color:#666;
+	font-size:12px;
+}

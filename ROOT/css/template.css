@@ -1,0 +1,570 @@
+/* CSS Document */
+
+/* a*/
+#coloa {
+	color: #454142;
+}
+
+#coloa:hover {
+	text-decoration: none;
+	/*color: #137DDC;*/
+	color: #ff6633;
+}
+
+#colotoa {
+	color: #137DDC;
+}
+
+#colotoa:hover {
+	text-decoration: none;
+	color: #ff6633;
+	*/
+}
+/* a end*/
+
+/*tishi*/
+#tishi {
+	color: #945f50;
+}
+/*tishi*/
+
+
+/*ptsbj*/
+#ptsbj{
+   width:100%; 
+   line-height:25px; 
+   padding-left:10px;
+   padding-right:10px;
+   text-indent:25px;
+   border:1px solid #ff6699;
+   background:#FFF68F;
+}
+/*ptsbj end*/
+
+/*colorjl*/
+#colorjla {
+	padding-top: 3px;
+	padding-bottom: 3px;
+	background: #ededed;
+}
+/*#colorjlb {
+   padding-top:3px;
+   padding-bottom:3px;
+   background:#B4EEB4;
+}*/
+/*colorjl end*/
+
+/* tableall*/
+#tableall {
+	background: #999;
+	text-align: center;
+}
+
+#tableall td,#tableall tr,#tableall th {
+	background: #ffffff;
+	height: 35px;
+}
+
+#tdtop {
+	background: #c5dbec;
+}
+
+#tdcol {
+	background: #f2f2f2;
+}
+
+#tdwri {
+	background: #ffffff;
+}
+/* tableall end*/
+
+/*qidao*/
+.uidpwd {
+	border: 1px solid #999;
+	width: 150px;
+	height: 20px;
+	line-height: 20px;
+	font-size: 12px;
+	margin-bottom: 10px;
+}
+
+.pa {
+	text-align: center;
+}
+
+.pa button {
+	width: 64px;
+	height: 28px;
+	line-height: 29px;
+	text-indent: 10px;
+	margin-left: 5px;
+	margin-right: 5px;
+	letter-spacing: 8px;
+	background: url(../../images/anjiuall.jpg);
+	background-position: 0px -48px;
+}
+/*qiandao*/
+
+/* fanye*/
+#ulall ul {
+	float: right;
+	font-size: 12px;
+	margin-bottom: 10px;
+}
+
+#ulall ul li {
+	float: left;
+	width: 16px;
+	height: 20px;
+	list-style: none;
+	line-height: 20px;
+	text-align: center;
+	border: 1px solid #999;
+	margin-right: 5px;
+}
+
+#ulall ul li a {
+	display: block;
+	float: left;
+	text-decoration: none;
+	width: 16px;
+	height: 20px;
+	line-height: 20px;
+	color: #137DDC;
+}
+
+#ulall ul li a:hover {
+	border: none;
+	background: #999;
+}
+
+#ulall ul li.frit {
+	border: none;
+}
+
+#ulall ul li.frit a {
+	border: none;
+	color: red;
+	width: 18px;
+	height: 22px;
+	line-height: 22px;
+	background: #f1fadb;
+}
+
+#ulall ul li.end1 {
+	width: 50px;
+}
+
+#ulall ul li a.end1 {
+	width: 50px;
+	line-height: 22px;
+}
+/* fanye end*/
+
+/*member-homepage*/
+#left-1,#left-2,#left-3,#left-4,#center-1,#center-2,#center-3,#center-4,#right-1 div,#right-2,#right-3,#right-4,#targetContent,#my-center
+	{
+	background: White;
+	border: 1px solid #CCCCCC;
+}
+
+#left,#right {
+	background: #fff;
+}
+.inpa2 a{ color:#f60;}
+
+
+h1,h2 { 
+background-image:none!important;
+	background:#ff4011!important;
+	font-size: 14px;
+	font-weight: normal;
+	border-bottom: 1px solid #CCCCCC;
+}
+
+p,dl,ul,h1,h2 {
+	color: #000;
+}
+
+p#end {
+	color: #FF0000;
+}
+
+span.end {
+	color: #666;
+}
+
+ul {
+	list-style-type: none;
+}
+
+img {
+	border: none;
+}
+
+#sidebar a {
+	color: #999;
+	background: #CCC url(images/title1_bg.png);
+}
+
+#sidebar a.active {
+	color: #fff;
+	background: url(images/nav_b.jpg);
+}
+
+#sidebar a:hover {
+	color: #fff;
+	background: url(images/nav_b.jpg);
+}
+
+#sidebar2 {
+	background: url(images/nav_b.jpg) repeat-x 0 -25px;
+}
+
+#sidebar3 {
+	background: url(images/nav_b.jpg) repeat-x 0 -25px;
+}
+
+#content,#contentsix,#contentfour {
+	background: #fff;
+}
+
+/*member-config*/
+.bc1 {
+	background: #cfcfcf;
+}
+
+.bc2 {
+	background: #f2f2f2;
+}
+
+.bc3 {
+	background: #222;
+}
+
+.bc4 {
+	background: #585a56;
+}
+
+#wrapper {
+	background: #FFF;
+}
+
+ul#navigation li.topmail {
+	background: url('images/ico_topmail.png') 0 15px no-repeat;
+}
+
+ul#navigation li.mytheme {
+	background: url('images/mytheme_dot.png') 68px 16px no-repeat;
+}
+
+ul#navigation li.topstart a {
+	background: url('images/topstart.png') 0 0 no-repeat;
+}
+
+h1#logo a {
+	background: url('images/logo.png') 0 0 no-repeat;
+}
+
+.sys-info,.other-box,.user-login {
+	background: #2c2c2c;
+}
+
+.sys-info h2,.other-box h2 {
+	background: url('images/sys-info-h2_bg.png') no-repeat 0 0;
+}
+
+ul#tabs li {
+	background: url('images/tab_bg04.png') no-repeat 0 0;
+}
+
+.imgdesc {
+	background: url('images/imgdesc_bg.png') no-repeat 0 0;
+}
+
+a.autoplan,a.findcoach {
+	background: url('images/button_04.png') no-repeat 0 0;
+}
+
+ul#catalog_list {
+	color: #333;
+}
+
+.newdatatable {
+	background: url('images/newdatatable_bg.png') repeat-y 0 0;
+}
+
+ul#navigation li.topstart a {
+	background: url('images/topstart.png') 0 0 no-repeat;
+}
+
+.user-login h2 {
+	background: url('images/user-login-h2.png') no-repeat 0 0;
+}
+
+.user-login input {
+	background: url('images/user-login-input_bg.png') no-repeat 0 0;
+	color: #fafafa;
+}
+
+a.getstart {
+	background: url('images/start_button.png') 0 0 no-repeat;
+}
+
+h2#slide-tab a.tab01 {
+	background: url('images/tab_bg01.png') 0 0 no-repeat;
+}
+
+h2#slide-tab a.tab02 {
+	background: url('images/tab_bg02.png') 0 0 no-repeat;
+}
+
+h2#slide-tab a.tab03 {
+	background: url('images/tab_bg03.png') 0 0 no-repeat;
+}
+
+#slide-banner {
+	background: #fff;
+}
+
+.recommendation {
+	background: #3e3e3e;
+}
+
+.recommendation .contitle {
+	background: url('images/title_bg.png') repeat-x 0 0;
+}
+
+.recommendation .contitle span a {
+	background: url('images/ico_more.png') no-repeat 0 0;
+	color: #fafafa;
+}
+
+.contact {
+	background: #161616;
+}
+
+.contact li.odd {
+	background: #262626;
+}
+
+.meta-links a {
+	background: url('images/meta_links_bg.png') no-repeat;
+}
+
+.user-list {
+	background: #161616;
+}
+
+* html .user-list ul {
+	scrollbar-track-color: #101010;
+	scrollbar-face-color: #333333;
+	scrollbar-face-color: #333333;
+	scrollbar-shadow-color: #333333;
+	scrollbar-highlight-color: #666666;
+	scrollbar-3dlight-color: #101010;
+	scrollbar-darkshadow-color: #070707;
+	scrollbar-track-color: #101010;
+	scrollbar-arrow-color: #000000;
+}
+
+.user-list ul li.even {
+	background: #262626;
+}
+
+.user-search {
+	background: #2c2c2c;
+}
+
+.user-search p input {
+	background: #5a5a5a;
+}
+
+.user-search p input#searchsubmit {
+	background: url('images/search_button.png') 0 0 no-repeat;
+}
+
+.user-search p .calendar {
+	background: url('images/ico_calendar.png') 0 0 no-repeat;
+}
+
+.user-search p .keytext {
+	color: #3ccd49;
+}
+
+.user-search .userclass a {
+	background: url('images/ico_user.png') no-repeat;
+}
+
+h1.my-target {
+	background: #161616;
+}
+
+h1.my-target span {
+	background: #000;
+	color: #fafafa;
+}
+
+.curve-content p {
+	background: #2c2c2c;
+}
+
+.my-assessment {
+	background: #2c2c2c;
+}
+
+.my-assessment span {
+	color: #fafafa;
+}
+
+.myoperating a {
+	background: url('images/myoperating.png') no-repeat;
+}
+
+ul#nextstep {
+	color: #333;
+}
+
+.context {
+	background: #FFFFFF;
+}
+
+h2.context_title {
+	color: #cd0a31;
+}
+
+.setgoal {
+	
+}
+
+.setgoal .goaltitle {
+	background: #ededed;
+	color: #434343;
+}
+
+.setgoal .goaltable {
+	background: #fbfbfb;
+}
+
+.tableTitle {
+	background: #ededed;
+	color: #222222;
+}
+
+#plantable {
+	background: #2c2c2c;
+}
+
+.planitems {
+	color: #999;
+}
+
+.itemmenu {
+	color: #FAFAFA;
+}
+
+.itemname {
+	background: #585a56;
+}
+
+.itemmenu a,.planitems a {
+	background: url('images/ico_order.png') no-repeat;
+}
+
+.itemoperat a {
+	background: url('images/ico_order.png') no-repeat;
+}
+
+.calendar {
+	background: #f3f3f3;
+}
+
+ul#tabs li a,ul#tabs li a:link {
+	color: #333;
+}
+
+.saveoperate a {
+	background: url(images/space_menu.gif);
+	color: #999;
+}
+
+.saveoperate a:hover,a:active {
+	color: #f23505;
+}
+
+.saveoperate a:link,a:visited,a:hover,a:active,a:focus {
+	text-decoration: none;
+	outline: none;
+}
+
+.stepoperate a {
+	text-decoration: none;
+	color: #fafafa;
+}
+.stepoperate .butlost {
+	text-decoration: none;
+	color: #fafafa;
+   background:url(../../images/buttonall.jpg) no-repeat;
+   background-position:0px 0px;
+}
+.stepoperate .butlost:hover {
+   background:url(../../images/buttonall.jpg) no-repeat;
+   background-position:-106px 0px;
+}
+.stepoperate .butnext {
+    background:url(../../images/buttonall.jpg) no-repeat;
+   background-position:0px -33px;
+} 
+.stepoperate .butnext:hover {
+    background:url(../../images/buttonall.jpg) no-repeat;
+   background-position:-106px -33px;
+} 
+
+.red-1 {
+	font-size: 13px;
+	color: #F00;
+}
+
+.title-1 {
+	font-size: 13px;
+	color: #000;
+	text-align: center;
+}
+
+.blue {
+	color: #09F;
+}
+
+.red2 {
+	font-size: 16px;
+	font-family: "Arial";
+	font-weight: bold;
+	color: #F00;
+}
+
+.red3 {
+	font-size: 20px;
+	font-family: "Arial";
+	color: #F00;
+}
+/*member-order*/
+#right .table th {
+	background: #ededed;
+}
+/*member-fitnessplan*/
+#left-1 p input.button1 {
+	background: red;
+}
+
+#left-1 p input.button2 {
+	background: green;
+}
+
+#left-1 p input.button3 {
+	background: #fff;
+}
+/*member-config*/
+#content #center-1 .setgoal .goaltitle {
+	background: pink;
+}
+/**/

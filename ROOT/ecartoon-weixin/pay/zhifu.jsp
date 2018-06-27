@@ -1,0 +1,121 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<title>支付页面</title>
+		<link rel="stylesheet" href="../css/mui.min.css" />
+		<style type="text/css">
+		#ul1{
+			height:100px;
+			margin-top: 20px;
+			margin-bottom:20px;
+		}
+		.title{
+			font-size:15px;
+		}
+		.jine{
+			text-align:center;
+			color:#FE9E3A;
+			font-size:25px;
+			margin-top:20px;
+		}
+			.mui-table-view .mui-media-object {
+			    line-height: 45px;
+			    max-width: 60px;
+			    height: 45px;
+			}
+			.zhifu_img{
+				width:60px;
+				height:45px;
+			}
+			.pay_way{
+				color:black;
+				font-size:13px;
+			}
+			.pay_ins{
+				color:gray;
+				font-size:11px;
+			}
+			.pay_sel{
+				/*margin-top:20px;*/
+				line-height:65px;
+			}
+			.mui-btn{
+				height:38px;
+				line-height:8px;
+				margin-top:20px;
+				background-color:#FE9E3A;
+				color:white;
+			}
+		</style>
+		
+	</head>
+	<body>
+		<div  class="mui-content">
+			<div class="mui-scroll-wrapper" >
+			    <div class="mui-scroll">
+			    	<ul class="mui-table-view" id="ul1">
+			    		<li class="mui-table-view-cell">
+			    			<div class="title">订单金额</div>
+			    			<div class="jine">¥<span id="money">0.01</span></div>
+			    		</li>
+			    	</ul>
+			    	<ul class="mui-table-view">
+			    		<li class="mui-table-view-cell">
+			    			<div class="title">选择支付方式</div>
+			    		</li>
+			    	</ul>
+			    	<ul class="mui-table-view mui-table-view-chevron">
+			    		<li class="mui-table-view-cell  mui-media">
+							<a class="mui-radio mui-right">
+								<input name="checkbox" type="radio" class="pay_sel">
+								<img class="mui-media-object mui-pull-left zhifu_img" src="../images/shuijiao.jpg">
+								<div class="mui-media-body">
+									<p class="pay_way">微信支付</p>
+									<p class='mui-ellipsis pay_ins'>微信安全支付</p>
+								</div>
+							</a>
+						</li>
+						<li class="mui-table-view-cell  mui-media">
+							<a class="mui-radio mui-right">
+								<input name="checkbox" type="radio" class="pay_sel">
+								<img class="mui-media-object mui-pull-left zhifu_img" src="../images/shuijiao.jpg">
+								<div class="mui-media-body">
+									<p class="pay_way">支付宝支付</p>
+									<p class='mui-ellipsis pay_ins'>支付宝账户支付</p>
+								</div>
+							</a>
+						</li>
+						<li class="mui-table-view-cell  mui-media">
+							<a class="mui-radio mui-right">
+								<input name="checkbox" type="radio" class="pay_sel">
+								<img class="mui-media-object mui-pull-left zhifu_img" src="../images/shuijiao.jpg">
+								<div class="mui-media-body">
+									<p class="pay_way">银联支付</p>
+									<p class='mui-ellipsis pay_ins'>储蓄卡、信用卡支付</p>
+								</div>
+							</a>
+						</li>
+			    	</ul>
+			    	<!--确认支付 按钮-->
+			    	<button type="button" class="mui-btn  mui-btn-block" id="qr">确认支付</button>
+			    </div>
+			    
+			</div>
+			
+			
+		</div>
+	</body>
+	<script src="../js/mui.min.js"></script>
+	<script>
+		var qr=document.getElementById('qr');
+		qr.addEventListener('click',function(){
+			
+			location.href='zhifu_result_s.html';
+		});
+	</script>
+</html>

@@ -1,0 +1,262 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>我的足迹</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<style>
+			body {
+				background: #f2f2f2;
+			}
+			
+			.mui-content {
+				padding: 20px 10px;
+			}
+			
+			.font15 {
+				font-size: 15px;
+			}
+			
+			.font13 {
+				font-size: 13px;
+			}
+			
+			.font12 {
+				font-size: 12px;
+			}
+			
+			.cb {
+				color: #1e1e1e;
+			}
+			
+			.cg {
+				color: #999999;
+			}
+			
+			.cr {
+				color: #FF4401;
+			}
+			
+			.webkitbox {
+				margin: 10px 0;
+				display: -webkit-box;
+				-webkit-box-orient: horizontal;
+				width: 100%;
+				box-sizing: border-box;
+				padding-bottom: 10px;
+				position: relative;
+			}
+			
+			.webkitbox1 {
+				margin: 10px 0;
+				display: -webkit-box;
+				-webkit-box-orient: horizontal;
+				width: 100%;
+				box-sizing: border-box;
+				padding-bottom: 10px;
+				position: relative;
+			}
+			
+			.webkitbox:after {
+				position: absolute;
+				content: "";
+				width: 100%;
+				height: 66px;
+				top: 21px;
+				left: 17px;
+				border-left: 1px solid #dcdcdc;
+			}
+			
+			.webkitbox:last-child::after {
+				position: absolute;
+				content: "";
+				width: 100%;
+				height: 66px;
+				top: 21px;
+				left: 17px;
+				border-left: none;
+			}
+			
+			.mr10 {
+				margin-right: 10px;
+			}
+			
+			.bgr {
+				background: #ff4401;
+				color: white;
+				border-radius: 8px;
+				line-height: 21px;
+				font-size: 12px;
+				padding: 0 5px;
+				height: 21px;
+			}
+			
+			.bgw {
+				background: white;
+				-webkit-box-flex: 1;
+				padding: 10px;
+				border-radius: 8px;
+			}
+		</style>
+	</head>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			var data = [{
+					"date": "2017 八月",
+					"province": [{
+						"day": "12",
+						"imgsrc": "img/banner.png",
+						"nick": "北京文俊俱乐部",
+						"num": [2, 2, 3]
+
+					}, {
+						"day": "1",
+						"imgsrc": "img/banner.png",
+						"nick": "北京文俊俱乐部",
+						"num": [2, 4, 3]
+					}, {
+						"day": "2",
+						"imgsrc": "img/banner.png",
+						"nick": "北京文俊俱乐部",
+						"num": [2, 2, 3]
+					}, {
+						"day": "3",
+						"imgsrc": "img/banner.png",
+						"nick": "北京文俊俱乐部",
+						"num": ""
+					}]
+				},
+				{
+					"date": "2017 九月",
+					"province": [{
+						"day": "4",
+						"imgsrc": "img/banner.png",
+						"nick": "北京文俊俱乐部",
+						"num": [12, 2, 3]
+
+					}, {
+						"day": "4",
+						"imgsrc": "img/banner.png",
+						"nick": "北京文俊俱乐部",
+						"num": [12, 4, 3]
+					}, {
+						"day": "6",
+						"imgsrc": "img/banner.png",
+						"nick": "北京文俊俱乐部",
+						"num": [7, 2, 3]
+					}, {
+						"day": "12",
+						"imgsrc": "img/banner.png",
+						"nick": "北京文俊俱乐部",
+						"num": ""
+					}]
+				},
+				{
+					"date": "2017 九月",
+					"province": [{
+						"day": "8",
+						"imgsrc": "img/banner.png",
+						"nick": "北京文俊俱乐部",
+						"num": [12, 2, 3]
+
+					}, {
+						"day": "10",
+						"imgsrc": "img/banner.png",
+						"nick": "北京文俊俱乐部",
+						"num": [12, 4, 3]
+					}, {
+						"day": "12",
+						"imgsrc": "img/banner.png",
+						"nick": "北京文俊俱乐部",
+						"num": [12, 2, 3]
+					}, {
+						"day": "12",
+						"imgsrc": "img/banner.png",
+						"nick": "北京文俊俱乐部",
+						"num": ""
+					}]
+				}
+			]
+			var bb = 0;
+var dataL = data.length;
+			function ca() {
+
+				for(i = 0; i < dataL; i++) {
+                     bb+=data[i].province.length
+				}
+			return bb
+				
+			}
+			//alert(ca())
+
+			var dataL = data.length;
+			for(i = 0; i < dataL; i++) {
+
+				var monthyear = $('<div class="font12 cb"><span class="font15">2017</span> 八月</div>');
+				monthyear.appendTo($(".domL"));
+				var provinceL = data[i].province.length
+
+				for(o = 0; o < provinceL; o++) {
+					if(o < provinceL - 1) {
+						var webkitbox = $('<div class="webkitbox "><div class="mr10 bgr">' + data[i].province[o].day + '日</div><div class=" bgw"><img src="' + data[i].province[o].imgsrc + '" width="44px" height="44px" class="mui-pull-left" /><div class="mui-pull-left cr font13" style="margin-left: 10px;font-size: 13px;"><p style="margin-bottom: 0px;margin-top: 5px;" class="font15 cb">' + data[i].province[o].nick + '</p><a href=""class="dis" style="color:#FF4401">我的点评</a><a href="" class="dis1" style="color:#999999"><span  style="color:#ff4401">98分</span> 设备' + data[i].province[o].num[0] + '；环境' + data[i].province[o].num[1] + '；服务' + data[i].province[o].num[2] + '</a></div></div></div>');
+					} else if(o = provinceL - 1) {
+						var webkitbox = $('<div class="webkitbox1 "><div class="mr10 bgr">' + data[i].province[o].day + '日</div><div class=" bgw"><img src="' + data[i].province[o].imgsrc + '" width="44px" height="44px" class="mui-pull-left" /><div class="mui-pull-left cr font13" style="margin-left: 10px;font-size: 13px;"><p style="margin-bottom: 0px;margin-top: 5px;" class="font15 cb">' + data[i].province[o].nick + '</p><a href=""class="dis" style="color:#FF4401">我的点评</a><a href="" class="dis1" style="color:#999999"><span  style="color:#ff4401">98分</span> 设备' + data[i].province[o].num[0] + '；环境' + data[i].province[o].num[1] + '；服务' + data[i].province[o].num[2] + '</a></div></div></div>');
+					}
+					webkitbox.appendTo($(".domL"));
+
+					if(data[i].province[o].num != "") {
+						$(".dis").eq($(this).index()).css("display", "none")
+					} else {
+						$(".dis1").eq($(this).index()).css("display", "none")
+					}
+
+				}
+			}
+
+		})
+	</script>
+
+	<body>
+		<div class="mui-content" style="box-sizing: border-box;overflow: hidden;">
+			<div class="domL">
+				<!--<div class="font12 cb"><span class="font15">2017</span> 八月</div>-->
+				<!--		<div class="webkitbox ">
+					<div class="mr10 bgr">12日</div>
+					<div class=" bgw">
+						<img src="img/banner.png" width="44px" height="44px" class="mui-pull-left" />
+						<div class="mui-pull-left cr font13" style="margin-left: 10px;font-size: 13px;">
+							<p style="margin-bottom: 0px;margin-top: 5px;" class="font15 cb">北京文俊俱乐部</p>
+							<a href="" style="color:#FF4401">我要点评</a>
+					
+							
+							
+						</div>
+					</div>
+
+				</div>
+				<div class="webkitbox ">
+					<div class="mr10 bgr">12日</div>
+					<div class=" bgw">
+						<img src="img/banner.png" width="44px" height="44px" class="mui-pull-left" />
+						<div class="mui-pull-left cr font13" style="margin-left: 10px;font-size: 13px;">
+							<p style="margin-bottom: 0px;margin-top: 5px;" class="font15 cb">北京文俊俱乐部</p>
+							
+							<a href="" style="color:#999999"><span style="color:#ff4401">98分</span> 设备5；环境5；服务4</a>
+						</div>
+					</div>
+
+				</div>-->
+
+			</div>
+		</div>
+		<script src="js/mui.min.js"></script>
+
+		<script type="text/javascript">
+			mui.init()
+		</script>
+	</body>
+
+</html>

@@ -1,0 +1,5 @@
+1.安装MYSQL数据库,要求MYSQL数据库主版本在5.5
+2.将database目录中的cardcolv3.sql导入
+3.修改ROOT\META-INF\context.xml文件中的数据库配置
+4.TOMCAT7版本开发调试.
+5.JDK1.7

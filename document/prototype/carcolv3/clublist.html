@@ -1,0 +1,532 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>健身场馆</title>
+<link rel="stylesheet" type="text/css" href="css/pulic-1.css">
+<link rel="stylesheet" type="text/css" href="css/clubhome.css">
+<script type="text/javascript" src="script/jquery-1.7.1.min.js"></script>
+<script type="text/javascript">
+  
+   $(function(){
+	   	var aBtn=$('#container_tab ul').find('li'); 
+	
+		var aDiv=$('#container_tab').find('.tab_container');
+			  aBtn.click(function(){
+					$(this).addClass('tabli').siblings().removeClass("tabli");
+			       	aDiv.css('display','none');				  
+				    aDiv.eq($(this).index()).css('display', 'block');			  
+								  
+         });
+			  
+			  })
+   
+</script>
+</head>
+
+<body>
+    <div id="top">
+    <div id="top-content">
+        <p class="left">
+        	
+        	
+        		 欢迎来到卡库！<a id="coloa" href="login.asp" target="_parent">请登录</a>  <span>|</span>  <a href="register.asp" id="coloa" target="_parent">注册</a>
+        	
+        </p>
+        <p class="right">
+			<a href="index.asp" id="coloa" target="_parent">卡库首页</a>|
+			<a href="login.asp" id="coloa" target="_parent"> 我的卡库</a>|
+			<a href="message.asp" id="coloa" target="_parent"> 消息<b class="msgb">(0)</b></a>|
+			<a href="shop!queryShopping.asp" id="coloa" target="_parent"><img src="images/gouwuche.png"/><b class="aimgb"> 购物车</b><b class="ainsp">0</b>件</a>|
+			<a href="service.asp" id="coloa" target="_parent"> 服务中心</a>
+			
+		</p>
+    </div>
+   </div>
+<div id="header">
+      <div id="logo">
+        <blockquote>
+          <p> <a href="index.asp" target="_parent"><img src="images/logo.png" alt="卡库网" /></a> </p>
+        </blockquote>
+      </div>
+      <div id="switch"> <span class="city">武汉市</span><a href="city.asp" id="coloa">[切换城市]</a> </div>
+      <div id="ad"> <img src="images/ad.png" /> </div>
+</div>
+<div id="nav">
+    <div id="nav_first">
+      <div class="ml">
+       <h2><a href="">卡库服务</a></h2></div>
+       <div class="navdaohang">
+          <div class="item pcios nav_dang"><a href=""><span>健身计划</span></a></div>
+          <div class="item nav_item">
+              <div class="item_pan"><a href="#">瘦身减重</a><a href="" class="item_zj">健美增肌</a></div>
+               <div><a href="" >运动康复</a><a href=""class="item_sprot">提高运动表现</a></div>
+          </div>
+      
+          <div class="item pcios nav_cord"><a href="#"><span>健身卡</span> </a></div>
+          <div class="item"><a href="">圈存(计时)</a></div>
+          <div class="item"><a href="">圈存(计次)</a></div>
+          <div class="item"><a href="">圈存(储值)</a></div>
+          <div class="item"><a href="">对赌(次数)</a></div>
+          <div class="item"><a href="">对赌(频率)</a></div>
+          <div class="item"><a  href="">预付卡</a></div>
+          <div class="item pcios nav_yuding"><a href=""><span>场馆预订</span></a></div>
+          <div class="item nav_item"><a href="">羽毛球</a><a href="">乒乓球</a><a href="">篮球</a></div>
+          <div class="item nav_item"><a href="">足球</a> <a href="">排球 </a><a href="">台球</a><a href="">网球</a></div>
+          <div class="item pcios nav_jiaolian"><a href=""><span>健身教练</span></a></div>
+          <div class="item nav_item"><a href="">网络私教</a><a href="">传统私教</a></div>
+          
+       </div>
+    </div>
+  <ul id="navitems">
+         <li><a href="" >首页</a></li>
+         <li><a href="">健身计划</a></li>
+         <li><a href=""class="nav_a">健身场馆</a></li>
+         <li><a href="">健身教练</a></li>
+         <li><a href="">健身挑战</a></li>
+         <li><a href="">健身地图</a></li>
+       
+             
+     </ul>
+  <div class="search">
+    <form id="search" name="search" action="" method="post">
+      <select name="seledcted" id="seledcted">
+        <option value="1">健身计划</option>
+        <option value="2">健身场馆</option>
+        <option value="3">健身教练</option>
+      </select>
+      <input type="text" class="txtsearch" />
+      <input type="button" value="搜索" class="submit"> 
+    </form>
+  </div>
+
+</div>
+
+<div class="dengl_top" >
+       <div class="club_home">
+           <div class="piimg_clubome">
+              <h2>场馆筛选</h2>  
+              <div class="clubome_cont">
+                      <ul>
+                        <li class="border_clubome"><div class="cluhome_navli">已选条件:</div>
+                          <div class="cluhome_1">
+                          <a href="" ><b>江岸区</b><img src="images/plan_lde.png" /></a>  
+                          <a href=""><b>圈存(计时)</b><img src="images/plan_lde.png" /></a>
+                          <a href=""><b>器械健身</b><img src="images/plan_lde.png" /></a><a href=""><b>有场地预订</b><img src="images/plan_lde.png" /></a>
+                          <a class="all">全部撤销</a>
+                          </div>
+                        </li>
+                        <li class="border_clubome" style="height:55px; line-height:55px;"><div class="cluhome_navli">所在地区:</div>
+                         <div class="cluhome_2">
+                            <a href="">全部</a> <a href="">江岸区</a><a href="">江汉区</a><a href="">桥口区</a><a href="">汉阳区</a><a href="">武昌区</a><a href="">青山区</a><a href="">洪山区</a><a href="">东西湖区</a><a href="">汉南区</a><a href="">蔡</a><a href="">江夏区</a><a href="">黄坡区</a><a href="">新洲区</a>
+             
+                          </div>
+                       </li>
+                        <li class="border_clubome" style="height:40px; line-height:40px;"><div class="cluhome_navli">健身卡种:</div>
+                         <div class="cluhome_3">
+                            <a href="">全部</a> <a href="">圈存(计时)</a><a href="">圈存(计次)</a><a href="">圈存(次数)</a><a href="">对赌(次数)</a><a href="">对赌(频率)</a><a href="">预付卡</a>
+             
+                          </div>
+                       </li>
+                       <li class="border_clubome" style="height:52px; line-height:52px;"><div class="cluhome_navli">运动项目:</div>
+                         <div class="cluhome_2">
+                            <a href="">全部</a> <a href="">器械健身</a><a href="">动感单车</a><a href="">瑜珈</a><a href="">普拉提</a><a href="">健身操</a><a href="">舞蹈</a><a href="">武术搏击</a><a href="">游泳</a><a href="">羽毛球</a><a href="">篮球</a><a href="">足球</a><a href="">台球</a>
+             
+                          </div>
+                       </li>
+                        <li class="border_clubome" style="height:40px; line-height:40px; border:none;"><div class="cluhome_navli">场地预订:</div>
+                         <div class="cluhome_3">
+                             <a href="">全部</a> <a href="">有</a> <a href="">无</a>
+             
+                          </div>
+                       </li>
+                   </ul>
+                
+           
+              </div>
+           </div>
+      </div>
+      <div class="clubhome_side">
+         <div class="clubhome_xian">
+         
+           <div class="clubhome_pic">
+                <img src="images/club-2.png" width="116px" height="72px" />
+           </div>
+           <div class="clubhome_wenzi">
+               <h2>什么是圈存健身卡?</h2>
+              <p>消费者在卡库网上购卡后，资金由银行托管，按月结算。可以规避预付消费的风险，维护买卖双方合法权益。</p>
+           </div>
+         </div>
+          <div class="clubhome_xian">
+               
+                 <div class="clubhome_pic">
+                 <img src="images/club-1.png"   width="116px" height="72px"/>
+                 </div>
+                 <div class="clubhome_wenzi">
+                 <h2>什么是对赌健身卡?</h2>
+                 <p> 会员与俱乐部之间按出勤数据结算健身费用的健身卡。会员出勤数越多，应支付的费用越少</p> </div>
+          </div>
+           <div class="clubhome_padding">
+               
+                 <div class="clubhome_pic">
+                 <img src="images/club-3.png"   width="116px" height="72px"/>
+                 </div>
+                 <div class="clubhome_wenzi">
+                 <h2>什么是预付健身卡?</h2>
+                 <p>消费者购卡后，资金一次性全部支付给商户，然后再按合同约定的条款接受商户服务的交易方式。</p>
+                 </div>
+          </div>
+          
+          
+     </div>
+      <div class="clubhome_content">
+         <div class="clubhome_leftside">
+             <ul> 
+                <li><img src="images/plan_side1.gif" /></li>
+                <li><img src="images/plan_side2.gif" /></li>
+                <li><img src="images/plan_side3.gif" /></li>
+             </ul>
+      
+         </div>
+         <div class="clubhome_rightside">
+          <div class="clubhome_main_right">
+            <div class="clubhome_navlan">
+                      <span class="pauxu">排序:</span>
+                <ul>
+                   <li class="clubhomeli"><a href="">时间</a></li>
+                   <li><a href="">销量</a></li>
+                   <li><a href="">评分</a></li>
+                   
+                </ul>
+              <div class="clubhome_nav">
+                  <div class="clubhome_fenye"><span class="clubhome_yema">1</span>/<span>1</span></div>
+                <a href=""><img src="images/plan_pre.gif" /></a>  <a href=""><img src="images/plan_next.gif" /></a>
+                     
+                </div>
+            </div>
+            <div class="clubhome_cont_main">
+            
+              <div class="culbhome_feny">
+              <div class="clubhome_contact">
+                <div class="clubpic"><a href=""><img src="images/plan_a.gif" /></a></div>
+                <div class="clubcont_information">
+                  <h2><a href="">唯品健身会</a></h2>
+                  <div class="clubhome_pj"><span>已有120人评价</span><strong>89.50分</strong></div>
+                  <ul>
+                    <li class="clubhome_adress">
+                      <div class="adress">地址:</div>
+                      <div class="adress_title">武汉江岸区沿江大道160号兰陵路口时代广场3栋2704室</div>
+                    </li>
+                    <li>
+                      <div class="adress">项目:</div>
+                      <div class="adress_title2">脊柱保养 形体瑜伽 哈他瑜伽 普拉提 香薰瑜伽 流瑜伽 肚皮舞 </div>
+                    </li>
+                    <li>
+                      <div class="adress_tuti">
+                        <div class="adress_group">团体课表</div>
+                        <div class="adress_Booking">场地预订</div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                
+                                   <div class="cont_main_card">
+                                             <div class="cont_main_title"><a href="">more</a><span>健身卡</span></div>
+                                             <div class="cont_main_container">
+                                                <ul>
+                                                   <li class="card_bg"><a href="">购买</a>12个月对赌健身卡</li>
+                                                   <li class="card_bg"><a href="">购买</a>6个月对赌健身</li>
+                                                   <li class="card_bg"><a href="">购买</a>公益健身卡</li>
+                                                   <li class="card_bg"><a href="">购买</a>测试卡</li>
+                                                   <li><a href="">购买</a>公益卡</li>
+                                                </ul>
+                                             </div>
+                                    </div>
+      
+              </div>
+              <div class="clubhome_contact">
+                <div class="clubpic"><a href=""><img src="images/plan_a.gif" /></a></div>
+                <div class="clubcont_information">
+                  <h2><a href="">唯品健身会</a></h2>
+                  <div class="clubhome_pj"><span>已有120人评价</span><strong>89.50分</strong></div>
+                  <ul>
+                    <li class="clubhome_adress">
+                      <div class="adress">地址:</div>
+                      <div class="adress_title">武汉江岸区沿江大道160号兰陵路口时代广场3栋2704室</div>
+                    </li>
+                    <li>
+                      <div class="adress">项目:</div>
+                      <div class="adress_title2">脊柱保养 形体瑜伽 哈他瑜伽 普拉提 香薰瑜伽 流瑜伽 肚皮舞 </div>
+                    </li>
+                    <li>
+                      <div class="adress_tuti">
+                        <div class="adress_group">团体课表</div>
+                        <div class="adress_Booking_bs">场地预订</div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                <div class="cont_main_card">
+                  <div class="cont_main_title"><a href="">more</a><span>健身卡</span></div>
+                  <div class="cont_main_container">
+                    <ul>
+                       <li class="card_bg"><a href="">购买</a>12个月对赌健身卡</li>
+                                                   <li class="card_bg"><a href="">购买</a>6个月对赌健身</li>
+                                                   <li class="card_bg"><a href="">购买</a>公益健身卡</li>
+                                                   <li class="card_bg"><a href="">购买</a>测试卡</li>
+                                                   <li><a href="">购买</a>公益卡</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="clubhome_contact">
+               <div class="clubpic"><a href=""><img src="images/plan_a.gif" /></a></div>
+                <div class="clubcont_information">
+                 <h2><a href="">唯品健身会</a></h2>
+                  <div class="clubhome_pj"><span>已有120人评价</span><strong>89.50分</strong></div>
+                  <ul>
+                    <li class="clubhome_adress">
+                      <div class="adress">地址:</div>
+                      <div class="adress_title">武汉江岸区沿江大道160号兰陵路口时代广场3栋2704室</div>
+                    </li>
+                    <li>
+                      <div class="adress">项目:</div>
+                      <div class="adress_title2">脊柱保养 形体瑜伽 哈他瑜伽 普拉提 香薰瑜伽 流瑜伽 肚皮舞 </div>
+                    </li>
+                    <li>
+                      <div class="adress_tuti">
+                        <div class="adress_group">团体课表</div>
+                        <div class="adress_Booking">场地预订</div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                    <div class="cont_main_card">
+                                             <div class="cont_main_title"><a href="">more</a><span>收费标准</span></div>
+                                             <div class="cont_main_container">
+                                                <ul>
+                                                    <li class="card_bg"><a href="">购买</a>12个月对赌健身卡</li>
+                                                   <li class="card_bg"><a href="">购买</a>6个月对赌健身</li>
+                                                   <li class="card_bg"><a href="">购买</a>公益健身卡</li>
+                                                   <li class="card_bg"><a href="">购买</a>测试卡</li>
+                                                   <li><a href="">购买</a>公益卡</li>
+                                                         
+                                                </ul>
+                                             </div>
+                                    </div>
+              </div>
+              <div class="clubhome_contact">
+                <div class="clubpic"><a href=""><img src="images/plan_a.gif" /></a></div>
+                <div class="clubcont_information">
+                  <h2><a href="">唯品健身会</a></h2>
+                  <div class="clubhome_pj"><span>已有120人评价</span><strong>89.50分</strong></div>
+                  <ul>
+                    <li class="clubhome_adress">
+                      <div class="adress">地址:</div>
+                      <div class="adress_title">武汉江岸区沿江大道160号兰陵路口时代广场3栋2704室</div>
+                    </li>
+                    <li>
+                      <div class="adress">项目:</div>
+                      <div class="adress_title2">脊柱保养 形体瑜伽 哈他瑜伽 普拉提 香薰瑜伽 流瑜伽 肚皮舞 </div>
+                    </li>
+                    <li>
+                      <div class="adress_tuti">
+                        <div class="adress_group">团体课表</div>
+                        <div class="adress_Booking">场地预订</div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                <div class="cont_main_card">
+                  <div class="cont_main_title"><a href="">more</a><span>健身卡</span></div>
+                  <div class="cont_main_container">
+                    <ul>
+                       <li class="card_bg"><a href="">购买</a>12个月对赌健身卡</li>
+                                                   <li class="card_bg"><a href="">购买</a>6个月对赌健身</li>
+                                                   <li class="card_bg"><a href="">购买</a>公益健身卡</li>
+                                                   <li class="card_bg"><a href="">购买</a>测试卡</li>
+                                                   <li><a href="">购买</a>公益卡</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="clubhome_contact">
+                   <div class="clubpic"><a href=""><img src="images/plan_a.gif" /></a></div>
+                      <div class="clubcont_information">
+                           <h2><a href="">唯品健身会</a></h2>
+                           <div class="clubhome_pj"><span>已有120人评价</span><strong>89.50分</strong></div>
+                           <ul>
+                          
+                              <li class="clubhome_adress"><div class="adress">地址:</div>
+                                
+                                   <div class="adress_title">武汉江岸区沿江大道160号兰陵路口时代广场3栋2704室</div>
+                                   
+                           
+                              </li>
+                              <li><div class="adress">项目:</div>
+                                 
+                                    <div class="adress_title2">脊柱保养 形体瑜伽 哈他瑜伽 普拉提 香薰瑜伽 流瑜伽 肚皮舞 </div>
+                                  
+                               
+                              </li>
+                              <li>
+                                 <div class="adress_tuti">
+                                    <div class="adress_group">团体课表</div>
+                                    <div class="adress_Booking">场地预订</div>
+                                 </div>
+                              </li>
+                           </ul>
+                      </div>
+                      <div class="cont_main_card">
+                          <div class="cont_main_title"><a href="">more</a><span>健身卡</span> </div>
+                          <div class="cont_main_container">
+                             <ul>
+                                <li class="card_bg"><a href="">购买</a>12个月对赌健身卡</li>
+                                                   <li class="card_bg"><a href="">购买</a>6个月对赌健身</li>
+                                                   <li class="card_bg"><a href="">购买</a>公益健身卡</li>
+                                                   <li class="card_bg"><a href="">购买</a>测试卡</li>
+                                                   <li><a href="">购买</a>公益卡</li>
+                             </ul>
+                          </div>
+                      </div>
+                  </div>
+                   </div>
+          <div class="fenye_club">
+           <div class="fenye_btn">
+                <a href="" class="btnback"></a><span>1</span><a href="" class="btnlast"></a></div> 
+                <div class="fenye_btn_gong">共<span>1</span>页  到第  <input type="text"  value="1" class="textbtn"/> 页  </div>      
+       <input type="button" value="" class="textque" />
+          </div>
+            </div>
+        </div>
+            <div class="clubhome_navtab">
+                <h2>"淘"课吧!</h2>
+                <div id="container_tab">
+                   <ul>
+                      <li class="tabli">12月25日</li>
+                      <li>12月26日</li>
+                      <li>12月27日</li>
+                     
+                   </ul>
+                   <div class="tab_container">
+                         <div class="tab_box">
+                          <div class="tab_sushen">
+                               <div class="tabpic"><a href=""><img src="images/club_tab.png" /></a></div>
+                               <div class="tab_informind">
+                                 <p class="piu">塑身健美操</p>
+                                 <p class="pis">开课时间:18:30</p>
+                                 <p class="pig">30元<a href="">立即抢购</a> </p>
+                               </div>
+                          </div>
+                           <div class="adress_hui">地点：<span>唯品健身会</span></div>
+                       </div>
+                          <div class="tab_box">
+                          <div class="tab_sushen">
+                               <div class="tabpic"><a href=""><img src="images/club_tab.png" /></a></div>
+                               <div class="tab_informind">
+                                 <p class="piu">塑身健美操</p>
+                                 <p class="pis">开课时间:18:30</p>
+                                 <p class="pig">30元<a href="">立即抢购</a> </p>
+                               </div>
+                          </div>
+                           <div class="adress_hui">地点：<span>唯品健身会</span></div>
+                       </div>
+                         <div class="tab_box">
+                          <div class="tab_sushen">
+                               <div class="tabpic"><a href=""><img src="images/club_tab.png" /></a></div>
+                               <div class="tab_informind">
+                                 <p class="piu">塑身健美操</p>
+                                 <p class="pis">开课时间:18:30</p>
+                                 <p class="pig">30元<a href="">立即抢购</a> </p>
+                               </div>
+                          </div>
+                           <div class="adress_hui">地点：<span>唯品健身会</span></div>
+                       </div>
+                           <div class="tab_box">
+                          <div class="tab_sushen">
+                               <div class="tabpic"><a href=""><img src="images/club_tab.png" /></a></div>
+                               <div class="tab_informind">
+                                 <p class="piu">塑身健美操</p>
+                                 <p class="pis">开课时间:18:30</p>
+                                 <p class="pig">30元<a href="">立即抢购</a> </p>
+                               </div>
+                          </div>
+                           <div class="adress_hui">地点：<span>唯品健身会</span></div>
+                       </div>
+                           <div class="tab_box">
+                          <div class="tab_sushen">
+                               <div class="tabpic"><a href=""><img src="images/club_tab.png" /></a></div>
+                               <div class="tab_informind">
+                                 <p class="piu">塑身健美操</p>
+                                 <p class="pis">开课时间:18:30</p>
+                                 <p class="pig">30元<a href="">立即抢购</a> </p>
+                               </div>
+                          </div>
+                           <div class="adress_hui">地点：<span>唯品健身会</span></div>
+                       </div>
+                         <div class="tab_box">
+                          <div class="tab_sushen">
+                               <div class="tabpic"><a href=""><img src="images/club_tab.png" /></a></div>
+                               <div class="tab_informind">
+                                 <p class="piu">塑身健美操</p>
+                                 <p class="pis">开课时间:18:30</p>
+                                 <p class="pig">30元<a href="">立即抢购</a> </p>
+                               </div>
+                          </div>
+                           <div class="adress_hui">地点：<span>唯品健身会</span></div>
+                       </div>
+                         <div class="tab_box" id="tab_box_last">
+                          <div class="tab_sushen">
+                               <div class="tabpic"><a href=""><img src="images/club_tab.png" /></a></div>
+                               <div class="tab_informind">
+                                 <p class="piu">塑身健美操</p>
+                                 <p class="pis">开课时间:18:30</p>
+                                 <p class="pig">30元<a href="">立即抢购</a> </p>
+                               </div>
+                          </div>
+                           <div class="adress_hui">地点：<span>唯品健身会</span></div>
+                       </div>
+                       
+                   </div>
+                   <div class="tab_container" style="display:none;">
+                          <div class="tab_box">
+                          <div class="tab_sushen">
+                               <div class="tabpic"><a href=""><img src="images/club_tab.png" /></a></div>
+                               <div class="tab_informind">
+                                 <p class="piu">塑身健美操</p>
+                                 <p class="pis">开课时间:18:30</p>
+                                 <p class="pig">30元<a href="">立即抢购</a> </p>
+                               </div>
+                          </div>
+                           <div class="adress_hui">地点：<span>唯品健身会</span></div>
+                       </div>
+                   </div>
+                    <div class="tab_container" style="display:none;">
+                          <div class="tab_box">
+                          <div class="tab_sushen">
+                               <div class="tabpic"><a href=""><img src="images/club_tab.png" /></a></div>
+                               <div class="tab_informind">
+                                 <p class="piu">塑身健美操</p>
+                                 <p class="pis">开课时间:18:30</p>
+                                 <p class="pig">30元<a href="">立即抢购</a> </p>
+                               </div>
+                          </div>
+                           <div class="adress_hui">地点：<span>唯品健身会</span></div>
+                       </div>
+                   </div>
+                   
+                </div>
+            </div>
+            
+            
+            
+         </div>
+     </div>
+
+</div>
+
+
+
+
+</body>
+</html>

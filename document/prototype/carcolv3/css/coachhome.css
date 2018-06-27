@@ -1,0 +1,130 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.coach_home{ float: left; padding-left:216px; padding-top:5px; height:auto;}
+.piimg_coach{ width:730px; border:1px solid #dcdcdc; float:left;}
+.piimg_coach h2{height:30px; line-height:30px; background:#f7f7f7; font-size:14px; color:#009e0f; padding-left:10px;}
+.piimg_coach .clubome_cont ul li{  list-style:none; overflow:hidden; width:730px; float:left;line-height:35px; height:35px; }
+.piimg_coach .clubome_cont  .cluhome_navli{ float:left; font-size:12px; font-weight:bold; background:#ecebeb; width:91px;text-align:center; }
+.piimg_coach .clubome_cont .cluhome_1 a{ height:22px; line-height:22px; border:1px solid #e6e6e6; font-size:12px; color:#e43339; display:block; float:left; text-align:center; margin-right:12px;}
+.piimg_coach .clubome_cont  .cluhome_1{ margin-left:22px; float:left; margin-top:6px; width:495px; height:22px;}
+.piimg_coach .clubome_cont  .cluhome_1 .all{float:right; color:#0172be; border:none;}
+.piimg_coach .clubome_cont  .cluhome_1 img{ float:right; margin-top:4px; margin-right:6px;}
+.piimg_coach .clubome_cont  .border_clubome{ border-bottom:1px dashed #cbcbcb; float:left;}
+.piimg_coach .clubome_cont .border_clubome  .cluhome_2{ margin-left:22px; float:left; width:590px; height:40px; line-height:25px;white-space:nowrap;}
+.piimg_coach .clubome_cont .border_clubome  .cluhome_2 a{ font-size:12px; float:left; margin-right:10px; color:#0172be;}
+.clubome_cont .clubome_lisk{ height:50px;}
+.piimg_coach .clubome_cont .border_clubome .cluhome_3{ margin-left:22px; float:left; color:#0172be;}
+.piimg_coach .clubome_cont .border_clubome .cluhome_3 a{font-size:12px; float:left; margin-right:10px; color:#0172be;}
+
+
+.coachhome_side{ background:url(../images/coachhome.png) 0px -6px no-repeat; width:248px; float:right; margin-top:5px; height:342px; }
+.coachhome_side .coachhome_xian{overflow:hidden; zoom:1; padding-bottom:0px; margin-bottom:10px; width:225px; margin:0 auto; padding-left:10px;}
+.coachhome_side h2{ font-size:14px; height:30px; color:#666; line-height:30px; text-align:center; margin-top:8px; margin-bottom:8px; } 
+.coachhome_side .coachhome_pic{ float:left;font-size:12px; font-weight:bold; text-align:center; padding-left:4px; }
+.coachhome_side .coachhome_pic .coachhome_bord{ }
+.coachhome_side .coachhome_pic .coachhome_price{ color:#d61a00;margin-bottom:10px; }
+.coachhome_side .coachhome_pic  .goumai{ width:83px; height:26px; background:#d61a00; color:#FFF; line-height:26px; text-align:center; margin:0 auto;}
+.coachhome_wenzi{ font-size:12px; text-indent:2em; float:left; width:135px; margin-left:8px; line-height:18px; color:#666666;}
+.coachhome_side .coachhome_padding{ padding-bottom:8px; overflow:hidden; zoom:1; width:235px; margin:0 auto; }
+.coachhome_side .coachhome_padding h2{background:url(../images/coachlist_03.gif) 20px 2px no-repeat; color:#FFF; padding-left:10px;}
+.coachhome_pp{ font-size:13px;  line-height:18px; color:#666666; width:214px; margin-left:12px; margin-top:5px;}
+.coachhome_pp ul li{ list-style:none; word-wrap:break-word ; background:url(../images/coachlist_07.gif) left 10px no-repeat; padding-left:28px;}
+
+.bottom_pic{ background:url(../images/coachlist_11.gif) no-repeat; height:2px; margin-top:5px; margin-bottom:10px;  width:191px; margin-left:25px;}
+
+.toach_txt_1{ font-size:13px; font-weight:bold; width:175px; margin:0 auto; background:url(../images/cunli.png) 19px no-repeat; padding-left:38px; margin-bottom:5px; color:#6a6868; }
+.toach_txt_2{font-size:13px; font-weight:bold; width:175px; margin:0 auto; background:url(../images/coa_li.png) 20px no-repeat; padding-left:38px; margin-bottom:5px; color:#6a6868;}
+.coachhome_leftside .coa_woo{ background:url(../images/coach_bg.gif) 2px no-repeat; height:35px; line-height:26px; text-align:center; font-size:12px; color:#FFF; font-weight:bold;  margin-bottom:20px;}
+.coachhome_leftside ul li{ padding-top:16px;  background:#faf7f6;filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#dddddd');    -moz-box-shadow: 3px 3px 4px #ddd;-webkit-box-shadow: 3px 3px 4px #ddd; box-shadow: 3px 3px 4px #ddd; height:368px; }
+.coachhome_leftside h5{ line-height:26px; height:30px; text-align:center; background:url(../images/coach_pic.gif) 2px top  no-repeat; color:#FFF;margin-bottom:20px;}
+.coachhome_leftside ul li p{ line-height:22px; font-size:13px; width:182px; margin:0 auto; padding-left:10px; margin-bottom:10px;}
+.coachhome_content { overflow:hidden; clear:both;}
+.coachhome_content .coachhome_leftside{ float:left; width:210px;display:inline; margin-top:90px;}
+.coachhome_content .coachhome_leftside ul li{ list-style-type:none; margin-bottom:20px;}
+.coachhome_content .coachhome_rightside{ float:right; width:984px; display:inline; padding-left:6px; margin-top:6px;}
+.coachhome_content .coachhome_rightside .coachhome_navlan{ height:37px; border:1px solid #dcdcdc; background:#f7f7f7; line-height:37px; width:982px; float:left;}
+.coachhome_content .coachhome_rightside .coachhome_navlan .pauxu{ float:left; color:#616161; font-size:12px; margin-left:8px; margin-top:2px; margin-right:6px;}
+.coachhome_content .coachhome_rightside .coachhome_navlan ul { margin-top:6px;}
+.coachhome_content .coachhome_rightside .coachhome_navlan ul li{ float:left; border:1px solid #ccc7cb; width:44px; height:24px; list-style:none; font-size:12px; background:#fff; margin-right:5px;color:#616161; line-height:24px; text-align:center; }
+.coachhome_content .coachhome_rightside .coachhome_navlan ul li a{ display:block; width:44px; height:24px; text-align:center; line-height:24px; text-decoration:none;;color:#616161; }
+.coachhome_content .coachhome_rightside .coachhome_navlan ul li a:hover{background:#e3393c;  border:1px solid #e3393c; color:#FFFFFF; font-weight:bold;}
+.coachhome_content .coachhome_rightside .coachhome_navlan ul li:hover a{ color:#fff;}
+.coachhome_content .coachhome_rightside .coachhome_navlan  .coachhomeli{ background:#e3393c;  border:1px solid #e3393c; color:#FFFFFF; font-weight:bold;}
+.coach_time{ width:100px;}
+.coachhome_content .coachhome_rightside .coachhome_navlan  .coachhomeli a { color:#FFF;}
+.coachhome_navlan .coachhome_nav{ float:right; margin-right:7px; width:200px; overflow:hidden; zoom:1; }
+.coachhome_navlan .coachhome_nav a{ margin-right:5px; float:left;}
+.coachhome_fenye{ float:right; line-height:25px; margin-right:12px; }
+.coachhome_navlan  .coachhome_yema{ color:#e33439}
+
+.coachhome_cont_main { clear:both; overflow:hidden; zoom:1;}
+
+.coachhome_list_cont{ border-bottom:1px solid #d1d2d8; padding-bottom:10px; padding-top:20px; overflow:hidden; zoom:1; padding-left:2px;}
+.list_pic{ float:left; margin-left:10px; width:220px; height:220px;}
+
+.coach_box{width:480px; overflow:hidden; float:left; margin-right:10px; }
+.coach_gg{ float:left; margin-left:12px; width:232px;}
+.coach_box .coach_gg h2{ font-size:14px; color:#616161; margin-top:5px; padding:0px;}
+
+.cont_main_card{  float:left; width:232px; border:1px solid #f4f4f4; height:auto; }
+.cont_main_card .cont_main_title{ text-align:center; height:27px; line-height:27px; background:#f7f7f7;}
+.cont_main_card .cont_main_title span{  width:20px; margin-top:50px; margin-left:8px; color:#fb8609; font-size:14px; font-weight:bold;}
+.cont_main_card .cont_main_title a{  color:#919191;  margin-right:10px; font-size:13px; float:right;}
+.cont_main_card .cont_main_container ul{ margin:0px; padding:0px; list-style:none;padding-left:2px; padding-right:2px; }
+.cont_main_card .cont_main_container ul li{ height:30px; font-size:12px; line-height:30px; padding-left:10px; color:#767676;}
+.cont_main_card .cont_main_container ul li a{ float:right; color:#d61a00; margin-right:10px;}
+.cont_main_card .cont_main_container ul li:hover,a:hover{ color:#fc0505; cursor:pointer;}
+.cont_main_card .cont_main_container .card_bg{ border-bottom:1px dashed #ccc;}
+.cont_main_card .cont_main_container .card_fon{ color:#fc0505;}
+
+
+.webserve {font-size:12px; padding-left:10px; clear:both;}
+.webserve .fuwu{ height:40px;  line-height:40px;}
+.webserve span{ font-weight:bold; color:#747373; }
+.webserve .fuwu a{ color:#767676; margin-left:8px; margin-right:8px;}
+.webserve .zhuangye{ overflow:hidden; zoom:1;}
+.webserve .zhuangye a{ color:#767676; margin-left:8px; display:block; float:left; height:20px; line-height:20px; }
+.renzheng{ background:url(../images/caoch_li_bg.png) 110px top no-repeat; padding-right:20px;}
+.renzhengpp{background:url(../images/caoch_li_bg.png) 98px top no-repeat; padding-right:20px;}
+.renzheng_pic{ margin-top:2px;}
+
+.zhuangye span{ float:left; display:block; height:20px; line-height:20px;}
+.fenye_tab{ margin-top:30px;}
+
+
+
+
+
+
+
+
+
+/*.coachhome_list_cont .coach_box{ width:177px; float:left; margin-right:24px;}
+.coachhome_list_cont .coach_box  .list_pic img{ width:176px; height:176px;}
+.coachhome_list_cont .list_people{ height:30px; line-height:30px; font-size:12px; color:#000; font-weight:bold; text-align:center;}
+.coachhome_list_cont .list_pingjia{ text-align:center;}
+.coachhome_list_cont .list_pingjia strong{ color:#F00; margin-right:5px; }
+.coachhome_list_cont .list_pingjia span{ color:#66ccff; font-size:12px;}
+.coachhome_list_cont  .list_wenzi{ font-size:13px; color:#b3b3b3; margin-top:10px;}
+-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

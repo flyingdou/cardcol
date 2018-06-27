@@ -1,0 +1,96 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+.club_home{ float: left; padding-left:216px; padding-top:5px; height:auto;}
+.piimg_clubome{ width:618px; border:1px solid #dcdcdc; float:left;}
+.piimg_clubome h2{height:30px; line-height:30px; background:#f7f7f7; font-size:14px; color:#009e0f; padding-left:10px;}
+.piimg_clubome .clubome_cont ul li{  list-style:none; overflow:hidden; width:618px; float:left;line-height:35px; height:35px; }
+.piimg_clubome .clubome_cont  .cluhome_navli{ float:left; font-size:12px; font-weight:bold; background:#ecebeb; width:91px;text-align:center; }
+
+
+.piimg_clubome .clubome_cont .cluhome_1 a{ height:22px; line-height:22px; border:1px solid #e6e6e6; font-size:12px; color:#e43339; display:block; float:left; text-align:center; margin-right:12px; padding-left:5px;}
+.piimg_clubome .clubome_cont  .cluhome_1{ margin-left:22px; float:left; margin-top:6px; width:495px; height:22px;}
+.piimg_clubome .clubome_cont  .cluhome_1 .all{float:right; color:#0172be; border:none;}
+.piimg_clubome .clubome_cont  .cluhome_1 img{ float:right; margin-top:4px; margin-right:6px;}
+.piimg_clubome .clubome_cont  .border_clubome{ border-bottom:1px dashed #cbcbcb; float:left;}
+.piimg_clubome .clubome_cont .border_clubome  .cluhome_2{ margin-left:22px; float:left; width:450px; height:40px; line-height:28px;white-space:nowrap;}
+.piimg_clubome .clubome_cont .border_clubome  .cluhome_2 a{ font-size:12px; float:left; margin-right:10px; color:#0172be;}
+.clubome_cont .clubome_lisk{ height:50px;}
+.piimg_clubome .clubome_cont .border_clubome .cluhome_3{ margin-left:22px; float:left; color:#0172be;}
+.piimg_clubome .clubome_cont .border_clubome .cluhome_3 a{font-size:12px; float:left; margin-right:10px; color:#0172be;}
+
+
+
+.clubhome_side{ border:1px solid #ededed; width:356px; float:left; margin-left:6px; margin-top:5px;}
+.clubhome_side .clubhome_xian{ border-bottom:1px solid #ededed; overflow:hidden; zoom:1; padding-bottom:2px;}
+.clubhome_side h2{ font-size:13px; height:28px; color:#666; line-height:28px; text-align:center;} 
+.clubhome_side .clubhome_pic{ float:left;font-size:12px; font-weight:bold; text-align:center; padding-left:8px; margin-top:5px; }
+
+.clubhome_side .clubhome_pic .clubhome_price{ color:#d61a00;margin-bottom:10px; }
+.clubhome_side .clubhome_pic  .goumai{ width:83px; height:26px; background:#d61a00; color:#FFF; line-height:26px; text-align:center; margin:0 auto;}
+.clubhome_wenzi{ font-size:12px;  float:left; width:220px; margin-left:10px; line-height:18px; color:#666666;}
+.clubhome_wenzi p{text-indent:2em;}
+.clubhome_side .clubhome_padding{ padding-bottom:4px; overflow:hidden; zoom:1;}
+
+
+.clubhome_content{ float:left; margin-top:12px; width:1200px;}
+.clubhome_content .clubhome_leftside{ float:left; width:210px;display:inline; margin-top:190px;}
+.clubhome_content .clubhome_leftside ul li{ list-style-type:none; margin-bottom:20px;}
+.clubhome_content .clubhome_rightside{ float:right; width:984px; display:inline; padding-left:6px;}
+.clubhome_content .clubhome_rightside .clubhome_navlan{ height:37px; border:1px solid #dcdcdc; background:#f7f7f7; line-height:37px; width:754px; float:left;}
+.clubhome_content .clubhome_rightside .clubhome_navlan .pauxu{ float:left; color:#616161; font-size:12px; margin-left:8px; margin-top:2px; margin-right:6px;}
+.clubhome_content .clubhome_rightside .clubhome_navlan ul { margin-top:6px;}
+.clubhome_content .clubhome_rightside .clubhome_navlan ul li{ float:left; border:1px solid #ccc7cb; width:44px; height:24px; list-style:none; font-size:12px; background:#fff; margin-right:5px;color:#616161; line-height:24px; text-align:center; }
+.clubhome_content .clubhome_rightside .clubhome_navlan ul li a{ display:block; width:44px; height:24px; text-align:center; line-height:24px; text-decoration:none;;color:#616161; }
+.clubhome_content .clubhome_rightside .clubhome_navlan ul li a:hover{background:#e3393c;  border:1px solid #e3393c; color:#FFFFFF; font-weight:bold;}
+.clubhome_content .clubhome_rightside .clubhome_navlan ul li:hover a{ color:#fff;}
+.clubhome_content .clubhome_rightside .clubhome_navlan  .clubhomeli{ background:#e3393c;  border:1px solid #e3393c; color:#FFFFFF; font-weight:bold;}
+.clubhome_content .clubhome_rightside .clubhome_navlan  .clubhomeli a { color:#FFF;}
+.clubhome_navlan .clubhome_nav{ float:right; margin-right:7px; width:200px; overflow:hidden; zoom:1; }
+.clubhome_navlan .clubhome_nav a{ margin-right:5px; float:left;}
+.clubhome_fenye{ float:right; line-height:25px; margin-right:12px; }
+.clubhome_navlan  .clubhome_yema{ color:#e33439}
+
+.clubhome_cont_main { clear:both; overflow:hidden; zoom:1; width:756px; float:left;}
+.clubhome_contact{ margin-top:17px; margin-left:15px;}
+.clubhome_contact  .clubpic{ float:left;}
+.clubhome_contact  .clubpic img{ width:182px; height:182px;}
+.clubhome_contact .clubcont_information{ float:left; padding-left:20px; width:277px;}
+.clubhome_contact .clubcont_information .adress_tuti{ float:left; margin-top:10px;}
+.clubhome_contact .clubcont_information h2{ font-size:14px; color:#ff8000; margin-top:5px; }
+.clubhome_contact .clubcont_information h2 a{color:#ff8000;}
+.clubhome_contact .clubcont_information ul li{ font-size:12px; list-style:none; width:277px; overflow:hidden; height:auto;}
+.clubhome_contact .clubcont_information .adress{ font-weight:bold; float:left; margin-top:6px; color:#636060;}
+.clubhome_contact .clubcont_information  .adress_title{ float:left; color:#767676; width:228px; padding-left:10px; line-height:18px; margin-top:3px;}
+.clubhome_contact .clubcont_information  .adress_title2{float:left; color:#767676; width:228px; padding-left:10px; line-height:18px;margin-top:2px;}
+.clubhome_contact .clubcont_information  .adress_group{ float:left; font-size:12px;  background:url(../images/club_1.png) 9px 3px no-repeat; height:32px; padding-left:52px; line-height:32px; font-weight:bold; color:#848080; width:80px; border:1px solid #ededed;}
+.clubhome_contact .clubcont_information  .adress_group:hover{ cursor:pointer; color:#F00;}
+.clubhome_contact .clubcont_information  .adress_Booking{ float:right; font-size:12px;background:url(../images/club_2.png) 9px 3px no-repeat; padding-left:52px;height:32px; line-height:32px; font-weight:bold;color:#848080;width:80px; border-top:1px solid #ededed; border-bottom:1px solid #ededed; border-right:1px solid #ededed;}
+.clubhome_contact .clubcont_information  .adress_Booking:hover{cursor:pointer; color:#F00;}
+.adress_Booking_bs{ color:#c8c3c3;float:right; font-size:12px;background:url(../images/changuan.png) 9px 3px no-repeat; padding-left:52px;height:32px; line-height:32px; font-weight:bold;width:61px; border-top:1px solid #ededed; border-bottom:1px solid #ededed; border-right:1px solid #ededed;}
+.clubhome_contact .clubcont_information  .clubhome_phone{ height:25px;}
+.clubhome_cont_main  .clubhome_contact{ width:730px; overflow:hidden; zoom:1; border-bottom:1px solid #d1d2d8; padding-bottom:10px; }
+
+
+
+.clubhome_main_right{ overflow:hidden;  float:left; zoom:1;}
+.clubhome_rightside .clubhome_navtab{ width:218px; float:right;}
+.clubhome_rightside .clubhome_navtab h2{ font-size:16px; color:#f7128e; height:35px; line-height:35px;}
+.clubhome_navtab  #container_tab{ border-bottom:1px solid #dadada;width:216px; border-top:5px solid #878685; border-left:1px solid #dadada; border-right:1px solid #dadada; overflow:hidden;}
+.clubhome_navtab  #container_tab ul{ height:36px; padding:0px; margin:0px; background:#eee;}
+.clubhome_navtab  #container_tab ul li{ cursor:pointer;text-align:center; width:33.3%; list-style:none; height:36px; float:left; font-size:14px; color:#7e6f68; line-height:36px;}
+.tabli{ background:#fff;}
+.tab_container .tab_box{ border-bottom:1px solid #e5e5e5; padding-bottom:15px; width:200px; margin:0 auto; margin-top:22px;}
+.tab_container .tab_box .tab_sushen{ overflow:hidden; zoom:1;}
+.tab_container .tabpic{ float:left;}
+.tab_container .tab_informind{ float:left; margin-left:10px; line-height:28px;}
+.tab_container .tab_informind .piu{ font-size:14px; color:#666; font-weight:bold;}
+.tab_container .tab_informind  .pis{ font-size:13px;color:#666;}
+.tab_container .tab_informind  .pig{ color:#d61a00; font-size:13px; font-weight:bold;}
+.tab_container .tab_informind  .pig a{ display:block; width:72px; height:23px; background:#d61a00; color:#FFF; float:right; text-align:center; font-weight:bold; line-height:23px; margin-left:8px;}
+.tab_container  .tab_box .adress_hui{ font-size:13px; color:#333232; cursor:pointer;}
+.tab_container  .tab_box .adress_hui span{ color:#fb8609;}
+#tab_box_last{ border:none;}
+

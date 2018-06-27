@@ -1,0 +1,281 @@
+/* CSS Document */
+
+#left-1 {
+	width:146px;
+	height:100%;
+	overflow:hidden;
+	float:left;
+	margin-top:20px;
+	padding-bottom:10px;
+}
+#left-1 h1 {
+	height:30px;
+	line-height:30px;
+	padding-left:10px;
+	font-size:14px;
+}
+#left-1 h1.order {
+	width:100%;
+	height:30px;
+	line-height:30px;
+	padding-left:10px;
+}
+#left-1 p.pic {
+	width:100%;
+	height:100%;
+	overflow:hidden;
+}
+#left-1 p.pic img {
+	width:229px;
+}
+
+#left-1 ul.order {
+	margin:10px 0 0 0px;
+}
+#left-1 ul.order li {
+	line-height:250%
+}
+#left-1 ul.order li h1 {
+	background:none;
+	border-bottom:none;
+}
+#left-1 ul.order li a {
+	text-decoration:none;
+}
+#left-1 ul.ordermanagement {
+	margin-left:10px;
+}
+#left-1 ul.ordermanagement li {
+	line-height:200%;
+	margin-left:10px;
+}
+/*#left-1 ul.ordermanagement li a {
+	color:green;
+}*/
+#right-2 {
+	width:800px;
+	height:100%;
+	overflow:hidden;
+	float:right;
+	margin-top:20px;
+}
+#div_sporttype{ margin-left:10px;margin-top:10px;}
+ .sporttype{
+      font-size:14px;
+      font-weight:bold;
+      overflow:hidden;
+      margin-bottom:5px;
+      margin-top:5px;
+
+}
+#div_place{margin-top:5px;}
+#div_calendar .sporttypedd{
+      font-size:14px;
+      font-weight:bold;
+      overflow:hidden;
+
+
+}
+
+#div_calendar .place a{ margin-left:20px;}
+#div_calendar .sporttype{
+     font-size:14px;
+      font-weight:bold;
+      overflow:hidden;
+  
+}
+#div_sporttype a{
+      
+      margin-left:15px;
+
+}
+#right-2 h1 {
+	width:800px;
+	height:30px;
+	line-height:30px;
+	padding-left:10px;
+}
+/*#right-2 .pagenumber1 {
+	margin-top:10px;
+	margin-right:20px;
+	margin-bottom:20px;
+	height:100%;
+	overflow:hidden;
+}
+#right-2 .pagenumber1 ul {
+	float:right;
+}
+#right-2 .pagenumber1 ul li {
+	float:left;
+	width:20px;
+	height:25px;
+	line-height:25px;
+	text-align:center;
+	border:1px solid #999;
+	margin-right:5px;
+}
+#right-2 .pagenumber1 ul li.end1 {
+	width:50px;
+}
+#right-2 .pagenumber1 ul li a {
+	display:block;
+	float:left;
+	width:20px;
+	height:25px;
+	line-height:25px;
+}
+#right-2 .pagenumber1 ul li a.end1 {
+	width:50px;
+}*/
+#right-2 .date {
+	width:753px;
+	height:70px;
+	line-height:70px;
+	padding-left:10px;
+	padding-right:10px;
+	float:left;
+}
+#right-2 .date input {
+	width:90px;
+	height:25px;
+	line-height:25px;
+	border:1px solid #999;
+
+}
+#right-2 input.date-1 {
+	width:90px;
+	height:25px;
+	line-height:25px;
+	border:1px solid #999;
+}
+#right-2 .date select {
+	margin-left:10px;
+	margin-right:25px;
+	border:1px solid #999;
+}
+#right-2 input.button1 {
+	/*background:url(../images/space_menu.gif);
+	margin-top:25px;
+	margin-left:10px;
+	margin-right:25px;
+	width:50px;
+	height:25px;
+	line-height:25px;
+	border:1px solid #999;
+	cursor:pointer;*/
+	margin-left:10px;
+	margin-right:25px;
+	margin-top:25px;
+	width:87px;
+	height:28px;
+	line-height:29px;
+	text-align:left;
+	text-indent:33px;
+	letter-spacing:10px;
+	border:none;
+	cursor:pointer;
+	background:url(../images/anjiuall.jpg);
+	background-position:0px 0px;
+}
+#right-2 input.button2 {
+	margin-top:25px;
+	margin-right:10px;
+	width:87px;
+	height:28px;
+	line-height:29px;
+	text-align:left;
+	text-indent:33px;
+	letter-spacing:10px;
+	border:none;
+	cursor:pointer;
+	background:url(../images/anjiuall.jpg);
+	background-position:-100px -165px;
+}
+#right-2 input.button2-1 {
+	margin-top:25px;
+	margin-right:10px;
+	width:87px;
+	height:28px;
+	line-height:29px;
+	text-align:left;
+	text-indent:33px;
+	letter-spacing:10px;
+	border:none;
+	cursor:pointer;
+	background:url(../images/anjiuall.jpg);
+	background-position:-100px -60px;
+}
+#right-2 input.button2-2 {
+	margin-top:25px;
+	margin-right:10px;
+	width:87px;
+	height:28px;
+	line-height:29px;
+	text-align:left;
+	text-indent:33px;
+	letter-spacing:10px;
+	border:none;
+	cursor:pointer;
+	background:url(../images/anjiuall.jpg);
+	background-position:-100px -89px;
+}
+#right-2 input.button3 {
+	margin-top:25px;
+	width:87px;
+	height:28px;
+	line-height:29px;
+	text-align:left;
+	text-indent:27px;
+	border:none;
+	cursor:pointer;
+	background:url(../images/anjiuall.jpg);
+	background-position:-107px -367px;
+}
+#right-2 .table {
+	clear:both;
+	border: 1px solid #89C04D;
+	margin:20px 10px 10px 10px;
+	clear:both;
+	height:100%;
+	overflow:hidden;
+}
+#right-2 .table table tr.end th{
+    background: url(../images/shopbg.gif);
+    border-top:none;
+    border-left:none;
+}
+#right-2 .table table tr td.left{
+    border-left:none;
+}
+#right-2 .table table tr td.right{
+    border-right:none;
+}
+
+#right-2 .table table tr {
+	line-height:220%;
+	text-align:center;
+}
+#right-2 .table table tr td, #right-2 .table table tr th {
+	margin-left:10px;
+	border:1px solid #999;
+	border-bottom:none;
+	border-right:none;
+}
+#right-2 .table table tr td {
+	background:#fff;
+}
+#right-2 .table table tr.end td {
+	border-bottom:1px solid #fff;
+}
+#right-2 .table table tr th.right {
+	border-right:1px solid #fff;
+}
+
+#right-2 .calendar1, #right-2 .calendar2 {
+	width:100%;
+	height:100%;
+	overflow:hidden;
+}
+#right-2 .calendar1 img, #right-2 .calendar2 img {
+	width:753px;
+}

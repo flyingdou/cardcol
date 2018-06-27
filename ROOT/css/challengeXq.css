@@ -1,0 +1,56 @@
+.header_bot ul li:nth-child(5) a{color: #95bc28;border-top:8px #95bc28 solid;}
+
+
+.title_nav span{line-height: 42px; font-size: 12px;color: #666666;cursor: pointer;}
+.challenge_active{border: 1px #e5e5e5 solid;margin-bottom: 28px;padding-top: 24px;}
+.challenge_active img{width: 100%;display: block;}
+.challenge_active .big_pic{border: 7px #c9c9c9 solid;}
+.challenge_active .people_num{line-height: 50px;font-size: 12px;color: #666666;text-align: center;}
+.challenge_active .small_pic{line-height: 26px;font-size: 12px;color: #666666;text-align: center;margin-bottom: 10px;}
+
+
+.challenge_active .challenge_title{line-height: 34px;font-size: 18px;color: #95bc28;font-weight: bold;}
+.challenge_active .challenge_mb{line-height: 40px; font-size: 14px;color: #666666;}
+.challenge_active .beizhu{height:220px;border: 1px #666666 dashed;border-radius: 10px;padding: 5% 20% 0 5%;}
+.challenge_active .beizhu h3{line-height: 28px;font-size: 18px;color: #95bc28;font-weight: bold;}
+.challenge_active .beizhu p{line-height: 24px;font-size: 14px;color: #666666;}
+.challenge_active .join_challenge{line-height:18px;font-size: 18px;color: #95bc28;font-weight: bold;padding-top: 20px;}
+.challenge_active .join_challenge:after{content: "";width: 100px;height: 1px;background-color: red;}
+.challenge_active .date ,.challenge_active .weight ,.challenge_active .style{line-height:30px;font-size: 14px;color: #9f9f9f;margin-bottom: 25px;}
+.challenge_active .date span ,.challenge_active .weight span ,.challenge_active .style span{color: #666666;}
+.challenge_active .date{margin-top: 20px;}
+.challenge_active .date input{width: 60%;border: 1px #8c8c8c solid;padding-left: 30px;background: url("../images/icon_xz_11.png") no-repeat 95% 5px;cursor: pointer;}
+.challenge_active .weight input{width: 20%;border: 1px #8c8c8c solid;text-align: center;}
+.challenge_active .style select{width:50%;border: 1px #8c8c8c solid;height: 32px}
+.challenge_active .style_sm{line-height: 28px;font-size: 14px;color: #9f9f9f;}
+.challenge_active .deposit{text-align: center;padding: 100px 0;}
+.challenge_active .deposit span{display: inline-block;line-height: 40px;font-size:14px;color:#fff;padding: 0 20px;background-color: #f17306;border-radius: 5px;cursor: pointer;}
+
+
+.all_join{padding-left: 0;}
+.all_join h4{line-height: 36px;font-size: 12px;color: #fff;background-color: #92ba25;text-align: center;}
+.challenge_list h4{line-height: 36px;font-size: 12px;color: #fff;background-color: #353535;text-align: center;}
+.enjoy_join{border: 2px #e0e0e0 solid;border-top:none;padding-top: 25px;text-align: center;padding-bottom: 18px;}
+.enjoy_join img {display: inline-block;}
+.enjoy_join h5{line-height:30px;font-size: 12px;color: #666666;}
+.enjoy_join p{line-height: 18px;font-size: 14px;color: #666666;padding-bottom: 20px;padding:0 10px;text-align:left;}
+.challenge_list{padding-right: 0;}
+.about_challenge{border:2px #e0e0e0 solid;border-top:none;padding-top: 25px;margin-bottom: 25px;text-align: center;}
+.about_challenge img{display: inline-block;}
+.about_challenge h5{line-height: 30px;font-size: 14px;color: #666666;}
+.about_challenge p{line-height: 18px;font-size: 16px;color: #666666;padding:0 10px 20px;text-align:left;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

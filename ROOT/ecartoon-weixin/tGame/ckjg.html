@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title></title>
+    <script src="js/mui.min.js"></script>
+    <link href="css/mui.min.css" rel="stylesheet"/>
+    <script src="js/jquery.min.js" type="text/javascript"> </script>
+    <script type="text/javascript">
+  $(function(){
+function GetRequest() {   
+   var url = location.search; //获取url中"?"符后的字串   
+   var theRequest = new Object();   
+   if (url.indexOf("?") != -1) {   
+      var str = url.substr(1);   
+      strs = str.split("&");   
+      for(var i = 0; i < strs.length; i ++) {   
+         theRequest[strs[i].split("=")[0]]=unescape(strs[i].split("=")[1]);   
+      }   
+   }   
+   return theRequest;   
+}
+var Request = new Object();
+Request = GetRequest();
+var a,myheight,myweight,itheight,itweight;
+a = Request['mine'];
+myheight = Request['myheight'];
+myweight = Request['myweight'];
+itheight = Request['itheight'];
+itweight = Request['itweight'];
+var myZs=parseInt(myweight/(myheight*myheight/10000));
+var itZs=parseInt(itweight/(itheight*itheight/10000));
+
+
+$(".tzzsspan").text(myZs);
+$(".tzzsspan1").text(itZs);
+
+if(a=="boy"){
+	
+	
+
+	if(myZs<18){
+		$(".img_box").attr("src","img/man1.png")
+		$(".wm").text("偏瘦");
+		$(".jy").text("太瘦啦！男儿怎能弱不禁风，补充营养可以降低患贫血、低血糖的风险哦，坚持锻炼，强化身体！")
+	}if(18<=myZs&&myZs<25){
+		
+			$(".img_box").attr("src","img/man2.png")
+			$(".wm").text("正常");
+		$(".jy").text("完美！看起来体质非常健康呢！请坚持锻炼，保持健康体态！")
+	}if(25<=myZs&&myZs<30){
+	
+		$(".img_box").attr("src","img/man3.png")
+		$(".wm").text("偏胖");
+		$(".jy").text("坚持健身可以让您的形体更加完美，再瘦一点，您会更加健康！")
+	}if(myZs>=30){
+		$(".img_box").attr("src","img/man4.png")
+		$(".wm").text("肥胖");
+		$(".jy").text("可能需要减肥！肥胖会增高患冠心病、高血压等一系列疾病的几率！")
+	};
+
+		if(itZs<18.5){
+		$(".img_box1").attr("src","img/men1.png")
+		$(".wm1").text("偏瘦");
+		$(".jy1").text("骨感美女，补充营养可以降低患贫血、低血糖的风险哦，坚持锻炼，遇见更美的自己！")
+	}
+		else if(18<=itZs&&itZs<25){
+			$(".img_box1").attr("src","img/men2.png")
+			$(".wm1").text("正常");
+		$(".jy1").text("perfect！看起来体质非常健康呢！请坚持锻炼，保持女神体态！")
+	}else if(25<=itZs&&itZs<30){
+		$(".img_box1").attr("src","img/men3.png")
+		$(".wm1").text("偏胖");
+		$(".jy1").text("您很丰满，但是如果通过健身让自己形体稍微瘦一点，定是极好的！")
+	}else if(itZs>=30){
+		$(".img_box1").attr("src","img/men4.png")
+		$(".wm1").text("肥胖");
+		$(".jy1").text("可能需要减肥！肥胖会增高患冠心病、高血压等一系列疾病的几率！")
+	}
+
+	
+}else{
+if(myZs<18.5){
+	$(".img_box").attr("src","img/men1.png");
+	$(".wm").text("偏瘦");
+		$(".jy").text("骨感美女，补充营养可以降低患贫血、低血糖的风险哦，坚持锻炼，遇见更美的自己！")
+	}
+	else if(18<=myZs&&myZs<25){
+			$(".img_box").attr("src","img/men2.png");
+			$(".wm").text("正常");
+		$(".jy").text("perfect！看起来体质非常健康呢！请坚持锻炼，保持女神体态！")
+	}else if(25<=myZs&&myZs<30){
+		$(".img_box").attr("src","img/men4.png");
+		$(".wm").text("偏胖");
+		$(".jy").text("您很丰满，但是如果通过健身让自己形体稍微瘦一点，定是极好的！")
+	}else if(myZs>=30){
+		$(".img_box").attr("src","img/men4.png");
+		$(".wm").text("肥胖");
+		$(".jy").text("可能需要减肥！肥胖会增高患冠心病、高血压等一系列疾病的几率！")
+	};
+	if(itZs<18.5){
+		$(".img_box1").attr("src","img/man1.png")
+		$(".wm1").text("偏瘦");
+		$(".jy1").text("太瘦啦！男儿怎能弱不禁风，补充营养可以降低患贫血、低血糖的风险哦，坚持锻炼，强化身体！")
+	}else if(18<=itZs&&itZs<25){
+			$(".img_box1").attr("src","img/man2.png")
+			$(".wm1").text("正常");
+		$(".jy1").text("完美！看起来体质非常健康呢！请坚持锻炼，保持健康体态！")
+	}else if(25<=itZs&&itZs<30){
+		$(".img_box1").attr("src","img/man3.png")
+		$(".wm1").text("偏胖");
+		$(".jy1").text("坚持健身可以让您的形体更加完美，再瘦一点，您会更加健康！")
+	}else if(itZs>=30){
+		$(".img_box1").attr("src","img/man4.png")
+		$(".wm1").text("肥胖");
+		$(".jy1").text("可能需要减肥！肥胖会增高患冠心病、高血压等一系列疾病的几率！")
+	}
+};
+
+if(isNaN(myZs)){
+	    $(".tzzsspan").text("");
+		$(".img_box").attr("src","img/man1.png")
+		$(".wm").text("");
+		$(".jy").text("");
+		$('.gxl').css("background-image","url(img/gxn1@3x.png)");
+}else if(isNaN(itZs)){
+	  $(".tzzsspan1").text("");
+		$(".img_box1").attr("src","img/men1.png")
+		$(".wm1").text("");
+		$(".jy1").text("");
+		 $('.gxl').css("background-image","url(img/gxn1@3x.png)");
+}else if(!isNaN(itZs)&&!isNaN(myZs)){
+	if(a=="boy"){
+		if(myZs>=itZs){
+			 $('.gxl').css("background-image","url(img/gx1.png)");
+		}else{
+			$('.gxl').css("background-image","url(img/gxn2@3x.png)");
+		}
+	}else if(a=="girl"){
+			if(myZs<=itZs){
+			 $('.gxl').css("background-image","url(img/gx1.png)");
+		}else{
+			$('.gxl').css("background-image","url(img/gxn2@3x.png)");
+		}
+	}
+}
+
+
+
+})
+    </script>
+    <script type="text/javascript" charset="utf-8">
+      	mui.init();
+    </script>
+    <style>
+    .mui-content{
+    	background: rgba(0,0,0,0);
+    	box-sizing: border-box;
+
+
+    }
+    	.headerBox{
+    		height: 200px;
+    		width: 100%;
+    		margin-bottom: 5%;
+    		position:relative;
+            box-sizing: border-box;
+            overflow: hidden;
+    	
+    	}
+ 
+    	.yun{
+    		width: 40px;
+    		height: 35px;
+    		position: absolute;
+    		background: url(img/yun.png)no-repeat scroll 0 0/40px 30px;
+    	}
+    	 	.yun_a{
+    		width: 65px;
+    		height: 60px;
+    		position: absolute;
+    		background: url(img/yun.png)no-repeat scroll 0 0/60px auto;
+    	}
+    	.yun1{
+    		top:10px;
+    		z-index: 4;
+    		top:100px;
+    		-webkit-animation: yun1 50s infinite ease normal;
+            -moz-animation:  yun1  50s infinite ease normal;
+            -o-animation: yun1  50s infinite ease normal;
+            animation:  yun1  50s infinite ease normal;	
+    	}
+    	@-webkit-keyframes  yun1  {
+         0% { left: -10px;
+              top:10px;
+             }
+         100% { left: 100%;
+              top:20px;
+              }
+                                   }
+        @-moz-keyframes  yun11 {
+          0% { left: -10px;
+              top:10px;
+             }
+         100% { left: 100%;
+              top:20px;
+              }
+}
+
+        @keyframes  yun1 {
+           0% { left: -10px;
+              top:10px;
+             }
+         100% { left: 100%;
+              top:20px;
+              }
+              }   
+    	.yun2{
+    		top:100px;
+    		z-index: 2;
+    		top:38%;
+    		-webkit-animation: yun2 90s infinite ease normal;
+            -moz-animation:  yun2  90s infinite ease normal;
+            -o-animation: yun2  90s infinite ease normal;
+            animation:  yun2  90s infinite ease normal;
+    	}
+    	@-webkit-keyframes  yun2  {
+         0% { left: -10px;
+              top:38%;
+             }
+         100% { left: 100%;
+              top:59%;
+              }
+                                   }
+        @-moz-keyframes  yun2  {
+         0% { left: -10px;
+              top:38%;
+             }
+         100% { left: 100%;
+              top:59%;
+              }
+}
+
+        @keyframes  yun2  {
+         0% { left: -10px;
+              top:38%;
+             }
+         100% { left: 100%;
+              top:59%;
+              }
+              }   
+    	.yun3{
+    		z-index: 6;
+    		top:50px;
+    		
+            -webkit-animation: yun3 60s infinite ease normal;
+            -moz-animation:  yun3  60s infinite ease normal;
+            -o-animation: yun3  60s infinite ease normal;
+            animation:  yun3  60s infinite ease normal;
+    	}
+    	@-webkit-keyframes  yun3  {
+         0% { left: -89px;
+              top:50px;
+             }
+         100% { left: 100%;
+              top:90px
+              }
+                                   }
+        @-moz-keyframes  yun3  {
+        0% { left: -89px;
+              top:50px;
+             }
+         100% { left: 100%;
+              top:90px
+              }
+}
+
+        @keyframes  yun3  {
+        0% { left: -89px;
+              top:50px;
+             }
+         100% { left: 100%;
+              top:90px
+              }        }   
+
+   
+    	.yun4{
+    		top:30px;
+    		z-index: 5;
+    		right:-65px;
+    		  -webkit-animation: yun4 70s infinite ease normal;
+            -moz-animation:  yun4  70s infinite ease normal;
+            -o-animation: yun4  70s infinite ease normal;
+            animation:  yun4  67s infinite ease normal;
+    	}
+    		@-webkit-keyframes  yun4  {
+         0% { right: -65px;
+              top:30px;
+             }
+         100% { right: 100%;
+              top:50px
+              }
+                                   }
+        @-moz-keyframes  yun4  {
+         0% { right: -65px;
+              top:30px;
+             }
+         100% { right: 100%;
+              top:50px
+              }
+}
+
+        @keyframes  yun4  {
+             0% { right: -65px;
+              top:30px;
+             }
+         100% { right: 100%;
+              top:50px
+              }
+                          }   
+                          
+           	.yun5{
+    		top:500px;
+    		z-index: 5;
+    		right:-65px;
+    		  -webkit-animation: yun5 20s infinite ease normal;
+            -moz-animation:  yun5  20s infinite ease normal;
+            -o-animation: yun5  20s infinite ease normal;
+            animation:  yun5  20s infinite ease normal;
+    	}
+    		@-webkit-keyframes  yun5  {
+         0% { right: -65px;
+              top:500px;
+             }
+         100% { right: 100%;
+             top:500px;
+              }
+                                   }
+        @-moz-keyframes  yun5  {
+     0% { right: -65px;
+              top:500px;
+             }
+         100% { right: 100%;
+             top:500px;
+              }
+}
+
+        @keyframes  yun5  {
+      0% { right: -65px;
+              top:500px;
+             }
+         100% { right: 100%;
+             top:500px;
+              }
+                          }   
+    	.fc{
+    		width:70px;
+    		height:50px;
+    		position:absolute;
+    		right: -10px;
+    		z-index: 100;
+    		top:130px;
+    		background: url(img/fc.png)no-repeat scroll 0 0 / 70px auto;
+    	    -webkit-animation: fc 40s infinite ease normal;
+            -moz-animation:  fc  40s infinite ease normal;
+            -o-animation: fc 40s infinite ease normal;
+            animation:  fc 40s infinite ease normal;
+    	}
+    		@-webkit-keyframes  fc  {
+         0% { right: -89px;
+              top:50%;
+             }
+         100% { right: 100%;
+              top:45%
+              }
+                                   }
+        @-moz-keyframes  fc  {
+         0% { right: -89px;
+              top:50%;
+             }
+         100% { right: 100%;
+              top:45%
+              }
+}
+
+        @keyframes  fc  {
+      0% { right: -89px;
+              top:50%;
+             }
+         100% { right: 100%;
+              top:45%
+              }         }   
+                          
+        .ball1{
+        	width: 50px;
+        	height:50px;
+        	top:80%;
+        	z-index: 89;
+        	position:absolute;
+        	background: url(img/ball.png)no-repeat  scroll 0 0/auto 50px;
+            -webkit-animation: ball 80s infinite ease normal;
+            -moz-animation:  ball  80s infinite ease normal;
+            -o-animation: ball 80s infinite ease normal;
+            animation:  ball 80s infinite ease normal;
+        }   
+        
+           		@-webkit-keyframes  ball  {
+        0% { left: -89px;
+              top:80%;
+             }
+        50% { left: 50%;
+              top:60%;
+             }
+        100% { left: 100%;
+              top:80%
+              }
+                                   }
+        @-moz-keyframes  ball {
+        0% { left: -89px;
+              top:80%;
+             }
+        50% { left: 50%;
+              top:60%;
+             }
+        100% { left: 100%;
+              top:80%
+              }
+}
+
+        @keyframes  ball {
+        0% { left: -89px;
+              top:80%;
+             }
+        50% { left: 50%;
+              top:60%;
+             }
+        100% { left: 100%;
+              top:80%
+              }
+                          }     
+                          
+                          
+                          
+                          
+         .my_box{
+    
+         	z-index: 99999;
+         	position: absolute;
+         	margin: 30px;
+         	width: 80%;
+         	margin-left: 10%;
+         	padding: 20px 0;
+         	background: rgba(255, 255, 255, 0.8);
+         	border-radius: 4px;
+         	border: 2px solid cornflowerblue;
+         }                
+                          
+        .my{
+        	float: left;
+        	width: 30%;
+        }   
+        .wdtx{
+        	width: 100px;
+        	position: absolute;
+            top:-30px;
+            left: -30px;
+        }
+        .img_box,.img_box1{
+        	height: 130px;
+        	display: block;
+            margin: 0 auto;
+        }   
+    
+        .tzzs{
+            font-weight: 700;
+            padding: 10px;
+        	float: left;
+        	width: 70%;
+        	box-sizing: border-box;
+        }  
+        p{
+         color:red;
+         font-size: 15px;
+        }       
+        .font-14{
+        	font-weight: 100;
+        	font-size:13px;
+        	overflow: hidden;
+        	word-break: break-all;
+        }              
+      .tdtx{
+      	width: 100px;
+      	position: absolute;
+        top:-30px;
+        left: -30px;
+      }
+      .gxl{
+      	width: 80%;
+      	margin-left:10%;
+      	height: 40px;
+      	background: white;
+        margin-top:-25px ;
+      	background: url(img/gx1.png)no-repeat scroll 0 0/100% auto;
+        position: absolute;
+        z-index:99999999;
+            }
+            
+        .buttonbox{
+        bottom: :10px;
+        	width: 80%;
+        	margin-left: 10%;
+        }
+        .zcyc{
+        	width: 50%;
+        	display: block;
+        	float:left;
+        	padding: 0 10%;
+        }
+        .js{
+        	width: 50%;
+        	display:block;
+        	padding: 0 10%;
+        	float:left;
+        }
+
+    </style>
+</head>
+<body style="background: url(img/bg.png)no-repeat scroll 0 0/100% auto;">
+	<div class="mui-content">
+	    <div class="headerBox">
+	    
+	    <div class="my_box">
+	    	<img src="img/wdtx.png"/class="wdtx">
+	    	<div class="my">
+	    		<img src="img/man1.png"class="img_box"/>
+	    	</div>
+	    	<div class="tzzs">
+	    		<p>体质指数：<span class="tzzsspan"></span></p>
+	    		<p><span class="wm"></span></p>
+	    		<p class="font-14 jy"></p>
+	    	</div>
+	    	<div class="mui-clearfix">
+	    		
+	    	</div>
+	    </div>
+	    
+	    
+	    	<!--你一会看我，一会看云-->
+	    	<div class="yun yun1"></div>
+	    	<div class="yun_a yun2"></div>
+	    	<div class="yun yun3"></div>
+	    	<div class="yun_a yun4"></div>
+	        <div class="yun_a yun5"></div>
+	     	
+<!--	    <div class="gxl"style="">
+	    	<img src="img/gx1.png"width="100%"/>
+	    </div>-->
+            <!--看，有灰机-->
+	    	<div class="fc"></div>
+	    	<!--看，热气球-->
+	    	<div class="ball1"></div>
+	    </div>
+	   
+
+	    
+	     <div class="yun_next" style="position:relative;width:100%;overflow: hidden;">
+	     
+	     	<div class="yun yun3"></div>
+            
+	    	
+	    <div class="my_box" style="position:relative;padding-bottom: 0px;border:2px salmon solid;">
+	            <img src="img/tdtx.png"/class="tdtx">
+	    	<div class="my">
+	    		<img src="img/man1.png"class="img_box1"/>
+	    	</div>
+	    	<div class="tzzs">
+	    		<p>体质指数：<span class="tzzsspan1">2</span></p>
+	    		<p><span class="wm1"></span></p>
+	    		<p class="font-14 jy1"></p>
+	    	</div>
+	    	<div class="mui-clearfix"></div>
+	    	
+	    
+	    </div>
+
+
+	             
+	 	</div>
+	 	   <div class="gxl"></div>
+	 	
+	 	
+		    <div class="buttonbox"style="position:absolute;bottom: 5px;">
+	 
+	    	 	<a href="ckjl.html"class="zcyc"><img src="img/zcyc.png"width="100%"/></a>
+	    	 	<a href="downloadApp.html"class="js"><img src="img/js.png"width="100%"/></a>
+	    	 	<div class="mui-clearfix">
+	    	 		
+	    	 	</div>
+	    
+	             </div>
+	 		
+	 
+	</div>
+</body>
+</html>

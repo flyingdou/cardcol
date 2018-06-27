@@ -1,0 +1,72 @@
+#content{ width:960px; margin:0px auto;overflow:hidden;zoom:1;}
+
+body{background:#fffbe7;}
+#clubHead{ height:406px;position:relative;z-index:-5555;background:url(../images/clubtop.png) no-repeat;}
+#clubHead .clubNAVk{position:absolute;left;0px;}
+#content{margin-top:-180px;z-index:5555;background:none;}
+
+
+#clubHead .clubNAVk{position:absolute;top:42px;}
+#clubHead .clubNAVk h1{font-size:30px;font-family:"����"; color:#734935;background:none;border:0px; font-weight:bold;}
+#clubHead .clubNAVk .clubnav ul li{ float:left; font-size:18px;}
+ #nav h1{padding-top:42px;background:none; border:none;font-size:36px;font-weight:bold;  color:#734935;font-family:"����"; }
+
+#right-3{padding-bottom:10px;}
+#right-3 .right-ll{border-top:1px dashed #999999;overflow:hidden;zoom:1;width:95%;margin:0px auto;padding-top:10px;margin-top:10px;}
+#right-3 .right-ll .rightpic{ float:left;}
+
+#right-3 .right-ll .rightcont{float:left;}
+#right-3 .right-ll .rightcont .gaoya{text-align:center;color:#972626;font-weight:bold;}
+#right-3 .right-ll .rightcont .pingjia{color:#666666;}
+#right-3 .right-ll .rightcont .pingjia strong{ font-size:16px;color:#f06200;}
+#right-3 .right-ll .rightcont .pingjia span{float:left;}
+.color1 dl{overflow:hidden;zoom:1;height:75px;}
+#right-3 .color1 .spansevera{margin-left:10px;}
+#right-3 .color1 p{width:95%;margin:0px auto;color:#666666;margin-bottom:2px;text-indent:none;}
+#right-3 .color1 h3 a{ color:#972626;}
+
+
+.chanllge{width:90%; margin:0px auto;margin-top:10px;padding-bottom:5px;overflow:hidden;zoom:1;}
+.chanllge .chanpic{float:left;}
+.chanllge .chancont{ float:left;margin-left:10px;width:110px;}
+.chanllge .chancont .chantitle{color:#972626;font-weight:bold;}
+.chanllge .chancont p{color:#666666; line-height:18px;}
+#right-3 .chanbor{border-bottom:1px dashed #999999;overflow:hidden;zoom:1;}
+#right-3{padding-bottom:0px;}
+#right-3 p{line-height:18px;}
+
+#center-3  ul {margin:0px auto;width:94%; margin-top:10px;overflow:hidden;zoom:1;margin-bottom:20px;}
+#center-3  ul li{float:left; padding-top:10px; width:230px;}
+#center-3  ul li img{width:78px;height:76px;}
+#center-3  ul li .taokepic{float:left;margin-left:10px;}
+
+#center-3  ul li .taokeinfo{float:left;margin-left:10px;}
+#center-3  ul li .taokeinfo .infoss{color:#972626;font-weight:bold;font-size:14px;}
+#center-3  ul li .taokeinfo .infotime{color:#666666;}
+#center-3  ul li .taokeinfo .infoshop{color:#f06200;font-weight:bold;line-height:22px;}
+ .center{border-bottom:none;}
+#center-3  ul li .taokeinfo .infoshop span{display:block;float:right; width:54px;height:20px;background:#f06200;color:#ffffff;text-align:center;line-height:23px;}
+
+#center-3  ul li .taokeinfo p{ line-height:28px;}
+#center-3  ul .centershioo{border-right:1px dashed #999999;border-bottom:1px dashed #999999;padding-bottom:10px;}
+#center-3  ul .centermoney{border-bottom:1px dashed #999999;padding-left:10px;padding-bottom:10px;}
+#center-3  ul .centerlast{border-bottom:none;border-right:1px dashed #999999;padding-bottom:10px;}
+#center-3  ul .centerlast2{padding-left:10px;}
+
+#center-3 .centertab{position:relative;overflow:hidden;zoom:1;height:30px;}
+#center-3 .centertab .centernav{position:absolute;top:-10px;right:0px;width:250px;line-height:35px;height:30px;background:url(../images/clubtab.png)left 5px no-repeat;}
+#center-3 .centertab .centernav li{float:left;width:70px;text-align:center;padding:0px;font-size:16px;cursor:pointer;}
+#center-3 .centertab .centernav2{position:absolute;top:-10px;right:0px;width:250px;line-height:35px;height:30px;background:url(../images/clubtab-2.png)left 5px no-repeat;}
+#center-3 .centertab .centernav2 li{float:left;width:70px;text-align:center;padding:0px;font-size:16px;cursor:pointer;}
+#center-3 .centertab .centernav3{position:absolute;top:-10px;right:0px;width:250px;line-height:35px;height:30px;background:url(../images/clubtab-3.png)left 5px no-repeat;}
+#center-3 .centertab .centernav3 li{float:left;width:70px;text-align:center;padding:0px;font-size:16px;cursor:pointer;}
+#center-3 .navbotd{overflow:hidden;zoom:1;}
+#center-3 .navbotd{display:none;}
+.rightpick{height:10px;}
+
+
+#right-1 a{display:block;margin-top:10px;}
+
+
+
+

@@ -1,0 +1,25 @@
+.c_table{
+font-size:13px;
+width:485px;
+height:100%;
+border-collapse:0;
+border-spacing:0;
+line-height:40px;
+text-align:left;
+margin-left:10px;
+margin-right:10px;
+padding-bottom:10px;
+}
+.tr_first{
+padding-bottom:0px;
+}
+.td_first{
+width:auto;
+text-align:left;
+padding-left:30px;
+background:url(../images/li_top.jpg) no-repeat 5px 8px;
+}
+.c_table tr td{
+border-bottom:1px solid #9BB711;
+}
+

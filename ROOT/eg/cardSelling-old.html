@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>在线售卡</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<link rel="stylesheet" href="../css/mui.min.css" />
+		<style type="text/css">
+		/*左部图片样式*/
+		h5{
+			color:black;
+			font-size:12px;
+		}
+		.jiage{
+			font-size: 14px;
+		    line-height: 20px;
+		    margin-top: 5%;
+		    color: #fe9e3a;
+			
+		}
+		/*售价样式*/
+		.shoujia{
+			color:#F87D04;
+		}
+		
+		
+		/*列表图片的样式*/
+		.pic{
+			width:29.8%;
+		}
+		.mui-table-view .mui-media-object {
+		    line-height: 42px;
+		     max-width: none; 
+		}
+		/*卡的名字*/
+		.name{
+			font-size:15px;
+			margin-top: 4%;
+			margin-bottom: 2%;
+		}
+		/*发卡门店样式*/
+		.mendian{
+			font-size: 13px;
+			line-height: 20px;
+    		margin-top: 1%;
+		}
+		</style>
+		
+		
+		
+	</head>
+	<body>
+		<div class="mui-content">
+			<div class="mui-scroll-wrapper" >
+			    <div class="mui-scroll">
+			        <!--这里放置真实显示的DOM内容-->
+			        <ul class="mui-table-view">
+						<li class="mui-table-view-cell mui-media" href="package.html">
+							<a href="javascript:;">
+								<img class="mui-media-object mui-pull-left pic" src="../images/shuijiao.jpg" >     
+								<div class="mui-media-body">
+									<h5 class="name" id="card_name">圈存月卡</h5>
+									<p class='mui-ellipsis-2 jiage' id="jianjie">¥<span>1680.00</span></p>
+									<p  class="mendian">发卡门店：<span id="card_mendian">第一个发卡门店</span></p>
+								</div>
+							</a>
+						</li>
+						<li class="mui-table-view-cell mui-media" href="package.html">
+							<a href="javascript:;">
+								<img class="mui-media-object mui-pull-left pic" src="../images/shuijiao.jpg" >
+								<div class="mui-media-body">
+									<h5 class="name" >圈存季卡</h5>
+									<p class='mui-ellipsis-2 jiage' id="jianjie2">¥<span>1680.00</span></p>
+									<p  class="mendian">发卡门店：<span>第二个发卡门店</span></p>
+								</div>
+							</a>
+						</li>
+						<li class="mui-table-view-cell mui-media" >
+							<a href="javascript:;" href="package.html">
+								<img class="mui-media-object mui-pull-left pic" src="../images/shuijiao.jpg" >
+								<div class="mui-media-body">
+									<h5 class="name" >圈存年卡</h5>
+									<p class='mui-ellipsis-2 jiage' id="jianjie3">¥<span>1680.00</span></p>
+									<p  class="mendian">发卡门店：<span>第三个发卡门店</span></p>
+								</div>
+							</a>
+						</li>
+						<!--<li class="mui-table-view-cell mui-media">
+							<a href="javascript:;">
+								<img class="mui-media-object mui-pull-left" src="../images/shuijiao.jpg" style="width:80px;height:60px;max-width: 80px;">
+								<div class="mui-media-body">
+									<h5>幸福</h5>
+									<p class='mui-ellipsis-2 jianjie' id="jianjie">能和心爱的人一心爱的人一起睡觉，事情；福的事情；可是，打呼噜怎能和心爱的人一起睡觉，事情；福的事情；可是，打呼噜怎能和心爱的人一起睡觉，事情；福的事情；可是，打呼噜怎办？</p>
+									<p  class="mui-pull-right shoujia">¥<span id="shoujia">0.01</span></p>
+								</div>
+							</a>
+						</li>-->
+			    </div>
+			</div>
+						
+			
+		</div>
+		
+		
+	</body>
+	<script src="../js/mui.min.js"></script>
+	<script src="../js/jquery-1.11.1.min.js"></script>
+	<script>
+			//设置页面的滚动
+			mui(".mui-scroll-wrapper").scroll({
+				deceleration:0.0005
+			})
+			//跳转到详情页面
+			$('.mui-table-view-cell').each(function(){
+				$(".mui-table-view").click(function(){
+					
+					url="package.html?card_name="+escape(document.all.card_name.innerText);
+					url+="&card_mendian="+escape(document.all.card_mendian.innerText);
+					location.href=url;
+//					location.href="package.html";
+				});
+				
+			});
+		
+		//列表的图片的高度设计
+		$(".mui-table-view-cell a img").css({
+			height:function(index,value){
+				return window.innerWidth*0.298*0.75;
+			}
+		});
+		
+	</script>
+</html>

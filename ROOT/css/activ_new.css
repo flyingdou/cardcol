@@ -1,0 +1,128 @@
+.head_table{background:url(../images/taba_bg.gif) repeat-x; height:28px;text-align: center;}
+.zhixia{ padding-left:3px;padding-top:6px;}
+.paddlfdd{padding-left:30px;}
+.top_right td {border-right: 1px solid #999999; border-top: 1px solid #999999;}
+.list_er{ padding-top:6px; padding-bottom:6px;}
+.con_right img{ border:0px;}
+.t_lists{ border:1px solid #89c04d; margin:10px;}
+.t_lists a{ color:#137ddc; text-decoration:none; }
+.t_lists a:hover{ color:#137ddc; text-decoration:none; }
+.t_lists td{ padding-left:8px;}  
+.t_lists td:hvoer{ background-color:#aaeebb}
+.lrd td{ height:48px; }
+.input_w{ width:50px; height:23px; border:1px solid #cccccc; padding-left:3px; }
+.input_log{ width:500px;height:23px; border:1px solid #cccccc; padding-left:3px;}
+.hui_s{ color:#999999}
+.sbm{width:82px; height:30px;}
+.sns_cn{padding-left:20px;padding-right:10px;padding-top:5px;margin-left: 20px;}
+.snsname{ font-size:17px; line-height:30px; padding-top:1px;}
+.sns_cn div{ line-height:30px;}
+.caipam td{ padding-left:8px;}
+.hz_ll img{ width:60px;height:60px;}
+.input_padding input{margin-right:1005px;}
+.join_r{float:left;}
+.join_r p{ line-height:100px;}
+.j_blue{ color:#0000ff}
+.j_blueUN{color:#0000ff; padding-left:6PX; padding-right:10PX; font-weight:bold; text-decoration:underline;}
+.join_user span{ padding-right:10px;}
+.join_inpud{ border:1px solid #ccc; width:86px; line-height:25px; padding-left:3px; height:25px;}
+.j_ld{  line-height:30px;}
+.j_rd{  padding-left:30px;line-height:30px;}
+.fa_btn_p{padding-left:10px;  padding-top:20px; padding-bottom:10px;}
+.pj a{ color:#0066FF; text-decoration:none; padding-left:10px;}
+.pj a:hover{ color:#FF6600; text-decoration:underline;}
+
+.sbm{ width:82px; height:30px;}
+.p_autodd{ width:130px; margin:0 auto;}
+.jcc{ font-weight:bold; color:#0000ff; padding-right:6px; color:#01bb13;}
+.join_l{ float:left; width:100px;}
+.join_l p{ line-height:36px;}
+.join_r{
+	float:left;
+}
+.join_r p{ line-height:36px;}
+.j_blue{ color:#0000ff}
+.j_blueUN{color:#0000ff; padding-left:6PX; padding-right:10PX; font-weight:bold; text-decoration:underline;}
+.join_user span{ padding-right:10px;}
+.join_inpud{ border:1px solid #ccc; width:86px; line-height:25px; padding-left:3px; height:25px;}
+.j_ld{  line-height:30px;}
+.j_rd{  padding-left:30px;line-height:30px;}
+.fa_btn_p{padding-left:10px;  padding-top:20px; padding-bottom:10px;}
+ .head_table{background:url(../images/taba_bg.gif) repeat-x;text-align: center; }   /* 增加text-align:center; */
+.top_right td{ border-right:1px solid #999999; border-top:1px solid #999999;}
+.b_rightl{ border-right:0px;}
+.bk_a a{ color:#137ddc; text-decoration:none;}
+.bk_a a:hover{ color:#f47f1a; text-decoration:underline;}
+.btn_flf{ float:left}
+.btn_frf{ float:left; padding-top:5px; padding-left:20px;}
+.p_auto{ width:300px; margin:0 auto;}
+.p_autodd{ width:130px; margin:0 auto;}
+.sns_tz{ padding-left:15px; padding-right:20px; color:#acadae;}
+.xg a{ color:#acadae; text-decoration:none}
+.xg a:hvoer{ color:red; text-decoration:none}
+.img_huiy{ display:block;}
+.img_huiy imh{ width:50px; height:50px;}
+.usn{ display:block;  width:50px; text-align:center;}
+.p_flaos{ float:left; margin-right:10px;}
+select { 
+border: 1px solid #999999;
+}
+.con_right{ float:right; background:#F8F9F3; width:710px; border:1px  solid #cccccc; padding-bottom:40px;}
+.right_head{background:url(../images/dhbj.png) repeat-x; height:30px; line-height:32px; border-bottom:1px solid #cccccc;font-size:14px; padding-left:10px;}
+.l_lind{background:url(../images/dhbj.png) repeat-x; height:30px; line-height:32px; border-bottom:1px solid #ccc; font-size:14px; padding-left:7px;}
+.l_lind1{background:url(../images/dhbj.png) repeat-x; height:30px; line-height:32px; border-bottom:1px solid #ccc;border-top:1px solid #ccc;  font-size:14px; padding-left:7px;}
+.on{ padding-left:20px;}
+.off{ padding-left:20px;}
+.on a{ color:red; text-decoration:none; line-height:32px;}
+.on a:hover{ color:red; text-decoration:underline; line-height:32px;}
+.off a{ color:#000000; text-decoration:none;line-height:32px;}
+.off a:hover{ color:red; text-decoration:underline;line-height:32px;}
+.list_er{ padding-top:6px; padding-bottom:6px;}
+.con_right img{ border:0px;}
+.t_lists{ border:1px solid #89c04d; margin:10px;}
+.t_lists a{ color:#137ddc; text-decoration:none; }
+.t_lists a:hover{ color:#137ddc; text-decoration:none; }
+.t_lists td{ padding-left:8px;}
+.t_lists td:hvoer{ background-color:#aaeebb}
+.lrd td{ height:48px; }
+.input_w{ width:50px; height:23px; border:1px solid #cccccc; padding-left:3px; }
+.input_log{ width:500px;height:23px; border:1px solid #cccccc; padding-left:3px;}
+.hui_s{ color:#999999}
+.btn_flf{ float:left}
+.btn_frf{ float:left; padding-top:5px; padding-left:20px;}
+.p_auto{ width:300px; margin:0 auto;}
+.la_change label{ padding-right:20px;}
+.jg_name select{ height:20px; padding-left:3px;}
+.judgeModeA{}
+#left-1 ul.order{margin-left: 10px;margin-top: 10px;}
+.top_right td{ height:23px;}
+.top_right td {border-right: 1px solid #999999; border-top: 1px solid #999999;}
+.list_er{ padding-top:6px; padding-bottom:6px;}
+.con_right img{ border:0px;}
+.t_lists{ border:1px solid #89c04d; margin:10px;}
+.t_lists a{ color:#137ddc; text-decoration:none; }
+.t_lists a:hover{ color:#137ddc; text-decoration:none; }
+ .t_lists td{ padding-left:8px;}    /*增加text-align:center; */
+.t_lists td:hvoer{ background-color:#aaeebb}
+.lrd td{ height:48px; }
+.input_w{ width:50px; height:23px; border:1px solid #cccccc; padding-left:3px; }
+.input_log{ width:500px;height:23px; border:1px solid #cccccc; padding-left:3px;}
+.hui_s{ color:#999999}
+.sbm{width:82px; height:30px;}
+.sns_cn{padding-left:20px;padding-right:10px;padding-top:5px;margin-left: 20px;}
+.snsname{ font-size:17px; line-height:30px; padding-top:1px;}
+.sns_cn div{ line-height:30px;}
+.caipam td{ padding-left:8px;}
+.join_inpud{ border:1px solid #ccc; width:86px; line-height:25px; padding-left:3px; height:25px;}
+.j_ld{  line-height:30px;}
+.j_rd{  padding-left:30px;line-height:30px;}
+.fa_btn_p{padding-left:10px;  padding-top:20px; padding-bottom:10px;}
+.yudd select{ height:26px; padding-left:4px;}
+#partakeform_id{  height:26px; border:1px solid #999999}
+
+/*设置表格内的样式*/
+.t_lists_table tr:not(:first){
+	float:left;
+	padding-left:10px;
+}
+

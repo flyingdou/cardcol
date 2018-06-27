@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>健身挑战</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<link rel="stylesheet"  href="../css/mui.min.css"  />
+		<style>
+			.mui-card .mui-control-content {
+				padding: 10px;
+			}
+			.mui-control-content {
+				height: 700px;		/*此处数据后期需修改*/
+			}
+			.mui-media-body .changer_name{
+				color:black;
+				font-size:13px;
+				
+			}
+			.tackpart_p{
+				font-size:12px;
+			}
+			.tackpart_m{
+				font-size:12px;
+			}
+			/*我参加的挑战*/
+			#my_challenge .my_challenge_ing{
+				background-image:url(../images/challenge_ing.png);
+				background-repeat:no-repeat;
+				background-position:100% 0;
+				background-size:42px 30px;
+				
+			}
+			#my_challenge .my_challenge_ed{
+				background-image:url(../images/challenge_ed.png);
+				background-repeat:no-repeat;
+				background-position:100% 0;
+				background-size:42px 30px;
+				
+			}
+		</style>
+	</head>
+	<body>
+		<header class="mui-bar mui-bar-nav">
+		    <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+		    <h1 class="mui-title">健身挑战</h1>
+		</header>
+		<div class="mui-content" style="top:45px;">
+			<!--选择栏-->
+	        <div style="padding: 10px 10px;">
+				<div id="segmentedControl" class="mui-segmented-control">
+					<a class="mui-control-item mui-active" href="#item1">可参加的挑战</a>
+					<a class="mui-control-item" href="#item2">我参加的挑战</a>
+				</div>
+			</div>
+			<!--详细页面-->
+			<div>
+				<div id="item1" class="mui-control-content mui-active">
+					<div id="scroll" class="mui-scroll-wrapper">
+						<div class="mui-scroll">
+						<ul class="mui-table-view" id="ul1">
+							<li class="mui-table-view-cell mui-media" id="challenge_detail.html">
+								<a href="javascript:;">
+									<img class="mui-media-object mui-pull-left" src="../images/shuijiao.jpg" style="width:80px;height:60px;max-width: 80px;">
+									<div class="mui-media-body">
+										<p class="changer_name">挑战名称</p>
+										<p class='mui-ellipsis-2  tackpart_p' id="tackpart_p">已有<span>0</span>人参加</p>
+										<p  class=" tackpart_m">目标：<span id="tackpart_m">显示获取的内容</span></p>
+									</div>
+								</a>
+							</li>
+							<li class="mui-table-view-cell mui-media" id="package.html">
+								<a href="javascript:;">
+									<img class="mui-media-object mui-pull-left" src="../images/shuijiao.jpg" style="width:80px;height:60px;max-width: 80px;">
+									<div class="mui-media-body">
+										<p class="changer_name">挑战名称</p>
+										<p class='mui-ellipsis-2  tackpart_p' id="tackpart_p">已有<span>0</span>人参加</p>
+										<p  class=" tackpart_m">目标：<span id="tackpart_m">显示获取的内容</span></p>
+									</div>
+								</a>
+							</li>
+							<li class="mui-table-view-cell mui-media" id="package.html">
+								<a href="javascript:;">
+									<img class="mui-media-object mui-pull-left" src="../images/shuijiao.jpg" style="width:80px;height:60px;max-width: 80px;">
+									<div class="mui-media-body">
+										<p class="changer_name">挑战名称</p>
+										<p class='mui-ellipsis-2  tackpart_p' id="tackpart_p">已有<span>0</span>人参加</p>
+										<p  class=" tackpart_m">目标：<span id="tackpart_m">显示获取的内容</span></p>
+									</div>
+								</a>
+							</li>
+							<li class="mui-table-view-cell mui-media" id="package.html">
+								<a href="javascript:;">
+									<img class="mui-media-object mui-pull-left" src="../images/shuijiao.jpg" style="width:80px;height:60px;max-width: 80px;">
+									<div class="mui-media-body">
+										<p class="changer_name">挑战名称</p>
+										<p class='mui-ellipsis-2  tackpart_p' id="tackpart_p">已有<span>0</span>人参加</p>
+										<p  class=" tackpart_m">目标：<span id="tackpart_m">显示获取的内容</span></p>
+									</div>
+								</a>
+							</li>
+							
+						</ul>
+						</div>
+					</div>
+				</div>
+				<div id="item2" class="mui-control-content">
+						<ul class="mui-table-view" id='my_challenge'>
+							<li class="mui-table-view-cell mui-media my_challenge_ing" id="my_challenge_detail.html" >
+								<a href="javascript:;">
+									<img class="mui-media-object mui-pull-left" src="../images/shuijiao.jpg" style="width:80px;height:60px;max-width: 80px;">
+									<div class="mui-media-body">
+										<p class="changer_name">挑战名称</p>
+										<p class='mui-ellipsis-2  tackpart_p' id="tackpart_p">已有<span>0</span>人参加</p>
+										<p  class=" tackpart_m">目标：<span id="tackpart_m">显示获取的内容</span></p>
+									</div>
+								</a>
+							</li>
+							<li class="mui-table-view-cell mui-media my_challenge_ing" id="my_challenge_detail.html" >
+								<a href="javascript:;">
+									<img class="mui-media-object mui-pull-left" src="../images/shuijiao.jpg" style="width:80px;height:60px;max-width: 80px;">
+									<div class="mui-media-body">
+										<p class="changer_name">挑战名称</p>
+										<p class='mui-ellipsis-2  tackpart_p' id="tackpart_p">已有<span>0</span>人参加</p>
+										<p  class=" tackpart_m">目标：<span id="tackpart_m">显示获取的内容</span></p>
+									</div>
+								</a>
+							</li>
+							<li class="mui-table-view-cell mui-media my_challenge_ing" id="" >
+								<a href="javascript:;">
+									<img class="mui-media-object mui-pull-left" src="../images/shuijiao.jpg" style="width:80px;height:60px;max-width: 80px;">
+									<div class="mui-media-body">
+										<p class="changer_name">挑战名称</p>
+										<p class='mui-ellipsis-2  tackpart_p' id="tackpart_p">已有<span>0</span>人参加</p>
+										<p  class=" tackpart_m">目标：<span id="tackpart_m">显示获取的内容</span></p>
+									</div>
+								</a>
+							</li>
+							<li class="mui-table-view-cell mui-media my_challenge_ing" id="" >
+								<a href="javascript:;">
+									<img class="mui-media-object mui-pull-left" src="../images/shuijiao.jpg" style="width:80px;height:60px;max-width: 80px;">
+									<div class="mui-media-body">
+										<p class="changer_name">挑战名称</p>
+										<p class='mui-ellipsis-2  tackpart_p' id="tackpart_p">已有<span>0</span>人参加</p>
+										<p  class=" tackpart_m">目标：<span id="tackpart_m">显示获取的内容</span></p>
+									</div>
+								</a>
+							</li>
+							<li class="mui-table-view-cell mui-media my_challenge_ed" id="" >
+								<a href="javascript:;">
+									<img class="mui-media-object mui-pull-left" src="../images/shuijiao.jpg" style="width:80px;height:60px;max-width: 80px;">
+									<div class="mui-media-body">
+										<p class="changer_name">挑战名称</p>
+										<p class='mui-ellipsis-2  tackpart_p' id="tackpart_p">已有<span>0</span>人参加</p>
+										<p  class=" tackpart_m">目标：<span id="tackpart_m">显示获取的内容</span></p>
+									</div>
+								</a>
+							</li>
+						</ul>
+				</div>
+				
+			</div>
+		</div>
+		
+	</body>
+	<script src="../js/mui.min.js"></script>
+	<script src="../js/jquery-1.11.1.min.js"></script>
+	<script>
+		mui('.mui-scroll-wrapper').scroll({
+			deceleration:0.0005
+		});
+		
+		//jquery跳转到可参加的挑战--挑战详情页面
+		$('.mui-table-view-cell').each(function(){
+			$('#ul1').click(function(){
+//				 alert("段落被点击了。");
+				 location.href='challenge_detail.html';
+			});
+			
+		});
+		//jquery跳转到我参加的挑战--挑战详情页面
+		$('.mui-table-view-cell').each(function(){
+			$('#my_challenge').click(function(){
+//				 alert("段落被点击了。");
+				 location.href='my_challenge_detail.html';
+			});
+			
+		});
+		//如果我没有参见挑战，则在我参加的挑战栏显示暂无挑战的图片  item2
+		var item2=document.getElementById('item2');
+		console.log("innerText:"+item2.innerText);
+//		if(item2.innerText==''){
+			var img=document.createElement('img');
+			img.className="img00";
+			img.style.width="100px";
+			img.style.height="100px";
+			img.style.marginTop="30%";
+			img.style.marginLeft="36%";
+			img.src="../images/tack_challenge_wu.png";
+			item2.appendChild(img);
+			var btn=document.createElement("div");
+			btn.innerHTML='<button   style="  width: 80px;height: 30px;color: rgb(255, 255, 255);text-align: center;margin-top: 2%; margin-left: 38%;background-color: rgb(254, 158, 58);" onclick="tack_challenge()">参加挑战</button>';
+			item2.appendChild(btn);
+//		}
+
+
+
+		//当没有参加挑战时，点击前往参加挑战
+		function tack_challenge(){
+			location.href="challenge.html";
+		}
+		
+		
+		
+		
+	</script>
+		
+</html>

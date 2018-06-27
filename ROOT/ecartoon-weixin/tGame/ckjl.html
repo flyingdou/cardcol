@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title></title>
+    <script src="js/mui.min.js"></script>
+    <link href="css/mui.min.css" rel="stylesheet"/>
+    <script type="text/javascript" charset="utf-8">
+      	mui.init();
+    </script>
+    <style>
+	html,body{
+	   width:100;
+	   height:800px;
+	   margin:0;
+	   padding:0;
+	}
+    .mui-content{
+    	background: rgba(0,0,0,0);
+    	box-sizing: border-box;
+		height:100%;
+		overflow:scroll;
+    }
+    	.headerBox{
+    		height: 160px;
+    		width: 100%;
+    		position:relative;
+            box-sizing: border-box;
+            overflow: hidden;
+    	
+    	}
+    	.jk{
+    		width: 80%;
+    		margin-left: 10%;
+    		z-index: 888;
+    		position: absolute;
+    		top:20%;
+    	}
+    	.js_nextbox{
+    		width: 90%;
+    		margin-left: 5%;
+    		height: 120px;
+    		background: white;
+    		position:relative;
+    		border-radius: 5px;
+    	
+    	}
+    	.mysex{
+    		width: 100px;
+    		position:absolute ;
+    		display: block;
+    		top:-30px;
+    		left: -20px;
+    		
+    	}
+    	.boy{
+    		width: 40px;
+    		position:absolute;
+    		display: block;
+    		top:20px;
+    		left: 20%;
+    	}
+    		.girl{
+    		width: 30px;
+    		position:absolute;
+    		display: block;
+    		top:20px;
+    		right:20%;
+    	}
+    	.radiobox1{   
+    	width:100%;
+    	position:absolute;
+    	bottom:10px;
+    	color:#ff4401;
+    	font-size: 15px;
+                 }
+        .span_1{
+        	width: 50%;
+        	display: block;;
+        	box-sizing: border-box;
+            float: left;
+            padding: 0 16%;
+        	overflow: hidden;
+        }
+    
+    	
+    	
+    	
+    	
+    	.yun{
+    		width: 40px;
+    		height: 35px;
+    		position: absolute;
+    		background: url(img/yun.png)no-repeat scroll 0 0/40px 30px;
+    	}
+    	 	.yun_a{
+    		width: 65px;
+    		height: 60px;
+    		position: absolute;
+    		background: url(img/yun.png)no-repeat scroll 0 0/60px auto;
+    	}
+    	.yun1{
+    		top:10px;
+    		z-index: 4;
+    		top:100px;
+    		-webkit-animation: yun1 50s infinite ease normal;
+            -moz-animation:  yun1  50s infinite ease normal;
+            -o-animation: yun1  50s infinite ease normal;
+            animation:  yun1  50s infinite ease normal;	
+    	}
+    	@-webkit-keyframes  yun1  {
+         0% { left: -10px;
+              top:10px;
+             }
+         100% { left: 100%;
+              top:20px;
+              }
+                                   }
+        @-moz-keyframes  yun11 {
+          0% { left: -10px;
+              top:10px;
+             }
+         100% { left: 100%;
+              top:20px;
+              }
+}
+
+        @keyframes  yun1 {
+           0% { left: -10px;
+              top:10px;
+             }
+         100% { left: 100%;
+              top:20px;
+              }
+              }   
+    	.yun2{
+    		top:100px;
+    		z-index: 2;
+    		top:38%;
+    		-webkit-animation: yun2 90s infinite ease normal;
+            -moz-animation:  yun2  90s infinite ease normal;
+            -o-animation: yun2  90s infinite ease normal;
+            animation:  yun2  90s infinite ease normal;
+    	}
+    	@-webkit-keyframes  yun2  {
+         0% { left: -10px;
+              top:38%;
+             }
+         100% { left: 100%;
+              top:59%;
+              }
+                                   }
+        @-moz-keyframes  yun2  {
+         0% { left: -10px;
+              top:38%;
+             }
+         100% { left: 100%;
+              top:59%;
+              }
+}
+
+        @keyframes  yun2  {
+         0% { left: -10px;
+              top:38%;
+             }
+         100% { left: 100%;
+              top:59%;
+              }
+              }   
+    	.yun3{
+    		z-index: 6;
+    		top:50px;
+    		
+            -webkit-animation: yun3 60s infinite ease normal;
+            -moz-animation:  yun3  60s infinite ease normal;
+            -o-animation: yun3  60s infinite ease normal;
+            animation:  yun3  60s infinite ease normal;
+    	}
+    	@-webkit-keyframes  yun3  {
+         0% { left: -89px;
+              top:50px;
+             }
+         100% { left: 100%;
+              top:90px
+              }
+                                   }
+        @-moz-keyframes  yun3  {
+        0% { left: -89px;
+              top:50px;
+             }
+         100% { left: 100%;
+              top:90px
+              }
+}
+
+        @keyframes  yun3  {
+        0% { left: -89px;
+              top:50px;
+             }
+         100% { left: 100%;
+              top:90px
+              }        }   
+
+   
+    	.yun4{
+    		top:30px;
+    		z-index: 5;
+    		right:-65px;
+    		  -webkit-animation: yun4 70s infinite ease normal;
+            -moz-animation:  yun4  70s infinite ease normal;
+            -o-animation: yun4  70s infinite ease normal;
+            animation:  yun4  67s infinite ease normal;
+    	}
+    		@-webkit-keyframes  yun4  {
+         0% { right: -65px;
+              top:30px;
+             }
+         100% { right: 100%;
+              top:50px
+              }
+                                   }
+        @-moz-keyframes  yun4  {
+         0% { right: -65px;
+              top:30px;
+             }
+         100% { right: 100%;
+              top:50px
+              }
+}
+
+        @keyframes  yun4  {
+             0% { right: -65px;
+              top:30px;
+             }
+         100% { right: 100%;
+              top:50px
+              }
+                          }   
+                          
+           	.yun5{
+    		top:160px;
+    		z-index: 5;
+    		right:-65px;
+    		  -webkit-animation: yun5 20s infinite ease normal;
+            -moz-animation:  yun5  20s infinite ease normal;
+            -o-animation: yun5  20s infinite ease normal;
+            animation:  yun5  20s infinite ease normal;
+    	}
+    		@-webkit-keyframes  yun5  {
+         0% { right: -65px;
+              top:160px;
+             }
+         100% { right: 100%;
+             top:100px;
+              }
+                                   }
+        @-moz-keyframes  yun5  {
+     0% { right: -65px;
+              top:160px;
+             }
+         100% { right: 100%;
+             top:100px;
+              }
+}
+
+        @keyframes  yun5  {
+      0% { right: -65px;
+              top:160px;
+             }
+         100% { right: 100%;
+             top:100px;
+              }
+                          }   
+    	.fc{
+    		width:70px;
+    		height:50px;
+    		position:absolute;
+    		right: -10px;
+    		z-index: 100;
+    		top:130px;
+    		background: url(img/fc.png)no-repeat scroll 0 0 / 70px auto;
+    	    -webkit-animation: fc 40s infinite ease normal;
+            -moz-animation:  fc  40s infinite ease normal;
+            -o-animation: fc 40s infinite ease normal;
+            animation:  fc 40s infinite ease normal;
+    	}
+    		@-webkit-keyframes  fc  {
+         0% { right: -89px;
+              top:50%;
+             }
+         100% { right: 100%;
+              top:45%
+              }
+                                   }
+        @-moz-keyframes  fc  {
+         0% { right: -89px;
+              top:50%;
+             }
+         100% { right: 100%;
+              top:45%
+              }
+}
+
+        @keyframes  fc  {
+      0% { right: -89px;
+              top:50%;
+             }
+         100% { right: 100%;
+              top:45%
+              }         }   
+                          
+        .ball1{
+        	width: 50px;
+        	height:50px;
+        	top:80%;
+        	z-index: 89;
+        	position:absolute;
+        	background: url(img/ball.png)no-repeat  scroll 0 0/auto 50px;
+            -webkit-animation: ball 80s infinite ease normal;
+            -moz-animation:  ball  80s infinite ease normal;
+            -o-animation: ball 80s infinite ease normal;
+            animation:  ball 80s infinite ease normal;
+        }   
+        
+           		@-webkit-keyframes  ball  {
+        0% { left: -89px;
+              top:80%;
+             }
+        50% { left: 50%;
+              top:60%;
+             }
+        100% { left: 100%;
+              top:80%
+              }
+                                   }
+        @-moz-keyframes  ball {
+        0% { left: -89px;
+              top:80%;
+             }
+        50% { left: 50%;
+              top:60%;
+             }
+        100% { left: 100%;
+              top:80%
+              }
+}
+
+        @keyframes  ball {
+        0% { left: -89px;
+              top:80%;
+             }
+        50% { left: 50%;
+              top:60%;
+             }
+        100% { left: 100%;
+              top:80%
+              }
+                          }     
+                          
+        .textbox{
+        	width: 80%;
+        	height: 100%;
+        	position:absolute;
+        	margin:0 10%;
+        	z-index: 888;
+        }   
+        
+        .yun_next{
+        	width:100%;
+        	height: 600px;
+        	position:absolute;
+        }
+
+        .cczs{
+        	width: 80%;
+        	height: 80%;
+        	background: white;
+        	position:relative;
+        	margin: 0 10%;
+        	 border-radius:10px;
+        } 
+        .cczsimg{
+        	width: 40%;
+        	top:-20px;
+        	left: -10px;
+        	position:absolute
+        }
+        .say{
+        	box-sizing: border-box;
+            padding: 60px 10px;
+        }
+        p{
+        	font-size:16px!important;
+        	color:#666666!important;
+        }
+        .p_1{
+        	margin-top:22px ;
+        }
+     
+        .yellow{
+        	color:#febe37;
+        }
+        .kscs{
+        	width: 85%;
+        	margin-top: 15px;
+        	margin-left:7.5%;
+
+        }
+        
+        
+        .iandit{
+        	margin-left: 10%;
+        	width: 100px;
+        	height: 40px;
+        	background: url(img/iandit.png)no-repeat scroll 0 0/100px auto;
+        }  
+        .mine{
+        	width: 72%;
+        	margin-left: 14%;
+        	background:white;
+        	border-radius: 4px;
+        	margin-top: -5px;
+        	padding: 8%;
+        }   
+          .mine1{
+        	width: 72%;
+        	margin-left: 14%;
+        	background:white;
+        	border-radius: 4px;
+        	margin-top: 10px;
+        	padding: 8%;
+        }   
+        .heightBox_next,.weightBox_next{
+        	text-align: right;
+        	width: 55%;
+        	float: right;
+        }   
+           .heightBox{
+             font-weight: 700;
+        	color:#ff4401;
+        	font-size: 14px;
+        }
+        .weightBox{
+        	 font-weight: 700;
+        	 font-size: 14px;
+        	margin-top: 15px;
+        	color:#ff4401;
+        }
+        #myheight,#myweight{
+        	height: 21px!important;
+        	padding: 0!important;
+        	margin:0!important;
+        	width: 60px;
+        		text-align: right;
+        	
+        }  
+        
+        #myweight{
+        	margin-right:4px !important;
+        }
+        
+       #itheight,#itweight{
+        		
+        	height: 21px!important;
+        	padding: 0!important;
+        	margin:0!important;
+        	width: 60px;
+        	text-align: right;
+        	
+        } 
+        
+        #itweight{
+        	margin-right:4px !important;
+        }
+        
+        .jl{
+        	margin-top: 20px;
+        	width: 72%;
+        	height: 80px;
+        	margin-left: 14%;
+        	
+        }               
+
+    </style>
+</head>
+<body style="background: url(img/bg.png)no-repeat scroll 0 0/100% auto;background-size:100% 100%;">
+	<div class="mui-content">
+	    <div class="headerBox">
+	    	<div class="jk">
+	    		<div class="js_nextbox">
+	    			 <div class="radiobox1"style=";">
+	    		    <span class="span_1">
+	    		    	<input type="radio" name="sex" id="boy"checked="checked" value="boy"/>
+	    		    	<label for="boy">男</label>
+	    		    </span>
+	    		    <span class="span_1">
+	    		    	<input type="radio" name="sex" id="girl" value="girl"/>
+	    		    	<label for="girl">女</label>
+	    		    </span>
+	    		    <div class="mui-clearfix">
+	    		    	
+	    		    </div>
+	    		    </div>
+	    			<img src="img/boy.png"width="30px"class="boy" alt="" />
+                    <img src="img/girl.png"width="30px"class="girl" alt="" />
+	    		    <img src="img/mysex.png"width="100px"class="mysex" alt="" />
+	    		
+	    		</div>
+	    		
+	    	</div>
+	    	<!--你一会看我，一会看云-->
+	    	<div class="yun yun1"></div>
+	    	<div class="yun_a yun2"></div>
+	    	<div class="yun yun3"></div>
+	    	<div class="yun_a yun4"></div>
+	    	<!--看，有灰机-->
+	    	<div class="fc"></div>
+	    	<!--看，热气球-->
+	    	<div class="ball1"></div>
+	    </div>
+	   
+
+	    
+	     	<div class="yun_next"style="overflow: hidden;">
+	     		<div class="yun yun3"></div>
+	     		<div class="yun_a yun5"></div>
+	     		<div class="iandit"></div>
+	     		<div class="mine"style="position:relative">
+	     		<div class="heightBox">我的身高：<div class="heightBox_next"><input type="number"class="myheight" id="myheight" value=""/>&nbsp;&nbsp;CM</div></div>
+	     		<div class="weightBox">我的体重：<div class="weightBox_next"><input type="number" class="myweight"id="myweight" value=""/>&nbsp;&nbsp;KG</div></div>	
+	     		<img src="img/xiao.png"style="position: absolute;width: 78%;bottom:-12px ;" alt="" />
+	     		</div>
+	     		<div class="mine1">
+	     		<div class="heightBox">TA的身高：<div class="heightBox_next"><input type="number"class="myheight" id="itheight" value="" />&nbsp;&nbsp;CM</div></div>
+	     		<div class="weightBox">TA的体重：<div class="weightBox_next"><input type="number"class="myweight" id="itweight" value=""/>&nbsp;&nbsp;KG</div></div>	
+	     		</div>
+	    	
+	    <div class="jl"><a class="ckjg"disabled="disabled"><img src="img/ckjl.png"width="100%" alt="" /></a></div>
+	    
+	 	</div>
+	    
+	</div>
+</body>
+<script src="js/jquery.min.js" type="text/javascript"></script>
+<script>
+		$(function(){
+		$(".ckjg").click(function(){
+        var mine=$("input[type='radio']:checked").val();
+        var myheight=$("#myheight").val();
+        var myweight=$("#myweight").val();
+        var itheight=$("#itheight").val();
+        var itweight=$("#itweight").val();
+        if(myheight!=""&&myweight!=""||(itheight!=""&&itweight!="")){
+    	location.href = "ckjg.html?mine="+mine+"&myheight="+myheight+"&myweight="+myweight+"&itheight="+itheight+"&itweight="+itweight;
+    }
+        
+         
+    
+        
+		})
+	})
+</script>
+
+</html>

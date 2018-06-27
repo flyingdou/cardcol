@@ -1,0 +1,83 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>健身教练</title>
+<link href="css/user.css" type="text/css" rel="stylesheet" />
+<meta name="viewport" content="width=device-width, initial-scale=1" /> 
+<script src="script/jquery-1.7.2.min.js" type="text/javascript"></script>
+<script>
+
+$(function(){
+	$('.user_content').find('li').click(function(){
+	     $('.user_content').find('li').attr('class','');
+		 $('.user_content').find('.coach_content .coach_tab').hide();
+	      
+		  $(this).attr('class','user_bor');
+		  $('.user_content').find('.coach_content .coach_tab').eq($(this).index().show());   
+	   
+	   });
+	
+	
+	});
+ 
+
+
+
+</script>
+
+</head>
+
+<body>
+<header class="w-index-header" mon="element_type=nav">
+    <a class="city" href=""><img src="images/home.jpg" /></a>
+   
+    <a id="header-user" class="user" href="javascript:void(0);"><img src="images/index_03.jpg" />我的</a>
+    <div class="brand">健身教练
+    </div>
+</header>
+<div class="user_top">
+  <div class="user_img"><img src="images/phonesi.png" /></div>
+  <div class="user_right">
+    <ul>
+      <li class="user_cj"> <img src="images/join.jpg" width="30px" height="28px" /> <span>加入</span> </li>
+      <li class="user_yd"><img src="images/schedul.jpg" width="30px" height="28px"/><span>课表</span> </li>
+      <li class="user_kb"> <img src="images/join.jpg"width="30px" height="28px" /> <span>逃课吧</span> </li>
+    </ul>
+    <div class="pingjia">
+      <div class="pingxq"><img src="images/user_03.jpg" /><span>234人评价</span></div>
+      <div class="jifen">88.8分</div>
+    </div>
+  </div>
+</div>
+<div class="user_content" id="coach2">
+   <ul>
+     <li class="user_bor"><a href="" >健身私教</a></li><li><a href="">健身计划</a></li>
+   </ul>
+   <div class="coach_content">
+      <div class="coach_tab">
+          <div class="usergoumai">
+      <div class="goumai_pic"><img src="images/phonesi.png" /></div>
+      <div class="goumaicont">
+         <p>3个月训练计划</p>
+         <P class="dids">简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介</P>
+         <p><strong>￥180</strong><span>购买</span></p>
+      </div>
+   </div>
+   <div class="usergoumai">
+     <div class="goumai_pic"><img src="images/phonesi.png" /></div>
+     <div class="goumaicont">
+       <p>3个月训练计划</p>
+       <p class="dids">简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介</p>
+       <p><strong>￥180</strong><span>购买</span></p>
+     </div>
+   </div>
+      </div>
+      <div class="coach_tab">ddddddd</div>
+   </div>
+</div>
+
+
+
+</body>
+</html>

@@ -1,0 +1,73 @@
+﻿@charset "utf-8";
+/* CSS Document */
+#right-2 .right { overflow:hidden;zoom:1;}
+#right-2 .right .right_con{width:790px; border-bottom:1px solid #cccccc; overflow:hidden;zoom:1;}
+#right-2 .right .right_con .coment_com{ font-weight:bold; margin-left:22px; margin-top:10px;float:left; }
+#right-2 .right .right_con .coment_com .conment_title{ overflow:hidden;zoom:1; width:500px;}
+#right-2 .right .right_con .coment_com .conment_title p{ float:left;}
+#right-2 .right .right_con .coment_com .conment_title .comment_sj{ float:right;}
+#right-2 .right .right_con .coment_com .comping2{ overflow:hidden;zoom:1; width:530px;}
+#right-2 .right .right_con .coment_com .comm_picjie{ width:530px; margin-bottom:20px;}
+#right-2 .right .right_con .coment_com .comm_text{ height:20px;  border:1px solid #cccccc;width:530px;color:#aaaaaa; line-height:20px; }
+#right-2 .right .right_con .coment_com  textarea{ width:530px; height:128px; border:1px solid #cccccc;color:#aaaaaa;}
+#right-2 .right .right_con .coment_com .comm_picjie p{ margin-top:13px;}
+#right-2 .right .right_con .coment_com .comm_picjie .coomert{ text-align:center; margin-top:13px;}
+#right-2 .right .right_con .coment_com .comm_picjie .coomert input{ width:80px; height:20px; line-height:18px;}
+ #right-2 .right .right_con .coment_com .comm_picjie .phbtn{ margin-right:60px;}
+#right-2 .right .right_con .right_wen{ font-size:12px; color:#808080; height:30px; line-height:30px; text-align:center;}
+#right-2 .right .right_con  .com_tt{ overflow:hidden;zoom:1; padding-left:30px; padding-top:30px;}
+#right-2 .right .right_con  .com_tt .comment_sj{ float:left;  font-size:13px;  font-weight:normal;}
+#right-2 .right .right_con  .com_tt .comment_sj a{ text-decoration:none; font-size:13px;}
+#right-2 .right .conradio{ height:45px; line-height:45px; padding-left:30px; font-size:14px;}
+#right-2 .right .conradio span{ margin-right:45px; }
+#right-2 .right .coment_pic{ float:left;}
+.right_con .coment_com .comment_skk{ width:530px; border:1px solid #cccccc; height:175px; font-weight:normal; font-size:12px; padding-left:10px; margin-top:10px;}
+.right_con .coment_com .comment_skk p{ margin-top:12px;}
+.right_con .coment_com .comment_skk .comment_ss{ color:#808080; margin-right:13px; float:left;}
+.right_con .coment_com .comment_skk .comment_pic1{ float:left; margin-right:30px;}
+.right_con .coment_com .detebtn{ width:530px; margin-top:13px; text-align:center; margin-bottom:13px;}
+.right_con .coment_com .detebtn_btn{ width:80px; height:20px; line-height:18px;  }
+.fontbtn{ text-align:center; margin-top:50px; margin-bottom:20px; width:960px; margin:0 auto;}
+.fontbtn a{ color:#000; text-decoration:none; cursor:pointer;}
+.fontbtn .prebtn{ margin-right:50px;}
+
+
+ul,li{list-style:none}
+a{ color:#09f;}
+/*容器*/
+#xzw_starSys{width:300px; margin-top:26px; position:relative; height:30px; }
+#xzw_starBox{position:relative;width:120px;float:left}
+/**/
+#xzw_starSys .description{clear:both; margin-left:150px; width:150px; position:absolute; top:2px; left:0px; color:#ff8000;}
+#xzw_starSys .description_0{clear:both; margin-left:150px; width:150px; position:absolute; top:2px; left:0px; color:#ff8000;}
+#xzw_starSys .description_1{clear:both; margin-left:150px; width:150px; position:absolute; top:2px; left:0px; color:#ff8000;}
+#xzw_starSys .description_2{clear:both; margin-left:150px; width:150px; position:absolute; top:2px; left:0px; color:#ff8000;}
+#xzw_starSys .description_3{clear:both; margin-left:150px; width:150px; position:absolute; top:2px; left:0px; color:#ff8000;}
+#xzw_starSys .description_4{clear:both; margin-left:150px; width:150px; position:absolute; top:2px; left:0px; color:#ff8000;}
+#xzw_starSys .description_5{clear:both; margin-left:150px; width:150px; position:absolute; top:2px; left:0px; color:#ff8000;}
+#xzw_starSys .star{height:20px;width:120px;position:relative;background:url(../images/lanrentuku.png) repeat-x;cursor:pointer}
+#xzw_starSys .star li{float:left;padding:0px;margin:0px}
+#xzw_starSys .star li a{display:block;width:24px;height:20px;overflow:hidden;text-indent:-9999px;position:absolute;z-index:5}
+#xzw_starSys .star li a:hover{background:url(../images/lanrentuku.png) 0 -25px repeat-x;z-index:3;left:0}
+#xzw_starSys .star a.one-star{left:0}
+#xzw_starSys .star a.one-star:hover{width:24px}
+#xzw_starSys .star a.two-stars{left:24px}
+#xzw_starSys .star a.two-stars:hover{width:48px}
+#xzw_starSys .star a.three-stars{left:48px}
+#xzw_starSys .star a.three-stars:hover{width:72px}
+#xzw_starSys .star a.four-stars{left:72px}
+#xzw_starSys .star a.four-stars:hover{width:96px}
+#xzw_starSys .star a.five-stars{left:96px}
+#xzw_starSys .star a.five-stars:hover{width:120px}
+#xzw_starSys .current-rating{background:url(../images/lanrentuku.png) 0 -25px repeat-x;position:absolute;height:20px;z-index:1;top:0;left:0}
+
+
+
+
+
+
+
+
+
+
+

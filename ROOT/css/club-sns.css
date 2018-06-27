@@ -1,0 +1,754 @@
+﻿/* CSS Document */
+
+img {
+	border:none;
+}
+
+#left-1 {
+	width:193px;
+	height:100%;
+	overflow:hidden;
+	border:1px solid #999;
+	float:left;
+	margin-top:20px;
+	padding-bottom:10px;
+}
+#left-1 h1, #left-1 h1.community {
+	width:193px;
+	height:30px;
+	line-height:30px;
+	padding-left:10px;
+}
+#left-1 ul. {
+margin-top:10px;
+}
+#left-1 ul.community h1 {
+	background:none;
+	border:none;
+}
+#left-1 ul.bowen {
+	margin-left:20px;
+	line-height:150%;
+}
+#left-1 ul.bowen li a {
+	color:green;
+}
+
+/*club-sns.css*/
+#right-2 {
+	width:753px;
+	height:100%;
+	overflow:hidden;
+	border:1px solid #999;
+	float:right;
+	margin-top:20px;
+	padding-bottom:20px;
+}
+#right-2 h1 {
+	width:790px;
+	height:30px;
+	line-height:30px;
+	padding-left:10px;
+}
+#right-2 .div1 {
+	width:780px;
+	height:70px;
+	line-height:70px;
+	padding-left:10px;
+	float:left;
+}
+#right-2 .div1 a {
+	background:url(../images/space_menu.gif);
+	margin-top:18px;
+	width:50px;
+	height:25px;
+	line-height:25px;
+	border:1px solid #999;
+	cursor:pointer;
+	display:block;
+	text-align:center;
+}
+#right-2 .div2 {
+	margin:0 10px 10px 10px;
+	clear:both;
+}
+#right-2 ul.fatbowen li.first {
+	width:500px;
+	height:100%;
+	overflow:hidden;
+}
+#right-2 ul.fatbowen li.second {
+	width:330px;
+	height:100%;
+	overflow:hidden;
+}
+#right-2 ul.fatbowen li {
+	float:left;
+	margin-right:10px;
+}
+#right-2 ul.fatbowen li a {
+	color:blue;
+}
+p.line {
+	border-bottom:1px dashed #999;
+	clear:both;
+	height:10px;
+	margin-top:7px;
+	margin-bottom:7px;
+}
+/*#right-2 .pagenumber1 {
+	margin-top:10px;
+	margin-right:20px;
+	margin-bottom:20px;
+	height:100%;
+	overflow:hidden;
+}
+#right-2 .pagenumber1 ul {
+	float:right;
+}
+#right-2 .pagenumber1 ul li {
+	float:left;
+	width:25px;
+	height:25px;
+	line-height:25px;
+	text-align:center;
+	border:1px solid #999;
+	margin-right:5px;
+}
+#right-2 .pagenumber1 ul li.end1 {
+	width:50px;
+}
+#right-2 .pagenumber1 ul li a {
+	display:block;
+	float:left;
+	width:25px;
+	height:25px;
+	line-height:25px;
+}
+#right-2 .pagenumber1 ul li a.end1 {
+	width:50px;
+}
+club-sns2.css*/
+ 
+#right-2 .top1 {
+	height:100%;
+	overflow:hidden;
+	padding-bottom:5px;
+}
+#right-2 p.message1 {
+	float:left;
+	width:50px;
+	height:25px;
+	line-height:25px;
+	margin:10px 0 0 10px;
+	text-align:center;
+}
+#right-2 p.message1 a {
+	display:block;
+	width:50px;
+	height:25px;
+	border:1px solid #999;
+	background:url(../images/space_menu.gif);
+}
+#right-2 p.delete1 {
+	float:right;
+	margin:10px 10px 0 0;
+}
+#right-2 p.delete1 input {
+	vertical-align:middle;
+}
+#right-2 .center1 {
+	margin-top:20px;
+	height:100%;
+	overflow:hidden;
+	border-bottom:1px dashed #999;
+	padding-bottom:20px;
+	margin-left:10px;
+	margin-right:10px;
+}
+#right-2 .center1 p.image1 {
+	float:left;
+	width:70px;
+}
+#right-2 .center1 p.image1 input.image1 {
+	vertical-align:middle;
+}
+#right-2 .center1 p.image1 img {
+	vertical-align:middle;
+}
+#right-2 .center1 .message1-3 {
+	float:right;
+	width:700px;
+	height:100%;
+	overflow:hidden;
+	margin-left:10px;
+}
+#right-2 .center1 .message1-3 span {
+	float:right;
+	margin-right:40px;
+}
+#right-2 .center1 .message1-3 span a {
+	color:blue;
+}
+#right-2 .center1 .message1-3 .message1-4 {
+	font-weight:bold;
+}
+#right-2 .center1 p.writing1 {
+	float:left;
+	width:80%;
+	margin-top:15px;
+	margin-left:10px;
+}
+/*#right-2 .pagenumber1 {
+	margin-top:10px;
+	margin-right:20px;
+	height:100%;
+	overflow:hidden;
+}
+#right-2 .pagenumber1 ul {
+	float:right;
+}
+#right-2 .pagenumber1 ul li {
+	float:left;
+	width:25px;
+	height:25px;
+	line-height:25px;
+	text-align:center;
+	border:1px solid #999;
+	margin-right:5px;
+}
+#right-2 .pagenumber1 ul li.end1 {
+	width:50px;
+}
+#right-2 .pagenumber1 ul li a {
+	display:block;
+	float:left;
+	width:25px;
+	height:25px;
+	line-height:25px;
+}
+#right-2 .pagenumber1 ul li a.end1 {
+	width:50px;
+}*/
+#right-2 .review1 {
+	margin-left:20px;
+}
+#right-2 .review1 textarea {
+	margin-top:5px;
+}
+#right-2 .review1 input {
+	width:50px;
+	height:25px;
+	line-height:25px;
+	text-align:center;
+	border:1px solid #999;
+	background:url(../images/space_menu.gif);
+	margin-left:200px;
+}
+/*club-sns3.css*/
+#right-2 .top2 {
+	height:100%;
+	overflow:hidden;
+	padding-bottom:5px;
+}
+#right-2 p.message2 {
+	float:right;
+	width:50px;
+	height:100%;
+	overflow:hidden;
+	margin:10px 20px 0 0;
+	text-align:center;
+}
+#right-2 p.message2 a {
+	display:block;
+	width:50px;
+	height:25px;
+	border:1px solid #999;
+	background:url(../images/space_menu.gif);
+}
+#right-2 p.message2 input {
+	vertical-align:middle;
+}
+#right-2 .center2 {
+	margin-top:20px;
+	height:100%;
+	overflow:hidden;
+	border-bottom:1px dashed #999;
+	padding-bottom:20px;
+	margin-left:10px;
+	margin-right:10px;
+}
+#right-2 .center2 p.image2 {
+	float:left;
+	width:70px;
+}
+#right-2 .center2 p.image2 input.image {
+	vertical-align:middle;
+}
+#right-2 .center2 p.image2 img {
+	vertical-align:middle;
+	width:50px;
+	height:50px;
+}
+#right-2 .center2 .message2-3 {
+	float:left;
+	width:653px;
+	height:100%;
+	overflow:hidden;
+	margin-left:10px;
+}
+#right-2 .center2 .message2-3 #colotoa {
+   font-weight:bold;
+}
+/*#right-2 .center2 .message2-3 .message2-4 {
+	
+}*/
+#right-2 .center2 .message2-3 span {
+	float:right;
+	margin-right:40px;
+}
+/*#right-2 .center2 .message2-3 span a {
+	color:blue;
+}*/
+#right-2 .center2 p.writing2 {
+	float:left;
+	width:80%;
+	/*margin-top:15px;*/
+	margin-left:10px;
+}
+#right-2 .pagenumber2 {
+	margin-top:10px;
+	margin-right:20px;
+	height:100%;
+	overflow:hidden;
+}
+#right-2 .pagenumber2 ul {
+	float:right;
+}
+#right-2 .pagenumber2 ul li {
+	float:left;
+	width:25px;
+	height:25px;
+	line-height:25px;
+	text-align:center;
+	border:1px solid #999;
+	margin-right:5px;
+}
+#right-2 .pagenumber2 ul li.end2 {
+	width:50px;
+}
+#right-2 .pagenumber2 ul li a {
+	display:block;
+	float:left;
+	width:25px;
+	height:25px;
+	line-height:25px;
+}
+#right-2 .pagenumber2 ul li a.end2 {
+	width:50px;
+}
+#right-2 .review2 {
+	margin-left:20px;
+}
+#right-2 .review2 textarea {
+	margin-top:5px;
+}
+#right-2 .review2 input {
+	width:50px;
+	height:25px;
+	line-height:25px;
+	text-align:center;
+	border:1px solid #999;
+	background:url(../images/space_menu.gif);
+	margin-left:200px;
+}
+/*club-sns4.css*/
+#right-2 .center3 {
+	margin-top:20px;
+	height:100%;
+	overflow:hidden;
+	border-bottom:1px dashed #999;
+	padding-bottom:20px;
+	margin-left:10px;
+	margin-right:10px;
+}
+#right-2 .center3 p {
+	float:left;
+	width:70px;
+}
+#right-2 .center3 p input.image {
+	vertical-align:middle;
+}
+#right-2 .center3 p img {
+	vertical-align:middle;
+}
+#right-2 .center3 .message3-3 {
+	float:right;
+	width:700px;
+	height:100%;
+	overflow:hidden;
+	margin-left:10px;
+}
+#right-2 .center3 .message3-3 .message3-4 {
+	font-weight:bold;
+}
+#right-2 .center3 .message3-3 span {
+	float:right;
+	margin-right:40px;
+}
+#right-2 .center3 .message3-3 span a {
+	color:blue;
+}
+#right-2 .center3 p.writing3 {
+	float:left;
+	width:80%;
+	margin-top:15px;
+	margin-left:10px;
+}
+/*club-sns5.css*/
+#right-2 .center4 {
+	margin-left:10px;
+}
+#right-2 .center4 dl {
+	float:left;
+	width:300px;
+	margin-top:20px;
+}
+#right-2 .center4 dl dt {
+	float:left;
+}
+#right-2 .center4 dl dd {
+	float:left;
+	width:200px;
+	margin-left:10px;
+	margin-top:6px;
+}
+#right-2 .center4 dl dd a.friend {
+	font-weight:bold;
+	color:#000;
+}
+#right-2 .center4 dl dd a {
+	color:blue;
+}
+/*club-sns6.css*/
+#right-2 p.message5 {
+	width:50px;
+	height:25px;
+	line-height:25px;
+	margin:10px 0 0 20px;
+	text-align:center;
+}
+#right-2 p.message5 a {
+	display:block;
+	width:50px;
+	height:25px;
+	border:1px solid #999;
+	background:url(../images/space_menu.gif);
+}
+#right-2 .center5 {
+	margin-left:10px;
+}
+#right-2 .center5 dl {
+	float:left;
+	width:300px;
+	margin-top:20px;
+}
+#right-2 .center5 dl dt {
+	float:left;
+}
+#right-2 .center5 dl dd {
+	float:left;
+	width:200px;
+	margin-left:10px;
+	margin-top:6px;
+}
+#right-2 .center5 dl dd a.friend {
+	font-weight:bold;
+	color:#000;
+}
+#right-2 .center5 dl dd a {
+	color:blue;
+}
+/*club-sns3-pingjia.css
+	"club-sns3-pingjia.css" with "member-sns3.css" same
+*/
+
+
+/*club-sns4-xiaoxi.css*/
+#right-2 p.first {
+	margin-top:10px;
+	margin-left:30px;
+}
+#right-2 p.first input.button {
+	margin-right:25px;
+	border:1px solid #999;
+	width:50px;
+	height:25px;
+	line-height:25px;
+	text-align:center;
+	background:url(../images/space_menu.gif);
+	cursor:pointer;
+}
+.save {
+	cursor:pointer;
+	width:87px;
+	height:28px;
+	margin-top:18px;
+	line-height:29px;
+	text-align:left;
+	text-indent:33px;
+	letter-spacing:10px;
+	border:none;
+	cursor:pointer;
+	background:url(../images/anjiuall.jpg);
+	background-position:-100px 0px;
+}
+
+.closea {
+	cursor:pointer;
+	width:87px;
+	height:28px;
+	margin-top:18px;
+	line-height:29px;
+	text-align:left;
+	text-indent:33px;
+	letter-spacing:10px;
+	border:none;
+	cursor:pointer;
+	background:url(../images/anjiuall.jpg);
+	background-position:-100px -60px;
+}
+.xiugai-3 .textea {
+	vertical-align: top;
+	width:300px; 
+	height:80px; 
+	border:1px solid #ccc;
+}
+/*sns-zhengwen.css*/
+.rightfirst{
+margin-top:20px;
+margin-left:30px;}
+.rightfirst h3{
+display:inline;
+font-size:14px;
+color:green;
+}
+.rightfirst span{
+margin-left:15px;}
+.rightfirst span a{
+color:green;}
+
+.rightsecond{
+margin:20px 0 0 30px;}
+.rightsecond dl dt{
+float:left;}
+.rightsecond dl dd a{
+color:green;}
+
+.rightthird{
+margin:20px 30px 0 30px;}
+.rightthird p{
+line-height:180%;
+color:#333;}
+.rightthird p a{
+color:green;}
+.rightthird p.null{
+height:4px;}
+
+.rightfourth{
+margin:20px 0 0 30px;
+height:100%;}
+.rightfourth ul{
+color:#333;
+}
+.rightfourth ul li{
+float:left;
+margin-right:5px;
+height:20px;
+line-height:20px;}
+.rightfourth ul li a{
+color:green;}
+
+.rightfifth{
+margin:20px 0 0 30px;
+height:100%;
+overflow:hidden;}
+.rightfifth dl{
+color:#333;
+height:20px;
+line-height:20px;
+}
+.rightfifth dl dt{
+float:left;}
+.rightfifth dl dd{
+float:left;}
+.rightfifth dl dd a{
+color:green;}
+
+.rightsixth{
+margin:20px 30px 0 30px;
+height:100%;
+overflow:hidden;
+}
+.rightsixth h1{
+border-bottom:none;}
+.rightsixth h1 a{
+margin-left:650px;
+color:green;}
+.rightsixth ul{
+margin-top:20px;
+width:100%;
+}
+.rightsixth ul li{
+float:left;
+margin-right:170px;}
+.rightsixth ul li a{
+color:green;}
+.rightsixth p{
+height:100%;
+overflow:hidden;
+clear:both;
+padding-top:20px;}
+
+.rightseventh{
+margin:20px 30px 0 30px;
+height:100%;
+overflow:hidden;}
+.rightseventh h1{
+border-bottom:none;}
+.rightseventh textarea{
+margin-top:10px;
+border:1px solid #999;}
+.rightseventh p{
+text-align:center;
+margin-top:10px;}
+.rightseventh p input{
+width:50px;
+height:25px;
+text-align:center;
+vertical-align:middle;
+border:1px solid #999;
+cursor:pointer;}
+/**----------------------------------------------*/
+.ui-dialog .ui-dialog-titlebar {
+ background:#9bb711;
+ border:none;
+ margin-bottom:10px;
+}/*标题栏背景*/
+  
+  /* a:hover{
+	text-decoration:underline;
+   }*/
+	.diva {
+		width:798px;
+		float:left;
+		margin-bottom:10px;
+	}
+	.diva a {
+	text-decoration:none;
+	color:#2678c4;
+	font-weight:bold;
+   }
+	.divb {
+		float:left;
+		width:760px;
+		min-height:50px;
+		margin-left:14px;
+		font-size:13px;
+	}
+	.divb dl{
+		width:760px;
+		float:left;
+		margin-bottom:7px;
+		}
+	.divb dt{
+		float:left;
+		}
+	.divb dt img {
+		float:left;
+		width:50px;
+		height:50px;
+		display:inline;
+		margin-left:10px;
+	}
+	.divb dd {
+		float:left;
+		width:700px;
+		margin:0px;
+		min-height:55px;
+		display:inline;
+		border-bottom:1px dashed #ccc;
+	}
+	.divb dd p {
+		float:left;
+		width:670px;
+		margin-top:5px;
+		line-height:18px;
+		margin-left:20px;
+		display:inline;
+	}
+	.divc {
+		float:left;
+		min-height:50px;
+		margin-left:80px;
+		font-size:13px;
+		display:inline;
+
+	}
+	.divc dl{
+		width:700px;
+		float:left;
+		}
+	.divc dt{
+		float:left;
+		}
+	.divc dt img {
+		float:left;
+		width:50px;
+		height:50px;
+		margin-left:10px;
+		display:inline;
+	}
+	.divc dd {
+		float:left;
+		width:620px;
+		margin:0px;
+		min-height:55px;
+		display:inline;
+		border-bottom:1px dashed #ccc;
+	}
+	.divc dd p {
+		float:left;
+		width:605px;
+		margin-top:5px;
+		line-height:18px;
+		margin-left:20px;
+		display:inline;
+	}
+	.spana{
+		margin-left:5px;
+		margin-right:5px;
+	}
+	.spanb{
+		margin-left:5px;
+	}
+	.spanc{
+		float:right;
+		margin-right:20px;
+	}
+	.diva .delete_score {
+		font-weight:normal;
+	}
+	.divb .make_score {
+		color:red;
+	}
+	.divb .score {
+		margin-right:20px; 
+		color:green;
+	}
+	.divc .delete_score {
+		font-weight:normal;
+	}
+	.xiugai .xiugai-5 {
+		text-align:center;
+	}

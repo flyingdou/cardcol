@@ -1,0 +1,447 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>键身教练</title>
+
+<link rel="stylesheet" type="text/css" href="css/pulic-1.css">
+<link rel="stylesheet" type="text/css" href="css/coachlist.css">
+</head>
+
+<body>
+    <div id="top">
+    <div id="top-content">
+        <p class="left">
+        	
+        	
+        		 欢迎来到卡库！<a id="coloa" href="login.asp" target="_parent">请登录</a>  <span>|</span>  <a href="register.asp" id="coloa" target="_parent">注册</a>
+        	
+        </p>
+        <p class="right">
+			<a href="index.asp" id="coloa" target="_parent">卡库首页</a>|
+			<a href="login.asp" id="coloa" target="_parent"> 我的卡库</a>|
+			<a href="message.asp" id="coloa" target="_parent"> 消息<b class="msgb">(0)</b></a>|
+			<a href="shop!queryShopping.asp" id="coloa" target="_parent"><img src="images/gouwuche.png"/><b class="aimgb"> 购物车</b><b class="ainsp">0</b>件</a>|
+			<a href="service.asp" id="coloa" target="_parent"> 服务中心</a>
+			
+		</p>
+    </div>
+   </div>
+
+    
+<div id="header">
+	<div id="logo">
+		<blockquote>
+			<p>
+				<a href="index.asp" target="_parent"><img src="images/logo.png" alt="卡库网"></a>
+			</p>
+		</blockquote>
+	</div>
+	<div id="switch">
+		<span class="city">武汉市</span><a href="city.asp" id="coloa">[切换城市]</a>
+	</div>
+	<div id="ad">
+	  <img src="images/ad.png">
+	</div>
+</div>
+
+<div id="nav">
+    <div id="nav_first">
+      <div class="ml">
+       <h2><a href="">卡库服务</a></h2></div>
+       <div class="navdaohang">
+          <div class="item pcios nav_dang"><a href=""><span>健身计划</span></a></div>
+            <div class="item nav_item">
+               <div class="item_pan"><a href="#">瘦身减重</a><a href="" class="item_zj">健美增肌</a></div>
+               <div><a href="" >运动康复</a><a href=""class="item_sprot">提高运动表现</a></div>
+            </div>
+          <div class="item pcios nav_cord"><a href="#"><span>健身卡</span> </a></div>
+          <div class="item"><a href="">圈存(计时)</a></div>
+          <div class="item"><a href="">圈存(计次)</a></div>
+          <div class="item"><a href="">圈存(储值)</a></div>
+          <div class="item"><a href="">对赌(次数)</a></div>
+          <div class="item"><a href="">对赌(频率)</a></div>
+          <div class="item"><a  href="">预付卡</a></div>
+          <div class="item pcios nav_yuding"><a href=""><span>场馆预订</span></a></div>
+          <div class="item nav_item"><a href="">羽毛球</a><a href="">乒乓球</a><a href="">篮球</a></div>
+          <div class="item nav_item"><a href="">足球</a> <a href="">排球 </a><a href="">台球</a><a href="">网球</a></div>
+          <div class="item pcios nav_jiaolian"><a href=""><span>健身教练</span></a></div>
+          <div class="item nav_item"><a href="">网络私教</a><a href="">传统私教</a></div>
+          
+       </div>
+    </div>
+  <ul id="navitems">
+         <li><a href="" >首页</a></li>
+         <li><a href="">健身计划</a></li>
+         <li><a href="">健身场馆</a></li>
+         <li><a href=""class="nav_a">健身教练</a></li>
+         <li><a href="">健身挑战</a></li>
+         <li><a href="">健身地图</a></li>
+       
+             
+     </ul>
+  <div class="search">
+    <form id="search" name="search" action="" method="post">
+      <select name="seledcted" id="seledcted">
+        <option value="1">健身计划</option>
+        <option value="2">健身场馆</option>
+        <option value="3">健身教练</option>
+      </select>
+      <input type="text" class="txtsearch" />
+      <input type="button" value="搜索" class="submit"> 
+    </form>
+  </div>
+
+</div>
+
+<div class="dengl_top" >
+     <div class="coach_home">
+           <div class="piimg_coach">
+              <h2>教练筛选</h2>  
+              <div class="clubome_cont">
+                      <ul>
+                        <li class="border_clubome"><div class="cluhome_navli">已选条件:</div>
+                          <div class="cluhome_1">
+                          <a href="" ><b>江岸区</b><img src="images/plan_lde.png" /></a>  
+                          <a href="" ><b>达到最佳运动状态</b><img src="images/plan_lde.png" /></a>
+                          <a href="" ><b>动感单车</b><img src="images/plan_lde.png" /></a>
+                          <a href="" ><b>网络私教</b><img src="images/plan_lde.png" /></a>
+                           <a href="" ><b>理智型</b><img src="images/plan_lde.png" /></a>
+                            <a href="" ><b>男性</b><img src="images/plan_lde.png" /></a>
+                          <a class="all">全部撤销</a>
+                          </div>
+                        </li>
+                        <li class="border_clubome" style="height:58px; line-height:58px;"><div class="cluhome_navli">所在地区:</div>
+                         <div class="cluhome_2" style="margin-top:10px;">
+                            <a href="">全部</a> <a href="">江岸区</a><a href="">江汉区</a><a href="">桥口区</a><a href="">汉阳区</a><a href="">武昌区</a><a href="">青山区</a><a href="">洪山区</a><a href="">东西湖区</a><a href="">汉南区</a><a href="">蔡区</a><a href="">江夏区</a><a href="">黄坡区</a><a href="">新洲区</a>
+             
+                          </div>
+                       </li>
+                        <li class="border_clubome" style="height:35px; line-height:35px;"><div class="cluhome_navli">教练专长:</div>
+                         <div class="cluhome_3">
+                            <a href="">全部</a> <a href="">瘦身减重</a><a href="">肌肉健美</a><a href="">促进健康</a><a href="">达到最佳运动状态</a>
+             
+                          </div>
+                       </li>
+                       <li class="border_clubome" style="height:62px; line-height:62px;"><div class="cluhome_navli">运动项目:</div>
+                         <div class="cluhome_2" style="line-height:25px; margin-top:10px;">
+                  <a href="">全部</a> <a href="">器械健身</a><a href="">动感单车</a><a href="">瑜珈</a><a href="">普拉提</a><a href="">健身操</a><a href="">舞蹈</a><a href="">武术搏击</a><a href="">游泳</a><a href="">羽毛球</a><a href="">乒乓球</a><a href="">篮球</a><a href="">足球</a><a href="">排球</a>  <a href="">网球</a> <a href="">台球</a>
+             
+                          </div>
+                       </li>
+                       <li class="border_clubome" style="height:38px; line-height:38px;"><div class="cluhome_navli">教学形式:</div>
+                         <div class="cluhome_3">
+                            <a href="">全部</a> <a href="">网络私教</a><a href="">传统私教</a>
+             
+                          </div>
+                       </li>
+                       <li class="border_clubome" style="height:35px; line-height:35px;"><div class="cluhome_navli">教学风格:</div>
+                         <div class="cluhome_3">
+                            <a href="">全部</a> <a href="">理智型</a><a href="">情感型</a><a href="">幽默型</a><a href="">技巧型</a><a href="">自然型</a>
+             
+                          </div>
+                       </li>
+                        <li class="border_clubome" style="height:35px; line-height:35px; border:none;"><div class="cluhome_navli" style="text-align:left; padding-left:16px; width:75px;">性别:</div>
+                         <div class="cluhome_3">
+                           <a href="">全部</a> <a href="">男性</a> <a href="">女性</a>
+             
+                          </div>
+                       </li>
+                   </ul>
+                
+           
+              </div>
+           </div>
+      </div>
+      <div class="coachhome_side">
+         <div class="coachhome_xian">
+           <h2>什么是网络健身私教?</h2>
+           <div class="coachhome_pic">
+                <div class="coachhome_bord"><img src="images/coachlist_pic.png" /></div>
+              
+           </div>
+           <div class="coachhome_wenzi">
+               教练使用卡库网和卡库健身APP提供的网络私教工具分析会员身体数据，为会员制定健身训练和饮食计划。
+           </div>
+         </div>
+          <div class="coachhome_padding">
+               <h2>网络私教的特点</h2>
+     
+                 <div class="coachhome_pp">
+                    <ul>
+                       <li>不受时空限制,随时随地提供<br />(接受)服务,服务方式更便捷。</li>
+                        <div class="bottom_pic"></div>
+                       <li>服务成本(费用)更低,让更多消费者接受专业健身指导。</li>
+                       <div class="bottom_pic"></div>
+                       <li>卡库私教工具记录分析运动(身体)数据,健身运动更科学。</li>
+                    </ul> 
+                 </div>
+          </div>
+     </div>
+      <div class="coachhome_content">
+         <div class="coachhome_leftside">
+             <ul> 
+                <li>
+                     <h5>为什么聘请私人教练?</h5>
+                     <div class="toach_txt_1">动力与支持</div>
+                     <p>当运动遇到阻力，私人教练会给你鼓励与支持，帮助完成训练。 </p>
+                      <div class="toach_txt_1">安全与照顾</div>
+                     <p>私人教练会给你安全的保护和提醒，避免不必要的运动损伤。</p>
+                      <div class="toach_txt_1">科学与进步</div>
+                     <p>为您量身定制运动方案和饮食计划，帮助您实现健身目标。</p>
+                      <div class="toach_txt_1">动力与支持</div>
+                     <p>帮助您不受外界干扰，专心训练，更短时间内达到健身效果。 </p>
+                </li>
+                <li>
+                      <div class="coa_woo">如何选择私人教练</div>
+                       <div class="toach_txt_2 ">查证书</div>
+                     <p>教练应受过专业职业技能培训，并持有培训机构颁发的证书。</p>
+                      <div class="toach_txt_2">看体型</div>
+                     <p>专业私教体型匀称健美、肤色健康。口若悬河未必代表专业。</p>
+                      <div class="toach_txt_2">多提问</div>
+                     <p>私教的回答能显示他的教学经验、专业知识和服务水平。</p>
+                      <div class="toach_txt_2">听口碑</div>
+                     <p>通过网络等渠道了解其他会员对教练的评价和反映。 </p>
+                      
+                </li>
+            </ul>
+      
+         </div>
+         <div class="coachhome_rightside">
+            <div class="coachhome_navlan">
+                <span class="pauxu">排序:</span>
+                <ul>
+                   <li class="coachhomeli"><a href="">时间</a></li>
+                   <li><a href="">销量</a></li>
+                   <li style=" width:80px;"><a href="" style=" width:80px;">发布时间</a></li>
+                   
+                </ul>
+              <div class="coachhome_nav">
+                  
+          <a href=""><img src="images/plan_pre.gif" /></a>  <a href=""><img src="images/plan_next.gif" /></a>
+                  <div class="coachhome_fenye"><span class="coachhome_yema">1</span>/<span>1</span></div>
+                </div>
+            </div>
+            <div class="coachhome_cont_main">
+               <div class="coachhome_list_cont">
+                   <div class="coach_box">
+                      <div class="list_pic"><a href=""><img src="images/coach_lp2.png" width="220px" height="214px" /></a></div>
+                         <div class="coach_gg">
+                              <h2><a href="">张三丰</a></h2>
+                              <div class="clubhome_pj"><span>已有12人评价</span><strong>98.50分</strong></div>
+                                  
+                                 <div class="cont_main_card">
+                                             <div class="cont_main_title"><a href="">more</a><span>收费标准</span></div>
+                                             <div class="cont_main_container">
+                                                <ul>
+                                                   <li class="card_bg"><a href="">购买</a>12个月对赌健身卡</li>
+                                                   <li class="card_bg"><a href="">购买</a>6个月对赌健身</li>
+                                                   <li class="card_bg"><a href="">购买</a>公益健身卡</li>
+                                                   <li><a href="">购买</a>测试卡</li>
+                                                         
+                                                </ul>
+                                             </div>
+                                    </div>
+                                
+                                
+                         </div>
+                         
+                         <div class="webserve">
+                              <div class="fuwu">
+                                  <span>服务项目：</span><a href="">脊柱保养</a><a href="">形体瑜珈</a><a href="">哈他瑜伽  </a><a href="">肚皮舞 </a><a href=""> 减脂增肌</a>
+                              </div>
+                              <div class="zhuangye">
+                                  <span>专业资质：</span><a href="" class="renzheng">亚洲健身学院高级证</a><a href="" class="renzhengpp">普拉提职业资格证</a><a href="">国家健身教练职业资格</a><a href="">形体瑜伽培训</a>
+                              </div>
+                         </div>
+                         
+                  </div>
+                  
+                    <div class="coach_box">
+                      <div class="list_pic"><a href=""><img src="images/coach_lp2.png" width="220px" height="214px" /></a></div>
+                         <div class="coach_gg">
+                              <h2><a href="">张三丰</a></h2>
+                              <div class="clubhome_pj"><span>已有12人评价</span><strong>98.50分</strong></div>
+                                     <div class="cont_main_card">
+                                             <div class="cont_main_title"><a href="">more</a><span>收费标准</span></div>
+                                             <div class="cont_main_container">
+                                                <ul>
+                                                   <li class="card_bg"><a href="">购买</a>12个月对赌健身卡</li>
+                                                   <li class="card_bg"><a href="">购买</a>6个月对赌健身</li>
+                                                   <li class="card_bg"><a href="">购买</a>公益健身卡</li>
+                                                   <li><a href="">购买</a>测试卡</li>
+                                                         
+                                                </ul>
+                                             </div>
+                                    </div>
+                         </div>
+                         
+                         <div class="webserve">
+                              <div class="fuwu">
+                                  <span>服务项目：</span><a href="">脊柱保养</a><a href="">形体瑜珈</a><a href="">哈他瑜伽  </a><a href="">肚皮舞 </a><a href=""> 减脂增肌</a>
+                              </div>
+                              <div class="zhuangye">
+                                  <span>专业资质：</span><a href="">亚洲健身学院高级证</a><a href="">普拉提职业资格证</a><a href="">国家健身教练职业资格 </a><a href="">形体瑜伽培训</a>
+                              </div>
+                         </div>
+                         
+                  </div>
+                  
+                  
+                  
+                  
+                    
+               </div>
+                   <div class="coachhome_list_cont">
+                  
+                        <div class="coach_box">
+                      <div class="list_pic"><a href=""><img src="images/coach_lp2.png" width="220px" height="214px" /></a></div>
+                         <div class="coach_gg">
+                             <h2><a href="">张三丰</a></h2>
+                              <div class="clubhome_pj"><span>已有12人评价</span><strong>98.50分</strong></div>
+                                     <div class="cont_main_card">
+                                             <div class="cont_main_title"><a href="">more</a><span>收费标准</span></div>
+                                             <div class="cont_main_container">
+                                                <ul>
+                                                   <li class="card_bg"><a href="">购买</a>12个月对赌健身卡</li>
+                                                   <li class="card_bg"><a href="">购买</a>6个月对赌健身</li>
+                                                   <li class="card_bg"><a href="">购买</a>公益健身卡</li>
+                                                   <li><a href="">购买</a>测试卡</li>
+                                                         
+                                                </ul>
+                                             </div>
+                                    </div>
+                         </div>
+                         
+                         <div class="webserve">
+                              <div class="fuwu">
+                                  <span>服务项目：</span><a href="">脊柱保养</a><a href="">形体瑜珈</a><a href="">哈他瑜伽  </a><a href="">肚皮舞 </a><a href=""> 减脂增肌</a>
+                              </div>
+                              <div class="zhuangye">
+                                  <span>专业资质：</span><a href="">亚洲健身学院高级证</a><a href="">普拉提职业资格证</a><a href="">国家健身教练职业资格 </a><a href="">形体瑜伽培训</a>
+                              </div>
+                         </div>
+                         
+                  </div>
+                  
+                   <div class="coach_box">
+                      <div class="list_pic"><a href=""><img src="images/coach_lp2.png" width="220px" height="214px" /></a></div>
+                         <div class="coach_gg">
+                             <h2><a href="">张三丰</a></h2>
+                              <div class="clubhome_pj"><span>已有12人评价</span><strong>98.50分</strong></div>
+                                     <div class="cont_main_card">
+                                             <div class="cont_main_title"><a href="">more</a><span>收费标准</span></div>
+                                             <div class="cont_main_container">
+                                                <ul>
+                                                   <li class="card_bg"><a href="">购买</a>12个月对赌健身卡</li>
+                                                   <li class="card_bg"><a href="">购买</a>6个月对赌健身</li>
+                                                   <li class="card_bg"><a href="">购买</a>公益健身卡</li>
+                                                   <li><a href="">购买</a>测试卡</li>
+                                                         
+                                                </ul>
+                                             </div>
+                                    </div>
+                         </div>
+                         
+                         <div class="webserve">
+                              <div class="fuwu">
+                                  <span>服务项目：</span><a href="">脊柱保养</a><a href="">形体瑜珈</a><a href="">哈他瑜伽  </a><a href="">肚皮舞 </a><a href=""> 减脂增肌</a>
+                              </div>
+                              <div class="zhuangye">
+                                  <span>专业资质：</span><a href="">亚洲健身学院高级证</a><a href="">普拉提职业资格证</a><a href="">国家健身教练职业资格 </a><a href="">形体瑜伽培训</a>
+                              </div>
+                         </div>
+                         
+                  </div>
+                  
+                  
+                  
+                   
+                   </div>
+                  
+                   <div class="coachhome_list_cont">
+                   
+                      <div class="coach_box">
+                      <div class="list_pic"><a href=""><img src="images/coach_lp2.png" width="220px" height="214px" /></a></div>
+                         <div class="coach_gg">
+                              <h2><a href="">张三丰</a></h2>
+                              <div class="clubhome_pj"><span>已有12人评价</span><strong>98.50分</strong></div>
+                                     <div class="cont_main_card">
+                                             <div class="cont_main_title"><a href="">more</a><span>收费标准</span></div>
+                                             <div class="cont_main_container">
+                                                <ul>
+                                                   <li class="card_bg"><a href="">购买</a>12个月对赌健身卡</li>
+                                                   <li class="card_bg"><a href="">购买</a>6个月对赌健身</li>
+                                                   <li class="card_bg"><a href="">购买</a>公益健身卡</li>
+                                                   <li><a href="">购买</a>测试卡</li>
+                                                         
+                                                </ul>
+                                             </div>
+                                    </div>
+                         </div>
+                         
+                         <div class="webserve">
+                              <div class="fuwu">
+                                  <span>服务项目：</span><a href="">脊柱保养</a><a href="">形体瑜珈</a><a href="">哈他瑜伽  </a><a href="">肚皮舞 </a><a href=""> 减脂增肌</a>
+                              </div>
+                              <div class="zhuangye">
+                                  <span>专业资质：</span><a href="">亚洲健身学院高级证</a><a href="">普拉提职业资格证</a><a href="">国家健身教练职业资格 </a><a href="">形体瑜伽培训</a>
+                              </div>
+                         </div>
+                         
+                  </div>
+                  <div class="coach_box">
+                      <div class="list_pic"><a href=""><img src="images/coach_lp2.png" width="220px" height="214px" /></a></div>
+                         <div class="coach_gg">
+                             <h2><a href="">张三丰</a></h2>
+                              <div class="clubhome_pj"><span>已有12人评价</span><strong>98.50分</strong></div>
+                                     <div class="cont_main_card">
+                                             <div class="cont_main_title"><a href="">more</a><span>收费标准</span></div>
+                                             <div class="cont_main_container">
+                                                <ul>
+                                                   <li class="card_bg"><a href="">购买</a>12个月对赌健身卡</li>
+                                                   <li class="card_bg"><a href="">购买</a>6个月对赌健身</li>
+                                                   <li class="card_bg"><a href="">购买</a>公益健身卡</li>
+                                                   <li><a href="">购买</a>测试卡</li>
+                                                         
+                                                </ul>
+                                             </div>
+                                    </div>
+                         </div>
+                         
+                         <div class="webserve">
+                              <div class="fuwu">
+                                  <span>服务项目：</span><a href="">脊柱保养</a><a href="">形体瑜珈</a><a href="">哈他瑜伽  </a><a href="">肚皮舞 </a><a href=""> 减脂增肌</a>
+                              </div>
+                              <div class="zhuangye">
+                                  <span>专业资质：</span><a href="">亚洲健身学院高级证</a><a href="">普拉提职业资格证</a><a href="">国家健身教练职业资格 </a><a href="">形体瑜伽培训</a>
+                              </div>
+                         </div>
+                         
+                  </div>
+                    
+                   
+                   
+                  </div>
+                  
+                      
+                       <div class="fenye_tab">
+                          <div class="fenye_club">
+                            <div class="fenye_btn">
+                              <a href="" class="btnback"></a><span>1</span><a href="" class="btnlast"></a></div> 
+                           <div class="fenye_btn_gong">共<span>1</span>页  到第  <input type="text"  value="1" class="textbtn"/> 页  </div>                          <input type="button" value="" class="textque" />
+                         </div>
+                       </div>
+
+             </div>
+            
+         </div>
+     </div>
+
+</div>
+
+
+
+
+</body>
+</html>

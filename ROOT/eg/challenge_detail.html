@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>可参加的挑战-挑战详情</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<link rel="stylesheet" href="../css/mui.min.css"/>
+		<style type="text/css">
+			.title{
+				height:150px;
+				background-image:url(../images/shuijiao.jpg);
+				background-repeat: no-repeat;
+				background-position:100% auto;
+				background-size:100% 100%;
+			}
+			.zhezhao{
+				background-color:rgba(0,0,0,.7);
+				position:absolute;
+				top:0;
+				width:100%;
+				height:150px;
+				z-index: 1111;
+			}
+			.yh_img{
+				float:left;
+				width:100px;
+				height:75px;
+				margin-left: 20px;
+    			margin-top: 35px;
+			}
+			.xx{
+				float:left;
+				line-height:12px;
+				margin:45px 20px;
+				/*border:1px solid #111;*/
+			}
+			.xx .bt{
+				color:white;
+			}
+			.mui-table-view{
+				margin-top:20px;
+				margin-bottom:20px;
+			}
+			.list{
+				line-height:15px;
+			}
+			.list img{
+				width:20px;
+				height:20px;
+				margin-right:5px;
+			}
+			.list .xm{
+				color:#a0a0a0;
+				position:absolute;
+				top:13px;
+				font-size:15px;
+			}
+			.list .zt{
+				color:#fe9e3a;
+				font-size:15px;
+			}
+			.zhuyi{
+				font-size:15px;
+				font-weight:bold;
+				margin-bottom:10px;
+				color:#666666;
+			}
+			.zhuyi_nr{
+				font-size:15px;
+				color:#999999;
+				height: 120px;
+			}
+			
+			
+			/*分享图标*/
+			.mui-bar .mui-icon {
+    			font-size: 20px;
+    			color:white;
+    			}
+			/*底部样式*/
+			.fu{
+				line-height:45px;
+				width:50%;
+				float:left;
+				text-align:center;
+				font-size:15px;
+				background-color:#666666;
+				
+			}
+			.mui-bar-footer span:nth-child(2){
+				float:left;
+				line-height:45px;
+				width:50%;
+				background-color:#FE9E3A;
+				margin-right:0px;
+				color:#FFFFFF;
+				overflow:hidden;
+				text-align:center;
+				font-size:15px;
+			}
+			/*去掉底部左右两边的padding值*/
+			.mui-bar {
+			    padding-right: 0px;
+			    padding-left: 0px;
+			}
+			#share{
+				color:#FFFFFF;
+			}
+		</style>
+	</head>
+	<body>
+		<footer class="mui-bar mui-bar-footer" >
+			<span class="mui-col-sm-6 fu"><span id="share">分享</span></span>
+			<span class="mui-col-sm-6 " id="submit_order">参加挑战</span>
+		</footer>
+		<div class="mui-content">
+			<div class="mui-scroll-wrapper" >
+			    <div class="mui-scroll">
+			    	<div class="title">
+			    		<div class="zhezhao">
+			    			<img src="../images/shuijiao.jpg" class="yh_img"/>
+			    			<div class="xx">
+			    				<p class="bt">发布人：<span id="name">用户昵称</span></p>
+			    				<p class="bt">裁判人：<span id="caipan">活动发起人</span></p>
+			    				<p class="bt">参加人数：<span id="number">0</span>人</p>
+			    			</div>
+			    		</div>
+			    	</div>
+			        <!--这里放置真实显示的DOM内容-->
+			        <!--挑战目标部分-->
+					<ul class="mui-table-view">
+						<li class="mui-table-view-cell list">
+								<img src="../images/01.png" />
+								<span class="xm">挑战目标</span>
+								<span class="mui-pull-right zt" id="goal">30天减少体重10kg</span>
+						</li>
+						<li class="mui-table-view-cell list">
+								<img src="../images/02.png" />
+								<span class="xm">成功奖励</span>
+								<span class="mui-pull-right zt" id="goal">一颗棒棒糖</span>
+						</li>
+						<li class="mui-table-view-cell list">
+								<img src="../images/03.png" />
+								<span class="xm">失败惩罚</span>
+								<span class="mui-pull-right zt" id="goal">向基金会支付0.1元</span>
+						</li>
+					</ul>
+					<ul class="mui-table-view">
+						<li class="mui-table-view-cell">
+							<div class="zhuyi">注意事项</div>
+							<p class="zhuyi_nr">运动成绩请记录到训练日志中，裁判评判成绩的真实性。挑战成功，保证金全额退还。运动成绩请记录到训练日志中，裁判评判成绩的真实性。挑战成功，保证金全额退还。</p>
+						</li>
+					</ul>
+					<!--<button type="button" class="mui-btn mui-btn-blue mui-btn-block" style="padding:5px 25px;" id="enter">报名</button>
+	-->
+			    </div>
+			</div>
+		</div>
+	</body>
+	<script src="../js/mui.min.js"></script>
+	<script>
+		mui('.mui-scroll-wrapper').scroll({
+			deceleration:0.0005
+		})
+			//点击报名时跳转到报名页面
+			var submit_order=document.getElementById('submit_order');
+			submit_order.addEventListener('tap',function(){
+				
+				location.href='enter.html';
+			});
+	</script>
+</html>

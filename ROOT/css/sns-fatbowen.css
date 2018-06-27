@@ -1,0 +1,219 @@
+/* CSS Document */
+input.button {
+	background: url(../images/space_menu.gif);
+	cursor: pointer;
+}
+
+#content h1 {
+	height: 30px;
+	line-height: 30px;
+	margin-top: 20px;
+	padding-left: 10px;
+	border-bottom: none;
+}
+
+#content p.first {
+	height: 30px;
+	line-height: 30px;
+	margin: 20px 0 10px 20px;
+}
+
+#content p.first input {
+	height: 25px;
+	line-height: 25px;
+	margin-right: 20px;
+	border: 1px solid #999;
+}
+
+#content p.first input.title {
+	width: 400px;
+}
+
+#content p.first input.time {
+	text-align: center;
+	width: 100px;
+}
+
+#content .bowen-content {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	text-align: center;
+}
+
+#content .bowen-content img {
+	width: 920px;
+}
+
+#content p.second {
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+#content
+ 
+p
+.second
+ 
+a
+,
+margin-left
+:
+20px;
+}
+#content p.second a,#content ul.comment li a.end {
+	text-decoration: underline;
+	color: #f60;
+}
+
+#content p.third {
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+#content p.third input {
+	height: 25px;
+	line-height: 25px;
+	border: 1px solid #999;
+	width: 450px;
+	color: #999;
+}
+
+#content p.third span {
+	margin-left: 5px;
+}
+
+#content ul.comment {
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+#content ul.comment li {
+	float: left;
+	margin-right: 15px;
+}
+
+#content ul.comment li input {
+	vertical-align: middle;
+	margin-right: 2px;
+}
+
+#content p.fourth {
+	text-align: center;
+	float: left;
+	width: 960px;
+	margin-top: 20px;
+}
+
+#content p.fourth input {
+	width: 100px;
+	height: 25px;
+	line-height: 25px;
+	border: 1px solid #999;
+	text-align: center;
+	margin: 0 5px 0 5px;
+}
+
+#content p.fifth {
+	text-align: center;
+	float: left;
+	margin-top: 20px;
+	width: 100%;
+}
+
+#content p.fifth input {
+	width: 100px;
+	height: 25px;
+	line-height: 25px;
+	border: 1px solid #999;
+	text-align: center;
+}
+
+/*sns-classification.css*/
+.fenlei {
+	overflow: auto;
+	margin: 0 auto;
+	border: 1px solid #999;
+	padding-bottom: 10px;
+	margin-bottom: 5px;
+}
+
+.fenlei h1 {
+	border-bottom: none;
+	height: 30px;
+	line-height: 30px;
+	padding-left: 10px;
+}
+
+.fenlei-1 {
+	width: 100%;
+	overflow: hidden;
+	margin-top: 10px;
+	margin-left: 20px;
+}
+
+.fenlei-1 ul li {
+	float: left;
+	margin-right: 10px;
+	height: 30px;
+	line-height: 30px;
+	color: #999;
+}
+
+.fenlei-1 ul li input.text {
+	width: 200px;
+	height: 20px;
+	color: #999;
+	border: 1px solid #999;
+}
+
+.fenlei-1 ul li input.button,p.input .button {
+	width: 70px;
+	height: 25px;
+	border: 1px solid #999;
+}
+
+.fenlei-2 {
+	width: 100%;
+	overflow: auto;
+	margin: 20px 0 0 20px;
+}
+
+.fenlei-2 ul li {
+	float: left;
+	margin-right: 10px;
+}
+
+.fenlei-2 ul li.first {
+	margin-right: 280px;
+	color: #999;
+}
+
+.fenlei-2 ul li a {
+	color: #06f;
+}
+
+.fenlei-2 ul li a.up {
+	display: block;
+	width: 12px;
+	height: 12px;
+	background: url(../images/Snap3.jpg) no-repeat -443px -79px;
+}
+
+.fenlei-2 ul li a.down {
+	display: block;
+	width: 12px;
+	height: 12px;
+	background: url(../images/Snap3.jpg) no-repeat -457px -78px;
+}
+
+.fenlei p.line {
+	height: 10px;
+	border-bottom: 1px dashed #999;
+	margin: 0 30px 0 20px;
+}
+
+p.input {
+	text-align: center;
+	margin: 20px 0 10px 0;
+}

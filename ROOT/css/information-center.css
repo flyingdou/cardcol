@@ -1,0 +1,279 @@
+/* CSS Document */
+
+#left-1 {
+	width:146px;
+	height:100%;
+	overflow:hidden;
+	float:left;
+	margin-top:20px;
+	padding-bottom:10px;
+}
+
+#left-1 h1,#left h1.inform{
+	width:136px;
+	height:30px;
+	line-height:30px;
+	padding-left:10px;
+}
+#left-1 ul.inform{
+	margin-top:10px;
+}
+#left-1 ul.inform li{
+	cursor:pointer;
+}
+#left-1 ul.inform h1{
+	background:none;
+	border:none;
+}
+#left-1 ul.bowen{
+	margin-left:20px;
+	line-height:200%;
+}
+
+#right-2{
+	width:800px;
+	height:100%;
+	overflow:hidden;
+	float:right;
+	margin-top:20px;
+	padding-bottom:20px;white-space:normal;
+}
+#right-2 h1{
+	width:790px;
+	height:30px;
+	line-height:30px;
+	padding-left:10px;
+}
+#right-2 div.bowen{
+    width:100%;
+}
+#right-2 p.bowen{
+	width:50px;
+	height:25px;
+	line-height:25px;
+	margin:10px 0 0 10px;
+	text-align:center;
+}
+#right-2 p.bowen a{
+	display:block;
+	width:50px;
+	height:25px;
+	border:1px solid #999;
+	background:#fff url(../images/space_menu.gif);
+	
+}
+/* information */
+#right-2 .top1{
+	width:780px;
+	height:100%;
+	overflow:hidden;
+	margin:0 auto;
+	padding-bottom:5px;
+	
+	/*text-align:center;*/
+}
+
+
+#right-2 p.rigptop1{
+   margin-top:10px;
+}
+#right-2 p.rigptop1 a{
+    float:right;
+	padding-right:22px;
+}
+#right-2 p.rigptop1 input{
+    vertical-align:middle;
+}
+#right-2 p .riginp1 {
+   float:left;
+   	margin:0px 10px 0 0px;
+	cursor:pointer;
+	width:77px;
+	height:25px;
+	line-height:26px;
+/* 	background:url(../images/anjiuall.jpg); */
+	background: -webkit-linear-gradient(#F9F9F9,#F5F5F5);
+    background: -o-linear-gradient(#F9F9F9,#F5F5F5);
+    background: -moz-linear-gradient(#F9F9F9,#F5F5F5);
+    background: linear-gradient(#F9F9F9,#F5F5F5);
+	background-position:0px -315px;
+}
+#right-2 p .riginp2{
+   float:left;
+   margin:0px 10px 0 0px;
+	cursor:pointer;
+	width:77px;
+	height:25px;
+	line-height:26px;
+/* 	background:url(../images/anjiuall.jpg); */
+	background: -webkit-linear-gradient(#F9F9F9,#F5F5F5);
+    background: -o-linear-gradient(#F9F9F9,#F5F5F5);
+    background: -moz-linear-gradient(#F9F9F9,#F5F5F5);
+    background: linear-gradient(#F9F9F9,#F5F5F5);
+	background-position:0px -315px;
+}
+#right-2 p .riginp3{
+   float:left;
+   margin:0px 10px 0 0px;
+	cursor:pointer;
+	width:77px;
+	height:25px;
+	line-height:26px;
+/* 	background:url(../images/anjiuall.jpg); */
+	background: -webkit-linear-gradient(#F9F9F9,#F5F5F5);
+    background: -o-linear-gradient(#F9F9F9,#F5F5F5);
+    background: -moz-linear-gradient(#F9F9F9,#F5F5F5);
+    background: linear-gradient(#F9F9F9,#F5F5F5);
+	background-position:0px -315px;  
+}
+#right-2 p .riginp4{
+	float:right;
+	overflow:hidden;
+	margin:0px 10px 0 0px;
+	text-align:center;
+}
+
+
+#right-2 .center1{
+	margin-top:20px;
+	height:100%;
+	overflow:hidden;
+	border-bottom:1px dashed #999;
+	padding-bottom:20px;
+	margin-left:10px;
+	margin-right:10px;
+
+}
+
+#right-2 .center1 p.image1{
+	float:left;
+	width:80px;
+	height:100%;
+	overflow:hidden;
+}
+#right-2 .center1 p.image1 input{
+	float:left;
+	margin-top:20%;
+}
+#right-2 .center1 p.image1 img{
+    padding-left:5px;
+	float:left;
+	width:50px;
+	height:50px;
+}
+#right-2 .center1 .message1{
+	float:right;
+	width:690px;
+	height:100%;
+	overflow:hidden;
+	margin-left:10px;
+}
+/*#right-2 .center2 .message2-3 .message2-4{
+font-weight:bold;}*/
+#right-2 .center1 .message1 .mespan1 {
+    float:left;
+    margin-left:300px;
+}
+#right-2 .center1 .message1 .mespan2{
+    float:right;
+    margin-right:20px;
+}
+
+/*#right-2 .center1 .message1 span a{
+	color:blue;
+}*/
+
+#right-2 .center1 p.writing2{
+	float:left;
+	width:80%;
+	margin-top:15px;
+	margin-left:10px;
+}
+
+#right-2 .pagenumber2{
+	margin-top:10px;
+	margin-right:20px;
+	height:100%;
+	overflow:hidden;
+}
+
+#right-2 .pagenumber2 ul{
+	float:right;
+}
+ 
+#right-2 .pagenumber2 ul li{
+	float:left;
+	width:25px;
+	height:25px;
+	line-height:25px;
+	text-align:center;
+	border:1px solid #999;
+	margin-right:5px;
+} 
+#right-2 .pagenumber2 ul li.end2{
+	width:50px;
+}
+#right-2 .pagenumber2 ul li a{
+	display:block;
+	float:left;
+	width:25px;
+	height:25px;
+	line-height:25px;
+}
+#right-2 .pagenumber2 ul li a.end2{
+	width:50px;
+}
+/* information end*/
+
+/* information3*/
+#right-2 .rigdiv {
+   width:100%;
+   height:100%;
+   margin:0 auto;white-space:normal;
+   /*float:left;*/
+}
+#right-2 .rigdiv1{
+   width:236px;
+   display:inline;
+   height:100%;
+   float:left;
+   margin-top:10px;
+   margin-left:20px;
+   white-space:normal;
+}
+#right-2 .rigdiv1 img {
+	padding-left: 5px;
+	float: left;
+	width: 50px;
+	height: 50px; white-space:normal;
+}
+#right-2 .rigdiv1 .rigdivp1 {
+	float:left;
+	margin-left:10px;     /*将此处的margin-left:20px;改成margin-left:10px;*/
+	white-space:normal;
+/* 	position: relative; */
+/*     top: -15px; */
+
+}
+#right-2 .rigdiv1 .rigdivp1 p {
+   padding-top:8px; white-space:normal;
+}
+/* information3 end*/
+
+.butpa {
+	margin:8px 10px 0 10px;
+	cursor:pointer;
+	width:64px;
+	height:28px;
+	line-height:28px;
+/* 	background:url(../images/anjiuall.jpg); */
+	background: -webkit-linear-gradient(#F9F9F9,#F5F5F5);
+    background: -o-linear-gradient(#F9F9F9,#F5F5F5);
+    background: -moz-linear-gradient(#F9F9F9,#F5F5F5);
+    background: linear-gradient(#F9F9F9,#F5F5F5);
+    padding-left:15px;
+	background-position:0px -48px;
+}
+#dialog p {
+    font-size:13px;
+}

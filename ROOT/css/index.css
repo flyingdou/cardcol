@@ -1,0 +1,112 @@
+﻿.header_bot ul li:first-child a{color: #95bc28;border-top:8px #95bc28 solid;}
+
+/*婊氬姩鍖�*/
+
+#banner{width: 100%;position: relative;top:0;margin-bottom:34px;}
+.flexslider{width:100%;overflow:hidden;zoom:1;}
+.flexslider img{width: 100%;}
+.flex-viewport{max-height:2000px;-webkit-transition:all 1s ease;-moz-transition:all 1s ease;transition:all 1s ease;}
+.flexslider .slides{zoom:1;}
+.flex-direction-nav a{width:60px;height:90px;line-height:99em;overflow:hidden;margin:-60px 0 0;display:block;background:url("../images/ad_ctr.png") no-repeat;position:absolute;top:50%;z-index:10;cursor:pointer;opacity:0;filter:alpha(opacity=0);-webkit-transition:all .3s ease;}
+.flex-direction-nav .flex-next{background-position:0 -90px;right:0;}
+.flex-direction-nav .flex-prev{left:0;}
+.flexslider:hover .flex-next, .flexslider:hover .flex-prev{opacity:0.8;filter:alpha(opacity=25);}
+.flexslider:hover .flex-next:hover, .flexslider:hover .flex-prev:hover{opacity:1;filter:alpha(opacity=50);}
+.flex-control-nav{width:100%;position:absolute;bottom:10px;text-align:center;}
+.flex-control-nav li{margin:0 5px;display:inline-block;zoom:1;*display:inline;}
+.flex-control-paging li a{background:url("../images/dot.png") no-repeat 0 -16px;display:block;height:16px;overflow:hidden;text-indent:-99em;width:16px;cursor:pointer;}
+.flex-control-paging li a.flex-active{background-position:0 0;}
+
+
+
+/*鐑棬鍖�*/
+.hot img{width: 100%;}
+.hot .hot_txt{border: 2px #b7d54a solid;height: 90px;display: -webkit-box;-webkit-box-orient: vertical; -webkit-line-clamp: 3;display: -moz-box;  -moz-line-clamp: 3;-moz-box-orient:  vertical; display: box; box-orient:  vertical;line-clamp: 3; overflow: hidden;}
+.hot .hot_txt p{line-height: 25px;font-size: 13px;padding: 0 10px;margin-top: 10px;margin-bottom: 23px;    color: #666;}
+
+
+/*涓嬭浇閮ㄥ垎*/
+.load{padding:50px 0 34px 0;/*background: url("../images/xiazai_bg_03.png") no-repeat;background-size: 100% 100%;*/width: 1000px;margin: 24px auto 0;}
+.load .shouji img{float:left;margin-left:3%;}
+.load .App{float:left;width:300px;padding-left:20px;border: 2px #b8b7b7 solid;background-color: #fff;position: relative;margin: 0 5%}
+.load .App .App_top h4{width:180px;font-size: 14px;font-weight: bold;line-height: 29px;margin-bottom:4px;margin-top:18px;border: 2px #aaaaaa solid;}
+.load .App .App_top p{width:180px;font-size: 10px;line-height: 18px;}
+.load .App .App_top img{cursor: pointer;position: absolute;right: 10px;top:20px;width:80px;height:80px;}
+.load .App ul{margin-top: 11px;margin-bottom: 8px;}
+.load .App ul li{float: left;margin-right: 15px;}
+.load .App .adv{line-height: 15px;font-size: 12px;padding: 10px 0;}
+.load .test{float: left;width:275px;border: 1px #b8b7b7 solid;background-color:#fff;padding-left: 10px;}
+.load .test .health{border-bottom: 1px #cccccc solid; }
+.load .test .health h3{width:142px;line-height: 31px;font-size: 19px;padding-left: 8px; margin-top: 16px;margin-bottom: 26px;border:2px #919191 solid;}
+.load .test form{margin-top: 30px;margin-bottom:10px;font-size: 12px;}
+.load .test form input{width: 125px;height: 25px;border: 4px #d6d6d6 solid; }
+.load .enter{text-align: center;}
+.load .test a{font-size:12px;color:#000;display: inline-block;padding:5px 14px;background-color: #bcbcbc;border-radius: 4px;margin-bottom: 18px;}
+
+/*鍋ヨ韩鏄庢槦*/
+#star .star_pic{width:70%;margin: 0 auto;}
+#star .star_pic img{width: 100%;}
+#star .star_pic span{line-height: 34px;font-size:16px;font-weight:bolder;padding: 0 10px;background-color: #95bc28;color: #fff;position: absolute;right:15px;bottom: 0;}
+
+
+/*鍋ヨ韩鎸戞垬*/
+#challenge{margin-top: 40px;}
+#challenge .challenge_title h5{line-height:35px;font-size: 19px;font-weight:bold;color: #333;}
+#challenge .challenge_title .line{width: 214px;height: 3px;background-color: #dedcda;}
+#challenge .challenge_title .line .line_inner{width: 50%;height: 100%;background-color: #93bd28;float: right;}
+#challenge .challenge_title p{line-height: 25px;font-size: 15px;margin-top: 5px;}
+#challenge .dome .dome_pic{padding: 10px 0px 10px 22px;border: 1px #d9d9d9 solid;}
+#challenge .dome img{margin-right:11px;float: left;height: 77px;}
+#challenge .dome h6{line-height: 22px;padding-top: 5px;font-size: 14px;color: #333;}
+#challenge .dome p{line-height:18px;font-size: 12px;color: #666;}
+
+/*澶ф爣棰�*/
+.title{text-align: center;padding-top: 24px;margin-bottom: 10px;}
+.title h3{line-height: 40px;font-size: 20px;font-weight:bold;color: #333; }
+
+.title span{display:inline-block;font-size: 14px;line-height: 35px;border-top:2px #93bd28 solid; }
+
+/*鍋ョ編澧炶倢*/
+.jianmei{margin-bottom: 10px;}
+.jianmei .floor span{float:left;display: block;width: 35px;height: 47px;background: url("../images/one_floor_03.png") no-repeat;
+    font-size: 18px;color: #fff;line-height: 47px;text-align: center;font-weight: bolder;margin-top: 21px;margin-right: 10px;}
+.jianmei .floor h5{float:left;line-height: 58px;font-size: 19px;font-weight: bold;color: #333;padding-top: 21px;padding-left: 0}
+.jianmei .floor a{float:right;line-height: 58px;color: #333;font-size: 14px;padding-top: 21px;}
+.jianmei img{width: 100%;display: block;}
+.jianmei .plan_txt{padding-left:22px;padding-bottom:23px;border:1px #666666 solid;}
+.jianmei .plan_txt h6{font-size: 16px;font-weight: bold;font-family: "瀹嬩綋";color: #333;padding-top: 14px;}
+.jianmei .plan_txt p{font-size: 14px;color: #333;line-height:28px;}
+.jianmei .plan_txt span{display: block;width: 10px;height: 10px;background-color: #b5b5b5;border-radius: 50%;margin-bottom: 12px;}
+.jianmei .find{text-align: center;border:1px #666666 solid;;padding: 13px 0;margin-top: 1px;}
+.jianmei .find a{display: inline-block;font-size: 15px;color: #fff;padding: 5px 20px;background-color: #666666;border-radius: 5px;}
+
+
+
+.jianmei .shoushen .ran{text-align: center;background-color: #000;}
+.jianmei .shoushen .ran h6{;font-size: 21px;color: #fff;line-height: 36px;padding-top: 35px;}
+.jianmei .shoushen .ran p{;font-size: 21px;color: #fff;line-height: 36px;padding-bottom: 35px;}
+.jianmei .shoushen img{width: 100%;display: block;}
+.jianmei .shoushen img.left{height:370px; }
+.jianmei .shoushen .middle img{height:257px;transition: all 1.5s; }
+.jianmei .shoushen .right img{height:171px; }
+.jianmei .shoushen .middle{padding: 0;margin: 0;position: relative;overflow:hidden;}
+.jianmei .shoushen .middle:hover img{transform: scale(1.5);}
+.jianmei .shoushen .middle p{line-height: 27px;font-size: 18px;color: #aeda30;position: absolute;left: 20px;top: 20px;z-index:10;}
+.jianmei .shoushen .middle p span{color: red;}
+.jianmei .shoushen .right{position: relative;}
+.jianmei .shoushen .right p{line-height: 27px;font-size: 18px;color: #aeda30;position: absolute;left: 20px;top: 20px;}
+.jianmei .shoushen .right p span{color: red;}
+
+
+
+.list{width: 100%;background-color: rgba(0,0,0,0.8);padding-top: 30px;}
+.list .top .top_pic{;text-align: center;}
+.list .top img{width: 100%;border-radius:50%;}
+.list .top p{width:100%;height:24px;font-size: 12px;color: #fff;line-height:24px;font-weight: bold;font-family: "瀹嬩綋";overflow:hidden;}
+.list .top span{display:block;height:20px;font-size: 12px;line-height:20px;color: #fff;font-family: "瀹嬩綋";overflow:hidden;}
+.list .list_txt p{font-size: 15px;line-height: 30px;color: #fff;font-family: "瀹嬩綋";padding-top: 36px;padding-bottom: 30px;}
+.list .list_txt p:first-letter{padding-left: 30px;}
+.list .bot{text-align: center;}
+.list .bot p{line-height: 24px;font-size: 12px;color: #fff;padding-top: 10px;padding-bottom: 30px;}
+.list .bot p span{font-weight: bold;}
+

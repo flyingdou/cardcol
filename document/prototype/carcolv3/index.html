@@ -1,0 +1,738 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>卡库网</title>
+<link href="css/style.css" type="text/css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/lrtk.css" />
+<link rel="stylesheet" type="text/css" href="css/public_css.css" />
+<link rel="stylesheet" type="text/css" href="css/style_css.css" />
+<script type="text/javascript" src="script/pptBox.js"></script>
+<script type="text/javascript" src="script/scroll.js"></script>
+
+<link rel="stylesheet" type="text/css" href="css/lrtk_css.css" />
+<script type="text/javascript" src="script/jquery.js"></script>
+<script type="text/javascript" src="script/lrtk.js"></script>
+
+<link rel="stylesheet" type="text/css" href="css/pulic-1.css">
+<script type="text/javascript" src="script/jquery-1.7.1.min.js"></script>
+  
+<script type="text/javascript">
+  
+  $(document).ready(function(){ 
+
+	            /* 	var aBtnd=$(".data_riqi ul").find("li"); 
+	
+		    var aDivd=$(".box_jinqi").find(".box_tab");
+			  aBtnd.mouseover(function(){
+					$(this).addClass('datatime').siblings().removeClass("datatime");
+			       	aDivd.css('display','none');				  
+				    aDivd.eq($(this).index()).css('display', 'block');			  
+								  
+                  });*/
+			  
+			  $(".sportright .sport_item").mouseover(function(){
+			$(this).addClass("qq").siblings().addClass("hover");
+		}).mouseout(function(){
+			$(this).removeClass("qq").siblings().removeClass("hover");
+		});
+			 
+			
+			  });
+  
+  
+  
+</script>
+<script type="text/javascript">
+  function changed(li){
+      var aBtnd=document.getElementById("data_riqi");
+      var lisd=aBtnd.getElementsByTagName("li");
+	  
+	  var aDivd=document.getElementById("box_jinqi").getElementsByClassName("box_tab");
+	
+	  for(var i=0;i<lisd.length;i++)
+	  {
+	     if(li==lisd[i])
+		 {
+           lisd[i].className="datatime";
+		   aDivd[i].style.display="block";
+         }
+		 else
+		 {
+		     lisd[i].className="";
+		     aDivd[i].style.display="none";
+		 }
+	  }
+}
+
+</script>
+<!--<script type="text/javascript" src="script/lanrenzhijia.js"></script>-->
+<link rel="stylesheet" type="text/css" href="css/lanrenzhijia.css" />
+
+
+
+
+
+<script type="text/javascript">
+  function change(li){
+      var con=document.getElementById("container");
+      var  lis=con.getElementsByTagName("li");
+	  
+	  var divs=document.getElementById("container").getElementsByTagName("div");
+	
+	  for(var i=0;i<lis.length;i++)
+	  {
+	     if(li==lis[i])
+		 {
+           lis[i].className="tab";
+		   divs[i].className="show";
+         }
+		 else
+		 {
+		     lis[i].className="";
+		     divs[i].className="hidden";
+		 }
+	  }
+}
+
+
+
+
+</script>
+<style type="text/css" media="screen"> 
+*{margin:0px;padding:0px;list-style:none;text-decoration:none;}
+a,img{border:none;}
+
+/* 必要样式 */
+.dhooo_tab{ position:relative;width:876px;position:relative;}
+.main{width:870px;height:auto;overflow:hidden; margin:5px auto;text-align:left;font-size:12px; }
+/* 横向滚动 */
+#main1 ul{width:9999px; margin-left:4px;}
+#main1 ul li{float:left;width:870px;height:100%;}
+#main1 ul li a{ border:1px solid #cbcbc9; padding:2px; display:block; float:left; width:160px; text-align:center; color:#5c5c5c; font-size:14px; margin-right:8px; margin-bottom:10px; margin-top:3px;}
+#main1 ul li a span{ display:block; height:35px; line-height:35px; }
+/* 垂直滚动 */
+/* tab_btn */
+.tab_btn{ width:660px;overflow:hidden;height:45px;padding-left:0px; float:left;/*background:url(imgsl/tabbar.gif) repeat-x;*/}
+.tab_btn li{float:left;width:90px;height:48px;line-height:48px;text-align:center;padding:0 10px;margin:0 0px 0 0;display:inline;color:#333;cursor:pointer; background:url(images/picks.png) no-repeat left 36px;  font-family:"微软雅黑";}
+.tab_btn #libas{ background-image:url(images/libas.png) no-repeat;}
+.tab_btn li.hot{color:#333;font-weight:bold;background:url(images/libas.png) no-repeat left 36px;}
+.datatime{ color:#6b98db; border-bottom:2px solid #f3a50d; }
+</style> 
+</head>
+
+<body>
+  <div id="top">
+    <div id="top-content">
+        <p class="left">
+        	
+        	
+        		 欢迎来到卡库！<a id="coloa" href="login.asp" target="_parent">请登录</a>  <span>|</span>  <a href="register.asp" id="coloa" target="_parent">注册</a>
+        	
+        </p>
+        <p class="right">
+			<a href="index.asp" id="coloa" target="_parent">卡库首页</a>
+			<span>|</span><a href="login.asp" id="coloa" target="_parent"> 我的卡库</a>
+			<span>|</span><a href="message.asp" id="coloa" target="_parent"> 消息(<b class="msgb">0</b>)</a>
+			<span>|</span><a href="shop!queryShopping.asp" id="coloa" target="_parent"><b class="aimgb"> 购物车</b><b class="ainsp">0</b>件</a>
+			<span>|</span><a href="service.asp" id="coloa" target="_parent"> 服务中心</a>
+			<span>|</span><a href="index.asp" id="coloa" target="_parent"> 网站导航</a>
+		</p>
+    </div>
+</div>
+<div id="header">
+    <div id="logo">
+      <blockquote>
+        <p> <a href="index.asp" target="_parent"><img src="images/logo.png" alt="卡库网" /></a> </p>
+      </blockquote>
+    </div>
+    <div id="switch"> <span class="city">武汉市</span><a href="city.asp" id="coloa2">[切换城市]</a> </div>
+    <div id="ad"> <img src="images/ad.png" /> </div>
+</div>
+</div>
+<div id="nav">
+    <div id="nav_first">
+      <div class="ml">
+       <h2><a href="">卡库服务</a></h2></div>
+     <div class="navdaohang">
+          <div class="item pcios nav_dang"><a href=""><span>健身计划</span></a></div>
+          <div class="item nav_item">
+              <div class="item_pan"><a href="#">瘦身减重</a><a href="" class="item_zj">健美增肌</a></div>
+               <div><a href="" >运动康复</a><a href=""class="item_sprot">提高运动表现</a></div>
+          </div>
+      
+          <div class="item pcios nav_cord"><a href="#"><span>健身卡</span> </a></div>
+          <div class="item"><a href="">圈存(计时)</a></div>
+          <div class="item"><a href="">圈存(计次)</a></div>
+          <div class="item"><a href="">圈存(储值)</a></div>
+          <div class="item"><a href="">对赌(次数)</a></div>
+          <div class="item"><a href="">对赌(频率)</a></div>
+          <div class="item"><a  href="">预付卡</a></div>
+          <div class="item pcios nav_yuding"><a href=""><span>场馆预订</span></a></div>
+          <div class="item nav_item"><a href="">羽毛球</a><a href="">乒乓球</a><a href="">篮球</a></div>
+          <div class="item nav_item"><a href="">足球</a> <a href="">排球 </a><a href="">台球</a><a href="">网球</a></div>
+          <div class="item pcios nav_jiaolian"><a href=""><span>健身教练</span></a></div>
+          <div class="item nav_item"><a href="">网络私教</a><a href="">传统私教</a></div>
+          
+       </div>
+    </div>
+  <ul id="navitems">
+         <li><a href="" class="nav_a">首页</a></li>
+         <li><a href="">健身计划</a></li>
+         <li><a href="">健身场馆</a></li>
+         <li><a href="">健身教练</a></li>
+         <li><a href="">健身挑战</a></li>
+         <li><a href="">健身地图</a></li>
+       
+             
+     </ul>
+  <div class="search">
+    <form id="search" name="search" action="" method="post">
+      <select name="seledcted" id="seledcted">
+        <option value="1">健身计划</option>
+        <option value="2">健身场馆</option>
+        <option value="3">健身教练</option>
+      </select>
+      <input type="text" class="txtsearch" />
+      <input type="button" value="搜索" class="submit"> 
+    </form>
+  </div>
+
+</div>
+
+
+
+<div class="dengl_top">
+  <div class="piimg">
+    <div id="xxx"  >
+      <script>
+     var box =new PPTBox();
+     box.width = 670; //宽度
+     box.height = 248;//高度
+     box.autoplayer = 3;//自动播放间隔时间
+
+     //box.add({"url":"图片地址","title":"悬浮标题","href":"链接地址"})
+     box.add({"url":"images/pcis.jpg","href":"http://www.lanrentuku.com/","title":"悬浮提示标题1"})
+     box.add({"url":"images/pos.jpg","href":"http://www.lanrentuku.com/","title":"悬浮提示标题2"})
+     box.add({"url":"images/tu3.jpg","href":"http://www.lanrentuku.com/","title":"悬浮提示标题3"})
+     box.add({"url":"images/tu4.jpg","href":"http://www.lanrentuku.com/","title":"悬浮提示标题4"})
+     box.show();
+    </script>
+    </div>
+    <!--    <div class="jslung">-->
+  <div class=run>
+      <div class=runlf><img id=lfbut src="images/btn_right.gif" /></div>
+      <div id=gdq>
+        <div>
+          <ul>
+            <li>
+              <dl class="runboder">
+                <dt><a href="http://www.lanrenzhijia.com"><img src="images/jd.jpg" /></a></dt>
+               
+              </dl>
+              <dl  class="runboder">
+                <dt><a href="http://www.lanrenzhijia.com"><img src="images/jd.jpg" /></a></dt>
+              </dl>
+              <dl>
+                <dt><a href="http://www.lanrenzhijia.com"><img src="images/jd.jpg" /></a></dt>
+              </dl>
+            </li>
+            <li >
+              <dl  class="runboder">
+                <dt><a href="http://www.lanrenzhijia.com"><img src="images/jd.jpg" /></a></dt>
+              </dl>
+              <dl  class="runboder">
+                <dt><a href="http://www.lanrenzhijia.com"><img src="images/jd.jpg" /></a></dt>
+              </dl>
+               <dl>
+                <dt><a href="http://www.lanrenzhijia.com"><img src="images/jd.jpg" /></a></dt>
+              </dl>
+            </li>
+            <li>
+              <dl  class="runboder">
+                <dt><a href="http://www.lanrenzhijia.com"><img src="images/jd.jpg" /></a></dt>
+              </dl>
+              <dl  class="runboder">
+                <dt><a href="http://www.lanrenzhijia.com"><img src="images/jd.jpg" /></a></dt>
+              </dl>
+                <dl>
+                <dt><a href="http://www.lanrenzhijia.com"><img src="images/jd.jpg" /></a></dt>
+              </dl>
+            </li>
+            <li>
+              <dl  class="runboder">
+                <dt><a href="http://www.lanrenzhijia.com"><img src="images/jd.jpg" /></a></dt>
+              </dl>
+              <dl  class="runboder">
+                <dt><a href="http://www.lanrenzhijia.com"><img src="images/jd.jpg" /></a></dt>
+              </dl>
+               <dl>
+                <dt><a href="http://www.lanrenzhijia.com"><img src="images/jd.jpg" /></a></dt>
+              </dl>
+            </li>
+            <li>
+              <dl  class="runboder">
+                <dt><a href="http://www.lanrenzhijia.com"><img  src="images/jd.jpg" /></a></dt>
+              </dl>
+              <dl  class="runboder">
+                <dt><a href="http://www.lanrenzhijia.com"><img src="images/jd.jpg" /></a></dt>
+              </dl>
+               <dl>
+                <dt><a href="http://www.lanrenzhijia.com"><img src="images/jd.jpg" /></a></dt>
+              </dl>
+            </li>
+            <li>
+              <dl  class="runboder">
+                <dt><a href="http://www.lanrenzhijia.com"><img src="images/jd.jpg" /></a></dt>
+              </dl>
+              <dl  class="runboder">
+                <dt><a href="http://www.lanrenzhijia.com"><img src="images/jd.jpg" /></a></dt>
+              </dl>
+               <dl>
+                <dt><a href="http://www.lanrenzhijia.com"><img src="images/jd.jpg" /></a></dt>
+              </dl>
+            </li>
+           
+          </ul>
+        </div>
+      </div>
+      <div class=runrg><img id=rgbut src="images/btn_left.gif" /></div>
+    </div>
+    <script>Effect.HtmlMove("gdq","div/li","scrollLeft",18,"rgbut","lfbut",15000);</script>
+  </div>
+  <div class="dinnv">
+    <div class="pisi"><img src="images/pcis.jpg" width="308" height="86" /></div>
+    <div class="btns">
+      <input type="button" value="" class="and" />
+      <input type="button" value="" class="iod" />
+    </div>
+    <div class="boxss">
+      <div class="boxa unl">
+        <div class="picos"><img src="images/homech.png"  width="95" height="79"/>
+          <div class="price"> <a href=""class="btngm">购买</a> <span>价格:150元/次</span></div>
+        </div>
+        <div class="xitong">
+          <p class="biaoti">王严健身专家系统</p>
+          <p class="weikk">王严是我国知名健身专家，多次荣获健美比赛冠军，长期从事健美研究、教学和裁判工作，现任国家健美队教练。本系统根据王严多年研究和实践成果开发。</p>
+        </div>
+      </div>
+      <div class="boxa">
+        <div class="picos"><img src="images/home2.png" width="95" height="79"/>
+          <div class="price"> <a href=""class="btngm">购买</a> <span>价格:150元/次</span></div>
+        </div>
+        <div class="xitong">
+          <p class="biaoti">卡库智能健身计划引擎</p>
+          <p class="weikk">卡库智能健身计划引擎是由多领域专家团队融合各种健身理论建立的专业健身计划工具，可以为用户自动生成个性化的健身方案，满足减脂、增肌等健身需求。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="jians">
+    <div class="jinqi">
+      <div class="jin_title">
+        <div class="jin_kechen">
+          <h3>近期优惠课程 </h3>
+          <span>"淘"课吧!</span></div>
+        <div id="data_riqi">
+          <ul>
+            <li class="datatime" onmouseover="changed(this)">12月25号</li>
+            <li onmouseover="changed(this)">12月26号</li>
+            <li onmouseover="changed(this)">12月27号</li>
+          </ul>
+        </div>
+      </div>
+      <div id="box_jinqi" class="boxks">
+        <div class="box_tab">
+          <ul>
+            <li class="box_li">
+               <div class="jianhui">
+                <div class="jian_picu"><img src="images/pic_img_1.png" /></div>
+                <div class="jian_time">
+                  <p class="jian_p1">塑身健美操</p>
+                  <p class="jian_p2">开课时间:18:30</p>
+                  <p class="jian_p3"><strong>30元</strong><span><a href="">立即抢购</a></span></p>
+                </div>
+                <p><strong>唯品健身会</strong></p>
+              </div>
+            </li>
+            <li class="box_li">
+              <div class="jianhui">
+                <div class="jian_picu"><img src="images/pic_img_1.png" /></div>
+                <div class="jian_time">
+                  <p class="jian_p1">塑身健美操</p>
+                  <p class="jian_p2">开课时间:18:30</p>
+                  <p class="jian_p3"><strong>30元</strong><span><a href="">立即抢购</a></span></p>
+                </div>
+                <p><strong>健力美健身俱乐部</strong></p>
+              </div>
+            </li>
+            <li class="box_li">
+              <div class="jianhui">
+                <div class="jian_picu"><img src="images/pic_img_1.png" /></div>
+                <div class="jian_time">
+                  <p class="jian_p1">塑身健美操</p>
+                  <p class="jian_p2">开课时间:18:30</p>
+                  <p class="jian_p3"><strong>30元</strong><span><a href="">立即抢购</a></span></p>
+                </div>
+                <p><strong>唯品健身会</strong></p>
+              </div>
+            </li>
+            <li class="box_li">
+              <div class="jianhui">
+                <div class="jian_picu"><img src="images/pic_img_1.png" /></div>
+                <div class="jian_time">
+                  <p class="jian_p1">塑身健美操</p>
+                  <p class="jian_p2">开课时间:18:30</p>
+                  <p class="jian_p3"><strong>30元</strong><span><a href="">立即抢购</a></span></p>
+                </div>
+                <p><strong>健力美健身俱乐部</strong></p>
+              </div>
+            </li>
+            <li>
+              <div class="jianhui">
+                <div class="jian_picu"><img src="images/pic_img_1.png" /></div>
+                <div class="jian_time">
+                  <p class="jian_p1">塑身健美操</p>
+                  <p class="jian_p2">开课时间:18:30</p>
+                  <p class="jian_p3"><strong>30元</strong><span><a href="">立即抢购</a></span></p>
+                </div>
+                <p><strong>唯品健身会</strong></p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="box_tab" style="display:none;">
+          <ul>
+            <li class="box_li">
+              <div class="jianhui">
+                <div class="jian_picu"><img src="images/pic_img_1.png" /></div>
+                <div class="jian_time">
+                  <p class="jian_p1">塑身健美操</p>
+                  <p class="jian_p2">开课时间:18:30</p>
+                  <p class="jian_p3"><strong>30元</strong><span><a href="">立即抢购</a></span></p>
+                </div>
+                <p><strong>唯品健身会</strong></p>
+              </div>
+            </li>
+             <li class="box_li">
+              <div class="jianhui">
+                <div class="jian_picu"><img src="images/pic_img_1.png" /></div>
+                <div class="jian_time">
+                  <p class="jian_p1">塑身健美操</p>
+                  <p class="jian_p2">开课时间:18:30</p>
+                  <p class="jian_p3"><strong>30元</strong><span><a href="">立即抢购</a></span></p>
+                </div>
+                <p><strong>唯品健身会</strong></p>
+              </div>
+            </li>
+             <li class="box_li">
+              <div class="jianhui">
+                <div class="jian_picu"><img src="images/pic_img_1.png" /></div>
+                <div class="jian_time">
+                  <p class="jian_p1">塑身健美操</p>
+                  <p class="jian_p2">开课时间:18:30</p>
+                  <p class="jian_p3"><strong>30元</strong><span><a href="">立即抢购</a></span></p>
+                </div>
+                <p><strong>唯品健身会</strong></p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="box_tab" style="display:none;">
+          <ul>
+            <li class="box_li">
+              <div class="jianhui">
+                <div class="jian_picu"><img src="images/pic_img_1.png" /></div>
+                <div class="jian_time">
+                  <p class="jian_p1">塑身健美操</p>
+                  <p class="jian_p2">开课时间:18:30</p>
+                  <p class="jian_p3"><strong>30元</strong><span><a href="">立即抢购</a></span></p>
+                </div>
+                <p><strong>唯品健身会</strong></p>
+              </div>
+            </li>
+             <li class="box_li">
+              <div class="jianhui">
+                <div class="jian_picu"><img src="images/pic_img_1.png" /></div>
+                <div class="jian_time">
+                  <p class="jian_p1">塑身健美操</p>
+                  <p class="jian_p2">开课时间:18:30</p>
+                  <p class="jian_p3"><strong>30元</strong><span><a href="">立即抢购</a></span></p>
+                </div>
+                <p><strong>唯品健身会</strong></p>
+              </div>
+            </li>
+             <li class="box_li">
+              <div class="jianhui">
+                <div class="jian_picu"><img src="images/pic_img_1.png" /></div>
+                <div class="jian_time">
+                  <p class="jian_p1">塑身健美操</p>
+                  <p class="jian_p2">开课时间:18:30</p>
+                  <p class="jian_p3"><strong>30元</strong><span><a href="">立即抢购</a></span></p>
+                </div>
+                <p><strong>唯品健身会</strong></p>
+              </div>
+            </li>
+             <li class="box_li">
+              <div class="jianhui">
+                <div class="jian_picu"><img src="images/pic_img_1.png" /></div>
+                <div class="jian_time">
+                  <p class="jian_p1">塑身健美操</p>
+                  <p class="jian_p2">开课时间:18:30</p>
+                  <p class="jian_p3"><strong>30元</strong><span><a href="">立即抢购</a></span></p>
+                </div>
+                <p><strong>唯品健身会</strong></p>
+              </div>
+            </li>
+             <li>
+              <div class="jianhui">
+                <div class="jian_picu"><img src="images/pic_img_1.png" /></div>
+                <div class="jian_time">
+                  <p class="jian_p1">塑身健美操</p>
+                  <p class="jian_p2">开课时间:18:30</p>
+                  <p class="jian_p3"><strong>30元</strong><span><a href="">立即抢购</a></span></p>
+                </div>
+                <p><strong>唯品健身会</strong></p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="jiansleft">
+      <div class="boxsll" id="box-1">健身方法我知道</div>
+      <div class="picbox">
+        <div class="first">
+          <div class="first_pic-1"> <a href="" target="_blank" class="pic_a">
+            <div class="pic-1"> <strong>篮球运球方法</strong> <em> &nbsp;低至1折计划</em> <span>¥90.00元</span></div>
+            <img src="images/index3_03.gif" class="pic_1"/></a> <a href="" target="_blank" class="pic_b">
+              <div class="pic-2"> <strong>菜鸟到高手成长计划</strong> <em>狂降价 速报名</em> <span>¥90.00元</span></div>
+              <img src="images/index3_03-10.gif" /></a></div>
+          <div class="first_pic-2"> <a href="" target="_blank" class="pic_c">
+            <div class="pic-2"> <strong>台球进阶计划</strong> <em>低价抢购中 <font color="#fd0404">¥150.00元</font></em></div>
+            <img src="images/index3_05.gif" /></a></div>
+          <div class="first_pic-3"> <a href="" target="" class="pic_d">
+            <div class="pic-3"> <strong>健康生活计划</strong> <em>免费计划&nbsp; <font color="#fd0404">¥150.00元</font></em></div>
+            <img src="images/index3_06.gif" /></a> <a href=""target="" class="pic_e">
+              <div class="pic-3"> <strong>瑜伽完美计划</strong> <em>狂降价  速报名</em> <font color="#fd0404"><b>¥60.00元</b></font></div>
+              <img src="images/index3_11-11.gif" /></a></div>
+          <div class="first_pic-4"> <a href="" target="_blank" class="pic_f">
+            <div class="pic-4"> <strong>减肥搜身完美计划</strong> <em>完你火辣身材梦</em> <font color="#fd0404"><b>¥70.00元</b></font></div>
+            <img src="images/index3_07.gif" /></a></div>
+          <div class="first_pic-5"> <a href="" target="_blank" class="pic_g">
+            <div class="pic-5"> <strong>减脂计划</strong> <em>全网最低</em> <font color="#fd0404"><b>¥50.00元</b></font></div>
+            <img src="images/index3_11.gif" /></a> <a href="" class="pic_h">
+              <div class="pic-5"> <strong>游泳全计划</strong> <em>狂降价  速报名</em> <font color="#fd0404"><b>¥70.00元</b></font></div>
+              <img src="images/index3_12.gif" /></a></div>
+        </div>
+      </div>
+      <div class="boxsll cls" id="box-2">健身卡在这儿淘</div>
+      <div class="sport">
+        <div class="sportleft">
+          <div class="sportxm">运动项目</div>
+          <div class="sportli">
+            <ul>
+              <li> <b><img src="images/sprot_1.png" width="40px" height="40px" /></b><a href="">运动器材</a></li>
+              <li><b><img src="images/sprot_2.png" width="40px" height="40px" /></b><a href="">瑜伽</a></li>
+              <li><b><img src="images/sprot_3.png" width="40px" height="40px" /></b><a href="">动感单车</a></li>
+              <li><b><img src="images/sprot_4.png" width="40px" height="40px" /></b><a href="">健身操</a></li>
+              <li><b><img src="images/sprot_5.png" width="40px" height="40px" /></b><a href="">舞蹈</a></li>
+              <li><b><img src="images/sprot_6.png" width="40px" height="40px" /></b><a href="">武术搏击</a></li>
+              <li><b><img src="images/sprot_7.png" width="40px" height="40px" /></b><a href="">游泳</a></li>
+              <li><b><img src="images/sprot_8.png" width="40px" height="40px" /></b><a href="">羽毛球</a></li>
+              <li><b><img src="images/sprot_9.png" width="40px" height="40px" /></b><a href="">乒乓球</a></li>
+              <li><b><img src="images/sprot_10.png" width="40px" height="40px" /></b><a href="">篮球</a></li>
+              <li><b><img src="images/sprot_11.png" width="40px" height="40px" /></b><a href="">足球</a></li>
+              <li><b><img src="images/sprot_12.png" width="40px" height="40px" /></b><a href="">排球</a></li>
+              <li><b><img src="images/sprot_13.png" width="40px" height="40px" /></b><a href="">台球</a></li>
+              <li><b><img src="images/sprot_14.png" width="40px" height="40px" /></b><a href="">网球</a></li>
+               
+            </ul>
+          </div>
+        </div>
+        <div class="sportright">
+          <ul>
+            <li class="sportitem sport_item"> <a href=""><img src="images/pic_img-1.gif" height="188" width="221px"/></a>
+              <div class="sport_infor"> <strong>圈存年卡</strong><br />
+                <em>￥1980元</em></div>
+              <div class="mask" style=" width:221px; height:188px;"></div>
+            </li>
+            <li class="sportitem sport_item"> <a href=""><img src="images/pic_img-2.gif" width="221" height="188"/></a>
+              <div class="mask" style=" width:221px; height:188px;"></div>
+            </li>
+            <li class="sport_item" style="height:185px;"> <a href=""><img src="images/pic_img-3.gif"height="188" width="222px" /></a>
+              <div class="sport_infor"> <strong>圈存年卡</strong><br />
+                <em>￥1980元</em></div>
+              <div class="mask" style=" width:222px; height:185px;"></div>
+            </li>
+            <li class="sportitem_img sport_item"><a href=""><img src="images/pci_ias.gif" width="332" /></a>
+             
+              <div class="mask" style=" width:332px; height:137px;"></div>
+            </li>
+            <li class="sportitem_img sport_item"><a href=""><img src="images/pic_img.gif"width="332" /></a>
+            
+              <div class="mask" style=" width:332px; height:137px;"></div>
+            </li>
+            <li class="sportitem_pic sport_item"><a href=""><img src="images/index3_10.gif" width="166px" height="124" /></a>
+              <div class="mask" style=" width:166px; height:124px;"></div>
+            </li>
+            <li class="sportitem_pic sport_item"><a href=""><img src="images/index3_12_gh.gif" width="166px" height="124" /></a>
+              <div class="mask" style=" width:166px; height:124px;"></div>
+            </li>
+            <li class="sportitem_pic sport_item"><a href=""><img src="images/index3_15.gif" width="166px" height="124px" /></a>
+              <div class="mask" style=" width:166px; height:124px;"></div>
+            </li>
+            <li class="sportitem_pic sport_item"><a href=""><img src="images/index3_17.gif" width="166px" height="124px"/></a>
+              <div class="mask" style=" width:166px; height:124px;"></div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="changguan">
+        <div class="dhooo_tab"> 
+          <div class="changdhoo_tab">
+              <span class="item_tab">场馆预定</span>
+              <div class="dhooitem"></div>
+              <ul class="tab_btn" id="myTab_btns1">
+                 <li class="hot">羽毛球</li>
+                 <li>乒乓球</li>
+                 <li>篮球</li>
+                 <li>足球</li>
+                 <li>排球</li>
+                 <li>台球</li>
+              </ul>
+              <div class="dhooitemss"></div>
+         </div>
+          <div class="main" id="main1">
+            <ul>
+              <li> <a href="http://www.17sucai.com/" target="_blank"><img src="images/shangp.jpg"  /><span>私人教练</span></a> <a href="http://www.17sucai.com/" target="_blank"><img src="images/shangp.jpg"  /><span>华宇健身</span></a> <a href="http://www.17sucai.com/" target="_blank"><img src="images/shangp.jpg"  /><span>13期全家福</span></a> <a href="http://www.17sucai.com/" target="_blank"><img src="images/shangp.jpg"  /><span>储物箱</span></a> <a href="http://www.17sucai.com/" target="_blank"><img src="images/shangp.jpg"  /><span>华宇健身</span></a></li>
+              <li> <a href="http://www.17sucai.com/" target="_blank"><img src="images/img/2.jpg" /><span>私人教练</span></a> <a href="http://www.17sucai.com/" target="_blank"><img src="images/img/2.jpg" /><span>私人教练</span></a> <a href="http://www.17sucai.com/" target="_blank"><img src="images/img/2.jpg" /><span>私人教练</span></a> <a href="http://www.17sucai.com/" target="_blank"><img src="images/img/2.jpg" /><span>私人教练</span></a> <a href="http://www.17sucai.com/" target="_blank"><img src="images/img/2.jpg" /><span>私人教练</span></a></li>
+              <li> <a href="http://www.17sucai.com/" target="_blank"><img src="images/img/3.jpg" /><span>私人教练</span></a> <a href="http://www.17sucai.com/" target="_blank"><img src="images/img/3.jpg" /><span>私人教练</span></a> <a href="http://www.17sucai.com/" target="_blank"><img src="images/img/3.jpg" /><span>私人教练</span></a> <a href="http://www.17sucai.com/" target="_blank"><img src="images/img/3.jpg" /><span>私人教练</span></a> <a href="http://www.17sucai.com/" target="_blank"><img src="images/img/3.jpg" /><span>私人教练</span></a></li>
+              <li> <a href="http://www.17sucai.com/" target="_blank"><img src="images/img/4.jpg" /><span>私人教练</span></a> <a href="http://www.17sucai.com/" target="_blank"><img src="images/img/4.jpg" /><span>私人教练</span></a> <a href="http://www.17sucai.com/" target="_blank"><img src="images/img/4.jpg" /><span>私人教练</span></a> <a href="http://www.17sucai.com/" target="_blank"><img src="images/img/4.jpg" /><span>私人教练</span></a> <a href="http://www.17sucai.com/" target="_blank"><img src="images/img/4.jpg" /><span>私人教练</span></a></li>
+              <li> <a href="http://www.17sucai.com/" target="_blank"><img src="images/img/5.jpg" /><span>私人教练</span></a> <a href="http://www.17sucai.com/" target="_blank"><img src="images/img/5.jpg" /><span>私人教练</span></a> <a href="http://www.17sucai.com/" target="_blank"><img src="images/img/5.jpg" /><span>私人教练</span></a> <a href="http://www.17sucai.com/" target="_blank"><img src="images/img/5.jpg" /><span>私人教练</span></a> <a href="http://www.17sucai.com/" target="_blank"><img src="images/img/5.jpg" /><span>私人教练</span></a></li>
+              <li> <a href="http://www.17sucai.com/" target="_blank"><img src="images/img/5.jpg" /><span>私人教练</span></a> <a href="http://www.17sucai.com/" target="_blank"><img src="images/img/5.jpg" /><span>私人教练</span></a> <a href="http://www.17sucai.com/" target="_blank"><img src="images/img/5.jpg" /><span>私人教练</span></a> <a href="http://www.17sucai.com/" target="_blank"><img src="images/img/5.jpg" /><span>私人教练</span></a> <a href="http://www.17sucai.com/" target="_blank"><img src="images/img/5.jpg" /><span>私人教练</span></a></li>
+            </ul>
+          </div>
+        </div>
+        <script type="text/javascript">
+	new dhooo({
+		btns:UIs.call(UI('myTab_btns1'),'li')
+		,className:'hot'
+		,contentID:'main1'
+		,len:870
+	});
+	
+	
+	    </script>
+      </div>
+    </div>
+    <div class="jiansright">
+      <div class="right_myself">
+        <h2>挑 战 自 我</h2>
+        <div class="myself">
+          <div class="smail bo_bo"> <a href=""> <img src="images/index1.gif" /></a>
+            <div class="my_self ">
+              <p class="ziti"><a href="#">微笑保护美豚</a></p>
+              <p><b>目标</b>:30元运动10.0小时</p>
+              <p><font color="#fd0202">奖</font>:3000元健身卡</p>
+              <p><font color="#10fa04">罚</font>:公益捐款10元</p>
+            </div>
+          </div>
+          <div class="smail bo_bo"><a href=""> <img src="images/index1.gif" /></a>
+            <div class="my_self ">
+              <p class="ziti"><a href="#">每天1个小时跑步6km</a></p>
+              <p><b>目标</b>:24天内 体重减少5.0kg</p>
+              <p><font color="#fd0202">奖</font>:3000元健身卡</p>
+              <p><font color="#10fa04">罚</font>:公益捐款10元</p>
+            </div>
+          </div>
+          <div class="smail bo_bo"> <a href=""> <img src="images/index1.gif" /></a>
+            <div class="my_self">
+              <p class="ziti"><a href="#">挑战极限</a></p>
+              <p><b>目标</b>:4天内体重减少5.0kg</p>
+              <p><font color="#fd0202">奖</font>:3000元健身卡</p>
+              <p><font color="#10fa04">罚</font>:公益捐款10元</p>
+            </div>
+          </div>
+          <div class="smail"> <a href=""> <img src="images/index1.gif" /></a>
+            <div class="my_self">
+              <p class="ziti"><a href="#">挑战极限</a></p>
+              <p><b>目标</b>:4天内体重减少5.0kg</p>
+              <p><font color="#fd0202">奖</font>:3000元健身卡</p>
+              <p><font color="#10fa04">罚</font>:公益捐款10元</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="wenzisk">
+        <h2>健身达人榜</h2>
+        <div class="wen_kaun wen_bore">
+          <div class="wen_pic"><a href=""><img src="images/index3_03_0o.gif" /></a></div>
+          <div class="wen_info">
+            <p class="spro"><a href="#">马明宇</a></p>
+            <p>已经健身<strong>346</strong>次</p>
+            <p>身高:176cm  体重：70kg</p>
+          </div>
+        </div>
+        <div class="wen_kaun wen_bore">
+          <div class="wen_pic"><a href=""><img src="images/index3_08.gif" width="83" height="72" /></a></div>
+          <div class="wen_info">
+            <p class="spro"><a href="#">马明宇</a></p>
+            <p>已经健身<strong>346</strong>次</p>
+            <p>身高:176cm  体重：70kg</p>
+          </div>
+        </div>
+        <div class="wen_kaun">
+          <div class="wen_pic"><a href=""><img src="images/index3_0pp.gif" width="83" height="72" /></a></div>
+          <div class="wen_info">
+            <p class="spro"><a href="#">马明宇</a></p>
+            <p>已经健身<strong>346</strong>次</p>
+            <p>身高:176cm  体重：70kg</p>
+          </div>
+        </div>
+      </div>
+      <div id="container">
+        <ul>
+          <li class="tab" onmouseover="change(this)">公告</li>
+          <li onmouseover="change(this)">规则</li>
+          <li onmouseover="change(this)">精品阅读</li>
+        </ul>
+        <div id="news">
+          <li><b></b><a href="">开源节流调整经营模式 期待健身企业涅盘重生</a></li>
+          <li><b></b><a href="">对消费维权工作的探索</a></li>
+          <li><b></b><a href="">健身行业消费纠纷多发须警惕</a></li>
+          <li><b></b><a href="">健身计划全网独家发售</a></li>
+        </div>
+        <div class="hidden"id="news">
+          <li><b></b><a href="">对消费维权工作的探索</a></li>
+        </div>
+        <div class="hidden"id="news">
+          <li><b></b><a href="">健身行业消费纠纷多发须警惕</a></li>
+        </div>
+        <div class="hidden"id="news">
+          <li><b></b><a href="">没有输家的对赌健身</a></li>
+        </div>
+      </div>
+      <div class="kehu">
+        <div class="kehufw">客户服务</div>
+        <div class="kehu_servie">
+          <div class="kehuinfo">
+            <ul>
+              <li><span class="bowpp"><img src="images/index_moblie.gif" /></span><b>027-86689765</b></li>
+              <li><span class="bowpp"><img src="images/index_21.gif" /></span><b>917981712</b></li>
+              <li><span class="bowl"><img src="images/index_24.gif" /></span><b>卡库网</b><a href=""><img src="images/anin.png" class="kaku_pc"/></a></li>
+              <li><span class="bowl"><img src="images/weixin.png" /></span></li>
+            </ul>
+          </div>
+          <div class="kehutime">工作时间：周一到周六 &nbsp;8:00-18:00</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+</body>
+</html>

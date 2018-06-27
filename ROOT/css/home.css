@@ -1,0 +1,314 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body, html {
+    font: 12px/1.6 "Hiragino Sans GB",STHeiti,"΢���ź�","Microsoft YaHei",Helvetica,Arial,serif;
+}
+img {
+    border:0 none;
+    vertical-align:bottom;
+}
+
+.dou-img-wx{
+	width: 168px;
+	height: 168px;
+	
+}
+.dou-img-app{
+	width: 158px;
+	height: 168px;
+}
+
+.left{
+    float: left;
+}
+.right{
+    float:left;
+    width: 188px;
+    height: 196.84px;
+}
+.fix{
+    clear: both;
+}
+.block{
+    display: block;
+}
+.W50{
+    width: 50%;
+}
+
+
+.touchService{
+	text-align: center;
+	margin-top: 20px;
+	height: 50px;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.about{
+	float: left;
+	color: white;
+	font-size: 18px;
+	margin-right: 3%;
+	margin-left:28%;
+	text-align: center;
+}
+
+.about:hover{
+	float: left;
+	color: red;
+	font-size: 18px;
+	margin-right: 3%;
+	margin-left:28%;
+	text-align: center;
+	cursor: pointer;
+}
+
+.contact{
+	float: left;
+	color: white;
+	font-size: 18px;
+	margin-right: 3%;
+	text-align: center;
+}
+
+.contact:hover{
+	float: left;
+	color: red;
+	font-size: 18px;
+	margin-right: 3%;
+	text-align: center;
+	cursor: pointer;
+}
+
+
+.QQ{
+	float: left;
+	color: white;
+	font-size: 18px;
+	margin-right: 3%;
+	text-align: center;
+}
+
+.wechat{
+   float: left;	
+   color: white;
+   font-size: 18px;
+   text-align: center;
+}
+
+
+
+.dou-font-img{
+	position: relative;
+	top: 20%;
+	left: 42%;
+	
+}
+
+/*---------------------------------------����-----------------------------------*/
+.banner_1{
+
+    width: 100%;
+    height: 680px;
+    position: relative;
+}
+
+.navbar-header{
+    margin-top: 10px!important;
+}
+input{
+    font-size: 12px;
+}
+.navUla{
+    line-height: 23px!important;
+    border-radius: 6px;
+    padding: 2px 4px!important;
+    background-color: red;
+    color:white;
+}
+.navUla:visited{
+    background-color: red!important;
+    color:white!important;
+}
+.navUla:hover{
+    background-color: red!important;
+    color:white!important;
+}
+.navUla:active{
+    background-color: red!important;
+    color:white!important;
+}
+
+.ewDownloadBox{
+    position:relative;
+    width: 50%;
+    height: auto;
+    left: 30%;
+    top:38%;
+    margin-left: 30px;
+}
+
+.cheng{
+    display: block;
+    background-color:#ff4401;
+    text-align: center;
+    color:white;
+    font-size: 23px;
+    padding: 3px 8px ;
+    line-height: 40px;
+    border: 2px solid white;
+    margin-top:25% ;
+    border-radius: 8px;
+
+}
+.ewmBox{
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+@media (max-width:770px ) {
+    .navbar-header{
+        position: fixed;!important;
+        top:0px!important;
+        left: 25px;
+    }
+    .navUla{
+        position: fixed!important;
+        top :10px;
+        right:15px;
+
+    }
+
+
+
+}
+@media (max-width:810px ) {
+    .ewDownloadBox{
+        position:relative;
+        width: 80%;
+        height: auto;
+        left: 10%;
+        top:70%;
+
+    }
+    .w50{
+        width: 100%;
+    }
+    .cheng {
+        display: inline-block !important;
+        width: 40%;
+        margin-left: 8% !important;
+    }
+
+    .ewmBox {
+        display: none !important;
+    }
+}
+@media (max-width:500px ){
+    .cheng{
+        display: block;
+        background-color:#ff4401;
+        text-align: center;
+        color:white;
+        font-size: 12px!important;
+        padding: 4px 2px !important;
+        line-height: 20px;
+        border: 1px solid white;
+        margin-top:25% ;
+        border-radius: 4px;}
+}
+.textA{
+    height: 200px;
+    width: 100%;
+    overflow: hidden!important;
+}
+.textA1{
+    height: 200px;
+    width: 30%;
+    text-align: center;
+    margin: 0 auto;
+}
+.textA1t{
+    color:#ff4401;
+    margin-top:47px;
+    font-size: 30px
+}
+.textA1p{
+    color:#ff4401;
+    font-size: 20px
+}
+.man1{
+    height: 650px;
+    width: 100%;
+    position: relative
+}
+.man1Div{
+    width: 484px;
+    margin-left: 10%;
+}
+.man1img{
+    margin-top:-150px;
+    width: 484px
+}
+.cheng1{
+    margin:20px 20px;
+    display:inline-block;
+    background-color:#ff4401;
+    text-align: center;
+    color:white;
+    font-size: 23px!important;
+    padding: 3px 2px !important;
+    line-height: 50px;
+    border: 2px solid white;
+    width: 166px;
+    border-radius: 4px;
+}
+.bg2{
+    height: 650px;
+    width: 100%;
+    margin-top:30px;
+    position: relative;
+}
+.bg2div{
+    width: 484px;
+    float: right;
+    margin-right: 10%
+}
+.img2{
+    margin-top:-100px;
+    width: 484px
+}
+.bg3div{
+    height: 200px;
+    width: 100%;
+    overflow: hidden!important;
+}
+.textB{
+    height: 200px;
+    width: 30%;
+    text-align: center;
+    margin: 0 auto;
+}
+.textBt{
+    color:#ff4401;
+    margin-top:47px;
+    font-size: 30px
+}
+.textBp{
+    color:#ff4401;
+    margin-top:47px;
+    font-size: 20px
+}
+.img4{
+    display: block;
+    margin: 0 auto;
+}

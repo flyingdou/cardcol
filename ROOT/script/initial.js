@@ -1,0 +1,1 @@
+Ext.getDom('loading-msg').innerHTML = '正在初始化......';

@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title></title>
+    <script src="js/mui.min.js"></script>
+    <link href="css/mui.min.css" rel="stylesheet"/>
+    <script type="text/javascript" charset="utf-8">
+      	mui.init();
+    </script>
+    <style>
+    .mui-content{
+    	background: rgba(0,0,0,0);
+    	box-sizing: border-box;
+
+
+    }
+    	.headerBox{
+    		height: 220px;
+    		width: 100%;
+    		position:relative;
+            box-sizing: border-box;
+            overflow: hidden;
+    	
+    	}
+    	.jk{
+    		width: 80%;
+    		margin-left: 10%;
+    		z-index: 88;
+    		position: absolute;
+    		top:39%
+    	}
+    	.yun{
+    		width: 40px;
+    		height: 35px;
+    		position: absolute;
+    		background: url(img/yun.png)no-repeat scroll 0 0/40px 30px;
+    	}
+    	 	.yun_a{
+    		width: 65px;
+    		height: 60px;
+    		position: absolute;
+    		background: url(img/yun.png)no-repeat scroll 0 0/60px auto;
+    	}
+    	.yun1{
+    		top:10px;
+    		z-index: 4;
+    		top:100px;
+    		-webkit-animation: yun1 50s infinite ease normal;
+            -moz-animation:  yun1  50s infinite ease normal;
+            -o-animation: yun1  50s infinite ease normal;
+            animation:  yun1  50s infinite ease normal;	
+    	}
+    	@-webkit-keyframes  yun1  {
+         0% { left: -10px;
+              top:10px;
+             }
+         100% { left: 100%;
+              top:20px;
+              }
+                                   }
+        @-moz-keyframes  yun11 {
+          0% { left: -10px;
+              top:10px;
+             }
+         100% { left: 100%;
+              top:20px;
+              }
+}
+
+        @keyframes  yun1 {
+           0% { left: -10px;
+              top:10px;
+             }
+         100% { left: 100%;
+              top:20px;
+              }
+              }   
+    	.yun2{
+    		top:100px;
+    		z-index: 2;
+    		top:38%;
+    		-webkit-animation: yun2 90s infinite ease normal;
+            -moz-animation:  yun2  90s infinite ease normal;
+            -o-animation: yun2  90s infinite ease normal;
+            animation:  yun2  90s infinite ease normal;
+    	}
+    	@-webkit-keyframes  yun2  {
+         0% { left: -10px;
+              top:38%;
+             }
+         100% { left: 100%;
+              top:59%;
+              }
+                                   }
+        @-moz-keyframes  yun2  {
+         0% { left: -10px;
+              top:38%;
+             }
+         100% { left: 100%;
+              top:59%;
+              }
+}
+
+        @keyframes  yun2  {
+         0% { left: -10px;
+              top:38%;
+             }
+         100% { left: 100%;
+              top:59%;
+              }
+              }   
+    	.yun3{
+    		z-index: 6;
+    		top:50px;
+    		
+            -webkit-animation: yun3 60s infinite ease normal;
+            -moz-animation:  yun3  60s infinite ease normal;
+            -o-animation: yun3  60s infinite ease normal;
+            animation:  yun3  60s infinite ease normal;
+    	}
+    	@-webkit-keyframes  yun3  {
+         0% { left: -89px;
+              top:50px;
+             }
+         100% { left: 100%;
+              top:90px
+              }
+                                   }
+        @-moz-keyframes  yun3  {
+        0% { left: -89px;
+              top:50px;
+             }
+         100% { left: 100%;
+              top:90px
+              }
+}
+
+        @keyframes  yun3  {
+        0% { left: -89px;
+              top:50px;
+             }
+         100% { left: 100%;
+              top:90px
+              }        }   
+
+   
+    	.yun4{
+    		top:30px;
+    		z-index: 5;
+    		right:-65px;
+    		  -webkit-animation: yun4 70s infinite ease normal;
+            -moz-animation:  yun4  70s infinite ease normal;
+            -o-animation: yun4  70s infinite ease normal;
+            animation:  yun4  67s infinite ease normal;
+    	}
+    		@-webkit-keyframes  yun4  {
+         0% { right: -65px;
+              top:30px;
+             }
+         100% { right: 100%;
+              top:50px
+              }
+                                   }
+        @-moz-keyframes  yun4  {
+         0% { right: -65px;
+              top:30px;
+             }
+         100% { right: 100%;
+              top:50px
+              }
+}
+
+        @keyframes  yun4  {
+             0% { right: -65px;
+              top:30px;
+             }
+         100% { right: 100%;
+              top:50px
+              }
+                          }   
+                          
+           	.yun5{
+    		top:160px;
+    		z-index: 5;
+    		right:-65px;
+    		  -webkit-animation: yun5 20s infinite ease normal;
+            -moz-animation:  yun5  20s infinite ease normal;
+            -o-animation: yun5  20s infinite ease normal;
+            animation:  yun5  20s infinite ease normal;
+    	}
+    		@-webkit-keyframes  yun5  {
+         0% { right: -65px;
+              top:160px;
+             }
+         100% { right: 100%;
+             top:100px;
+              }
+                                   }
+        @-moz-keyframes  yun5  {
+     0% { right: -65px;
+              top:160px;
+             }
+         100% { right: 100%;
+             top:100px;
+              }
+}
+
+        @keyframes  yun5  {
+      0% { right: -65px;
+              top:160px;
+             }
+         100% { right: 100%;
+             top:100px;
+              }
+                          }   
+    	.fc{
+    		width:70px;
+    		height:50px;
+    		position:absolute;
+    		right: -10px;
+    		z-index: 100;
+    		top:130px;
+    		background: url(img/fc.png)no-repeat scroll 0 0 / 70px auto;
+    	    -webkit-animation: fc 40s infinite ease normal;
+            -moz-animation:  fc  40s infinite ease normal;
+            -o-animation: fc 40s infinite ease normal;
+            animation:  fc 40s infinite ease normal;
+    	}
+    		@-webkit-keyframes  fc  {
+         0% { right: -89px;
+              top:50%;
+             }
+         100% { right: 100%;
+              top:45%
+              }
+                                   }
+        @-moz-keyframes  fc  {
+         0% { right: -89px;
+              top:50%;
+             }
+         100% { right: 100%;
+              top:45%
+              }
+}
+
+        @keyframes  fc  {
+      0% { right: -89px;
+              top:50%;
+             }
+         100% { right: 100%;
+              top:45%
+              }         }   
+                          
+        .ball1{
+        	width: 50px;
+        	height:50px;
+        	top:80%;
+        	z-index: 89;
+        	position:absolute;
+        	background: url(img/ball.png)no-repeat  scroll 0 0/auto 50px;
+            -webkit-animation: ball 80s infinite ease normal;
+            -moz-animation:  ball  80s infinite ease normal;
+            -o-animation: ball 80s infinite ease normal;
+            animation:  ball 80s infinite ease normal;
+        }   
+        
+           		@-webkit-keyframes  ball  {
+        0% { left: -89px;
+              top:80%;
+             }
+        50% { left: 50%;
+              top:60%;
+             }
+        100% { left: 100%;
+              top:80%
+              }
+                                   }
+        @-moz-keyframes  ball {
+        0% { left: -89px;
+              top:80%;
+             }
+        50% { left: 50%;
+              top:60%;
+             }
+        100% { left: 100%;
+              top:80%
+              }
+}
+
+        @keyframes  ball {
+        0% { left: -89px;
+              top:80%;
+             }
+        50% { left: 50%;
+              top:60%;
+             }
+        100% { left: 100%;
+              top:80%
+              }
+                          }     
+                          
+        .textbox{
+        	width: 80%;
+        	height: 90%;
+        	position:absolute;
+        	margin:0 10%;
+        	z-index: 888;
+        }   
+        
+        .yun_next{
+        	width:100%;
+        	height: 60%;
+        	position:absolute;
+        }
+        
+        
+        
+        
+        .cczs{
+        	width: 80%;
+        	height: 80%;
+        	background: white;
+        	position:relative;
+        	margin: 0 10%;
+        	 border-radius:10px;
+        } 
+        .cczsimg{
+        	width: 40%;
+        	top:-20px;
+        	left: -10px;
+        	position:absolute
+        }
+        .say{
+        	box-sizing: border-box;
+            padding: 50px 10px;
+        }
+        p{
+        	font-size:16px!important;
+        	color:#666666!important;
+        }
+        .p_1{
+        	margin-top:22px ;
+        }
+     
+        .yellow{
+        	color:#febe37;
+        }
+        .kscs{
+        	width: 85%;
+        	margin-top: 15px;
+        	margin-left:7.5%;
+
+        }
+                                   
+
+    </style>
+</head>
+<body style="background: url(img/bg.png)no-repeat scroll 0 0/100% auto;">
+	<div class="mui-content">
+	    <div class="headerBox">
+	    	<div class="jk"><img src="img/jk.png"width="100%" alt="" /></div>
+	    	<!--你一会看我，一会看云-->
+	    	<div class="yun yun1"></div>
+	    	<div class="yun_a yun2"></div>
+	    	<div class="yun yun3"></div>
+	    	<div class="yun_a yun4"></div>
+	    	<!--看，有灰机-->
+	    	<div class="fc"></div>
+	    	<!--看，热气球-->
+	    	<div class="ball1"></div>
+	    </div>
+	   
+
+	    
+	     	<div class="yun_next"style="overflow: hidden;padding-top: 20px;box-sizing: border-box;">
+	     	
+	     		<div class="yun yun3"></div>
+	     			<div class="yun_a yun5"></div>
+	    	
+	     	
+	     	
+	 			 <div class="textbox">
+	    	<div class="cczs">
+	    		<div class="say">
+	    			<div class="cczsimg">
+	    			<img src="img/cczs.png"width="100%" alt="" />
+	    		    </div>
+	    			<p>本测试根据美国田纳西大学为本期4年的“夫妻体形与婚姻感受关系研究”成果开发。</p>
+	    			<p class="p_1"><span class="yellow">点击开始</span>，测测自己的健康指数和婚姻生活幸福度！</p>
+	    		</div>
+	    		
+	    	</div>
+	    	  <div class="kscs"><a href="ckjl.html"><img src="img/kscs.png"width="100%"/></a></div>
+	    </div>
+	    
+	 	</div>
+	    
+	</div>
+</body>
+</html>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN" "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+<beans>
+	<!-- ########## Scheduler begin ############ -->
+	<!-- 定时扫描周期,如果已到期,则结束周期 -->  
+    <!-- 定时服务定义 --> 
+	<bean id="schedulerFactory" lazy-init="false" autowire="no"
+		class="org.springframework.scheduling.quartz.SchedulerFactoryBean">
+		<!-- 自动启动 -->     
+        <property name="autoStartup">     
+            <value>true</value>     
+        </property>  
+		<property name="triggers">
+			<list>
+				<ref bean="balanceOrderTrigger" />
+				<ref bean="workoutTimesTrigger" />
+			</list>
+		</property>
+	</bean>
+	<!-- ########## Scheduler end ############ -->
+	
+	<!-- ########## Trigger begin ############ -->
+	<!-- 定义触发时间-->
+	<bean id="balanceOrderTrigger" class="org.springframework.scheduling.quartz.CronTriggerBean">
+		<property name="jobDetail">
+			<ref bean="balanceOrderJob" />
+		</property>
+		<!-- 0 15 0 * * ? cron表达式,每天的0点15分执行 "0 15 10 ? * MON-FRI" 周一至周五的上午10:15触发 -->
+		<property name="cronExpression">
+			<value>0 0 23 * * ? 2013</value>
+		</property>
+	</bean>
+	<!-- ########## Trigger end ############ -->
+	
+	<!-- ########## Job begin ############ -->
+	<!-- 定义调用对象和调用对象的doSaDownload方法-->
+	<bean id="balanceOrderJob"
+		class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+		<!-- 调用的类-->
+		<property name="targetObject">
+			<ref bean="orderAction" />
+		</property>
+		<!-- 调用类中的方法-->
+		<property name="targetMethod">
+			<value>saveBalanceOrder</value>
+		</property>
+	</bean>
+	<!-- ########## Job end ############ -->
+	
+	<!-- ########## Action begin ############ -->
+ 	<!-- 自动写统计数据的bat-->
+    <bean name="orderAction" class="com.freegym.web.order.action.OrderManageAction"/>
+	<!-- ########## Action end ############ -->
+	
+	
+	
+	<!-- ########## Trigger begin ############ -->
+	<!-- 定义触发时间-->
+	<bean id="workoutTimesTrigger" class="org.springframework.scheduling.quartz.CronTriggerBean">
+		<property name="jobDetail">
+			<ref bean="workoutTimesJob" />
+		</property>
+		<!-- 0 15 0 * * ? cron表达式,每天的0点15分执行 "0 15 10 ? * MON-FRI" 周一至周五的上午10:15触发 -->
+		<property name="cronExpression">
+			<value>0 0 2 * * ? 2013</value>
+		</property>
+	</bean>
+	<!-- ########## Trigger end ############ -->
+	
+	<!-- ########## Job begin ############ -->
+	<!-- 定义调用对象和调用对象的doSaDownload方法-->
+	<bean id="workoutTimesJob"
+		class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+		<!-- 调用的类-->
+		<property name="targetObject">
+			<ref bean="memberAction" />
+		</property>
+		<!-- 调用类中的方法-->
+		<property name="targetMethod">
+			<value>sendMailByWorkoutTimes</value>
+		</property>
+	</bean>
+	<!-- ########## Job end ############ -->
+	
+	<!-- ########## Action begin ############ -->
+ 	<!-- 自动写统计数据的bat-->
+    <bean name="memberAction" class="com.freegym.web.basic.action.MemberManageAction"/>
+	<!-- ########## Action end ############ -->
+</beans>

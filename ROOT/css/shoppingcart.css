@@ -1,0 +1,127 @@
+/* CSS Document */
+
+
+#cont {
+   width:940px;
+   margin:0 auto;
+   margin-top:10px;
+   border-top:1px solid #999;
+}
+#cont .contop1 {
+   width:744px;
+   height:31px;
+   margin:0 auto;
+   margin-top:15px;
+}
+#cont .contop1 li {
+    list-style:none;
+    float:left;
+	width:186px;;
+	height:31px;
+	line-height:30px;
+    text-align:center;
+	font-family:"ºÚÌå";
+	font-size:14px;
+	background:url(../images/jindu.jpg) no-repeat -186px 0;
+	color:#161616;
+}
+#cont .contop1 li.first {
+    background:url(../images/jindu.jpg) no-repeat 0 0;
+	color:white;
+}
+#cont .contop2 {
+   height:25px;
+   width:930px;
+   margin:0 auto;
+   margin-top:10px;
+   padding-left:35px;
+   padding-top:8px;
+   background:url(../images/bzxx.jpg) no-repeat;
+}
+#cont .contop3 {
+  width:930px;
+  margin:0 auto;
+  background: #FDFBF4;
+  border:1px solid #89c04d;
+} 
+#cont .contop3 table{
+  border-collapse:collapse;
+}
+#cont .contop3 .th1 {
+  width:360px;
+  height:31px;
+  padding:0px;
+  text-align:center;
+  background:url(../images/shopbg.gif);
+  line-height:31px;
+}
+#cont .contop3 .th2 {
+  width:110px;
+  height:31px;
+  padding:0px;
+  text-align:center;
+  background:url(../images/shopbg.gif);
+   line-height:31px;
+}
+#cont .contop3 .th3 {
+  width:130px;
+  height:31px;
+  padding:0px;
+  text-align:center;
+  background:url(../images/shopbg.gif);
+  line-height:31px;
+}
+#cont .contop3 .tr1 {
+  width:100%;
+  height:60px;
+  border-bottom:1px dashed  #666;
+}
+
+#cont .contop3 .tr1 .td1 {
+ text-align:center;
+}
+#cont .contop3 .tr1 .td1-1 {
+ text-align:center;
+ color:red;
+}
+#cont .contop3 .tr1 .tdp {
+ padding-left:55px;
+}
+#cont .contop3 .tr1 .td1inp {
+  width:40px;
+  height:17px;
+  text-align:center;
+  margin-left:5px;
+  margin-right:5px;
+  border:1px solid rgb(223, 223, 223)
+}
+#cont .contop3 .tr1 p {
+  padding-left:50px;
+  font-size:12px;
+  line-height:25px;
+}
+#cont .contop3 .tr1 p a {
+  color:#3266CC;
+  text-decoration:none;
+}
+#cont .contop3 .tr1 p a:hover {
+ text-decoration:underline;
+}
+#cont .contop4 {
+ width:100%;
+ height:90px;
+ margin:0  auto;
+}
+#cont .contop4 .right1 {
+  text-align:right;
+  padding-right:20px;
+  font-size:14px;
+  line-height:50px;
+}
+#cont .contop4 .right1 span {
+ color:red;
+}
+#cont .contop4 .right2 {
+  text-align:right;
+}
+

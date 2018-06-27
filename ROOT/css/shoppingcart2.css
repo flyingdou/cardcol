@@ -1,0 +1,88 @@
+/* CSS Document */
+#cont {
+   width:940px;
+   margin:0 auto;
+   margin-top:10px;
+   border-top:1px solid #999;
+}
+#cont .contop1 {
+   width:744px;
+   height:31px;
+   margin:0 auto;
+   background:red;
+   margin-top:15px;
+}
+#cont .contop1 li {
+    list-style:none;
+    float:left;
+	width:186px;;
+	height:31px;
+	line-height:30px;
+    text-align:center;
+	font-family:"ºÚÌå";
+	font-size:14px;
+	background:url(../images/jindu.jpg) no-repeat -186px 0;
+	color:#161616;
+}
+#cont .contop1 li.first {
+    background:url(../images/jindu.jpg) no-repeat -558px 0;
+	color:white;
+}
+#cont .contop1 li.last {
+    background:url(../images/jindu.jpg) no-repeat -372px 0;
+}
+#cont .contop2 {
+   width:900px;
+   height:250px;
+   margin:0 auto;
+   margin-top:20px;
+   background:url(../images/inbg.png);
+}
+/*#cont .contop2 a{
+   color:red;
+   text-decoration:none;
+}*/
+#cont .contop2-1 {
+  width:660px;
+  height:150px;
+  margin:0 auto;
+}
+.contop2-1 .condiv1 {
+  width:50px;
+  height:70px;
+  float:left;
+  margin-top:20px;
+  margin-left:40px;
+}
+.contop2-1 .condiv2 {
+  width:550px;
+  height:140px;
+  float:right;
+}
+.contop2-1 .condiv2 p {
+color:#000000;
+  padding-top:10px;
+}
+.contop2-1 .condiv2 .span1 {
+  font-size:16px;
+  padding-right:15px;  
+}
+.contop2-1 .condiv2 .span3{
+ padding-left:5px;
+} 
+.contop2-1 .condiv2 .span3 a{
+ color:red;
+} 
+.contop2-1 .condiv2 .span2 {
+padding:0 5px 0 2px;
+ color:#f26521;
+}
+#cont .contop2-2 {
+  width:650px;
+  height:60px;
+  margin:0 auto;
+}
+#cont .contop2-2 p {
+  padding-top:20px;
+  font-size:12px;
+}

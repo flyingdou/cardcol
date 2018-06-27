@@ -1,0 +1,305 @@
+@CHARSET "UTF-8";
+.headerCss{
+    background-color: #474747 !important;
+    border:none!important;
+    height: 50px!important;
+}
+
+.headerLogo{
+    display: block !important;
+    margin: 12px !important;
+    padding: 0 !important;;
+    text-shadow: none!important;
+    background-color:#474747 !important;
+    border: none!important;
+    box-shadow: none!important;
+}
+.headerLogo:visited{
+    text-shadow: none!important;
+    background-color:#474747 !important;
+    border: none;
+    box-shadow: none!important;
+}
+.headerLogo:hover{
+    padding: 0;
+    text-shadow: none!important;
+    background-color:#474747 !important;
+    border: none;
+    box-shadow: none!important;
+}
+
+.headerLogo:active{
+    padding: 0;
+    text-shadow: none!important;
+    background-color:#474747 !important;
+    border: none;
+    box-shadow: none!important;
+}
+
+
+.downLoadApp{
+    height: 24px!important;
+    display: block!important;
+    box-sizing: border-box!important;
+    color:white!important;
+    background-color:#474747 !important;
+    text-shadow: none!important;
+}
+.pageCss{
+    background-color: white !important;
+    border: none !important;
+}
+.main{
+    padding: 0;
+    margin: 0;
+
+}
+.listW{
+    display: block;
+    overflow: hidden;
+    padding: 0 1em;
+    border: none;
+}
+.noshadow{
+    box-shadow: none;
+    border: none;
+    text-shadow: none;
+}
+.noborder{
+    border: none !important;
+    background-color: white !important;
+    box-shadow: none !important;
+}
+.noborder:visited{
+    text-shadow: none !important;
+    box-shadow: none !important;
+    color: white !important;
+}
+.noborder:hover{
+    text-shadow: none !important;
+    box-shadow: none !important;
+}
+
+.noborder:active{
+    text-shadow: none !important;
+    box-shadow: none !important;
+    color: white !important;
+}
+.borderH{
+    height: 70px!important;
+    box-sizing: border-box!important;
+    margin-top: 6px!important;
+    margin-bottom: 6px!important;
+}
+.marginT10{
+    margin: -.6em -1em -.3em -1em!important;
+
+}
+.PCSSa{
+    padding-top: 0!important;
+    margin: -8px!important;
+}
+.ranzhiC{
+    color:#999999 !important;
+    font-size: 14px!important;
+}
+.ranzhiD{
+    font-size: 14px!important;
+}
+
+
+.qianka{
+    display: inline-block;
+    width: 33%;
+    text-align: left;
+}
+.timeshow{
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+}
+.leng{
+    display: inline-block;
+    width: 33%;
+    text-align: right;
+}
+
+
+
+.spanCss{
+    float: right;display: inline-block;
+    margin: .45em 0;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;font-size: .75em;
+}
+.actionImg{
+    display: block;margin: .45em 0;
+    width: 80px;
+    height: 60px;
+}
+.footerCss{
+    padding: 0;
+    border: none;
+    background-color: #ff4061 !important;
+}
+.borderpx{
+    border-radius:0!important; ;
+    border-top: 1px solid silver!important;
+    padding-top: 13px!important;
+}
+.h2Css{
+    margin-left: -0.9em!important;
+    margin-right: -0.9em!important;
+    color: #000000 !important;
+    font-size: 15px!important;
+    font-weight: 500 !important;
+}
+.h2Css1{
+
+    color: #000000 !important;
+    font-size: 15px!important;
+    font-weight: 500 !important;
+}
+.dzlist{
+    width: 50% !important;
+    text-align: left!important;
+    overflow: hidden;
+}
+.Mact{
+    width: 50% !important;
+    text-align: right!important;
+    overflow: hidden;
+}
+.pCSS{
+    margin-left: -1em!important;
+    font-size: 14px!important;
+    color:#999999 !important;
+}
+.spanCss{
+    color: #999999 !important;
+    font-size: 12px!important;
+}
+.footerA{
+    background-color:#ff4601 !important;
+    color:white !important;
+    font-weight: 400!important;
+    text-shadow: none!important;
+    font-size: 17px !important;
+    width: 100% !important;
+    height: 100% !important;
+    display: block !important;
+    margin: 0!important;
+    border-radius: 0 !important;
+}
+.footerA:visited{
+    text-shadow: none!important;
+    box-shadow: none!important;
+}
+.footerA:hover{
+    text-shadow: none!important;
+    box-shadow: none!important;
+}
+.footerA:active{
+    text-shadow: none!important;
+    box-shadow: none!important;
+}
+.left{ float: left}
+.right{
+    float: right;
+}
+.fix{
+    clear: both;
+}
+
+
+.main{
+    border: none!important;
+    margin-top:-2px;
+}
+.headerCss{
+    height: 50px!important;
+}
+.downLoadApp{
+    margin-top:12px!important;
+    font-weight: 400!important;
+    line-height: 11px!important;
+    padding: 0.5em 0.3em!important;
+    margin-right: .9em!important;
+}
+
+
+
+/*//////////*/
+.bodyS{
+    min-height: 100%!important;background: black!important;
+    overflow: hidden;
+}
+.pageM{
+  min-height: 100%!important;overflow: hidden!important;
+}
+.mainA{
+    height: 100%!important;background-color: black!important;overflow: hidden!important;position: relative!important;
+}
+
+.hmm{
+    position: absolute;bottom: 40%;right:1em;color:white;font-size: 16px;font-weight: 300
+}
+.downJ{
+    position: absolute;
+    bottom:35%;
+    right:1em;
+    color:white;
+    font-size: 14px;
+    font-weight: 300;
+    background-color:#ff4401;
+    padding: 8px 10px;
+    border-radius: 8px;
+}
+.backgroundo{
+    position: fixed;
+    bottom:0px;
+    background:rgba(0,0,0,.8)!important;
+    max-height: 35%;
+    min-height: 30%;
+    overflow: hidden;
+
+}
+
+.sbzj{
+    color: white;
+    text-shadow: none;
+    font-weight: 300
+}
+
+.font16A{
+    font-size: 16px;
+    color:white;
+}
+.font12{
+    font-size: 12px
+}
+.itemA{
+    width: 100%;padding: 15px 10px 30px 10px;
+
+}
+.nameWy{
+    width: 20px; line-height: 16px;font-size: 12px;
+    word-wrap: break-word;display:block;float:left;height: 40px;padding: 6px;color:white
+}
+.wWork{
+    color: white;text-shadow: none;font-weight: 300
+}
+.wWork1{
+    font-size: 16px;color: white;display: block;width:80px;height:80px;float: left;
+}
+.jieshao{
+    font-size: 12px;display:block;float: left;width:65%;line-height:20px;overflow:hidden;
+}
+
+/*19/27*/
+*{
+    text-shadow:none !important;
+
+}
+

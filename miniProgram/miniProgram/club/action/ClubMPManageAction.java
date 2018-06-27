@@ -67,10 +67,8 @@ import net.sf.json.JSONObject;
  */
 @Namespace("")
 @InterceptorRefs({ @InterceptorRef("customStack") })
-@Results({ 
-	@Result(name = "price_cutdown_list", location = "/active/price_cutdown_list.jsp"),
-	@Result(name = "clubWifi", location = "/active/clubWifi.jsp")
-})
+@Results({ @Result(name = "price_cutdown_list", location = "/active/price_cutdown_list.jsp"),
+		@Result(name = "clubWifi", location = "/active/clubWifi.jsp") })
 public class ClubMPManageAction extends BasicJsonAction implements SessionConstant {
 	private static final long serialVersionUID = 1L;
 
@@ -255,12 +253,12 @@ public class ClubMPManageAction extends BasicJsonAction implements SessionConsta
 						+ " select m.id,m.name,m.image from tb_member_friend mf inner join tb_member m on mf.member = m.id"
 						+ " where m.role = 'M' and type = 1 and friend = " + id + ") t order by count desc";
 				List<Map<String, Object>> memberRanking = service.queryForList(sql4);
-				
+
 				// 查询俱乐部的banner
 				String sql5 = "select banner_image from tb_club_wifi where club = ?";
 				Map<String, Object> mm = service.queryForMap(sql5, id);
 				String banner = null;
-				if(mm != null && mm.containsKey("banner_image")) {
+				if (mm != null && mm.containsKey("banner_image")) {
 					banner = (String) mm.get("banner_image");
 				}
 
@@ -655,8 +653,8 @@ public class ClubMPManageAction extends BasicJsonAction implements SessionConsta
 			// 校验3: 当前用户是否已经签到签出过(每天只能签到签出一次)
 			// 查询该会员该订单当天的签出次数
 			String querySql = "select count(s.id) from tb_sign_in s where s.f_money = 1 and s.memberSign =? and s.signDate LIKE  '%"
-					+ EasyUtils.dateFormat(new Date(), "yyyy-MM-dd") + "%'";
-			long count = service.queryForLong(querySql, param.getLong("memberId"));
+					+ EasyUtils.dateFormat(new Date(), "yyyy-MM-dd") + "%' and memberAudit = ?";
+			long count = service.queryForLong(querySql, param.getLong("memberId"), param.getLong("clubId"));
 			if (count > 0) {
 				result.accumulate("success", false).accumulate("message", "每天只能签到签出一次!");
 				response(result);
@@ -785,11 +783,14 @@ public class ClubMPManageAction extends BasicJsonAction implements SessionConsta
 	public void myFooter() {
 		try {
 			String memberId = request.getParameter("memberId");
+			String clubId = request.getParameter("clubId");
 			String querySign = "select s.id,m.id clubId,m.name,m.image,s.signDate,me.TOTALITY_SCORE totalityScore,"
 					+ " me.SERVICE_SCORE servieScore,me.DEVICE_SCORE deviceScore,me.EVEN_SCORE evenScore from tb_sign_in s"
 					+ " inner join tb_member m on s.memberAudit = m.id left join tb_member_evaluate me on s.id = me.signIn "
-					+ " where s.f_money = 1 and s.memberSign =  " + memberId + " order by s.signDate desc";
-			List<Map<String, Object>> signList = EasyUtils.dateFormat(service.queryForList(querySign), "yyyy-MM-dd");
+					+ " where s.f_money = 1 and s.memberAudit = ? and s.memberSign =  " + memberId
+					+ " order by s.signDate desc";
+			List<Map<String, Object>> signList = EasyUtils.dateFormat(service.queryForList(querySign, clubId),
+					"yyyy-MM-dd");
 			response(new JSONObject().accumulate("succees", true).accumulate("signList", signList));
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -990,6 +991,7 @@ public class ClubMPManageAction extends BasicJsonAction implements SessionConsta
 			Member member = (Member) service.load(Member.class, Long.valueOf(request.getParameter("memberId")));
 			String productId = request.getParameter("productId");
 			String productType = request.getParameter("productType");
+			String clubId = request.getParameter("clubId");
 			double productPrice = 0.0;
 			String orderType = "";
 			if (Constants.PRODUCT_TYPE_PRODUCT.equals(productType)) {
@@ -1006,12 +1008,15 @@ public class ClubMPManageAction extends BasicJsonAction implements SessionConsta
 					STATUS_TICKET_USE, member.getId(), "%" + orderType + "%");
 			final JSONArray jarr = new JSONArray();
 			for (final Map<String, Object> mt : mts) {
-				String querySql = "select t.id,t.name,t.price,tl.image,tl.limit_price limitPrice,mt.id ticketId,m.name clubName"
+				String querySql = "select t.id,t.name,t.price,tl.image,tl.limit_price limitPrice,limit_club,mt.id ticketId,m.name clubName"
 						+ " from tb_ticket t inner join tb_ticket_limit tl  on t.id = tl.ticket inner join tb_member_ticket mt"
 						+ " on mt.ticket = tl.ticket inner join tb_member m on tl.limit_club = m.id where mt.id = "
 						+ mt.get("tid");
 				Map<String, Object> map = service.queryForMap(querySql);
 				if (map != null && map.containsKey("id") && map.get("id") != null) {
+					if (!clubId.equals(map.get("limit_club"))) {
+						continue;
+					}
 					double limitPrice = Double.parseDouble(String.valueOf(map.get("limitPrice")));
 					if (productPrice >= limitPrice) {
 						map.put("scope", mt.get("scope"));
@@ -2266,14 +2271,11 @@ public class ClubMPManageAction extends BasicJsonAction implements SessionConsta
 	public List<Map<String, Object>> getCutRanking(Long priceAcitve) {
 		List<Map<String, Object>> sortList = new ArrayList<Map<String, Object>>();
 		try {
-			String sqlx = " select ttx.* from ( " 
-						+ "      select tdd.*, (select (money - SUM(cutMoney)) as currentMoney from tb_price_cutdown where parent = tdd.parent  or id = tdd.parent ) as currentMoney from ( " 
-						+ "          select pc.id, pc.money, pc.cutMoney as totalCut, m.name, m.image, pc.priceActive, IFNULL(pc.parent, pc.id) as parent from tb_price_cutdown pc  LEFT JOIN tb_member m ON pc.member = m.id  " 
-						+ "			) tdd "
-						+ " ) ttx  "
-						+ " where ttx.priceActive = ? "
-						+ " ORDER BY ttx.totalCut desc "
-						+ " limit 30 ";
+			String sqlx = " select ttx.* from ( "
+					+ "      select tdd.*, (select (money - SUM(cutMoney)) as currentMoney from tb_price_cutdown where parent = tdd.parent  or id = tdd.parent ) as currentMoney from ( "
+					+ "          select pc.id, pc.money, pc.cutMoney as totalCut, m.name, m.image, pc.priceActive, IFNULL(pc.parent, pc.id) as parent from tb_price_cutdown pc  LEFT JOIN tb_member m ON pc.member = m.id  "
+					+ "			) tdd " + " ) ttx  " + " where ttx.priceActive = ? " + " ORDER BY ttx.totalCut desc "
+					+ " limit 30 ";
 			Object[] objx = { priceAcitve };
 			sortList = DataBaseConnection.getList(sqlx, objx);
 
@@ -2380,41 +2382,37 @@ public class ClubMPManageAction extends BasicJsonAction implements SessionConsta
 			e.printStackTrace();
 		}
 	}
-	
-	
-	
+
 	/**
 	 * 跳转俱乐部wifi页面
 	 */
 	public String wifi() {
 		return "clubWifi";
 	}
-	
+
 	/**
 	 * 但情感俱乐部wifi信息
 	 */
-	public void getClubWifiById () {
+	public void getClubWifiById() {
 		JSONObject ret = new JSONObject();
-	    try {
+		try {
 			String sqlx = "select id, club, ssid, bssid, password from tb_club_wifi where club = ? ";
-			Object[] objx = {toMember().getId()};
-			ret.accumulate("success", true)
-			   .accumulate("message", "OK")
-			   .accumulate("clubWifi", EasyUtils.dateFormat(DataBaseConnection.getOne(sqlx, objx), "yyyy-MM-dd HH:mm:ss"))
-			   ;
+			Object[] objx = { toMember().getId() };
+			ret.accumulate("success", true).accumulate("message", "OK").accumulate("clubWifi",
+					EasyUtils.dateFormat(DataBaseConnection.getOne(sqlx, objx), "yyyy-MM-dd HH:mm:ss"));
 		} catch (Exception e) {
 			ret.accumulate("success", false).accumulate("message", e.toString());
 			e.printStackTrace();
 		}
-	    // 返回数据
-	    response(ret);
-		
+		// 返回数据
+		response(ret);
+
 	}
-	
+
 	/**
 	 * 保存或修改wifi
 	 */
-	public void saveWifi () {
+	public void saveWifi() {
 		JSONObject ret = new JSONObject();
 		try {
 			// 处理请求参数
@@ -2424,29 +2422,28 @@ public class ClubMPManageAction extends BasicJsonAction implements SessionConsta
 			String password = param.getString("password");
 			// 查询当前是否已有wifi信息
 			String sqlx = " select * from tb_club_wifi where club = ? ";
-			Object[] objx = {clubId};
-			Map<String , Object> wifiInfo = DataBaseConnection.getOne(sqlx, objx);
+			Object[] objx = { clubId };
+			Map<String, Object> wifiInfo = DataBaseConnection.getOne(sqlx, objx);
 			if (wifiInfo.size() > 0) {
 				// 修改
 				String sqlu = " update tb_club_wifi set ssid = ?, bssid = ?, password = ?, auto_date = ? where id = ? ";
-				Object[] obju = { ssid, ssid, password, new Date() ,wifiInfo.get("id") };
-			    DataBaseConnection.updateData(sqlu, obju);
+				Object[] obju = { ssid, ssid, password, new Date(), wifiInfo.get("id") };
+				DataBaseConnection.updateData(sqlu, obju);
 			} else {
 				// 新增数据
 				String sqli = " insert into tb_club_wifi (club, ssid, bssid, password, auto_date) "
-						    + " values(?,?,?,?,?) ";
-				Object[] obji = {clubId, ssid, ssid, password, new Date()};
+						+ " values(?,?,?,?,?) ";
+				Object[] obji = { clubId, ssid, ssid, password, new Date() };
 				DataBaseConnection.updateData(sqli, obji);
 			}
 			ret.accumulate("success", true).accumulate("message", "OK");
-			
+
 		} catch (Exception e) {
 			ret.accumulate("success", false).accumulate("message", e.toString());
 			e.toString();
 		}
 		response(ret);
 	}
-	
 
 	/**
 	 * setter && getter

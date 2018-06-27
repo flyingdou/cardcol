@@ -88,6 +88,7 @@ public class BeautifulClubMPManageAction extends BasicJsonAction implements Sess
 	private SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 
 	private SimpleDateFormat sdfHHmm = new SimpleDateFormat("HH:mm");
+	
 
 	/**
 	 * 数据格式化(保留两位小数)
@@ -520,6 +521,8 @@ public class BeautifulClubMPManageAction extends BasicJsonAction implements Sess
 			response(e);
 		}
 	}
+	
+	
 
 	/**
 	 * 给用户添加一张优惠券

@@ -17,6 +17,7 @@ import com.freegym.web.order.OrderDetail;
 import com.freegym.web.order.ProductOrderDetail;
 import com.freegym.web.order.Statistic;
 import com.freegym.web.utils.EasyUtils;
+import com.sanmen.web.core.utils.StringUtils;
 
 @Namespace("")
 @InterceptorRefs({ @InterceptorRef("foreStack") })
@@ -96,6 +97,8 @@ public class OrderDetailManageAction extends OrderBasicAction {
 		List<Object> parms = new ArrayList<Object>();
 		parms.add(m.getId());
 		parms.add(m.getId());
+		parms.add(m.getId());
+		parms.add(m.getId());
 		final StringBuffer where = OrderDetail.getWhere(orderQuery, type, parms);
 		System.out.println(where.toString());
 		String string = "select * from (" + tradeSql + " where a.BALANCE_TO = ?" + tradeSql1 + ") tmp where 1=1 "
@@ -107,9 +110,11 @@ public class OrderDetailManageAction extends OrderBasicAction {
 				+ "tb_order_balance_v45 where BALANCE_FROM = ? AND id = t.id ) expenditure from "
 				+ "(select b.id,b.BALANCE_TIME balanceTime,b.ORDER_NO orderNo,b.BALANCE_TYPE balanceType,b.PROD_NAME prodName,m.name fromName,"
 				+ "b.BALANCE_MONEY balanceMoney from tb_order_balance_v45 b inner join tb_member m on b.BALANCE_FROM = m.id "
-				+ "where b.balance_from = ? or b.balance_to = ?) t) tmp order by tmp.balanceTime desc";
-		parms.add(m.getId());
-		parms.add(m.getId());
+				+ "where b.balance_from = ? or b.balance_to = ?) t) tmp  where 1=1 ";
+		if (!StringUtils.isEmpty(where.toString())) {
+			 querySql += where.toString();
+		}
+		querySql += " order by tmp.balanceType desc  ";
 		pageInfo = service.findPageBySql(querySql, pageInfo, parms.toArray());
 		pageInfo.setItems(EasyUtils.decimalFormat(pageInfo.getItems()));
 		return "order_detail_list";

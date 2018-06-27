@@ -63,9 +63,7 @@ $(document).ready(function(){
 	        <input type="text" name="orderQuery.startDate" id="startDate" class="date-1" value="<s:date name="orderQuery.startDate" format="yyyy-MM-dd"/>" />
 	                    到
 	        <input type="text" name="orderQuery.endDate" id="endDate" class="date-1" value="<s:date name="orderQuery.endDate" format="yyyy-MM-dd"/>" />
-			订单类型:<s:select name="orderQuery.orderType" list="#{'1':'E卡通订单','2':'挑战订单','3':'课程订单','4':'专家计划订单'}" listKey="value" listValue="value" headerKey="" headerValue="请选择" cssClass="date-2"/>
-			<%-- 交易类型:<s:select name="orderQuery.detailType" list="#{'1':'预付款','2':'保证金','3':'违约金','4':'缺勤费用','5':'训练费用','6':'交易服务费','7':'交易手续费','8':'超勤费用','9':'退款','10':'提现', 'A':'挑战惩罚金'}" listKey="key" listValue="value" headerKey="" headerValue="请选择" cssClass="date-2"/> --%>
-			<%-- 资金流向：<s:radio name="flowType" list="#{'1':'支出','2':'收入'}" listKey="key" listValue="value"/> --%>
+			订单类型:<s:select name="orderQuery.orderType" list="#{'1':'E卡通订单','2':'挑战订单','3':'课程订单','4':'专家计划订单'}" listKey="key" listValue="value" headerKey="" headerValue="请选择" cssClass="date-2"/>
 	        <input type="submit" name="button" value="查询" class="button" onclick="onQuery();"/>
 	      </div>
 	      <div class="div2">

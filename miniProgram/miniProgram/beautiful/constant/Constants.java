@@ -88,12 +88,17 @@ public class Constants {
 	/**
 	 * 俱乐部小程序欢迎消息模板
 	 */
-	public static final String CLUB_MINI_PROGRAM_WELLCOME_MESSAGE = "欢迎来到健身俱乐部微信小程序演示版，本小程序是俱乐部的网络营销利器，为您的业绩提升提供多种工具，帮助您的事业蓬勃发展！咨询电话：13908653155";
+	public static final String CLUB_MINI_PROGRAM_WELLCOME_MESSAGE = "欢迎来到丽健游泳健身俱乐部，丽健游泳健身俱乐部涵盖有游泳，跑步，乒乓球，动感单车，组合器械，自由重量等多种锻炼方式，以及瑜伽、拉丁、普拉提、健美操、舞蹈等各项操课！咨询电话：13311204081";
 
 	/**
 	 * 俱乐部小程序普通消息模板
 	 */
-	public static final String CLUB_MINI_PROGRAM_PUBLIC_MESSAGE = "您好，健身俱乐部微信小程序【客服001号】正在为您服务，这是俱乐部小程序的“客服消息”演示，本小程序分为单店版和连锁店版。欢迎电话咨询，客服电话：13908653155";
+	public static final String CLUB_MINI_PROGRAM_PUBLIC_MESSAGE = "欢迎来到丽健游泳健身俱乐部，丽健游泳健身俱乐部涵盖有游泳，跑步，乒乓球，动感单车，组合器械，自由重量等多种锻炼方式，以及瑜伽、拉丁、普拉提、健美操、舞蹈等各项操课！咨询电话：13311204081";
+	
+	/**
+	 * test
+	 */
+	public static final String CLUB_X = "12334";
 	
 	/**
 	 * 俱乐部小程序订单优惠九折

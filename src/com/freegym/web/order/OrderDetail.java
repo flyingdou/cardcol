@@ -238,21 +238,21 @@ public class OrderDetail extends CommonId {
 				}
 			}
 			if (query.getOrderType() != null && !query.getOrderType().equals("")) {
-				sb.append(" and orderName = ?");
+				sb.append(" and balanceType = ?");
 				parms.add(query.getOrderType());
 			}
 			if (query.getStartDate() != null) {
 				if (query.getEndDate() != null) {
-					sb.append(" and (balanceDate between ? and ?)");
+					sb.append(" and (balanceTime between ? and ?)");
 					parms.add(query.getStartDate());
 					parms.add(query.getEndDate());
 				} else {
-					sb.append(" and balanceDate >= ?");
+					sb.append(" and balanceTime >= ?");
 					parms.add(query.getStartDate());
 				}
 			} else {
 				if (query.getEndDate() != null) {
-					sb.append(" and balanceDate <= ?");
+					sb.append(" and balanceTime <= ?");
 					parms.add(query.getEndDate());
 				}
 			}

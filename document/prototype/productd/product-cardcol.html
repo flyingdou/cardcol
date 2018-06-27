@@ -1,0 +1,431 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>卡库智能健身计划</title>
+<link rel="stylesheet" type="text/css" href="css/pulic-1.css">
+<link rel="stylesheet" type="text/css" href="css/product.css">
+<link rel="stylesheet" type="text/css" href="css/product-cardcol.css">
+
+<script type="text/javascript" src="script/jquery-1.7.1.min.js"></script>
+<script type="text/javascript">
+  
+   $(function(){
+	   	var aBtn=$('#container_pro .cont_pro').find('li'); 
+	
+		var aDiv=$('#container_pro').find('.tab_container');
+			  aBtn.click(function(){
+					$(this).addClass('tab').siblings().removeClass("tab");
+			       	aDiv.css('display','none');				  
+				    aDiv.eq($(this).index()).css('display', 'block');			  
+								  
+         });
+			  
+			  
+	    var aBtn2=$('#container_pro2 .cont_pro2').find('li'); 
+	
+		var aDiv2=$('#container_pro2').find('.tab_container2');
+			  aBtn2.click(function(){
+					$(this).addClass('tab').siblings().removeClass("tab");
+			       	aDiv2.css('display','none');				  
+				    aDiv2.eq($(this).index()).css('display', 'block');			  
+								  
+         });
+			  
+	    var aBtn2=$('#container_pro2 .cont_pro2').find('li'); 
+	
+		var aDiv2=$('#container_pro2').find('.tab_container2');
+			  aBtn2.click(function(){
+					$(this).addClass('tab').siblings().removeClass("tab");
+			       	aDiv2.css('display','none');				  
+				    aDiv2.eq($(this).index()).css('display', 'block');			  
+								  
+         });
+			  
+			  })
+   
+    /*function change(li){
+      var con=document.getElementById("container");
+      var  lis=con.getElementsByTagName("li");
+	  
+	  var divs=document.getElementById("container").getElementsByClassName("header_conenn");
+	    
+	  for(var i=0;i<lis.length;i++)
+	  {
+	     if(li==lis[i])
+		 {
+           lis[i].className="tab";
+		   divs[i].style.display="block";
+         }
+		 else
+		 {
+		     lis[i].className="";
+		     divs[i].style.display="none";
+		 }
+	  }
+	  
+   
+   
+   }
+   */
+   
+   
+</script>
+</head>
+
+<body>
+ <div id="top">
+    <div id="top-content">
+        <p class="left">
+        	
+        	
+        		 欢迎来到卡库！<a id="coloa" href="login.asp" target="_parent">请登录</a>  <span>|</span>  <a href="register.asp" id="coloa" target="_parent">注册</a>
+        	
+        </p>
+        <p class="right">
+			<a href="index.asp" id="coloa" target="_parent">卡库首页</a>|
+			<a href="login.asp" id="coloa" target="_parent"> 我的卡库</a>|
+			<a href="message.asp" id="coloa" target="_parent"> 消息<b class="msgb">(0)</b></a>|
+			<a href="shop!queryShopping.asp" id="coloa" target="_parent"><img src="images/gouwuche.png"/><b class="aimgb"> 购物车</b><b class="ainsp">0</b>件</a>|
+			<a href="service.asp" id="coloa" target="_parent"> 服务中心</a>
+			
+		</p>
+    </div>
+</div>
+
+<div id="header">
+	<div id="logo">
+		<blockquote>
+			<p>
+				<a href="index.asp" target="_parent"><img src="images/logo.png" alt="卡库网"></a>
+			</p>
+		</blockquote>
+	</div>
+	<div id="switch">
+		<span class="city">武汉市</span><a href="city.asp" id="coloa">[切换城市]</a>
+  </div>
+	<div id="ad">
+	  <img src="images/ad.png">
+	</div>
+</div>
+
+<div id="nav">
+    <div id="nav_first">
+    
+       <h2><a href="">卡库服务</a></h2>
+       
+    </div>
+      <ul id="navitems">
+         <li><a href="" class="nav_a">首页</a></li>
+         <li><a href="">健身计划</a></li>
+         <li><a href="">健身场馆</a></li>
+         <li><a href="">健身教练</a></li>
+         <li><a href="">健身挑战</a></li>
+         <li><a href="">健身地图</a></li>
+       
+             
+     </ul>
+  
+
+</div>
+
+<div class="dengl_top" >
+   <div class="navdaohang">
+          <div class="item pcios nav_dang"><a href=""><span>健身计划</span></a></div>
+            <div class="item nav_item">
+                 <div class="item_pan"><a href="#">瘦身减重</a><a href="" class="item_zj">健美增肌</a></div>
+               <div ><a href="" >运动康复</a><a href=""class="item_sprot">提高运动表现</a></div>
+            </div>
+       
+          <div class="item pcios nav_cord"><a href="#"><span>健身卡</span> </a></div>
+          <div class="item"><a href="">圈存(计时)</a></div>
+          <div class="item"><a href="">圈存(计次)</a></div>
+          <div class="item"><a href="">圈存(储值)</a></div>
+          <div class="item"><a href="">对赌(次数)</a></div>
+          <div class="item"><a href="">对赌(频率)</a></div>
+          <div class="item"><a  href="">预付卡</a></div>
+          <div class="item pcios nav_yuding"><a href=""><span>场馆预订</span></a></div>
+          <div class="item nav_item"><a href="">羽毛球</a><a href="">乒乓球</a><a href="">篮球</a></div>
+          <div class="item nav_item"><a href="">足球</a> <a href="">排球 </a><a href="">台球</a><a href="">网球</a></div>
+          <div class="item pcios nav_jiaolian"><a href=""><span>健身教练</span></a></div>
+          <div class="item nav_item"><a href="">网络私教</a><a href="">传统私教</a></div>
+          
+       </div>
+    <div class="product_header">
+        <div class="header_title">
+           <a href="#"> 网站首页 </a>> <a href="#">健身计划 </a>> <a href="#">瘦身计划 </a>> <a href="#" class="sizhou"> 四周完美减肥计划 </a>
+        </div>
+        <div class="header_content">
+           <div class="header_pic">
+		      <!-- <div class="headroo"></div>-->
+			 <div id="container">
+			     <div id="news" class="header_conenn" style="display:block;">
+			          <img src="images/product-tupiao.gif" />
+			     </div>
+			     <div id="news" class="header_conenn">
+			         ggg
+			     </div>
+			     <div id="news" class="header_conenn">
+			         fff
+			     </div>
+				 <ul>
+				    <li onmouseover="change(this)"><img src="images/product-car3.gif" /></li>
+					<li onmouseover="change(this)"><img src="images/product-car1.gif" /></li>
+					<li onmouseover="change(this)"><img src="images/product-card2.gif" /></li>
+					
+				 </ul>
+			 </div>
+			   
+		   </div>
+           <div class="header_cont">
+              <h1>卡库智能健身计划</h1>
+              <div class="header_info">
+                   本系统是融合各种健身理论建立的专业健身计划工具。由运动健身、IT等多领域专家团队设计开发。可以为用户生成三个月的个性化健身方案。有心、肺、肝、
+肾、神经疾病者不建议使用本系统。脱臼一年以上，骨折、肌肉、肌腱拉
+伤愈后三个月以上可以使用。
+                   
+              </div>
+               <div class="header_jiage">
+                  <ul>
+                     <li class="sprice"><div class="dt">价格:</div><div class="dd"><strong>78.00</strong></div></li>
+                     <li><div class="dt">评分:</div><div class="dd"> <img src="images/product_xp.png" class="xpg"/> <a href="">(已有9人评价)</a></div></li>
+                     <li><div class="dt">销量:</div><div class="dd">200</div></li>
+                  </ul>
+               </div>
+               <div class="shopping">
+                  <a href=""><img src="images/product_07.gif" /></a>
+                  <a href=""><img src="images/product_09.gif" /></a>
+               </div>
+               
+           </div>
+           <div class="header_Author">
+                <ul>
+                  <li class="Author"><div class="author1">作 &nbsp;&nbsp;&nbsp;者:</div><div class="author2"><a href="">陈纯纯Strong</a></div>    </li>
+                  <li class="Author"><div class="author1">终合评分:</div><div><img src="images/product_xp.png" class="xp"/><font color="#f61313" class="p_fei">96分</font></div>    </li>
+                  <li class="Author"><div class="author1">服务数量:</div><div>20人次</div>    </li>
+                    <div class="header_phone">
+                         <span class="autoe">更多作品</span>
+                        <ul>
+                           <li>囚徒健身(初级)</li>
+                           <li>办公室训练方案</li>
+                           <li>产后恢复</li>
+                           <li>极塑美臀计划</li>
+                           <li>钢铁战士</li>
+                           <li>斯巴达300勇士</li>
+                        </ul>
+                    </div>
+                    <div class="Author_active"><a href="">访问作者主页</a><a href="" class="contrat">联系作者</a></div>
+                    
+                </ul>
+             </div>
+        </div>
+        
+    </div>
+    
+    
+    
+     <div class="product_side">
+         <h2>相关计划</h2>
+         <ul>
+             <li class="fore1">  
+                <div class="p-img"><a href=""><img src="images/produc_pic.jpg" /></a></div>
+                <div class="p-name"><a href="">四周完美瑜珈计划</a></div>
+                <div class="p-pric"><strong>588.00</strong></div>
+             </li>
+               <li class="fore1">  
+                <div class="p-img"><a href=""><img src="images/produc_pic.jpg" /></a></div>
+                <div class="p-name"><a href="">四周完美瑜珈计划</a></div>
+                <div class="p-pric"><strong>588.00</strong></div>
+             </li>
+              <li class="fore1">  
+                <div class="p-img"><a href=""><img src="images/produc_pic.jpg" /></a></div>
+                <div class="p-name"><a href="">四周完美瑜珈计划</a></div>
+                <div class="p-pric"><strong>588.00</strong></div>
+             </li>
+         </ul>
+
+
+
+     </div>
+     
+  <div class="product_main">
+      <div id="container_pro">
+            <ul class="cont_pro">
+                <li class="tab"  style="border-left:1px solid #e7e7e7;"><span>计划详情</span></li>
+                <li><span>用户评价</span></li>
+           
+            </ul> 
+            <div id="news" class="tab_container" style="display:block; margin-top:10px;">
+                
+				 <li class="news_first" style="width:950px;">商品名称:卡库智能健身计划引擎</li>
+                 <li>计划类型：瘦身减肥   健美增肌   促进健康    提高运动表现 </li>
+                 <li>适用对象：初级   中级    高级</li>
+                 <li>发布时间:2014年8月12日</li>
+                 <li>计划周期90天</li>
+                 <li>适用场景：俱乐部室</li>
+                 <li>作者:<a href="">卡库网</a></li>
+                 <li>所需器材：健身俱乐部常见器械</li>
+				
+				  
+                   
+             
+             
+           </div>
+           <div id="news" class="tab_container">
+                   <div class="container_user">
+                        <span>总体评价:</span><div class="user_xp"/><img src="images/product_xp.png" /></div><strong>96.8分</strong><a href="" class="useroo">(已有5447人评价)</a>
+					    <span class="great">好评(<font color="#9c9a9c">96%</font>)<img src="images/product_k3.jpg" /></span>
+						<span class="great">中评  (<font color="#9c9a9c">2%</font>)<img src="images/product_2_03-06.jpg" /></span>
+						<span class="great">差评 (<font color="#9c9a9c">2%</font>)<img src="images/product_2_03-06.jpg" /></span>
+					   
+                  </div>
+                  
+			  
+			       <div id="container_pro2">
+            <ul class="cont_pro2">
+             <!--   <li class="tab"><span>计划详情</span></li>-->
+                <li class="tab" style="border-left:1px solid #e7e7e7;"><span>全部评价(8787)</span></li>
+                <li><span>好评(8401)</span></li>
+				<li><span>中评(195)</span></li>
+				<li><span>差评(191)</span></li>
+				<li class="tabli"><span>有晒单的评价(446)</span></li>
+            </ul> 
+           <!-- <div id="news" class="tab_container2">
+                
+            </div>-->
+           <div id="news" class="tab_container2" style="display:block; margin-top:10px;">
+              
+               <div class="user_spring">
+                   <div class="user_name"><a href=""><img src="images/product_2_06.gif" /><span>李四</span></a></div>
+                   <div class="user_text">
+                       <div class="user_xpdate">
+                         <div class="user_title"><img src="images/product_xp.png" /></div><div class="date">2014-09-03 22:36</div>
+                       </div>
+                        <div class="user_wenzi">
+                           <p>不错的计划,锻炼效果很明显,减了不得10斤,赞。</p>
+                        </div>
+                   </div>
+                   
+              </div>
+                <div class="user_spring">
+                   <div class="user_name"><a href=""><img src="images/product_2_06.gif" /><span>李四</span></a></div>
+                   <div class="user_text">
+                       <div class="user_xpdate">
+                         <div class="user_title"><img src="images/product_xp.png" /></div><div class="date">2014-09-03 22:36</div>
+                       </div>
+                        <div class="user_wenzi">
+                           <p>不错的计划,锻炼效果很明显,减了不得10斤,赞。</p>
+                        </div>
+                   </div>
+                   
+              </div>
+           </div>     
+            
+      </div>
+			  
+			  
+			  
+           </div>     
+            
+      </div>
+        
+     <div class="" style="margin-top:8px;">
+     				<div class="product_conment">
+     							
+     			               <p class="procard">请根据您的实际情况填写以下项目，然后点击“立即购买”并完成支付。就可以获得一份卡库智能健身计划引擎为您制订的3个月私人健身计划： </p>
+     							  <h2>一、您的健身目标</h2>
+								       <div class="product_pci">
+									          <ul>
+                                                    <li class="pickdd"><img src="images/weight.jpg" width="146"  height="138"/><input type="radio" name="T" checked="checked"/>  减脂塑形 </li>
+                                                    <li class="pickdd"><img src="images/Muscle.jpg" width="146"  height="138"/><input type="radio" name="T"/>  健美增肌</li>
+                                                    <li><img src="images/fitness.jpg" width="146"  height="138"/><input type="radio"name="T" />  增加力量 </li>
+                                                     <li><img src="images/sport.jpg" width="146"  height="138"/><input type="radio"name="T" />提高运动表现 </li>
+													 
+													 
+                                              </ul>
+									   </div>
+     						      <h2>二、您的健身历史</h2>
+								       <div class="product_lishi">
+									        <span class="lishi"><input type="radio" checked="checked" />  从来没有进行健身运动</span>
+										    <span class="lishi"> <input type="radio" />  参加健身运动少于个月</span>    
+										    <span class="lishi"><input type="radio"/>   参加健身运动少于个月</span>
+											<span> <input type="radio"  />  已经很规律地进行了12个月以上的健身</span>
+									          
+									   </div>
+     							  <h2>三、您的健身频率</h2>
+								       <div class="binlu">
+									       <div class="quetion border_que">
+								               <div class="questjin">
+								               <div class="quelist"> 1.每星期哪几天进行力量训练？  <span>建议您每周进行3天力量训练</span></div>
+								               </div>
+                                               <div class="quexuan">
+                                                   <input type="checkbox" />  星期一 
+													<input type="checkbox" />  星期二    
+													<input type="checkbox" />  星期三   
+													<input type="checkbox" />  星期四   
+													<input type="checkbox" />  星期五    
+													<input type="checkbox" />  星期六  
+													<input type="checkbox" />  星期日
+                                                </div>
+												 <div class="questjin">
+												 <div class="quelist">2.每次力量训练用多长时间？</div>  
+												 </div>
+                                                <div class="quexuan"><input type="radio" name="Time" />  30分钟   <input type="radio"name="Time" / />  45分钟 <input type="radio" name="Time" //>60分钟 <input type="radio"name="Time" / />  90分钟 <input type="radio" name="Time" //>  120分钟</div> 
+                                                <div class="questjin">
+								                   <div class="quelist"> 3.每星期哪几天进行有氧训练？  <span>建议您每周进行3天力量训练</span></div>
+								                </div>
+                                                <div class="quexuan">
+                                                   <input type="checkbox" />  星期一 
+													<input type="checkbox" />  星期二    
+													<input type="checkbox" />  星期三   
+													<input type="checkbox" />  星期四   
+													<input type="checkbox" />  星期五    
+													<input type="checkbox" />  星期六  
+													<input type="checkbox" />  星期日
+                                                 </div>
+                                              <div class="questjin">
+                                              <div class="quelist">4.每次有氧训练用多长时间？</div>  
+                                              </div>
+                                              <div class="quexuan"><input type="radio" name="Time" />  30分钟   <input type="radio"name="Time" / />  45分钟 <input type="radio" name="Time" //>60分钟 <input type="radio"name="Time" / />  90分钟 <input type="radio" name="Time" //>  120分钟</div> 
+                                         </div>
+						           </div>
+								  <h2>三、您喜欢的有氧训练项目</h2>
+								     
+									        <div class="quest">
+	                                             <div class="quetion">
+	                                                <div id="youxi2">
+                                                        <ul>
+														 <li><img src="images/shangp.jpg" width="72" height="67" /><span><input type="checkbox" />  游戏</span></li>
+														 <li><img src="images/shangp.jpg" width="72" height="67" /><span><input type="checkbox" />  自行车</span></li>
+														 <li><img src="images/shangp.jpg" width="72" height="67" /><span><input type="checkbox" />  登山</span></li>
+														 <li><img src="images/shangp.jpg" width="72" height="67" /><span><input type="checkbox" />  轮滑</span></li>
+														 <li><img src="images/shangp.jpg" width="72" height="67" /><span><input type="checkbox" />  自由体操</span></li>
+														 <li><img src="images/shangp.jpg" width="72" height="67" /><span><input type="checkbox" />  登楼梯</span></li>
+														 <li><img src="images/shangp.jpg" width="72" height="67" /><span><input type="checkbox" />  哑铃健身操</span></li>
+														  <li><img src="images/shangp.jpg" width="72" height="67" /><span><input type="checkbox" />  游戏</span></li>
+														 <li><img src="images/shangp.jpg" width="72" height="67" /><span><input type="checkbox" />  自行车</span></li>
+														 <li><img src="images/shangp.jpg" width="72" height="67" /><span><input type="checkbox" />  登山</span></li>
+														 <li><img src="images/shangp.jpg" width="72" height="67" /><span><input type="checkbox" />  轮滑</span></li>
+														 <li><img src="images/shangp.jpg" width="72" height="67" /><span><input type="checkbox" />  自由体操</span></li>
+													
+                                                        </ul>
+                         
+                                                    </div>
+                                                  </div>  
+												         
+                                             </div>        
+                                   <div class="shopping2"><a href=""><img src="images/product_07.gif" /></a></div>    
+	        </div>
+              
+									      
+					
+     							
+     </div>
+   </div>
+ </div>
+</div>
+
+
+
+</body>
+</html>

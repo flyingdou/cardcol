@@ -1,0 +1,81 @@
+
+#top-user {
+	height: 30px;
+	width: 100%;
+	background: whiteSmoke;
+}
+#top-user #top-content {
+	width: 1200px;
+	height: 30px;
+	margin: 0 auto;
+	font-size: 12px;
+	line-height: 25px;
+}
+
+#top-user #top-content .left {
+	float: left;
+	height: 17px;
+	padding-top: 3px;
+}
+
+#top-user #top-content .right {
+	float: right;
+	height: 17px;
+	padding-top: 3px;
+}
+
+#top-user #top-content a {
+	text-decoration: none;
+	color: #454142;
+	font-size: 12px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+
+
+
+
+#navbg{
+       height:169px;
+       width:960px;
+       background:url(../images/sinablogb.jpg) no-repeat;
+       margin:0 auto;
+
+
+}
+ #navuser {
+	position: relative;
+	width: 850px;
+	height: 40px;
+	background-color: #9BB711;
+	margin-top: 110px;
+	color: #FFF;
+        
+}
+ #navuser ul{
+     margin-left:20px;
+}
+ #navuser ul li{ 
+      float:left;
+      list-style:none;
+      height:40px;
+      line-height:40px;
+      width:90px;
+      text-align: center;
+
+}
+
+ #navuser  ul li a{
+      color:#ffffff;
+      font-size:14px;
+      cursor:pointer;
+      font-weight:bold;
+}
+
+
+
+
+
+
+

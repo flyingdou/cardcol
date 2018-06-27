@@ -1,0 +1,441 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="css/app.css" />
+		<!--<link href="../css/mui.picker.css" rel="stylesheet" />
+		<link href="../css/mui.dtpicker.css" rel="stylesheet" />-->
+		<link rel="stylesheet" type="text/css" href="css/mui.picker.min.css" />
+
+		<style>
+			.fright {
+				float: right;
+			}
+			
+			.fleft {
+				float: left;
+			}
+			
+			.red {
+				color: red
+			}
+			
+			.cgrey {
+				color: #a6a2a6
+			}
+			
+			.corange {
+				color: #fb8c00
+			}
+			.cgreen{
+				color:green;
+			}
+			.font7 {
+				font-weight: 700;
+			}
+			
+			.font12 {
+				font-size: 12px;
+			}
+			
+			.header-img {
+				width: 100%;
+				height: 200px;
+				background: url(../bodytest/images/game4_bg.png) scroll center center/100% auto;
+				box-sizing: border-box;
+				position: relative
+			}
+			
+			.header-text {
+				width: 100%;
+				height: 50px;
+				line-height: 25px;
+				padding: 0 10px;
+				font-weight: 700;
+				position: absolute;
+				bottom: 0;
+				box-sizing: border-box;
+				overflow: hidden;
+				overflow: hidden;
+				text-overflow: ellipsis;
+				display: -webkit-box;
+				-webkit-line-clamp: 2;
+				-webkit-box-orient: vertical;
+				font-size: 15px;
+				color: white;
+				text-overflow: ellipsis;
+			}
+			
+			.content-say {
+				width: 100%;
+				box-sizing: border-box;
+			}
+			
+			.content-bottombox {
+				box-sizing: border-box;
+				width: 100%;
+				height: 30px;
+				line-height: 30px;
+				font-size: 14px;
+				padding: 0 10px;
+				border-bottom: 1px solid #eaeaea;
+				background: white;
+			}
+			
+			.jtnr {
+				width: 100%;
+				padding: 5px 10px;
+				margin-top: 10px;
+				background: white;
+				font-size: 13px;
+			}
+			
+			.fright {
+				float: right;
+			}
+			
+			.fleft {
+				float: left;
+			}
+			
+			.red {
+				color: red
+			}
+			
+			.cb {
+				color: #1e1e1e;
+			}
+			
+			.cG {
+				color: #999999
+			}
+			
+			.corange {
+				color: #ff4401
+			}
+			
+			.cgreen {
+				color: green;
+			}
+			
+			.cW {
+				color: white
+			}
+			
+			.font7 {
+				font-weight: 700;
+			}
+			
+			.font12 {
+				font-size: 12px;
+			}
+			
+			.font13 {
+				font-size: 13px;
+			}
+			
+			.font15 {
+				font-size: 15px;
+			}
+			
+			.font16 {
+				font-size: 16px;
+			}
+			
+			.f18 {
+				font-size: 18px;
+			}
+			
+			.fright {
+				float: right;
+			}
+			
+			.tcenter {
+				text-align: center;
+			}
+			
+			.clear {
+				zoom: 1;
+			}
+			/*==for IE6/7 Maxthon2==*/
+			
+			.clear :after {
+				clear: both;
+				content: '.';
+				display: block;
+				width: 0;
+				height: 0;
+				visibility: hidden;
+			}
+			
+			.colorR {
+				color: #ff4401;
+			}
+			
+			.bgW {
+				background: white;
+			}
+			
+			.border-radiu8 {
+				border: 1px solid #ff4401;
+				border-radius: 8px;
+				padding: 0px 5px;
+				color: #FF4401;
+			}
+			
+			.header-a {
+				width: 100%;
+				overflow: hidden;
+			}
+			
+			.header-div {
+				width: 100%;
+				height: 100%;
+				position: relative;
+				box-sizing: border-box;
+				overflow: hidden;
+			}
+			
+			.header-img {
+				width: 120%;
+				/*-webkit-filter: grayscale(100%);
+                -moz-filter: grayscale(100%);
+                -ms-filter: grayscale(100%);
+                -o-filter: grayscale(100%);
+                filter: grayscale(100%)
+                filter: black;*/
+				/*高斯模糊*/
+				filter: url(blur.svg#blur);
+				/* FireFox, Chrome, Opera */
+				-webkit-filter: blur(13px) brightness(50%);
+				;
+				-moz-filter: blur(3px) brightness(50%);
+				;
+				-o-filter: blur(3px) brightness(50%);
+				;
+				-ms-filter: blur(3px) brightness(50%);
+				;
+				filter: blur(3px) brightness(50%);
+				;
+				filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=3, MakeShadow=false);
+				/* IE6~IE9 */
+			}
+			
+			.show_img {
+				height: 100%;
+				width: 100%;
+				position: absolute;
+				top: 0;
+				display: -webkit-box;
+				-webkit-box-orient: vertical;
+				-webkit-box-pack: center;
+			}
+				.mui-table-view .mui-media-object {
+				line-height: 80px;
+				max-width: 106px;
+				height: 80px;
+			}
+			
+			.mui-table-view-cell {
+				position: relative;
+				overflow: hidden;
+				padding: 10px 10px;
+				-webkit-touch-callout: none;
+			}
+				.mui-table-view-cell>a:not(.mui-btn) {
+				position: relative;
+				display: block;
+				overflow: hidden;
+				margin: -10px -10px;
+				padding: inherit;
+				white-space: nowrap;
+				text-overflow: ellipsis;
+				color: inherit;
+			}
+			
+			.mui-ellipsis {
+				line-height: 26px;
+				color: white
+			}
+			
+			.mui-table-view {
+				background: rgba(0, 0, 0, 0);
+				border: none
+			}
+			.mui-table-view:after,
+			.mui-table-view:before {
+				position: absolute;
+				right: 0;
+				bottom: 0;
+				left: 0;
+				height: 1px;
+				content: '';
+				-webkit-transform: scaleY(.5);
+				transform: scaleY(.5);
+				background: rgba(0, 0, 0, 0);
+			}
+			
+		</style>
+	</head>
+
+	<body>
+	
+		<script type="text/javascript">
+				window.onload=function(){
+			 var today = new Date()
+            var y = today.getFullYear()
+            var M = today.getMonth() + 1
+            var d = today.getDate()
+              M = jia(M)
+            d = jia(d)
+                function jia(i) {
+                if (i < 10) {
+                    i = "0" + i;
+                }
+                return i;
+            }
+           document.getElementById('result').innerHTML=y+"-"+M+"-"+d
+
+		}
+		</script>
+		<form action="" method="post">
+			<footer class="mui-bar mui-bar-footer font-white"style="border:none;background: white;padding: 0 0 0 10px;">
+				<!--<h3 class="mui-title font-white" id="footer">购买</h3>-->
+				<div class="font12"style="line-height: 44px;">
+					选择开始时间<span id="result" class="ui-alert corange"style="text-indent: 2em;display: inline-block;">2017-06-16</span>
+<!--					<button id="demo1" data-options="{}" class="btn mui-btn mui-btn-block"style="width: 70px;position:absolute;left: 5em;top:1em;opacity: 0;"></button>-->
+				    <button id="demo4" data-options="{&quot;type&quot;:&quot;date&quot;}" class="btn mui-btn mui-btn-block"style="width: 80px;position:absolute;left: 5.5em;top:0em;opacity: 0;height: 100%;"></button>
+		             <a href=""style="width: 100px;color:white;background:#FF4401;display:inline-block;height: 100%;float: right;text-align: center;border-radius: 0px;">购买/下载</a>
+				</div>
+			</footer>
+			<div class="mui-content"style="background: white;">
+				<div class="header-a">
+				<div class="header-div ">
+					<img src="images/cbd.jpg" class="header-img " />
+					<div class="show_img">
+						<ul class="mui-table-view">
+							<li class="mui-table-view-cell mui-media">
+								<a href="javascript:;">
+									<img class="mui-media-object mui-pull-left" src="images/cbd.jpg">
+									<div class="mui-media-body">
+										<p class="mui-ellipsis font15">挑战名称</p>
+										<p class="mui-ellipsis font13">发布人：卡库健身</p>
+										<p class="mui-ellipsis font13">参加人数：129人</p>
+									</div>
+								</a>
+							</li>
+
+						</ul>
+					</div>
+				</div>
+			</div>
+
+<ul class="mui-table-view">
+        <li class="mui-table-view-cell">
+            <a class="mui-navigate-right">
+               计划类型
+            </a>
+        </li>
+        <li class="mui-table-view-cell">
+            <a class="mui-navigate-right">
+                适用对象
+            </a>
+        </li>
+        <li class="mui-table-view-cell">
+            <a class="mui-navigate-right">
+                适用场景
+            </a>
+        </li>
+          <li class="mui-table-view-cell">
+            <a class="mui-navigate-right">
+             所需器材
+            </a>
+        </li>
+        <li class="mui-table-view-cell">
+            <a class="mui-navigate-right">
+               计划内容
+            </a>
+        </li>
+        <li class="mui-table-view-cell">
+            <a class="mui-navigate-right">
+              价格
+            </a>
+        </li>
+    </ul>
+    <div style="border-top: 1px solid #f3f3f3;padding: 11px 15px;">
+    	计划简介
+    	<p style="padding: 11px 15px;">
+    		输入计划
+    	</p>
+    </div>
+				
+			</div>
+		</form>
+		
+		
+	</body>
+		<script src="js/mui.min.js"></script>
+		<script src="js/mui.picker.min.js"></script>
+		<script src="js/jquery-2.1.4.js" type="text/javascript" charset="utf-8"></script>
+
+	<script>
+			mui.init();
+
+	//处理头部的图片高度
+			var headeraheight = $(".header-a").width() / 2;
+			$('.header-a').css("height", headeraheight);
+			var imgwidth = $('.header-div').width();
+			var imgheight = imgwidth / 2 * 1;
+			$('.header-img').css('height', imgheight);
+		
+		
+		
+		(function($) {
+			$.init();
+			var result = $('#result')[0];
+			var btns = $('.btn');
+			btns.each(function(i, btn) {
+				btn.addEventListener('tap', function() {
+					var optionsJson = this.getAttribute('data-options') || '{}';
+					var options = JSON.parse(optionsJson);
+					var id = this.getAttribute('id');
+					/*
+					 * 首次显示时实例化组件
+					 * 示例为了简洁，将 options 放在了按钮的 dom 上
+					 * 也可以直接通过代码声明 optinos 用于实例化 DtPicker
+					 */
+					var picker = new $.DtPicker(options);
+					picker.show(function(rs) {
+						/*
+						 * rs.value 拼合后的 value
+						 * rs.text 拼合后的 text
+						 * rs.y 年，可以通过 rs.y.vaue 和 rs.y.text 获取值和文本
+						 * rs.m 月，用法同年
+						 * rs.d 日，用法同年
+						 * rs.h 时，用法同年
+						 * rs.i 分（minutes 的第二个字母），用法同年
+						 */
+						result.innerText =rs.text;
+				     
+						/* 
+						 * 返回 false 可以阻止选择框的关闭
+						 * return false;
+						 */
+						/*
+						 * 释放组件资源，释放后将将不能再操作组件
+						 * 通常情况下，不需要示放组件，new DtPicker(options) 后，可以一直使用。
+						 * 当前示例，因为内容较多，如不进行资原释放，在某些设备上会较慢。
+						 * 所以每次用完便立即调用 dispose 进行释放，下次用时再创建新实例。
+						 */
+						picker.dispose();
+					});
+				}, false);
+			});
+		})(mui);
+	</script>
+
+</html>

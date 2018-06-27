@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document */
+.product_conment{ width:978px;}
+.product_main .product_conment .procard{ color:#f06200; font-size:14px; margin-top:15px; margin-left:10px; margin-bottom:25px;}
+.product_main .product_conment h2{ color:#86c440; font-size:14px; margin-left:22px;}
+.product_main .product_conment .product_pci{ width:100%; overflow:hidden;zoom:1;color:#000; height:170px; margin-top:30px; margin-bottom:30px; }
+.product_main .product_conment .product_pci ul{  width:750px; margin-left:98px; }
+.product_main .product_conment .product_pci ul li{float:left; width:130px; height:180px; text-align:center; margin-right:20px; list-style:none;margin-left:37px;}
+.product_main .product_conment .product_pci ul li img{ margin-bottom:5px;}
+.product_lishi{ width:529px;color:#000; overflow:hidden;zoom:1; margin-top:30px; margin-bottom:30px; margin-left:148px; }
+.product_lishi .lishi{ margin-right:25px; margin-bottom:20px;}
+.product_lishi span{ display:block; float:left; height:20px;}
+.binlu{width:695px; margin-left:140px;}
+.binlu .quest-1{ height:26px; line-height:26px; width:310px;}
+.binlu .border_que{ border:1px solid #ccc;}
+.binlu .quetion{ width:600px; margin-top:30px; padding:5px; margin-left:12px; overflow:hidden;zoom:1; margin-bottom:20px;}
+.binlu .quelist{ float:left; margin-left:50px; line-height:30px; height:30px;}
+.binlu .quexuan{margin-left:70px; padding:10px;}
+.binlu .que_li{ padding-left:240px; width:310px;}
+.questjin span{ color:#F00;}
+.binlu  .questjin{ height:30px; background:#EDEDED; line-height:30px;}
+.binlu { margin-bottom:21px;}
+.youxi{ width:700px; margin:0 auto; margin-top:33px;}
+.product_conment .quest{ overflow:hidden;zoom:1;}
+.product_conment .quetion .youxi ul li{ float:left; width:90px; height:110px; text-align:center;  margin-right:18px; list-style:none;}
+.product_conment .quetion .youxi ul li img{ margin-bottom:10px;}
+.product_conment .quetion .youxi ul li span{ display:inline-block; }
+
+#youxi2{ width:750px; margin:0 auto; margin-top:33px;}
+.product_conment .quest{ overflow:hidden;zoom:1;}
+.product_conment .quetion #youxi2 ul li{ float:left; width:90px; height:110px; text-align:center;  margin-right:18px; list-style:none;}
+.product_conment .quetion #youxi2 ul li img{ margin-bottom:10px;}
+.product_conment .quetion #youxi2 ul li span{ display:inline-block; }
+
+.shopping2{ width:176px; height:42px;  margin-left:350px; margin-top:43px; margin-bottom:30px;}
+ #container ul { margin-top:15px;}
+ #container ul li{ float:left; list-style:none; margin-right:25px;}
+ 
+ .header_conenn{ display:none;}
+ 
+.product_main .product_title{ font-size:13px; color:#666666; line-height:20px; margin-left:14px;}
+.product_shuju{ width:613px; height:220px; margin-left:148px; overflow:hidden;zoom:1; margin-top:30px; margin-bottom:30px;}
+.product_shuju .prokk{ line-height:30px;}
+.product_shuju .prokk .protext{ border:1px solid #cccccc; width:80px;}
+.product_shuju .pro_shgao{ margin-left:48px; margin-right:54px;}
+.product_shuju .body_shuji{ margin-right:40px;}
+.product_shuju .sj_title{ font-weight:bold; color:#7e7e7d; margin-top:5px;}
+.product_shuju .sj_cont{ line-height:20px; color:#7e7e7d; margin-top:5px; margin-bottom:5px;}
+.product_shuju .wang_pp{ width:435px; float:left;}
+.wangye_pro{ overflow:hidden;zoom:1; width:700px; margin-top:10px;}
+.wangye_pic{ float:left; margin-top:8px; margin-left:18px;}
+
+
+.product_main .product_conment .product_pci_pp{ width:100%; overflow:hidden;zoom:1;color:#000; margin-top:30px;}
+.product_main .product_conment .product_pci_pp ul{ margin:0 auto; width:750px; }
+.product_main .product_conment .product_pci_pp ul li{float:left; width:146px; height:180px; text-align:center; margin-right:49px; list-style:none;margin-left:37px;}
+.product_main .product_conment .product_pci_pp ul li img{ margin-bottom:5px; margin-bottom:17px;}
+
+
+
+
+
+ 
+ 
+ 

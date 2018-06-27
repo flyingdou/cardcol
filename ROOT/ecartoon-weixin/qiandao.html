@@ -1,0 +1,258 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<style>
+			.cr {
+				color: #FF4401;
+				font-size: 17px;
+			}
+			
+			.asd {
+				line-height: 80px!important;
+				max-width: 106px!important;
+				height: 80px!important;
+			}
+			
+			.spwt {
+				background: #ff4401;
+				color: white;
+				font-size: 12px;
+				padding: 1px 6px;
+				border-radius: 6px;
+			}
+			
+			.cg {
+				color: #999999!important;
+			}
+			
+			.footer {
+				position: fixed;
+				bottom: 0;
+				left: 0;
+				width: 100%;
+				height: 44px;
+				padding: 0;
+				margin: 0;
+			}
+			
+			.footer a {
+				width: 100%;
+				height: 44px;
+				display: block;
+				background: #FF4401;
+				line-height: 44px;
+				color: white;
+				text-align: center;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="mui-content">
+			<ul class="mui-table-view">
+				<li class="mui-table-view-cell mui-media">
+					<a href="javascript:;">
+						<img class="mui-media-object mui-pull-left" src="http://placehold.it/40x30" style="border-radius:50%;">
+						<div class="mui-media-body">
+							幸福
+							<p class="mui-ellipsis">已健身<span class="cr">36</span>次</p>
+						</div>
+					</a>
+				</li>
+			</ul>
+			<div style="width: 100%;height: 2px;background: url(img/line.png)repeat-x scroll 0 0 /auto 2px;margin-top: 10px;">
+			</div>
+			<div>
+				<ul class="mui-table-view">
+					<li class="mui-table-view-cell mui-media">
+						<a href="javascript:;">
+							<div class="mui-media-object mui-pull-left asd" style="width: 106px;height: 80px;"></div>
+							<div class="mui-media-body" style="padding-top: 15px;color:#1e1e1e!important;">
+								北京锐减啥店
+								<p class="mui-ellipsis">爱江山地 </p>
+								<p class="mui-ellipsis">
+									<span id="aaa" style="background: #FF4401;color:white;padding: 2px 4px;border-radius: 4px;">商品微调</span>
+								</p>
+
+							</div>
+						</a>
+					</li>
+
+					<li class="mui-table-view-cell">
+						<a class="mui-navigate-right cg" style="font-size: 14px;">
+							2014-14-14
+							<span class="mui-pull-right">签到时间10:29</span>
+						</a>
+					</li>
+
+				</ul>
+<!--弹窗1-->
+				<div id="popover" class="mui-popover" style="left: 15%;">
+					<div style="height: 40px;line-height: 40px;text-align: center;">
+						选择商品
+					</div>
+					<ul class="mui-table-view"style="max-height: 200px;overflow-y: scroll;margin-bottom: 50px;">
+						<li class="mui-table-view-cell">
+							<label for="">asda</label><input type="radio" name="" id="" style="float: right " value="" /><span class="mui-clearfix"></span>
+
+						</li>
+						<li class="mui-table-view-cell">
+							<label for="">asda</label><input type="radio" name="" id="" style="float: right " value="" /><span class="mui-clearfix"></span>
+
+						</li>
+						<li class="mui-table-view-cell">
+							<label for="">asda</label><input type="radio" name="" id="" style="float: right " value="" /><span class="mui-clearfix"></span>
+
+						</li>
+						<li class="mui-table-view-cell">
+							<label for="">asda</label><input type="radio" name="" id="" style="float: right " value="" /><span class="mui-clearfix"></span>
+
+						</li>
+						<li class="mui-table-view-cell">
+							<label for="">asda</label><input type="radio" name="" id="" style="float: right " value="" /><span class="mui-clearfix"></span>
+						</li>
+						<li class="mui-table-view-cell">
+							<label for="">asda</label><input type="radio" name="" id="" style="float: right " value="" /><span class="mui-clearfix"></span>
+						</li>
+					</ul>
+					<div style="position:absolute;bottom: 0;left: 0;height: 40px;width: 100%;line-height: 40px;border-top:1px solid #999">
+					<div id="false"style="width: 50%;float: left;text-align: center;border-right: 1px solid #999;">取消</div>
+						<div id="true" style="width: 50%;float: left;text-align: center;color:red">确定</div>
+						<div style="clear: both;"></div>
+				
+					</div>
+				</div>
+				<!--弹窗2-->
+		
+
+			</div>
+			<ul class="mui-table-view" style="margin-top:10px">
+				<li class="mui-table-view-cell cg">
+					<a class="mui-navigate-right" style="font-size:14px">
+						身份验证
+					</a>
+				</li>
+
+			</ul>
+
+			<div class="showUser" style="padding-left: 10px;padding-top:10px;box-sizing: border-box;width: 100%;background: white;">
+
+				<div class="userImg" style="width:100px;height: 100px;margin: 0px auto;background: #eaeaea;">
+
+					<input type="file" name="doc" id="doc" onchange="javascript:setImagePreview();" data-role="none" style="width: 100px;height: 100px;border:1px solid #eaeaea;opacity: 0;position: absolute;z-index: 3">
+
+					<div id="localImag" style="position: absolute">
+						<img src="img/shouye/qiandao/Upload-photos@2x.png" id="preview" width="100" height="100" style="diplay:none" />
+					</div>
+
+				</div>
+				<div style="padding: 0 10px 10px 10px;text-align: center;font-size: 12px;">
+					持卡人面部照片
+				</div>
+			</div>
+			<div style="padding-top: 10px;padding-left: 10px;margin-bottom: 50px;">
+				<p style="margin-bottom: 0;">-第一次签到请上传您的面部照片(五官照片)</p>
+				<p>-照片一旦上传不可修改</p>
+			</div>
+		</div>
+		</div>
+		<div class="footer">
+			<a id="sub">确定</a>
+		</div>
+
+		<script src="js/mui.min.js"></script>
+		<script type="text/javascript">
+			mui.init()
+			document.getElementById("aaa").addEventListener('tap', function() {
+
+				mui('#popover').popover('toggle'); // 将id为list的元素放在想要弹出的位置
+				
+
+			});
+				document.getElementById("false").addEventListener('tap', function() {
+
+				mui('#popover').popover('hide'); // 将id为list的元素放在想要弹出的位置
+				
+
+			})
+					document.getElementById("true").addEventListener('tap', function() {
+
+				mui('#popover').popover('hide'); // 将id为list的元素放在想要弹出的位置
+				
+
+			})
+					
+					
+					
+			document.getElementById("sub").addEventListener('tap', function() {
+
+				mui.alert('签到成功','温馨提示','确定') // 将id为list的元素放在想要弹出的位置
+				
+
+			})
+
+			/*window.onload = function() {*/
+				var file = document.getElementById('file');
+				var pic = document.getElementById('pic');
+				file.onchange = function() {
+					/*alert(file.files.length)*/
+					if(file.files && file.files[0]) {
+						//                alert(file.files+":"+file.files[0])
+						var img = document.getElementById('img');
+						//                var img2 = document.getElementById('img2');
+						var reader = new FileReader();
+						reader.onload = function(evt) {
+							img.src = evt.target.result;
+						};
+						reader.readAsDataURL(file.files[0]);
+					} else {
+						alert(123)
+					}
+				};
+
+		/*	}*/
+
+			function setImagePreview() {
+				var docObj = document.getElementById("doc");
+
+				var imgObjPreview = document.getElementById("preview");
+				if(docObj.files && docObj.files[0]) {
+					//火狐下，直接设img属性
+					imgObjPreview.style.display = 'block';
+					imgObjPreview.style.width = '100px';
+					imgObjPreview.style.height = '100px';
+					//imgObjPreview.src = docObj.files[0].getAsDataURL();
+
+					//火狐7以上版本不能用上面的getAsDataURL()方式获取，需要一下方式
+					imgObjPreview.src = window.URL.createObjectURL(docObj.files[0]);
+
+				} else {
+					//IE下，使用滤镜
+					docObj.select();
+					var imgSrc = document.selection.createRange().text;
+					var localImagId = document.getElementById("localImag");
+					//必须设置初始大小
+					localImagId.style.width = "300px";
+					localImagId.style.height = "120px";
+					//图片异常的捕捉，防止用户修改后缀来伪造图片
+					try {
+						localImagId.style.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod=scale)";
+						localImagId.filters.item("DXImageTransform.Microsoft.AlphaImageLoader").src = imgSrc;
+					} catch(e) {
+						alert("您上传的图片格式不正确，请重新选择!");
+						return false;
+					}
+					imgObjPreview.style.display = 'none';
+					document.selection.empty();
+				}
+				return true;
+			}
+		</script>
+	</body>
+
+</html>

@@ -1,0 +1,131 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{ margin:0px; padding:0px;}a{ text-decoration:none; cursor:pointer;}img{ border:0px;}
+#top {
+	height: 30px;
+	width: 100%;
+	background: whiteSmoke;
+	
+}
+#top-content {
+	width: 1200px;
+	height: 30px;
+	margin: 0 auto;
+	font-size:12px;
+
+	line-height:25px;
+}
+#top-content .left {
+	float: left;
+	height: 17px;
+	padding-top: 3px;
+}
+
+#top-content .right {
+	float: right;
+	height: 17px;
+	padding-top: 3px;
+}
+
+#top-content a{ text-decoration:none; color:#454142; font-size:12px; margin-right:10px; margin-left:10px;}
+#header {
+	width: 1200px;
+	height: 76px;
+	margin: 0 auto;
+	overflow:hidden;
+}
+
+#logo {
+	margin: 8px 60px 8px 0px;
+	padding-left: 5px;
+	float: left;
+}
+
+
+#header a{ text-decoration:none;}
+#switch{ margin-top:40px; float:left;}
+#switch .city{ font-size:15px; font-weight:bold;}
+#header a{ text-decoration:none;}
+
+#ad {
+	width: 381px;
+	height: 35px;
+	float: right;
+	margin-top: 20px;
+}
+
+#coloa{ font-size:12px; text-decoration:none; color:#000;}
+
+#nav{ position:relative; width:1200px; margin:0 auto; height:40px; background:#9BB711; margin-top:20px; color:#FFF;}
+#nav #nav_first{ float:left; width:210px; height:40px;}
+#nav #nav_first h2{ font-size:14px; color:#FFF; line-height:40px; height:40px;}
+#nav #nav_first h2 a{ color:#FFF; text-decoration:none; padding-left:20px;}
+#nav #nav_first h2 a:hover{ text-decoration:underline;}
+#nav_first .navdaohang .nav_dang{ background:url(../images/tubiao1.png) no-repeat 10px; margin-bottom:5px;}
+#nav_first .navdaohang  span{ margin-left:30px;}
+#nav_first .navdaohang .nav_cord{background:url(../images/tubiao-2.png) no-repeat 10px; margin-bottom:5px;}
+#nav_first .navdaohang .nav_yuding{background:url(../images/tubiao-3.png) no-repeat 10px; margin-bottom:5px;}
+#nav_first .navdaohang .nav_jiaolian{background:url(../images/tubiao-4.png) no-repeat 10px; margin-bottom:5px;}
+#nav .navdaohang{ position:absolute; top:40px; left:0px; width:206px;   background:#FAFAFA; border:solid #9BB711; border-width:0 2px 2px; overflow:visible; height:429px;}
+#nav .navdaohang .item{ color:#000; font-size:12px;  border-bottom:1px solid #fff; overflow:hidden; zoom:1;}
+#nav .navdaohang .item a{ margin-bottom:1px; text-decoration:none; color:#333; display:block;  height:24px; line-height:24px; padding-left:10px; font-size:14px; float:left; }
+#nav .navdaohang .item a:hover{ color:#E4393C; text-decoration:underline;}
+#nav .navdaohang .pcios{ font-size:14px; font-weight:bold; margin-top:5px;}
+.item_zj{ margin-left:10px; margin-right:10px;}
+.item_qt{ margin-left:10px;}.item_sprot{ margin-left:10px;}
+.item_pan{ border-bottom:1px solid #fff; height:22px;}
+.navdaohang .nav_item a{ margin-right:10px;}
+#navitems li{ float:left; list-style:none; height:40px; line-height:40px; width:100px;}
+#navitems li a{ display:block; text-decoration:none; font-size:14px; color:#FFF; width:85px; text-align:center; cursor:pointer; font-weight:bold;}
+#navitems li a:hover{ background:#945F50;}
+.nav_a{ background:#945F50;}
+.search{ float:right; position:relative; width:350px; margin-top:10px;}
+.txtsearch{ width:160px; height:20px; border:1px solid #999; font-size:14px; cursor:pointer;float:left;}
+#seledcted{ height:22px;float:left;}
+.submit{ width:60px; height:21px; background-color:#66C; margin-right:10px; margin-top:1px;  color:#FFF; border:none; float:left;}
+.dengl_top{ width:1200px; margin:0 auto; overflow:hidden; padding-bottom:30px;}
+
+.clubhome_pj{ line-height:40px; height:40px; }
+.clubhome_pj span{ color:#4484d3; font-size:12px; margin-right:40px;}
+.clubhome_pj strong{ color:#ff0000;}
+
+.fenye_club{ color:#5d5d5d; height:30px; line-height:30px; margin-top:30px; font-size:12px; width:370px; margin:0 auto;}
+.fenye_club .fenye_btn{ width:180px; height:30px; float:left;}
+.fenye_club .fenye_btn span{ color:#ff6300; float:left; display:block; width:31px; height:30px; line-height:30px; text-align:center;}
+.fenye_club .btnback{ background:url(../images/next_pre.png) no-repeat; display:block; float:left; width:64px; height:30px;}
+.fenye_club .btnlast{background:url(../images/last_btn.png) no-repeat; display:block; float:left; width:64px; height:30px;}
+.textbtn{ width:38px; border:1px solid #dcdcdc; text-align:center;}
+.textque{ background:url(../images/btn_que.png) no-repeat; width:54px; height:25px; border:none; margin-left:2px; cursor:pointer;}
+.fenye_btn_gong{  line-height:30px; float:left;}
+.culbhome_feny{ overflow:hidden; margin-bottom:20px;}
+
+.cont_main_card{  float:left; width:232px; border:1px solid #f4f4f4; height:auto;  }
+.cont_main_card .cont_main_title{ text-align:center; height:27px; line-height:27px; background:#f7f7f7;}
+.cont_main_card .cont_main_title span{  width:20px; margin-top:50px; margin-left:8px; color:#fb8609; font-size:14px; font-weight:bold;}
+.cont_main_card .cont_main_title a{  color:#919191;  margin-right:10px; font-size:13px; float:right;}
+.cont_main_card .cont_main_title a:hover{ color:#d61a00;}
+.cont_main_card .cont_main_container ul{ margin:0px; padding:0px; list-style:none;padding-left:2px; padding-right:2px; }
+.cont_main_card .cont_main_container ul li{ height:30px; font-size:12px; line-height:30px; padding-left:10px; color:#767676;}
+.cont_main_card .cont_main_container ul li a{ float:right; color:#d61a00; margin-right:10px;}
+.cont_main_card .cont_main_container ul li:hover,a:hover{ color:#fc0505; cursor:pointer;}
+.cont_main_card .cont_main_container .card_bg{ border-bottom:1px dashed #ccc;}
+.cont_main_card .cont_main_container .card_fon{ color:#fc0505;}
+
+
+.msgb{ color:#f06302;}
+.ainsp{color:#f06302;}
+.aimgb{ color:#454142; font-weight:normal;}
+
+.public_nav ul li{ float:left; list-style:none; color:#666666; height:31px; line-height:31px; font-size:14px; width:220px; text-align:center;}
+.public_nav{ width:672px; height:31px; background:url(../images/order_03.gif) no-repeat; margin:0 auto; margin-top:46px;}
+.public_nav ul li b{ font-size:20px;}
+.public_nav ul li span{ color:#FFF;}
+
+
+
+
+
+
+
+

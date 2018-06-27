@@ -1,0 +1,73 @@
+.header_bot ul li:nth-child(2) a{color: #95bc28;border-top:8px #95bc28 solid;}
+.title_nav span{line-height: 42px; font-size: 12px;color: #666666;cursor: pointer;}
+.title_nav span a{color: #666666;}
+
+.hot_book{border: 1px #dbdbdb solid;padding-bottom: 15px;margin-bottom: 24px;}
+.hot_book .middle{width: 100%;margin-top: 30px;}
+.hot_book .book_txt{line-height: 26px;font-size: 13px;color: #ffffff;padding-top: 17px;background:rgba(0,0,0,0.3);padding:10px;}
+
+.hot_book .boot_title{width:80%;line-height: 53px;font-size: 18px;color: #98be30;padding-bottom: 8px;padding-top:30px;border-bottom: 1px #c2c2c2 dashed;}
+.hot_book .book_message{line-height: 36px;font-size: 14px;color: #adadad;}
+.hot_book .price span{color: #fe2929}
+.hot_book .date{color:#333;}
+
+
+.hot_book .date_input{line-height: 30px;font-size: 14px;padding-left: 20px;border: 1px #dddddd solid;cursor: pointer;background: url("../images/icon_xz_11.png") no-repeat 95% 5px;}
+.hot_book .chose{line-height: 40px;font-size: 15px;text-align: center;margin-top:15px;cursor: pointer;border: 2px #a4c546 solid;color: #a4c546;}
+.hot_book .chose span{font-size: 20px;}
+.hot_book .buy {background-color: #a4c546;}
+.hot_book .buy a{color: #fff !important;}
+.hot_book .chose a{color: #a4c546;}
+
+.hot_book .writer{border: 1px #dbdbdb solid;padding-top: 8px;padding-left: 10%;margin-top: 10px;}
+ .hot_book .writer p{line-height: 36px;font-size: 14px;}    /*去掉font-weight: bold; */
+.hot_book .writer p span a{color: #a4c546;font-weight: normal;}
+.hot_book .writer h4{line-height: 36px;font-size: 15px;color: #a4c546;font-weight: bold;padding-top: 36px;}
+.hot_book .writer ul{width: 80%;padding-bottom: 30px;}
+.hot_book .writer ul li{border-bottom: 1px #dbdbdb dashed;}
+.hot_book .writer ul li:last-child{border-bottom: none;}
+.hot_book .writer ul li a{line-height:30px;font-size: 12px;color: #898989;}
+
+.book_list{padding-left: 0}
+.all_buy{line-height: 34px;font-size: 13px;color: #fff;background-color: #353535;text-align: center;}
+.hot_buy{text-align: center;border: 1px #dbdbdb solid; padding: 10px 0 20px 0;margin-bottom: 30px;}
+.hot_buy img{width: 60%;}
+.hot_buy h5{line-height: 30px;font-size: 12px;color: #666666;}
+.hot_buy p{line-height: 16px;font-size: 14px;color: #666666;padding-bottom: 20px;}
+
+
+.plan_pandect{padding-right: 0;}
+.plan_pandect .plan{display:inline-block;width:14%;line-height: 30px;font-size: 14px;color: #fff;text-align:center;background-color: #353535;cursor: pointer;margin-right:1%; }
+.plan_pandect .plan:first-child{background-color: #a5c648;}
+.plan_pandect .line_bg{float:right;width:70%;height: 30px;background-color: #353535;}
+.plan_pandect.plan:hover{background-color: #a5c648;}
+
+.details {border: 1px #dedede solid;border-top:none;padding: 30px 40px 0;margin-bottom: 40px;}
+.details  img{display: block;margin: 0 auto;}
+.details  .introduction{line-height: 26px; font-size: 14px; color: #666666;font-weight: bold;padding: 34px 10% 75px;}
+.details  h5{line-height: 20px;font-size: 15px;margin-bottom: 30px;}
+.details  h5 span{display: inline-block;width:80%;font-size:12px;color:#a6a5a5;border-bottom: 1px #a6a5a5 dashed;vertical-align: bottom;}
+.details  .parameters p{line-height: 50px;font-size: 12px;color:#a6a5a5; }
+
+.rated{border: 1px #dedede solid;border-top:none;padding: 0 20px;margin-bottom: 40px;}
+.rated h5{display: inline-block;font-size: 18px;color: red;margin: 15px 0;float:left;}
+.rated .list{border-bottom:1px #a6a5a5 solid; padding:20px 0;}
+.rated .list li{float: left;cursor: pointer;}
+.jRatingColor{display:none;}
+.rated .list li a{line-height: 30px;color:#333;font-size: 16px;color: #000;padding: 0 20px;}
+.rated .list li a:hover{color: red;}
+.rated .list li:first-child a{color: red;}
+.rated .list_nav li{padding: 10px 0;border-bottom: 1px #a6a5a5 solid}
+.rated .list_nav li:last-child{border: none;}
+.rated .list_nav .huiyuan_icon{float: left;width:15%;height:100%;text-align: center;}
+.rated .list_nav .huiyuan_icon img{display: block;margin:0 auto;width: 40px;height: 40px;}
+.rated .list_nav .huiyuan_icon span{line-height: 18px;font-size: 12px;}
+.rated .list_nav .rated_nav{float: right;width: 85%}
+.rated .list_nav .rated_nav p{line-height: 24px;font-size: 14px;}
+.rated .list_nav .rated_nav img{margin: 5px;}
+.rated .list_nav .rated_nav .order_time{font-size: 12px;color: #888;padding-top:10px; }
+
+
+/*增加评价部分的样式*/
+.rated  .p_fei{margin: 20px;position: relative;top: 12px;}
+.pj{position: relative;top: 12px;}

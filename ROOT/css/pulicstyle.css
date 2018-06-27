@@ -1,0 +1,36 @@
+﻿
+
+#navbg{
+   background:url(../images/clubtop.png) 40% 0px  no-repeat;
+   height:406px;
+   width:100%;
+
+
+}
+#navbg #nav{ width:960px;margin:0px auto;position:relative;}
+#nav h1{padding-top:42px;background:none; border:none;font-size:36px;font-weight:bold;  
+color:#734935;font-family:"黑体"; }
+#navbg #nav #nav-content{position:absolute;top:150px; left:76px;}
+#navbg #nav #nav-content ul li{
+    float:left;
+    margin-right:18px;
+
+}
+#navbg #nav #nav-content ul li:hover{ background-color:none; }
+#navbg #nav #nav-content ul li a{
+        color:#734935;
+        font-weight:normal;
+        font-size:16px;
+
+}
+#navbg #nav #nav-content ul li a:hover{
+       color:#734935;
+      background:rgba(0,0,0,0);
+
+}
+#navbg #nav #nav-content ul li .active{font-weight:bold;border-bottom:1px solid white;padding:5px 0}
+
+
+body{background:#fffbe7;}
+#content{background:none;}
+#content #right{background:none;}

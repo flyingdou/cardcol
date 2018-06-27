@@ -1,0 +1,71 @@
+/*轮播*/
+.banner img{width: 100%;}
+/*搜索*/
+.banner .search{width:60%;height:2.4rem;position: absolute;left: 50%;top:1rem;transform:translate(-50%);z-index: 100;border: 0.1rem #fff solid;border-radius: 0.4rem;}
+.banner .search input{width: 100%;background-color: transparent;color: #fff;line-height:1.2rem;font-size:1.2rem;padding-left:1rem;margin-top:0.5rem;}
+.banner .search span{color: #fff;position: absolute;right: 1rem;top: 0.7rem;}
+.banner .search a{display:inline-block;font-size: 2rem;color: #fff;margin-right: -4rem;margin-top: -2rem;}
+
+/*列表切换*/
+.table_title ul{text-align: center;margin: 0 0 0.8rem 0;background-color: #fff;}
+.table_title li{border-bottom: 0.2rem #fff solid;background-color: #fff;}
+.table_title li:first-child{border-color:#fe9e3a;background: url("../images/T_xsj_06.png") no-repeat bottom center;}
+.table_title li a{line-height: 4.5rem;color: #333;}
+/*.table_list img{width:11.2rem;float: left;margin-right: 5% }
+.table_list .list{background-color: #fff;padding: 2rem 5%;border-bottom: 0.05rem #dcdddb solid;overflow: hidden ;}
+.table_list p{font-size: 1.3rem;color: #999999;line-height: 2.5rem;}
+.table_list h6{font-size: 1.6rem;color: #fe9e3a;line-height: 3rem;}
+.table_list .challenge_time{color: #333;padding: 2.5rem 0;font-size: 1.5rem;}*/
+.table_list .list a{display: block;overflow: hidden;}
+.table_list .list{background-color: #fff;overflow: hidden;border-bottom: 0.1rem #dcdddb solid;}
+.table_list .list .pic{width: 29.8%;margin: 2rem 5%;}   
+.table_list .list .pic img{width: 100%;display: block;height: 100%;}  /*补加height: 100%;*/
+.table_list .list .txt{width:60%;padding:0 5px;}     /*补加.table_list .list .txt属性*/
+.table_list .list .txt h6{font-size: 1.6rem;color: #fe9e3a;line-height: 20px;margin-top: 2rem;margin-bottom: 10px;display: -webkit-box;-webkit-box-orient: vertical;-webkit-line-clamp: 2;display: -moz-box;-moz-line-clamp: 2;-moz-box-orient: vertical;display: box;box-orient: vertical;line-clamp: 2;overflow: hidden;}   /*将line-height: 2.5rem;改为line-height: 20px;另外增加margin-bottom: 10px;display: -webkit-box;-webkit-box-orient: vertical;-webkit-line-clamp: 2;overflow: hidden;*/
+.table_list .list .txt p{font-size: 1.3rem;color: #999;line-height: 20px;}    /*将line-height: 2rem;改为line-height: 20px;*/
+.table_list .challenge_time{color: #333;font-size: 1.5rem;padding-top: 0rem;margin-right: 5%;margin-top: -4rem;}
+
+/*付款方式样式*/
+.financed{border: 0.1rem #dddbdb solid;background-color: #fff;margin-top: 0.5rem;margin-bottom: 6rem;}
+.financed .financed_list{padding: 1.8rem 5%;border-bottom:0.1rem #dddbdb solid }
+.financed .financed_list img{width: 3.2rem;height: 3.2rem;margin-right: 1.3rem;}
+.financed .financed_list span{line-height: 3.2rem;color: #333;}
+.financed .financed_list span i{font-size: 1rem;color: #999}
+.financed .financed_list label{display: inline-block;width:2.7rem;height:2.7rem;float: right;vertical-align: middle;border: 0.1rem #9b9b9b solid;border-radius: 50%;}
+.financed .financed_list .first_label{border: none;background: url("../images/xt_checked_icon_06.png") no-repeat;background-size: 100% 100%;}
+.financed .financed_list label input[type=radio]{display: inline-block;width:3.7rem;height:2.7rem;opacity: 0;margin: 0;}
+
+/*底部样式*/
+.bottom{position: fixed;left: 0;bottom: 0;width: 100%;height: 4.4rem;}
+.bottom a{display: inline-block;width:50%;height:4.4rem;line-height: 4.4rem;font-size: 1.7rem;color: #fff;background-color: #666666;text-align: center;}
+.bottom a:last-child{background-color: #fe9e3a;}
+.assign{position: fixed;left:0;bottom:0;width: 100%;text-align: center;}
+.assign a{display: block;line-height: 4.4rem;font-size: 1.7rem;color: #fff;background-color: #fe9e3a;}
+.TheLast{margin-bottom: 6rem;}
+
+/*分享样式*/
+.share_bg{width: 100%;height: 100%;background: rgba(0,0 ,0,0.5);padding: 4.6rem 0;position: absolute;left: 0;  top:0;}
+.share_show{position: fixed;left: 5%;bottom: 0;width:90%;margin: 0 auto;text-align: center;}
+.share_show .inner_top{background-color: #fff;border-radius: 0.5rem;margin-bottom: 0.5rem;}
+.share_show .inner_top h3{line-height: 3.6rem;font-size: 2rem;color: #ff8b5e;padding-top: 2rem;}
+.share_show .inner_top h3 span{color: #666666;}
+.share_show .inner_top h5{line-height: 3.6rem;font-size: 1.35rem;color: #ff8b5e;}
+.share_show .inner_top .icon_top{float: left;width: 25%;padding: 1.8rem 0;}
+.share_show .inner_top img{width: 4.2rem;height: 4.2rem;}
+.share_show .inner_top p{line-height: 2.8rem;font-size: 1.05rem;color: #818181;}
+.quXiao{background-color: #fff;line-height: 3.7rem;color: #ff8b5e;border-radius: 0.5rem;margin-bottom: 0.5rem;}
+
+
+/*完成*/
+.finish_bg{width: 100%;height: 100%;background: rgba(0,0 ,0,0.3);padding: 4.6rem 0;position: absolute;left: 0;  top:0;}
+.finish{background-color: #fff;width:90%;position: fixed; left:50%;top:15rem;transform:translate(-50%);text-align: center;border-radius: 0.5rem;}
+.finish .close{width: 1.9rem;height:1.9rem;border:0.2rem #333333 solid;line-height:1.7rem;font-size:1.4rem;text-align:center;border-radius:50%;position: absolute;top:1.5rem;right: 1.9rem;}
+.finish .gou{width: 3.9rem;margin-top: 5.3rem;}
+.finish p{line-height: 6.3rem;font-size: 1.7rem;color: #999999;padding-bottom: 1.2rem}
+
+/*身高体重弹框的头部*/
+#top .title{width:100%;background-color:#fff;font-size: 1.8rem ;line-height: 4rem;text-align: center;position: absolute;left: 0;top: -4rem;}
+#top span{display:inline-block;background:#007aff;color: #fff;line-height:2.6rem;font-size: 1.2rem ;padding: 0 1rem;border-radius: 0.4rem;
+    position: absolute;right: 1rem;  top:-3.25rem;}
+.pickerBg{width: 100%;height: 100%;background: rgba(0,0,0,0.3);position: absolute;left: 0;top: 0;}
+

@@ -1,0 +1,170 @@
+@charset "utf-8";
+/* CSS Document */
+*{ margin:0px; padding:0px;}a{ text-decoration:none; cursor:pointer;}
+.dengl_top{ width:1200px; margin:0 auto; overflow:hidden; padding-bottom:30px;}
+.piimg{ float:left; margin-left:216px; padding-top:6px; width:670px; height:410px; }
+
+.dinnv{ width:308px; float:right; height:410px;  }
+.btns{ margin-top:5px; }
+.btns .and{ width:140px; height:41px;color:#FFF; background:url(../images/index_03-07.gif) no-repeat; float:left; margin-right:17px; border:none; cursor:pointer;}
+.btns .iod{width:150px; height:41px;color:#FFF; background:url(../images/index_03-09.gif) no-repeat; border:none; cursor:pointer;}
+
+.boxss{ border:1px solid #DBDBDB; width:294px; padding:5px 5px 0px 5px; margin-top:5px; overflow:hidden;}
+.boxss .boxa{ height:135px; width:295px; overflow:hidden; zoom:1}
+.boxss .unl{ border-bottom:1px solid #DBDBDB; margin-bottom:10px; }
+.boxss .boxa .picos{ float:left;}
+.boxss .boxa  .xitong{ float:left; margin-left:0px;line-height:18px; width:155px; margin-left:15px;  }
+.boxss .boxa  .biaoti{font-size:12px; font-weight:bold; text-indent:2em; padding-left:0px;}
+.boxss .boxa  .xitong .weikk{ font-size:12px; text-indent:2em; color:#666; margin-top:5px; width:180px; }
+.boxss .boxa  .xitong .weikk_pic{ margin-top:20px;}
+.boxss .boxa  .xitong .price_picos{margin-top:14px;font-size:12px; color:#d51900;}
+.boxss .boxa   .price{ font-size:12px;  margin-top:8px; text-align:center; }
+
+.boxss .boxa   .price span{ color:#d61a00; font-size:12px; }
+.btngm{ background:#d61a00; border:0px; width:50px; height:20px; color:#FFF; font-weight:bold;  display:block; line-height:20px; margin:0 auto;margin-bottom:6px; color:#FFF;}
+.btngm:hover{ color:#FFF;}
+.pisi{ margin-top:5px;}
+.jslung{ height:170px; position:relative;}
+
+.jians{ clear:both;}
+.jians .jiansleft{ width:886px; float:left; margin-top:20px;}
+
+.jians .jiansleft .boxsll{  font-family:"微软雅黑"; font-size:20px; border-bottom:2px solid #aaa; color:#666; padding:5px; padding-left:35px; height:33px;}
+.jians .jiansleft #box-1{ background:url(../images/index_03.gif) no-repeat;}
+.jians .jiansleft  #box-2{ background:url(../images/index_06.gif) no-repeat;}
+.jians .jiansleft  .picbox { margin:0px;}
+.jians .jiansleft  .picbox ul li{float:left;}
+.jians .jiansleft  .picbox ul .pcijj{  margin-right:8px; margin-bottom:12px;}
+.picbox{ margin-top:5px; }.cls{ clear:both;}
+.jians .jiansright{ float: right; width:306px; margin-top:28px;}
+    #container{  border:1px solid #E7E7E7; font-size:12px; height:170px; margin-top:10px; }
+	#container ul{ height:35px; margin:0px; padding:0px; background-color:#F7F7F7;}
+    #container ul li{list-style:none; height:35px; float:left; font-size:12px; text-align:center; width:33.3%; line-height:35px; }
+	#container .tab{ background-color:#fff; font-weight:bold;}
+      .hidden{ display:none;}
+	  .show{ display:block;}
+	 
+	
+	#container.movie{ width:207px; height:24px;}
+	#container.movie .viode li{ height:24px; width:207px; }
+	#container.viode li em{  vertical-align:middle;width:20px; height:20px; background-color:#990099; float:left; display:inline-block;}
+	#container #news{ padding-top:12px; width:300px;}
+#container #news li{ list-style-type:none; height:30px; line-height:30px; padding-left:15px;  width:270spx; margin-left:10px;border-bottom:1px dashed #b5b3b4;}
+#container #news li a{ text-decoration:none; color:#666; margin-left:10px;}
+#container #news li a:hover{ text-decoration:underline; color:#E4393C;}
+#container #news .newitem{ background:#edf3ee;}
+#container #news li b{ width:9px; height:9px; background:#f69301; float:left; display:block; margin-top:10px;}
+
+ 
+.kehu{ border:1px solid #E7E7E7;font-size:12px; margin-top:10px; }
+.kehu .kehufw{ font-weight:bold;height:35px; line-height:35px; padding-left:15px; border-bottom:1px solid #E7E7E7; background:#f7f7f7;}
+.kehu .kehuinfo { border-bottom:1px  dashed #d1d2d8; width:250px; margin:0 auto; margin-top:10px; color:#a6a6a6;}
+.kehu .kehuinfo b{ font-size:14px; color:#666666;}
+.kehu .kehuinfo ul li{ height:35px; line-height:30px;  font-size:16px;}
+.kehu_servie{ width:290px; margin: 0 auto; margin-top:10px; margin-bottom:0px;}
+.kehutime{ width:250px; height:30px; line-height:30px;margin:0px auto;color:#a6a6a6; font-weight:bold;}
+.kaku_pc{ float:right; margin-top:2px; margin-right:80px;}
+.bowl{ margin-left:2px; float:left; width:44px;}
+.bowpp{ width:50px;}
+.kehu .kehu_servie .kehuinfo span{ float:left;  display:block; height:27px; }
+.sport{ overflow:hidden; }
+.spass{ margin-top:2px;}
+.sport .sportleft{ width:207px; height:447px; float:left; border:1px solid #E7E7E7;}
+.sport .sportleft .sportxm{ background:url(../images/sport_pic.png) no-repeat; font-size:12px; height:35px; line-height:35px; font-weight:bold; padding-left:10px; }
+.sport .sportleft .sportli{  overflow:hidden; padding-left:10px; background:#f4fef4; height:412px;}
+.sport .sportleft .sportli ul li{ float:left; font-size:12px; width:90px; color:#000; height:47px; text-align:left; padding-left:5px; margin-top:12px; line-height:47px;position:relative;}
+.sport .sportleft .sportli ul li a{color:#000;}
+.sportright{ width:670px; float:left; margin-left:6px;}
+.sportright .sportpic ul li{ float:left; position:relative; height:188px;}
+.sportright .sportpic{  float:left;}
+.sportright ul li{ position:relative; float:left;}
+.sportright .sportitem{ height:185px;}
+.sportright .sportitem_img{ height:137px;}
+.sportright .sport_item { position:relative;}
+.sportright .sport_item .sport_infor{ position:absolute; z-index:999; top:5px; right:5px;}
+.sportright .sport_item .sport_infor strong{ color:#999; font-family:"黑体";}
+.sportright .sport_item .sport_infor em{ font-size:12px; color:#f84d51; font-weight:bold; font-style:normal; margin-left:5px;}
+.sportright .sport_item .sport_ino{ position:absolute; top:40px; left:5px;}
+.sportright .sport_item .sport_ino strong{ display:block;}
+.sportright .sport_item .sport_ino em{display:block; margin-top:20px;}
+.sportright .sportpic .sportitem{ margin-right:5px; position:relative; }
+.sportright .sportimg .sportitem_pic{ margin-right:7px; }
+.sportright  .sportimg ul li{float:left; position:relative; }
+.sportright  .sportimg{ float:left; width:670px; }
+.sportimg .sportitem{ margin-right:5px;  margin-top:2px;}
+.sportleft .shorta{ background:url(../images/k68_cn_20097418444_01.jpg) no-repeat 10px 10px;}
+.sportli b{ display:block; width:40px; height:40px; float:left; /*margin-right:4px; vertical-align:middle;*/}
+
+.wenzisk{ width:304px; font-size:12px; line-height:18px; margin-top:10px; border:1px solid #E7E7E7; padding-bottom:16px;}
+.wenzisk .wen_bore{ border-bottom:1px dashed #dbdbdb; padding-bottom:7px; margin-bottom:6px;}
+.wenzisk h2{ background:url(../images/index3_03_nav.gif) no-repeat; height:46px; line-height:40px; padding-left:50px; color:#FFF; font-size:14px;}
+.wenzisk .wen_pic{ float:left; border:1px solid #dbdbdb; padding:2px;}
+.wenzisk .wen_info{ float:left; width:190px; margin-top:10px; color:#666666;}
+.wenzisk .wen_info strong{color:#fe0903; font-weight:bold; font-size:18px;}
+.wenzisk .wen_info p{ text-indent:2em;color:#666666;}
+.wenzisk .wen_info .spro{ text-align:left; font-weight:bold;}
+.wenzisk .wen_info .spro a{color:#666666;}
+.wenzisk .wen_kaun{ overflow:hidden; margin-top:5px; padding-left:15px;}
+
+.sporttz{ height:auto;border:1px solid #E7E7E7; width:312px;font-size:12px; line-height:18px; margin-top:15px; overflow:hidden; height:320px;}
+
+.sporttz .wen_pic{ float:left;}
+.sporttz .wen_info{ float:left; margin-left:10px; width:200px;}
+
+.sporttz .spro{ text-align:center; font-weight:bold;}
+.sporttz .wenzisk_bt{ font-weight:bold;height:35px; line-height:35px; padding-left:15px; border-bottom:1px solid #E7E7E7; }
+
+.sporttz .sporta_s{ overflow:hidden;  padding-left:10px; padding-bottom:15px; }
+.changdhoo_tab{ overflow:hidden;zoom:1;}
+.changguan{ width:886px; float:left;   margin-top:10px;}
+
+.item_tab{  color:#666666; position:absolute; left:35px; top:15px; font-weight:bold; z-index:999; font-size:20px;}
+
+.dhooitem{ width:200px; height:42px; line-height:31px; border-bottom:2px solid #AAA; float:left; background:url(../images/index_09.gif) no-repeat; margin-bottom:5px;}
+
+.dhooitemss{ width:16px; height:42px; float:left;border-bottom:2px solid #AAA;}
+
+.bowne{ margin-top:17px;}
+.btns .and{}
+
+.navdaohang .nav_item{ overflow:hidden;}
+.navdaohang .nav_item a{ float:left;}
+
+.jinqi{ padding-top:25px;}
+.jin_title{ overflow:hidden;zoom:1; position:relative; }
+.jin_title .jin_kechen{ float:left; height:30px;}
+.jin_title .jin_kechen h3{ font-size:21px; color:#666; float:left; font-family:"微软雅黑"; font-weight:normal;}
+.jin_title .jin_kechen span{ color:#f7128e; float:left; margin-left:15px; font-size:16px; height:20px; line-height:20px; margin-top:6px; font-weight:bold;}
+.jin_title #data_riqi{ float:right; font-size:14px; color:#605e5e; z-index:9999; margin-top:12px; position:absolute; right:0px; bottom:0px;}
+
+.jin_title #data_riqi ul li{ margin-left:10px; width:80px; display:block; float:left; text-align:center;font-weight:bold;  cursor:pointer;}
+ 
+.jinqi #box_jinqi{ border:1px solid #eee; height:125px;  z-index:-44;background:url(../images/tabio.gif) left bottom no-repeat;} 
+.jinqi #box_jinqi ul{ list-style:none; padding-left:24px; padding-top:10px;}
+.jinqi #box_jinqi ul li{ float:left; }
+
+.box_tab{ overflow:hidden;zoom:1;}
+.box_li{ margin-right:42px;}
+.jianhui{ width:200px;}
+.jinqi #box_jinqi .jianhui .jian_picu{ float:left;}
+.jinqi #box_jinqi .jianhui .jian_time{ float:left; margin-left:10px;}
+.jinqi #box_jinqi .jianhui .jian_time p{ line-height:28px; }
+.jinqi #box_jinqi .jianhui .jian_time .jian_p1{ color:#666; font-size:14px; font-weight:bold;}
+.jinqi #box_jinqi .jianhui .jian_time .jian_p2{ font-size:13px; color:#666;}
+.jinqi #box_jinqi .jianhui .jian_time .jian_p3{ color:#d61a00; font-size:13px;}
+.jinqi #box_jinqi .jianhui .jian_time .jian_p3 span{ margin-left:9px; display:block; width:72px; height:23px; background:#d61a00; float:right; color:#FFF; font-weight:bold; text-align:center;}
+.jinqi #box_jinqi .jianhui .jian_time .jian_p3 span a{ color:#FFF;}
+.jinqi #box_jinqi .jianhui p{ clear:both; color:#fb8609;font-size:14px;}
+
+
+
+
+
+
+
+
+
+
+
+
+

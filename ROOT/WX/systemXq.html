@@ -1,0 +1,115 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>专家系统</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="../css/mui.min.css" rel="stylesheet" />
+		<style>
+			.fleft{
+				
+				float: left;
+			}
+			.fright{
+				float: right;
+			}
+			.tright{
+				text-align: right;
+			}
+			.tleft{
+				text-align: left;
+			}
+			.tcenter{
+				text-align: center;
+			}
+			.fix{
+				clear: both;
+			}
+			.boxcss{
+				padding: 10px;
+			}
+			.body{
+				background: white!important;
+			}
+			.mui-content{
+				background: white;
+			}
+			.jsxt{
+				width: 16px;
+				height: auto;
+				padding-left: 15px;
+				padding-top: 15px;
+				font-weight: 700;
+			}
+			.money{
+				color:red;
+				font-size: 18px;
+				padding-right: 10px;
+				margin-bottom: 5px;
+			}
+			.dz{
+				margin: 0 auto;
+				font-size: 14px;
+				font-weight: 600;
+				background: red;;
+				padding: 2px;
+				width: 100px;
+				border-radius: 6px;text-align: center;
+				color:white
+			}
+			.tbbottom{
+				border-top:1px solid #eaeaea ;
+				border-bottom: 1px solid #eaeaea;
+			}
+			.grey{
+				color:grey
+			}
+		</style>
+	</head>
+
+	<body>
+		<script src="../js/mui.min.js"></script>
+		<script type="text/javascript">
+			mui.init()
+		</script>
+		<div class="mui-content">
+		    <div class=" boxcss">
+		    	<div class="fleft jsxt">
+		    		健身专家系统
+		    	</div>
+		    	<div class="fright">
+		    		<img src="../images/logo.png" alt="" width="144px"height="144px"/>
+		    		<p>
+		    			<div class="tright money">￥99.00</div>
+		    			<div class="tcenter dz"id="dz">我要定制</div>
+		    		</p>
+		    	</div>
+		    	<div class="fix"></div>
+		    </div>
+		       <div class="boxcss tbbottom">
+		    	<h4>专家介绍</h4>
+		    	<p style="text-indent: 2em;">其实，“我以为”是个伤感的词，比如，我以为你从没爱过我。又比如，我以为你爱过我。</p>
+		    </div>
+		       <div class="boxcss">
+		    	<h4>系统简介</h4>
+		    	<p style="text-indent: 2em;">
+		    		<span class="grey">健身目标：</span>11111111111111111
+		    	</p>
+		    	<p style="text-indent: 2em;">
+		    		<span class="grey">健身目标：</span>11111111111111111
+		    	</p>
+		    	<p style="text-indent: 2em;">
+		    		<span class="grey">健身目标：</span>11111111111111111
+		    	</p>
+		    </div>
+		</div>
+	</body>
+	<script src="../bodytest/js/jquery-2.2.0.min.js"></script>	
+      <script>
+        	  	var dz=document.getElementById('dz');
+    	dz.addEventListener('click',function(){
+    		location.href='';
+    	});
+      </script>	
+</html>

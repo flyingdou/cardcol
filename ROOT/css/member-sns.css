@@ -1,0 +1,496 @@
+/* CSS Document */
+img {
+	border: none;
+}
+
+#left {
+	width: 146px;
+	height: 100%;
+	overflow: hidden;
+	border: 1px solid #999;
+	float: left;
+	margin-top: 20px;
+	padding-bottom: 10px;
+}
+
+#left h1,#left h1.community {
+	width: 136px;
+	height: 30px;
+	line-height: 30px;
+	padding-left: 10px;
+}
+
+#left ul .{
+	margin-top: 10px;
+}
+
+#left ul.community h1 {
+	background: none;
+	border: none;
+}
+
+#left ul.bowen {
+	margin-left: 20px;
+	line-height: 150%;
+}
+
+#left ul.bowen li a {
+	color: green;
+}
+
+/*以下为member-sns.css*/
+.right {
+	width: 800px;
+	height: 100%;
+	overflow: hidden;
+	border: 1px solid #999;
+	float: right;
+	margin-top: 20px;
+	padding-bottom: 20px;
+}
+
+.right h1 {
+	width: 790px;
+	height: 30px;
+	line-height: 30px;
+	padding-left: 10px;
+}
+
+.right p.bowen {
+	width: 50px;
+	height: 25px;
+	line-height: 25px;
+	margin: 10px 0 0 10px;
+	text-align: center;
+}
+
+.right p.bowen a {
+	display: block;
+	width: 50px;
+	height: 25px;
+	border: 1px solid #999;
+	background: #fff url(../images/space_menu.gif);
+}
+
+.right ul.fatbowen {
+	margin-top: 15px;
+	margin-left: 10px;
+}
+
+.right ul.fatbowen li.first {
+	margin-right: 350px;
+	height: 100%;
+	overflow: hidden;
+}
+
+.right ul.fatbowen li {
+	float: left;
+	margin-right: 15px;
+}
+
+.right ul.fatbowen li a {
+	color: blue;
+}
+
+/*以下为member-sns1.css*/
+.right .top1 {
+	height: 100%;
+	overflow: hidden;
+	padding-bottom: 5px;
+}
+
+.right p.message1 {
+	float: left;
+	width: 50px;
+	height: 25px;
+	line-height: 25px;
+	margin: 10px 0 0 10px;
+	text-align: center;
+}
+
+.right p.message1 a {
+	display: block;
+	width: 50px;
+	height: 25px;
+	border: 1px solid #999;
+	background: url(../images/space_menu.gif);
+}
+
+.right p.delete1 {
+	float: right;
+	margin: 10px 10px 0 0;
+}
+
+.right p.delete1 input {
+	vertical-align: middle;
+}
+
+.right .center1 {
+	margin-top: 20px;
+	height: 100%;
+	overflow: hidden;
+	border-bottom: 1px dashed #999;
+	padding-bottom: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.right .center1 p.image1 {
+	float: left;
+	width: 70px;
+}
+
+.right .center1 p.image1 input.image1 {
+	vertical-align: middle;
+}
+
+.right .center1 p.image1 img {
+	vertical-align: middle;
+}
+
+.right .center1 .message1-3 {
+	float: right;
+	width: 700px;
+	height: 100%;
+	overflow: hidden;
+	margin-left: 10px;
+}
+
+.right .center1 .message1-3 span {
+	float: right;
+	margin-right: 40px;
+}
+
+.right .center1 .message1-3 span a {
+	color: blue;
+}
+
+.right .center1 .message1-3 .message1-4 {
+	font-weight: bold;
+}
+
+.right .center1 p.writing1 {
+	float: left;
+	width: 80%;
+	margin-top: 15px;
+	margin-left: 10px;
+}
+
+.right .pagenumber1 {
+	margin-top: 10px;
+	margin-right: 20px;
+	height: 100%;
+	overflow: hidden;
+}
+
+.right .pagenumber1 ul {
+	float: right;
+}
+
+.right .pagenumber1 ul li {
+	float: left;
+	width: 25px;
+	height: 25px;
+	line-height: 25px;
+	text-align: center;
+	border: 1px solid #999;
+	margin-right: 5px;
+}
+
+.right .pagenumber1 ul li.end1 {
+	width: 50px;
+}
+
+.right .pagenumber1 ul li a {
+	display: block;
+	float: left;
+	width: 25px;
+	height: 25px;
+	line-height: 25px;
+}
+
+.right .pagenumber1 ul li a.end1 {
+	width: 50px;
+}
+
+.right .review1 {
+	margin-left: 20px;
+}
+
+.right .review1 textarea {
+	margin-top: 5px;
+}
+
+.right .review1 input {
+	width: 50px;
+	height: 25px;
+	line-height: 25px;
+	text-align: center;
+	border: 1px solid #999;
+	background: url(../images/space_menu.gif);
+	margin-left: 200px;
+}
+
+/*以下为member-sns2.css*/
+.right .top2 {
+	height: 100%;
+	overflow: hidden;
+	padding-bottom: 5px;
+}
+
+.right p.message2 {
+	float: right;
+	width: 50px;
+	height: 100%;
+	overflow: hidden;
+	margin: 10px 20px 0 0;
+	text-align: center;
+}
+
+.right p.message2 a {
+	display: block;
+	width: 50px;
+	height: 25px;
+	border: 1px solid #999;
+	background: url(../images/space_menu.gif);
+}
+
+.right p.message2 input {
+	vertical-align: middle;
+}
+
+.right .center2 {
+	margin-top: 20px;
+	height: 100%;
+	overflow: hidden;
+	border-bottom: 1px dashed #999;
+	padding-bottom: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.right .center2 p.image2 {
+	float: left;
+	width: 70px;
+}
+
+.right .center2 p.image2 input.image {
+	vertical-align: middle;
+}
+
+.right .center2 p.image2 img {
+	vertical-align: middle;
+}
+
+.right .center2 .message2-3 {
+	float: right;
+	width: 700px;
+	height: 100%;
+	overflow: hidden;
+	margin-left: 10px;
+}
+
+.right .center2 .message2-3 .message2-4 {
+	font-weight: bold;
+}
+
+.right .center2 .message2-3 span {
+	float: right;
+	margin-right: 40px;
+}
+
+.right .center2 .message2-3 span a {
+	color: blue;
+}
+
+.right .center2 p.writing2 {
+	float: left;
+	width: 80%;
+	margin-top: 15px;
+	margin-left: 10px;
+}
+
+.right .pagenumber2 {
+	margin-top: 10px;
+	margin-right: 20px;
+	height: 100%;
+	overflow: hidden;
+}
+
+.right .pagenumber2 ul {
+	float: right;
+}
+
+.right .pagenumber2 ul li {
+	float: left;
+	width: 25px;
+	height: 25px;
+	line-height: 25px;
+	text-align: center;
+	border: 1px solid #999;
+	margin-right: 5px;
+}
+
+.right .pagenumber2 ul li.end2 {
+	width: 50px;
+}
+
+.right .pagenumber2 ul li a {
+	display: block;
+	float: left;
+	width: 25px;
+	height: 25px;
+	line-height: 25px;
+}
+
+.right .pagenumber2 ul li a.end2 {
+	width: 50px;
+}
+
+.right .review2 {
+	margin-left: 20px;
+}
+
+.right .review2 textarea {
+	margin-top: 5px;
+}
+
+.right .review2 input {
+	width: 50px;
+	height: 25px;
+	line-height: 25px;
+	text-align: center;
+	border: 1px solid #999;
+	background: url(../images/space_menu.gif);
+	margin-left: 200px;
+}
+
+/*以下为member-sns3.css*/
+.right .center3 {
+	margin-top: 20px;
+	height: 100%;
+	overflow: hidden;
+	border-bottom: 1px dashed #999;
+	padding-bottom: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.right .center3 p {
+	float: left;
+	width: 70px;
+}
+
+.right .center3 p input.image {
+	vertical-align: middle;
+}
+
+.right .center3 p img {
+	vertical-align: middle;
+}
+
+.right .center3 .message3-3 {
+	float: right;
+	width: 700px;
+	height: 100%;
+	overflow: hidden;
+	margin-left: 10px;
+}
+
+.right .center3 .message3-3 .message3-4 {
+	font-weight: bold;
+}
+
+.right .center3 .message3-3 span {
+	float: right;
+	margin-right: 40px;
+}
+
+.right .center3 .message3-3 span a {
+	color: blue;
+}
+
+.right .center3 p.writing3 {
+	float: left;
+	width: 80%;
+	margin-top: 15px;
+	margin-left: 10px;
+}
+
+/*以下为member-sns4.css*/
+.right .center4 {
+	margin-left: 10px;
+}
+
+.right .center4 dl {
+	float: left;
+	width: 300px;
+	margin-top: 20px;
+}
+
+.right .center4 dl dt {
+	float: left;
+}
+
+.right .center4 dl dd {
+	float: left;
+	width: 200px;
+	margin-left: 10px;
+	margin-top: 6px;
+}
+
+.right .center4 dl dd a.friend {
+	font-weight: bold;
+	color: #000;
+}
+
+.right .center4 dl dd a {
+	color: blue;
+}
+
+/*以下为member-sns5.css*/
+.right p.message5 {
+	width: 50px;
+	height: 25px;
+	line-height: 25px;
+	margin: 10px 0 0 20px;
+	text-align: center;
+}
+
+.right p.message5 a {
+	display: block;
+	width: 50px;
+	height: 25px;
+	border: 1px solid #999;
+	background: url(../images/space_menu.gif);
+}
+
+.right .center5 {
+	margin-left: 10px;
+}
+
+.right .center5 dl {
+	float: left;
+	width: 300px;
+	margin-top: 20px;
+}
+
+.right .center5 dl dt {
+	float: left;
+}
+
+.right .center5 dl dd {
+	float: left;
+	width: 200px;
+	margin-left: 10px;
+	margin-top: 6px;
+}
+
+.right .center5 dl dd a.friend {
+	font-weight: bold;
+	color: #000;
+}
+
+.right .center5 dl dd a {
+	color: blue;
+}

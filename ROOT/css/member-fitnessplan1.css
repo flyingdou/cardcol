@@ -1,0 +1,258 @@
+/* CSS Document */
+
+#contentfour{
+width:100%;
+height:100%;
+overflow:hidden;
+}
+
+a{
+color:#000;}
+
+#left{
+width:250px;
+float:left;
+margin-top:20px;
+margin-left:10px;}
+#left-1{
+width:250px;
+height:100%;
+overflow:hidden;
+border:1px solid #999;
+}
+#left-1 p{
+text-align:center;
+margin-top:5px;
+height:30px;
+line-height:30px;
+}
+#left-1 p input{
+width:15px;
+height:15px;
+vertical-align:middle;
+border:2px solid #000;
+margin:0 3px 0 8px;}
+#left-1 p input.button1{
+background:red;}
+#left-1 p input.button2{
+background:green;}
+#left-1 p input.button3{
+background:#fff;}
+
+#left-1 h1{
+width:250px;
+height:30px;
+line-height:30px;
+text-align:center;
+}
+
+#left-1 .calendar{
+width:250px;
+height:200px;
+background:green;}
+#left-1 img{
+display:block;
+margin:35px auto;}
+
+
+
+#left-2{
+width:250px;
+height:350px;
+margin-top:10px;
+border:1px solid #999;
+}
+#left-2 h1{
+width:240px;
+height:30px;
+line-height:30px;
+padding-left:10px;
+}
+#left-2 div{
+margin-top:10px;
+margin-bottom:10px;
+height:100%;
+overflow:hidden;}
+#left-2 div ul.left2content1{
+margin-left:15px;}
+#left-2 div ul.left2content1 li{
+float:left;
+width:40px;
+height:20px;
+line-height:20px;
+text-align:center;
+background:#fff;
+margin-right:5px;}
+#left-2 div ul.left2content1 li a{
+display:block;
+width:40px;
+height:20px;
+text-decoration:none;
+color:#000;
+border:1px solid #999;
+border-bottom:none;}
+#left-2 div ul.left2content1 li a:hover{
+background:#fff;
+border:1px solid #999;
+border-bottom:none;}
+
+#left-2 div ul.left2content2{
+width:240px;
+height:220px;
+margin:0 5px 0 5px;
+border:1px solid #999;
+overflow:auto;}
+#left-2 div ul.left2content2 li{
+float:left;
+width:200px;
+margin:10px 0 0 10px;}
+#left-2 div ul.left2content2 li input{
+vertical-align:middle;
+margin-right:10px;}
+
+#left-2 div table tr{
+line-height:180%;}
+#left-2 div table input{
+vertical-align:middle;
+margin-right:5px;
+line-height:100%;}
+#left-2 div table a{
+color:#000;
+text-decoration:none;}
+.itemmenu{
+background:#ededed;}
+
+#left-2 div p{
+text-align:center;
+margin-top:25px;}
+#left-2 div p input{
+width:50px;
+height:25px;
+cursor:pointer;
+border:1px solid #999;
+background:url(../images/space_menu.gif);}
+
+
+
+#righttop{
+float:right;
+width:680px;
+height:100%;
+overflow:hidden;
+margin-top:20px;
+margin-right:10px;
+}
+#righttop .time{
+float:left;
+width:100%;
+height:100%;
+overflow:hidden;
+padding-left:10px;
+margin-bottom:10px;
+}
+#righttop .time input.time-1,#righttop .time input.time-2{
+width:80px;
+height:25px;
+line-height:25px;
+border:1px solid #999;}
+#righttop .time input.time-2{
+width:60px;
+}
+#righttop div.time img{
+vertical-align:middle;
+}
+
+#righttop ul.time1{
+height:27px;}
+#righttop ul.time1 li{
+float:left;
+height:27px;
+line-height:27px;
+margin-right:5px;
+}
+#righttop ul.time1 li.end{
+margin-left:14px;
+height:25px;
+width:88px;
+border:1px solid #999;
+text-align:center;}
+#righttop ul.time1 li.end a{
+width:88px;
+height:25px;
+display:block;}
+#righttop ul.time1 li.end a:hover{
+background:url(../images/space_menu.gif);}
+
+#righttop select{
+margin-top:10px;
+margin-left:550px;
+width:100px;
+}
+
+
+#righttop ul.health{
+margin-left:5px;
+height:100%;
+overflow:hidden;
+}
+#righttop ul.health li{
+float:left;
+width:90px;
+height:25px;
+line-height:25px;
+margin-right:5px;
+text-align:center;
+}
+
+
+#righttop ul.health li a{
+display:block;
+width:90px;
+height:25px;
+background:#fff;
+border:1px solid #999;}
+#righttop ul.health li a.active{
+background:url(../images/space_menu.gif);}
+#righttop ul.health li a:hover{
+background:url(../images/space_menu.gif);}
+
+
+#right{
+width:680px;
+float:right;
+margin-right:10px;
+border:1px solid #999;}
+#right table{
+margin:10px 10px 10px 10px;}
+#right table tr td{
+color:#000;
+line-height:250%;
+text-align:center;}
+#right table tr td.bc3{
+background:#fbfbfb;}
+
+.itemmenu a.item-up{
+background:url(../images/ico_order.gif) no-repeat;}
+.itemmenu a.item-down{
+background:url(../images/ico_order.gif) no-repeat 0 -18px;}
+.itemmenu a{
+display:block;
+width:11px;
+height:12px;
+float:left;
+margin-left:12px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

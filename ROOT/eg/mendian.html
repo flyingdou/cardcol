@@ -1,0 +1,193 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>健身俱乐部门店</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<link  rel="stylesheet" href="../css/mui.min.css" />
+		
+		<style type="text/css">
+			
+			
+			/*搜索门店的搜索框样式设计*/
+			input[type=text]{
+				width: 70%;
+				height: 30px;
+				margin-top: 15px;
+				padding: 3px 15px;
+				margin-left: 10px;
+				background-color:#D8D8DC ;
+				border: none;
+				/*position: relative;*/
+				
+			}
+			/*搜索框的样式设计*/
+			.ss{
+			   position: relative;
+			    top: 2px;
+			    left: -8%;
+			}
+			
+			
+			/*搜索框背景颜色#D8D8DC*/
+			
+			/*ul样式*/
+			.mui-table-view{
+				margin-top: 10px;
+				/*position: relative;*/
+			}
+			/*修改原图片的样式*/
+			.mui-table-view .mui-media-object {
+			    line-height: 42px;
+			    max-width: none;
+			    height: 60px;
+			}
+			.mendian_img{
+				width:80px;
+				height:60px;
+				margin-right: 10px;
+			}
+			/*门店名称样式*/
+			.bt{
+				color:black;
+				font-size: 15px;
+				color:#333333;				
+				margin-bottom: 10px;
+			}
+			.zht_ys{
+				color: #999999;
+				font-size: 12px;
+				line-height: 15px;
+				
+			}
+			
+			/*确定按钮的样式*/
+			.btn{
+				height: 26px;
+			    padding: 3px 8px;
+			    position: absolute;
+			    top: 17px;
+			    right: 15px;
+			}
+			
+			
+			/*得分的样式*/
+			.defen{
+				position: absolute;
+				top:30px;
+				right: 20px;
+				font-size: 15px;
+				color:#FE9E3A;
+			}
+			
+			/*图片与左边小圆点之间的距离*/
+			.mui-table-view-cell.mui-checkbox.mui-left, .mui-table-view-cell.mui-radio.mui-left {
+			    padding-left: 45px;
+			}
+			/*小圆点样式编辑*/
+			.mui-checkbox input[type=checkbox]:before, .mui-radio input[type=radio]:before {
+			    font-size: 15px;
+			    position: absolute;
+			    top: 25px;
+			    right: 0px;
+			    display: inline-block;
+			    width: 15px;
+			    height: 15px;
+			}
+			/*小圆点中的input样式*/
+			.mui-checkbox input[type=checkbox], .mui-radio input[type=radio] {
+			    position: absolute;
+			    top: 15px;
+			    right: 0px;
+			    display: inline-block;
+			    width: 15px;
+			    height: 15px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="mui-content">
+			<div class="mui-scroll-wrapper">
+			    <div class="mui-scroll">
+			    	<!--搜索框-->
+			    	<!--<div class="mui-content-padded">
+						<div class="mui-input-row mui-search">
+							<input type="search"  placeholder="请输入搜索门店！" style="text-align:left;">
+						</div>
+						<button type="button"  class="mui-pull-right btn">确定</button>	
+					</div>-->
+					<div>
+						<input type="text" class="search"  placeholder="请输入搜索门店！" ><span class="mui-icon mui-icon-search ss"></span>
+						<button type="button"  class="mui-pull-right btn" id="qd">确定</button>
+					</div>		    	
+			    	<!--健身俱乐部门店列表-->
+			    	<ul class="mui-table-view">
+			    		<li class="mui-table-view-cell mui-media mui-radio mui-left">
+			    			<input name="radio" type="radio">
+		    				<img class="mui-media-object mui-pull-left mendian_img"  src="../images/shuijiao.jpg" />
+			    			<div class="mui-media-body">
+		    					<div class="bt">门店名称1</div>
+			    				<p class="zht_ys pj"><span id="people">10</span>人评价</p>
+			    				<div class="zht_ys" id="address">武昌中北路同城富苑A座5F</div>
+			    			</div>	
+			    			<div  class="mui-pull-right defen" ><span id="fshu">83.00</span>分</div>
+			    		</li>
+			    		<li class="mui-table-view-cell mui-media mui-radio mui-left">
+			    			<input name="radio" type="radio">
+		    				<img class="mui-media-object mui-pull-left mendian_img"  src="../images/shuijiao.jpg" />
+			    			<div class="mui-media-body">
+		    					<div class="bt">门店名称2</div>
+			    				<p class="zht_ys pj"><span id="people">5</span>人评价</p>
+			    				<div class="zht_ys" id="address">武昌中北路同城富苑A座5F</div>
+			    			</div>	
+			    			<div  class="mui-pull-right defen" ><span id="fshu">83.00</span>分</div>
+			    		</li>
+			    		<li class="mui-table-view-cell mui-media mui-radio mui-left">
+			    			<input name="radio" type="radio">
+		    				<img class="mui-media-object mui-pull-left mendian_img"  src="../images/shuijiao.jpg" />
+			    			<div class="mui-media-body">
+		    					<div class="bt">门店名称3</div>
+			    				<p class="zht_ys pj"><span id="people">26</span>人评价</p>
+			    				<div class="zht_ys" id="address">武昌中北路同城富苑A座5F</div>
+			    			</div>	
+			    			<div  class="mui-pull-right defen" ><span id="fshu">83.00</span>分</div>
+			    		</li>
+			    		<li class="mui-table-view-cell mui-media mui-radio mui-left">
+			    			<input name="radio" type="radio">
+		    				<img class="mui-media-object mui-pull-left mendian_img"  src="../images/shuijiao.jpg" />
+			    			<div class="mui-media-body">
+		    					<div class="bt">门店名称4</div>
+			    				<p class="zht_ys pj"><span id="people">18</span>人评价</p>
+			    				<div class="zht_ys" id="address">武昌中北路同城富苑A座5F</div>
+			    			</div>	
+			    			<div  class="mui-pull-right defen" ><span id="fshu">83.00</span>分</div>
+			    		</li>
+			    		
+			    		
+			    		<!--<li class="mui-table-view-cell mui-radio mui-left">
+							<input name="radio" type="radio">Item 5
+						</li>
+						<li class="mui-table-view-cell mui-radio mui-left">
+							<input name="radio" type="radio">Item 6
+						</li>-->
+			    	</ul>
+			    </div>
+			</div>
+			
+		</div>
+	</body>
+	<script src="../js/mui.min.js"></script>
+	<script type="text/javascript">
+		mui('.mui-scroll-wrapper').scroll({
+			deceleration:0.0005
+		});
+		
+		//当点击确认是，返回团课预约页面
+		var qd=document.getElementById('qd');
+		qd.addEventListener('click',function(){
+			
+			location.href='myCourse.html';
+		})
+	</script>
+</html>

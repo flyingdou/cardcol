@@ -1,0 +1,281 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>我的订单</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<style type="text/css">
+			.colorR {
+				color: #ff4401;
+			}
+			
+			.font7 {
+				font-weight: 700;
+			}
+			
+			.font12 {
+				font-size: 12px;
+			}
+			
+			.font13 {
+				font-size: 13px;
+			}
+			
+			.font15 {
+				font-size: 15px;
+			}
+			
+			.font16 {
+				font-size: 16px;
+			}
+			
+			.f18 {
+				font-size: 18px;
+			}
+			
+			.mui-control-item {
+				height: 45px!important;
+				line-height: 45px!important;
+				background: white;
+				position: relative;
+			}
+			
+			.mui-segmented-control.mui-segmented-control-inverted .mui-control-item {
+				color: #999999
+			}
+			
+			.control-item:after {
+				content: "";
+				position: absolute;
+				width: 100%;
+				height: 33%;
+				top: 33%;
+				left: -1px;
+				border-right: 1px solid #f2f2f2;
+			}
+			
+			.mui-slider-progress-bar {
+				background: rgba(0, 0, 0, 0)!important;
+				position: relative;
+			}
+			
+			.mui-slider-progress-bar:after {
+				content: "";
+				position: absolute;
+				width: 30%;
+				height: 100%;
+				background: #FF4401;
+				left: 35%;
+			}
+			
+			.mui-slider-indicator {
+				outline: 2px solid #f2f2f2!important;
+			}
+			
+			.mui-slider-progress-bar {
+				margin-bottom: 10px;
+			}
+			
+			.p10 {
+				padding: 10px 10px 5px 10px!important;
+			}
+			
+			.p0 {
+				padding-left: 0!important;
+			}
+			
+			.m0 {
+				margin: -10px 0!important;
+			}
+			
+			.mui-table-view .mui-media-object {
+				line-height: 72px;
+				max-width: 72px;
+				height: 72px;
+			}
+			
+			.pd5 {
+				padding-top: 5px;
+			}
+			
+			.mui-table-view-cell:after {
+				position: absolute;
+				right: 0;
+				bottom: 0;
+				left: 0px;
+				content: '';
+				transform: scaleY(.5);
+				background-color: rgba(0, 0, 0, 0);
+			}
+			
+			.bg0 {
+				background: rgba(0, 0, 0, 0);
+			}
+			
+			.mt10 {
+				margin-bottom: 10px;
+			}
+			
+			.bgW {
+				background: white;
+			}
+			.cG{
+				color:#999999
+			}
+			.cB{
+				color:#1e1e1e
+			}
+			.mui-segmented-control.mui-segmented-control-inverted .mui-control-item.mui-active {
+				color: #1e1e1e;
+				background: white;
+			}
+			
+		.mui-slider .mui-segmented-control.mui-segmented-control-inverted~.mui-slider-group .mui-slider-item {
+   border: none;
+}
+		</style>
+	</head>
+
+	<body>
+		<div class="mui-content">
+			<div class="mui-slider">
+				<div class="mui-slider-indicator mui-segmented-control mui-segmented-control-inverted">
+					<a class="mui-control-item control-item cG mui-active" href="#item1">有效订单</a>
+					<a class="mui-control-item control-item" href="#item2">未付款订单</a>
+					<a class="mui-control-item" href="#item3">已完成订单</a>
+				</div>
+				<div id="sliderProgressBar" class="mui-slider-progress-bar mui-col-xs-4"></div>
+				<div class="mui-slider-group">
+					<div id="item1" class="mui-slider-item mui-control-content mui-active">
+						<ul class="mui-table-view bg0">
+							<li class="mui-table-view-cell p10 mt10 bgW">
+								<div class="bgw cG">
+									订单编号2017856413
+									<ul class="mui-table-view">
+										<li class="mui-table-view-cell mui-media p0">
+											<a href="javascript:;" class="m0">
+												<img class="mui-media-object mui-pull-left" src="http://placehold.it/40x30" width="72px" height="72px">
+												<div class="mui-media-body font15 pd5 cB">
+													北京健身一卡通月卡
+													<p class="mui-ellipsis font13 cG">开始时间：2017-08-03</p>
+													<p class="mui-ellipsis colorR font12">￥ <span class="f18">280</span>.00</p>
+												</div>
+											</a>
+										</li>
+
+									</ul>
+								</div>
+							</li>
+							<li class="mui-table-view-cell p10 mt10 bgW">
+								<div class="bgw cG">
+									订单编号2017856413
+									<ul class="mui-table-view">
+										<li class="mui-table-view-cell mui-media p0">
+											<a href="javascript:;" class="m0">
+												<img class="mui-media-object mui-pull-left" src="http://placehold.it/40x30" width="72px" height="72px">
+												<div class="mui-media-body font15 pd5 cB">
+													北京健身一卡通月卡
+													<p class="mui-ellipsis font13 cG">开始时间：2017-08-03</p>
+													<p class="mui-ellipsis colorR font12">￥ <span class="f18">280</span>.00</p>
+												</div>
+											</a>
+										</li>
+
+									</ul>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div id="item2" class="mui-slider-item mui-control-content">
+						<ul class="mui-table-view  bg0">
+							<li class="mui-table-view-cell p10 mt10 bgW">
+								<div class="bgw cG">
+									订单编号2017856413
+									<ul class="mui-table-view">
+										<li class="mui-table-view-cell mui-media p0">
+											<a href="javascript:;" class="m0">
+												<img class="mui-media-object mui-pull-left" src="http://placehold.it/40x30" width="72px" height="72px">
+												<div class="mui-media-body font15 pd5 cB">
+													北京健身一卡通月卡
+													<p class="mui-ellipsis font13 cG">开始时间：2017-08-03</p>
+													<p class="mui-ellipsis colorR font12">￥ <span class="f18">280</span>.00</p>
+												</div>
+											</a>
+										</li>
+
+									</ul>
+								</div>
+							</li>
+							<li class="mui-table-view-cell p10 mt10 bgW">
+								<div class="bgw cG">
+									订单编号2017856413
+									<ul class="mui-table-view">
+										<li class="mui-table-view-cell mui-media p0">
+											<a href="javascript:;" class="m0">
+												<img class="mui-media-object mui-pull-left" src="http://placehold.it/40x30" width="72px" height="72px">
+												<div class="mui-media-body font15 pd5 cB">
+													北京健身一卡通月卡
+													<p class="mui-ellipsis font13 cG">开始时间：2017-08-03</p>
+													<p class="mui-ellipsis colorR font12">￥ <span class="f18">280</span>.00</p>
+												</div>
+											</a>
+										</li>
+
+									</ul>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div id="item3" class="mui-slider-item mui-control-content">
+						<ul class="mui-table-view bg0">
+							<li class="mui-table-view-cell p10 mt10 bgW">
+								<div class="bgw cG">
+									订单编号2017856413
+									<ul class="mui-table-view">
+										<li class="mui-table-view-cell mui-media p0">
+											<a href="javascript:;" class="m0">
+												<img class="mui-media-object mui-pull-left" src="http://placehold.it/40x30" width="72px" height="72px">
+												<div class="mui-media-body font15 pd5 cB">
+													北京健身一卡通月卡
+													<p class="mui-ellipsis font13 cG">开始时间：2017-08-03</p>
+													<p class="mui-ellipsis colorR font12">￥ <span class="f18">280</span>.00</p>
+												</div>
+											</a>
+										</li>
+
+									</ul>
+								</div>
+							</li>
+							<li class="mui-table-view-cell p10 mt10 bgW">
+								<div class="bgw cG">
+									订单编号2017856413
+									<ul class="mui-table-view">
+										<li class="mui-table-view-cell mui-media p0">
+											<a href="javascript:;" class="m0">
+												<img class="mui-media-object mui-pull-left" src="http://placehold.it/40x30" width="72px" height="72px">
+												<div class="mui-media-body font15 pd5 cB">
+													北京健身一卡通月卡
+													<p class="mui-ellipsis font13 cG">开始时间：2017-08-03</p>
+													<p class="mui-ellipsis colorR font12">￥ <span class="f18">280</span>.00</p>
+												</div>
+											</a>
+										</li>
+
+									</ul>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="js/mui.min.js"></script>
+		<script type="text/javascript">
+			mui.init()
+		</script>
+	</body>
+
+</html>

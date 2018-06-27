@@ -1,0 +1,98 @@
+/* CSS Document */
+
+#left {
+width:146px;
+height:100%;
+overflow:hidden;
+border:1px solid #999;
+float:left;
+margin-top:20px;}
+#left h1.order{
+width:136px;
+height:30px;
+line-height:30px;
+padding-left:10px;
+}
+#left ul.order{
+margin-top:10px;
+margin-left:10px;}
+#left ul.order li{
+line-height:230%;}
+#left ul.order li h1{
+background:none;
+border-bottom:none;}
+#left ul.order li a{
+text-decoration:none;}
+
+#left ul.ordermanagement{
+margin-left:10px;}
+#left ul.ordermanagement li a{
+color:green;}
+
+#right{
+width:800px;
+height:100%;
+overflow:hidden;
+border:1px solid #999;
+float:right;
+margin-top:20px;
+margin-bottom:20px;}
+#right h1{
+width:790px;
+height:30px;
+line-height:30px;
+padding-left:10px;}
+#right .date{
+width:780px;
+height:70px;
+line-height:70px;
+padding-left:10px;
+}
+#right .date input.date-1{
+width:90px;
+height:25px;
+line-height:25px;
+border:1px solid #999;}
+#right .date select{
+margin-left:25px;
+border:1px solid #999;}
+#right .date input.button{
+float:right;
+background:url(../images/space_menu.gif);
+margin-top:25px;
+margin-right:10px;
+width:50px;
+height:30px;
+line-height:30px;
+border:1px solid #999;
+cursor:pointer;}
+
+#right .table{
+margin:0 10px 30px 10px;
+}
+#right .table table tr{
+line-height:220%;
+text-align:center;
+}
+#right .table table tr td,#right .table table tr th{
+margin-left:10px;
+border:1px solid #999;
+border-bottom:none;
+border-right:none;
+}
+#right .table table tr td{
+background:#fff;}
+#right .table table tr.end td{
+border-bottom:1px solid #999;}
+#right .table table tr th.right{
+border-right:1px solid #999;}
+#right .table table tr td.right{
+border-right:1px solid #999;}
+
+
+
+
+
+
+
+

@@ -1,0 +1,631 @@
+/* CSS Document */
+#left-1,#left-2,#left-3,#center-1,#center-2,#center-3,#right-1 div,#right-2,#right-3
+	{
+	
+}
+
+#left {
+	width: 210px;
+	height: 100%;
+	float: left;
+	margin-top: 20px;
+	background: none;
+}
+
+#left-1 {
+	width: 210px;
+	height: 363px;
+}
+
+#left-1 h1 {
+	width: 200px;
+	height: 30px;
+	line-height: 30px;
+	padding-left: 10px;
+}
+
+#left-1 img {
+	width: 180px;
+	height: 180px;
+}
+
+#left-1 dl {
+	text-align: center;
+	margin-top: 15px;
+}
+
+#left-1 dl dd {
+	margin-top: 6px;
+}
+
+#left-1 div {
+	text-align: center;
+}
+
+#left-1 div input {
+	margin: 8px 10px 0 10px;
+	cursor: pointer;
+	width: 77px;
+	height: 25px;
+	line-height: 26px;
+	background: url(../images/anjiuall.jpg);
+	background-position: 0px -315px;
+}
+
+#left-1 .imdivx {
+	width: 180px;
+	margin-top: 10px;
+	margin-left: 15px;
+	border-top: 1px dashed #666;
+}
+
+#left-1 .imdivx .imgp {
+	text-align: left;
+	padding-top: 20px;
+}
+
+#left-1 .imdivx .imgp2 {
+	text-align: left;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#left-1 .imdivx p span {
+	font-weight: bold;
+}
+
+#left-2 {
+	width: 210px;
+	margin-top: 10px;
+}
+
+#left-2 h1 {
+	width: 200px;
+	height: 30px;
+	line-height: 30px;
+	padding-left: 10px;
+}
+
+#left-2 div {
+	margin: 20px 0 0 15px;
+}
+
+#left-2 div p {
+	padding-bottom: 15px;
+}
+
+#left-2 div p select.assess-2 {
+	margin-top: 10px;
+	margin-left: 10px;
+	max-width: 170px;
+}
+
+#left-2 div p input.assess-2 {
+	height: 20px;
+	margin-top: 10px;
+	margin-left: 10px;
+	max-width: 103px;
+	border: 1px solid #ccc;
+}
+
+#left-2 div p input.buttom {
+	margin-top: 20px;
+	margin-left: 40px;
+	text-align: left;
+	cursor: pointer;
+	text-indent: 33px;
+	letter-spacing: 10px;
+	width: 87px;
+	height: 28px;
+	line-height: 29px;
+	background: url(../images/anjiuall.jpg);
+	background-position: -100px 0px;
+}
+
+#left-3 {
+	width: 210px;
+	margin-top: 10px;
+	float: Left;
+	overflow: hidden;
+	max-height: 278px;
+}
+
+#left-3 h1 {
+	width: 200px;
+	height: 30px;
+	line-height: 30px;
+	padding-left: 10px;
+}
+
+#left-3 img {
+	width: 50px;
+	height: 50px;
+}
+
+#left-3 div {
+	width: 203px;
+	min-height: 30px;
+	max-height: 278px;
+	padding: 4px 0 0 7px;
+}
+
+#left-3 div dl {
+	float: left;
+	width: 50px;
+	height: 70px;
+	padding: 8px 3px 0 10px;
+}
+
+#left-3 div dl dt {
+	width: 50px;
+	height: 50px;
+}
+
+#left-3 div dl dd {
+	width: 55px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	margin-top: 3px;
+	margin-bottom: 5px;
+	height: 20px;
+}
+
+#left-3 div a {
+	color: #000;
+}
+
+#center {
+	width: 505px;
+	height: 100%;
+	float: left;
+	margin-left: 17px;
+	margin-top: 20px;
+}
+
+#center-1 {
+	width: 505px;
+	height: 92px;
+}
+
+#center-1 h1 {
+	width: 495px;
+	height: 30px;
+	line-height: 30px;
+	padding-left: 10px;
+}
+
+#center-2 {
+	width: 505px;
+	height: 362px;
+	margin-top:10px;
+}
+
+#center-2 h1 {
+	width: 495px;
+	height: 30px;
+	line-height: 30px;
+	padding-left: 10px;
+}
+
+#center-2 img {
+	width: 28px;
+	height: 27px;
+}
+
+#center-2 div {
+	margin: 10px 0 0 0;
+}
+
+#center-2 div p {
+	float: left;
+	margin-left: 40px;
+	margin-bottom: 20px;
+}
+
+#center-2 div p input,select,select.assess-2 {
+	width: 80px;
+	height: 20px;
+	border: 1px solid #999;
+}
+
+#center-2 div p select {
+	width: auto;
+}
+
+#center-2 div p input.fond {
+	margin-left: 70px;
+	width: 87px;
+	height: 28px;
+	line-height: 29px;
+	text-align: left;
+	text-indent: 33px;
+	letter-spacing: 10px;
+	border: none;
+	cursor: pointer;
+	background: url(../images/anjiuall.jpg);
+	background-position: 0px 0px;
+}
+
+#center-3 .emtion {
+	width: 291px;
+	height: 201px;
+	position: absolute;
+	background: url(../images/layer_bg.png);
+	padding: 3px;
+	border-radius: 4px;
+	top: 970px;
+	left: 410px;
+}
+
+#center-3 .emtion .emtion-s {
+	width: 289px;
+	height: 200px;
+	background: #fff;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+	overflow: scroll;
+}
+
+#center-3 .emtion .emtion-s .image {
+	float: left;
+	width: 24px;
+	height: 24px;
+	padding: 5px;
+}
+
+#center-3 .emtion div {
+	padding-top: 0px;
+}
+
+#center-3 .emtion .xiaosj {
+	position: absolute;
+	overflow: visible;
+	display: block;
+	background: url(../images/layer_arrow.png);
+	width: 14px;
+	height: 9px;
+	top: -5px;
+	left: 10px;
+}
+
+#center-3 {
+	width: 505px;
+	height: 470px;
+	margin-top: 10px;
+}
+
+#center-3 h1 {
+	width: 495px;
+	height: 30px;
+	line-height: 30px;
+	padding-left: 10px;
+}
+
+#center-3 div {
+	margin: 0 auto;
+	width: 505px;
+	height: 199px;
+	padding-top: 25px;
+}
+
+#center-3 div .divp {
+	float: left;
+	margin-right: 30px;
+	margin-bottom: 20px;
+	width: 210px;
+
+}
+
+.memdiv a {
+	cursor: pointer;
+}
+
+#center-3 div p input {
+	height: 20px;
+	line-height: 20px;
+	width: 100px;
+	border: 1px solid #CCCCCC;
+}
+
+#center-3 div .wei {
+	float: left;
+	margin-left: 28px;
+	margin-bottom: 20px;
+	width: 210px;
+	text-align: right;
+}
+
+#center-3 div .ti {
+	float: left;
+	margin-left: 25px;
+	margin-bottom: 20px;
+	width: 190px;
+	text-align: right;
+}
+
+#center-3 textarea {
+	width: 450px;
+	height: 70px;
+	margin: 10px 5px 10px 15px;
+	border: 1px solid #ccc;
+	padding: 10px 10px 10px 10px;
+}
+
+#center-3 .p1 {
+	text-align: left;
+	padding-left: 15px;
+	font-size: 14px;
+}
+
+#center-3 .p2 {
+	text-align: right;
+	padding-right: 30px;
+}
+
+#center-3 .p2 span {
+	font-size: 20px;
+	font-family: Constantia, Georgia;
+	color: #333;
+}
+
+#center-3 .divp {
+	height: 25px;
+	float: left;
+
+	
+}
+
+#center-3 .p3 {
+	float: left;
+	line-height: 30px;
+	padding-left: 220px;
+	font-size: 12px;
+}
+
+#center-3 .p4 {
+	float: left;
+	width: 80px;
+	height: 27px;
+	margin-left: 30px;
+	line-height: 30px;
+	background: url(../images/sml.bmp) no-repeat;
+	text-align: left:  
+  padding-left:20px;
+}
+/*#center-3 .p4 span a{
+ color:#0079b5;
+}*/
+
+#center-3 .p4 .sptu {
+	padding-left: 25px;
+}
+
+#center-3 .p5 {
+	width: 80%;
+	height: 30px;
+	margin-top: 10px;
+	margin-left: 40px;
+	text-align: center;
+}
+
+#center-3 p {
+
+}
+
+#center-3 .inp1 {
+	width: 80px;
+	height: 25px;
+	border: 1px solid #ccc;
+}
+
+#center-3 .butt {
+	cursor: pointer;
+	width: 64px;
+	height: 28px;
+	text-align: center;
+	line-height: 29px;
+	text-indent: 10px;
+	margin-right: 10px;
+	letter-spacing: 8px;
+	background: url(../images/anjiuall.jpg);
+	background-position: 0px -48px;
+}
+
+#right {
+	width: 210px;
+	height: 100%;
+	overflow: hidden;
+	float: right;
+	margin-top: 20px;
+	background: none;
+	padding-right: 2px;
+}
+
+#right-1 {
+	width: 210px;
+	height: 100%;;
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+/*#right-1 h1.test{
+width:210px;
+height:40px;
+line-height:40px;
+text-align:center;
+font-weight:bold;
+border:1px solid #ccc;
+/*border-bottom:none;*/ /*}*/
+#right-1 .test {
+	width: 210px;
+	height: 95px;
+	line-height: 30px;
+	text-align: left;
+	/*font-weight: bold;*/
+	font-size: 12px;
+	background: url(../images/madel.png);
+	/*border:1px solid #ccc;*/
+	border-bottom: none;
+}
+#right-1 .test>span{
+	padding-left:10px;
+}
+#right-1 .test .tesp1 {
+	float: left;
+	width: 120px;
+	height: 20px;
+	letter-spacing: 2px;
+	color: #945f50;
+	padding-top: 15px;
+    margin-left:10px;
+}
+
+#right-1 .test .tesp2 {
+	float: left;
+	width: 110px;
+	color: #945f50;
+	height: 30px;
+	padding-top: 10px;
+}
+
+#right-1 h1.test strong {
+	color: #f60;
+	font-size: 25px;
+}
+
+#right-1 h2.teacher {
+	margin-top: 10px;
+	width: 200px;
+	height: 30px;
+	line-height: 30px;
+	padding-left: 10px;
+	border: 1px solid #ccc;
+	border-bottom: none;
+}
+
+#right-1 img {
+	width: 180px;
+	height: 180px;
+}
+
+#right-1 div {
+	width: 210px;
+	height: 253px;
+}
+
+#right-1 dl {
+	text-align: center;
+	margin-top: 10px;
+}
+
+#right-1 dl dd {
+	margin-top: 6px;
+}
+
+#right-1 div {
+	text-align: center;
+}
+
+#right-1 div input {
+	margin: 8px 10px 0px 10px;
+	cursor: pointer;
+	width: 77px;
+	height: 25px;
+	line-height: 26px;
+	background: url(../images/anjiuall.jpg);
+	background-position: 0px -315px;
+}
+
+#right-2 {
+	width: 505px;
+	height: 260px;
+	
+}
+
+#right-2 h1 {
+	width: 495px;
+	height: 30px;
+	line-height: 30px;
+	padding-left: 10px;
+}
+
+#right-2 div ul {
+	margin: 10px 5px 0 15px;
+}
+
+#right-2 div ul li {
+	padding-bottom: 8px;
+	line-height: 150%;
+}
+/*#right-2 div ul li span{
+color:#945f50;
+}*/
+#right-3 {
+	width: 210px;
+	height: 285px;
+	margin-top: 10px;
+}
+
+#right-3 h1 {
+	width: 200px;
+	height: 30px;
+	line-height: 30px;
+	padding-left: 10px;
+}
+
+#right-3 img {
+	width: 50px;
+	height: 50px;
+}
+
+#right-3 div {
+	width: 203px;
+	height: 250px;
+	padding: 4px 0 0 7px;
+}
+
+#right-3 div dl {
+	float: left;
+	width: 50px;
+	padding: 8px 3px 0 10px;
+}
+
+#right-3 div dl dd {
+	margin-top: 3px;
+}
+
+#right-3 div a {
+	color: #000;
+}
+
+.butok {
+	margin: 8px 0px 0 5px;
+	cursor: pointer;
+	width: 64px;
+	height: 29px;
+	line-height: 26px;
+	background: url(../images/anjiuall.jpg);
+	background-position: 0px -48px;
+}
+
+.date-1 {
+	height: 20px;
+	width: 150px;
+	border: 1px solid #999;
+}
+
+#modeSpan2 {
+	display: none;
+}
+
+#modeSpan3 {
+	display: none;
+}
+
+.tishi {
+	width: 190px;
+}
+
+.private_teach {
+	line-height: 18px;
+}

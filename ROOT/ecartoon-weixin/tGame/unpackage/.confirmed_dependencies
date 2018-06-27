@@ -1,0 +1,44 @@
+{
+  "index.html": {
+    "resources": [
+      "js/mui.min.js",
+      "img/fc.png",
+      "img/ball.png",
+      "img/yun.png",
+      "css/mui.min.css",
+      "js/kscs.png",
+      "img/bg.png",
+      "img/cczs.png",
+      "img/jk.png",
+      "ckjl.html"
+    ],
+    "refer": []
+  },
+  "ckjl.html": {
+    "resources": [
+      "img/boy.png",
+      "js/jquery.min.js",
+      "img/iandit.png",
+      "img/ckjl.png",
+      "img/xiao.png",
+      "img/mysex.png",
+      "img/girl.png",
+      "ckjg.html"
+    ],
+    "refer": []
+  },
+  "ckjg.html": {
+    "resources": [
+      "img/man2.png",
+      "img/gx1.png",
+      "img/wdtx.png",
+      "img/js.png",
+      "img/tdtx.png",
+      "img/zcyc.png",
+      "img/men2.png",
+      "img/man1.png",
+      "ckjl.html"
+    ],
+    "refer": []
+  }
+}

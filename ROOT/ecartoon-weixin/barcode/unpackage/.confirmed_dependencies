@@ -1,0 +1,96 @@
+{
+	"index.html": {
+		"resources": [
+			"css/common.css",
+			"js/update.js",
+			"js/shortcut.js",
+			"js/immersed.js"
+		],
+		"refer": [
+			"plus/geolocation.html",
+			"plus/maps.html",
+			"plus/device.html",
+			"plus/events.html",
+			"plus/navigator.html",
+			"plus/runtime.html",
+			"plus/message.html",
+			"plus/oauth.html",
+			"plus/nativeui.html",
+			"about.html",
+			"plus/njs.html",
+			"plus/statistic.html",
+			"plus/webview.html",
+			"plus/push.html"
+		]
+	},
+	"plus/geolocation.html": {
+		"resources": [
+			"js/common.js",
+			"css/common.css",
+			"js/immersed.js"
+		],
+		"refer": []
+	},
+	"plus/maps_map.html": {
+		"resources": [
+			"plus/maps_map_sub.html"
+		],
+		"refer": [
+			"plus/maps_map_sub.html"
+		]
+	},
+	"plus/maps.html": {
+		"refer": [
+			"plus/maps_map.html"
+		],
+		"resources": []
+	},
+	"plus/device.html": {
+		"resources": [
+			"js/common.js"
+		],
+		"refer": []
+	},
+	"plus/runtime.html": {
+		"refer": [
+			"plus/doc.html"
+		],
+		"resources": []
+	},
+	"doc/runtime.html": {
+		"resources": [
+			"doc/res/doc.css",
+			"doc/res/prettify.js",
+			"doc/res/prettify.sons.css",
+			"doc/res/doc.js"
+		],
+		"refer": []
+	},
+	"plus/doc.html": {
+		"refer": [
+			"doc/runtime.html"
+		],
+		"resources": []
+	},
+	"about.html": {
+		"resources": [
+			"icon.png"
+		],
+		"refer": []
+	},
+	"plus/njs.html": {
+		"refer": [
+			"plus/njs_efficient.html"
+		],
+		"resources": []
+	},
+	"plus/barcode_scan2.html": {
+		"resources": [
+			"js/common.js",
+			"css/common.css",
+			"js/immersed.js",
+			"img/ui.png"
+		],
+		"refer": []
+	}
+}

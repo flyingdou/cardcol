@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>选择裁判页面</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<link  rel="stylesheet" href="../css/mui.min.css" />
+		<style type="text/css">
+			.mui-bar-nav{
+				background-color:green;
+			}
+			.font-white{
+				color:white;
+			}
+			.qd{
+				font-size:12px;
+				color:white;
+				position:absolute;
+				top: 12px;
+				right:10px;
+			}
+			
+			
+			.input{
+				background-color:white;
+				padding-top:10px;
+				height:55px;
+				margin-bottom:20px;
+			}
+			input[type=search]{
+				text-align:left;
+				width:80%;
+				margin-left:10%;
+				position:relative;
+			}
+			/*搜索图标*/
+			.search{
+				position: relative;
+			    top: 5px;
+			    /*left: -50px;*/
+			    left:-12%;
+			    color: gray;
+				
+			}
+			.mui-radio img{
+				border-radius:100%;
+			}
+			.icon_radio{
+				width:20px;
+				height:20px;
+			}
+			.name{
+				color:black;
+				font-size:13px;
+			}
+			.zhicheng{
+				font-size:12px;
+			}
+			.mui-radio input[type=radio]{
+				top:18px;
+			} 
+		</style>
+	</head>
+	<body>
+		<!--<header class="mui-bar mui-bar-nav font-white">
+		    <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left font-white" ></a>
+		    <h1 class="mui-title " style="color:white;">选择裁判</h1>
+		    <a class="mui-pull-right qd">确定</a>
+		</header>-->
+		<div class="mui-content">
+			<div class="mui-scroll-wrapper" >
+			    <div class="mui-scroll">
+			    	<!--搜索框-->
+			    	<div class="mui-input-row input">
+						<input type="search" placeholder="搜索裁判候选人">
+						<a class="mui-pull-right mui-icon mui-icon-search search"></a>
+					</div>
+					<ul class="mui-table-view   mui-table-view-radio">
+						<li class="mui-table-view-cell mui-media">
+							<a class='mui-radio mui-right'>
+								<input name="checkbox" type="radio" class="icon_radio"  value="11" checked="checked"/>
+								<img src="../images/logo.png" class="mui-media-object mui-pull-left " />
+								<div class="mui-media-body ">
+									<p class="name">健力宝</p>
+									<p class="zhicheng">教练</p>
+								</div>
+							</a>
+						</li>
+						<li class="mui-table-view-cell mui-media">
+							<a class='mui-radio mui-right'>
+								<input name="checkbox" type="radio" class="icon_radio" value="22"  />
+								<img src="../images/logo.png" class="mui-media-object mui-pull-left " />
+								<div class="mui-media-body ">
+									<p class="name">oooo</p>
+									<p class="zhicheng">会员</p>
+								</div>
+							</a>
+						</li>
+						<li class="mui-table-view-cell mui-media">
+							<a class='mui-radio mui-right'>
+								<input name="checkbox" type="radio" class="icon_radio" value="22"  />
+								<img src="../images/logo.png" class="mui-media-object mui-pull-left " />
+								<div class="mui-media-body ">
+									<p class="name">13443</p>
+									<p class="zhicheng">会员</p>
+								</div>
+							</a>
+						</li>
+						<li class="mui-table-view-cell mui-media">
+							<a class='mui-radio mui-right'>
+								<input name="checkbox" type="radio" class="icon_radio" value="22"  />
+								<img src="../images/logo.png" class="mui-media-object mui-pull-left " />
+								<div class="mui-media-body ">
+									<p class="name">ASFD</p>
+									<p class="zhicheng">会员</p>
+								</div>
+							</a>
+						</li>
+						<li class="mui-table-view-cell mui-media">
+							<a class='mui-radio mui-right'>
+								<input name="checkbox" type="radio" class="icon_radio"  value="11" checked="checked"/>
+								<img src="../images/logo.png" class="mui-media-object mui-pull-left " />
+								<div class="mui-media-body ">
+									<p class="name">YUWEURC</p>
+									<p class="zhicheng">教练</p>
+								</div>
+							</a>
+						</li>
+						<li class="mui-table-view-cell mui-media">
+							<a class='mui-radio mui-right'>
+								<input name="checkbox" type="radio" class="icon_radio"  value="11" checked="checked"/>
+								<img src="../images/logo.png" class="mui-media-object mui-pull-left " />
+								<div class="mui-media-body ">
+									<p class="name">OSBFWJEC</p>
+									<p class="zhicheng">教练</p>
+								</div>
+							</a>
+						</li>
+						<li class="mui-table-view-cell mui-media">
+							<a class='mui-radio mui-right'>
+								<input name="checkbox" type="radio" class="icon_radio"  value="11" checked="checked"/>
+								<img src="../images/logo.png" class="mui-media-object mui-pull-left " />
+								<div class="mui-media-body ">
+									<p class="name">NCJDHFWEU</p>
+									<p class="zhicheng">教练</p>
+								</div>
+							</a>
+						</li>
+					
+					</ul>
+			    </div>
+			</div>
+			
+		</div>
+	</body>
+	<script src="../js/mui.min.js"></script>
+	<script src="../js/jquery-1.11.1.min.js"></script>
+	<script>
+//		$(function(){
+//			$('input[name="checkbox"]').each(function(){
+//				//获取input[name="checkbox"]的value的值
+//				alert(this.value);
+//			});
+//			
+			
+			//当前的radio被选中
+//		var zhi1=$('input[name="checkbox"]:checked').val();
+//			alert(zhi1);
+//		});
+		
+		
+		
+//		var info = document.getElementById("info");
+//		document.querySelector('.mui-table-view  .mui-table-view-radio').addEventListener('selected',function(e){
+//			info.innerHTML = "当前选中的为："+e.detail.el.innerText;
+//		});
+		
+	</script>
+</html>

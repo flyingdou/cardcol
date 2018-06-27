@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+.pay_plan{width:1198px; margin:0 auto; height:440px; border:1px solid #e5e5e5; margin-top:23px;}
+
+.pay_nav{ width:672px; height:31px; background:url(../images/pay_navh.gif) no-repeat; margin:0 auto; margin-top:46px;}
+.pay_nav ul li{ float:left; list-style:none; color:#666666; height:31px; line-height:31px; font-size:14px; width:220px; text-align:center;}
+.pay_nav ul li b{ font-size:20px;}
+.pay_nav ul li span{ color:#FFF;}
+
+
+.pay_content{ width:669px; margin:0 auto;}
+.pay_content .payinfo{ margin-top:10px; }
+.pay_content .payinfo p{ line-height:22px; font-size:12px; color:#666666;}
+.pay_content .pay_price{ font-size:14px; font-weight:bold; color:#666666; margin-top:15px;}
+.pay_content .pay_price span{ color:#ee8718;}
+.pay_content .pay_bank{ height:140px; background:#eeeeee; color:#fe0406; font-size:12px; margin-top:15px; p}
+.pay_content .pay_img{ margin-left:4px; margin-right:5px;}
+.pay_content .pay_a{ padding-top:20px; padding-left:10px;}
+.pay_content .fk{ float:right; margin-top:26px;}
+
+
+.success_nav{ width:672px; height:31px; background:url(../images/success_back.gif) no-repeat; margin:0 auto; margin-top:46px;}
+.success_nav ul li{ float:left; list-style:none; color:#666666; height:31px; line-height:31px; font-size:14px; width:220px; text-align:center;}
+.success_nav ul li b{ font-size:20px;}
+.success_nav ul li span{ color:#FFF;}
+
+.cuccess_shopping{ overflow:hidden; zoom:1; margin-top:68px;}
+.cuccess_shopping .jingd{ float:left; margin-left:44px; margin-top:22px;}
+.cuccess_shopping .cuccess_content{ float:left; margin-left:10px;}
+.cuccess_shopping .cuccess_content h2{ color:#ff0303; font-size:18px;}
+.cuccess_shopping .cuccess_content .cuccess_qian{ color:#f26521; font-weight:normal; margin-left:5px; margin-right:5px;}
+.cucc_danw{ font-size:12px; font-weight:normal;}
+.cuccess_jine{font-size:12px; font-weight:bold; width:546px; margin-top:20px; margin-bottom:33px;}
+.cuccess_info{font-size:14px; font-weight:bold;}
+.money{ margin-right:10px;}
+
+
+
+
+
+

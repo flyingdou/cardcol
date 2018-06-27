@@ -1,0 +1,168 @@
+#content {
+		width:958px;
+		min-height:500px;
+		border:1px solid #89c04d;
+		margin-top:15px;
+	}
+#content h1{
+		font-size:16px;
+		font-weight:bold;
+		background:none;
+		border:none;
+		margin:20px 0px 0px 20px;
+		color:#355c04;
+	}
+#content h2{
+		font-size:13px;
+		font-weight:bold;
+		background:none;
+		border:none;
+		margin:20px 0px 10px 60px;
+		color:black;
+	}
+table {
+		margin:10px auto 30px;
+		width:750px;
+		background:#89c04d;
+		text-align:center;
+		line-height:35px;
+	}
+.tableb {
+		margin:10px auto 30px 105px;;
+		width:450px;
+		background:#89c04d;
+		text-align:center;
+		line-height:35px;
+		float:left;
+	}
+.tableb input{
+		margin-right:5px;
+		text-align:left;
+	}
+.tableb form {
+		text-align:left;
+		margin-left:20px;
+	}
+.tabpa {
+		text-align:left; 
+		margin-left:20px;
+	}
+.tabpb {
+		width:140px;
+		color:red;
+		font-size:14px;
+		font-weight:blod;
+	}
+tr, td {
+		background:white;
+		min-height:37px;
+		height:37px;
+	}
+.textaba {
+		color:red;
+		font-size:16px;
+		font-weight:bold;
+		font-family:Berlin Sans FB;
+	}
+.textabc {
+		line-height:20px;
+		text-align:left;
+		padding:10px 0px 10px 20px;
+	}
+.buttom{
+cursor:pointer;
+text-indent:33px;
+letter-spacing:10px;
+width:87px;
+height:28px;
+line-height:29px;
+border:none;
+background:url(../images/anjiuall.jpg);
+background-position:-100px 0px;
+}
+#tabsev {
+	width: 270px;
+	height: 225px;
+	float: left;
+	margin-left:27px;
+	background: #FFF;
+	border: 1px solid #89c04d;
+	margin-top: 10px;
+}
+#tabsev h1 {
+	height: 20px;
+	width: 252px;
+	background: none;
+	border: none;
+	margin-top:13px;
+	margin-bottom:10px;
+	font-size: 13px;
+}
+#tabsev div.content {
+	width: 248px;
+	height: 170px;
+	margin: 0px 10px 10px 10px;
+	border: 1px solid #89c04d;
+	overflow: hidden;
+}
+#tabsev .content .condiv {
+	width: 230px;
+	height: 104px;
+	margin-top: 10px;
+	margin-left: 10px;
+	background: url(../images/syserverc1.jpg);
+}
+
+#tabsev .content li {
+	width: 178px;
+	margin-top: 7px;
+	padding-left: 48px;
+	list-style-type: none;
+	float: left;
+	height: 25px;
+	line-height: 25px;
+}
+
+#tabsev .content li img {
+	float: left;
+	margin-right: 10px;
+}
+
+#tabsev .content  a {
+	width: 54px;
+	height: 21px;
+	float: right;
+	background: url(../images/syguanzhu.png) no-repeat;
+	background-position: 0px 0px;
+}
+
+#tabsev .content  a:hover {
+	background: url(../images/syguanzhu.png) no-repeat;
+	background-position: -66px 0px;
+}
+#tabsev .content p {
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px;
+	border-top: 1px dashed #DBDBDB;
+	margin-top: 15px;
+	padding-top: 13px;
+	text-align: center;
+	width: 230px;
+}
+
+.red {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	float: left;
+	color: #FF0000;
+}
+
+.red2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	float: left;
+	color: #FF0000;
+}

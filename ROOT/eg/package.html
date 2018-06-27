@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>健身卡套餐名</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<link  rel="stylesheet" href="../css/mui.min.css" />
+		<link rel="stylesheet" type="text/css" href="../css/mui.picker.min.css" />
+		<style type="text/css">
+			#packageName{
+				text-align: center;
+				color:black;
+				font-size:15px;
+			}
+			.mui-table-view .mui-table-view-cell p>span:first-child{
+				color:black;
+				font-size:13px;
+			}
+			.mui-table-view .mui-table-view-cell p>span:nth-child(2){
+				margin-left:50px;
+				font-size:13px;
+			}
+			.fagui{
+				font-size:12px;
+				margin-bottom:10px; 
+			}
+			.select_dateImg{
+				
+			}
+			/*日期显示框*/
+			.date{
+				line-height:26px;
+				height:26px;
+				border:1px solid #2AC845;
+				border-radius:3px;
+				color:black;
+				font-size:13px;
+				margin:0 5px;
+			}
+			#footer,footer{
+				border:none;
+				color:#fff;
+				/*background-color:#F87D04;*/
+			}
+			.mui-bar-footer {
+				
+			    bottom: 0;
+			    background-color: #FE9E3A;
+			}
+		</style>
+		
+	</head>
+	<body>
+		<footer class="mui-bar mui-bar-footer font-white">
+			<h3 class="mui-title font-white" id="footer">购买</h3>
+		</footer>
+		<div class="mui-content">
+			<div class="mui-scroll-wrapper" style="bottom:45px;">
+			    <div class="mui-scroll">
+			    	<ul class="mui-table-view">
+			    		<li class="mui-table-view-cell">
+			    			<p id="packageName">套餐名字</p>
+			    		</li>
+			    	</ul>
+			    	<ul class="mui-table-view">
+			    		<li class="mui-table-view-cell">
+			    			<p><span>甲方:</span><span id="jia_name">健身兔斯基</span></p>
+			    		</li>
+			    	</ul>
+			    	<ul class="mui-table-view">
+			    		<li class="mui-table-view-cell">
+			    			<p><span>乙方:</span><span id="yi_club">俱乐部名称</span></p>
+			    		</li>
+			    	</ul>
+			    	<ul class="mui-table-view">
+			    		<li class="mui-table-view-cell">
+			    			<p><span>丙方:</span><span id="bing_platform">卡库健身电商平台</span></p>
+			    		</li>
+			    	</ul>
+			    	<ul class="mui-table-view">
+			    		<li class="mui-table-view-cell">
+			    			<p class="fagui">根据《合同法》法律法规的规定，甲乙丙三方在平等、自愿、公平的诚实信用的基础上，就健身服务的有关事宜订立如下合同：</p>
+			    			<p ><span class="mui-col-sm-2">1.甲方承诺从</span>
+			    			   <input type="input"  value="2016-12-31" id="resule"  style="line-height:26px;height:26px;border:1px solid #2AC845;border-radius:3px;color:black;font-size:13px;margin:0 5px;width:65%;"/>
+			    			   <img  class="mui-col-sm-1" data-options='{"type":"date","beginYear":"2010","endYear":"2050"}' src="../images/logo.png" class="select_dateImg" id="rili_img"   style="width:15px;height:25px;padding-top:13px;"/>
+			    			</p>
+			    			<p id="details"></p>
+			    		</li>
+			    		
+			    	</ul>
+			    	
+			    </div>
+			</div>
+			
+		</div>
+	</body>
+	<script src="../js/mui.min.js"></script>
+	<script type="text/javascript">
+		mui('.mui-scroll-wrapper').scroll({
+			deceleration:0.0005
+		});
+		
+		//点击购买时跳到提交订单页面
+		var footer=document.getElementById('footer');
+			footer.addEventListener('tap',function(){
+				
+				location.href='submit_order.html';
+			});
+			
+			
+			
+			//mui方法    点击购买时进入订单提交页面
+//			var footer=document.getElementById('footer');
+//			footer.addEventListener('tap',function(){
+//				mui.openWindow({
+//					url:'submit_order.html',		
+//					id:'submit_order.html'
+//				});
+//			});
+//			
+			
+			//获取上一页面传过来的值
+			var url=location.search;
+			var mei=new Object();
+			
+			if(url.indexOf("?")!=-1){
+				
+				var str=url.substr(1);
+				var strs=str.split("&");
+				for(var i=0;i<strs.length;i++){
+					mei[strs[i].split("=")[0]]=unescape(strs[i].split("=")[1]);
+				}
+			}
+//			alert(mei["card_name"]);
+//			alert(mei["card_mendian"]);
+			
+			var packageName=document.getElementById('packageName');
+			var yi_club=document.getElementById('yi_club');
+			packageName.innerText=mei["card_name"];
+			yi_club.innerText=mei["card_mendian"];
+			
+			
+			
+			
+	</script>
+	<script src="../js/mui.picker.min.js"></script>
+	<script>
+				var rili_img=document.getElementById('rili_img');
+				rili_img.addEventListener('tap',function(){
+					var resule=document.getElementById('resule');
+					var optionsJson = this.getAttribute('data-options') || '{}';
+					var options = JSON.parse(optionsJson);
+					var picker = new mui.DtPicker(options);
+					picker.show(function(rs) {
+							/*
+							 * rs.value 拼合后的 value
+							 * rs.text 拼合后的 text
+							 * rs.y 年，可以通过 rs.y.vaue 和 rs.y.text 获取值和文本
+							 * rs.m 月，用法同年
+							 * rs.d 日，用法同年
+							 * rs.h 时，用法同年
+							 * rs.i 分（minutes 的第二个字母），用法同年
+							 */
+							resule.value=rs.text;
+							picker.dispose();
+						});
+					
+					
+				});
+				
+			
+		</script>
+</html>

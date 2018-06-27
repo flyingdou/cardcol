@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="cardcolv4">
+        <wb-resource deploy-path="/" source-path="/ROOT" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/v45"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/h5"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/weixin"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/cardcol45"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/ecartoon"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/common"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/sport"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/expert"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/miniProgram"/>
+        <property name="java-output-path" value="/cardcolv4/build/classes"/>
+        <property name="context-root" value="cardcolv4"/>
+    </wb-module>
+</project-modules>

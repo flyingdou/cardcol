@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* CSS Document */
+
+.order_content{ width:1198px; margin:0 auto; height:357px; border:1px solid #e5e5e5; margin-top:23px;}
+.order_content .order_table{ width:810px; margin:0 auto; margin-top:25px;}
+.order_content  table{ border:1px solid #89c04d;border-collapse:collapse}
+.order_content  table td{}
+.order_content  .order_trd{ background:#f7f7f7; height:33px; color:#666666; font-weight:bold; text-align:center; font-size:14px; font-family:"宋体"; border-bottom:1px solid #e5e5e5;}
+.order_content  .bord_sty{ border-bottom:1px dashed #e5e5e5;}
+.order_xm{ text-align:left; padding-left:15px;}
+.shop_mai{ font-size:12px; color:#666666;padding-left:15px; height:24px; line-height:24px;}
+.shop_mai a{ color:#2370c8;}
+.order_style{ height:54px;}
+.order_price{ text-align:right; padding-right:10px; float:right;}
+.order_price strong{ color:#666666; padding-right:10px;}
+.order_price span{ color:#ea4f01; font-weight:bold;}
+.order_content  .danjia{ color:#666666; text-align:center; font-family:"黑体";}
+.order_content  .data_time{ text-align:center; width:190px; margin:0 auto;}
+.order_content  .datime{ border:1px solid #e5e5e5; width:118px; height:22px; float:right;}
+.pic_img{ float:right; margin-left:14px;}
+.price{ color:#ea4f01; text-align:right; padding-right:10px;}
+.order_foot{ font-size:14px; color:#666666; font-weight:bold; line-height:20px; margin-top:8px;}
+.order_foot p a{ font-size:12px; color:#2370c8; font-weight:normal;}
+.order_foot span{ color:#ef7f12; font-size:18px;}
+.order_info{ float:left;}
+.dingdan{ float:right;}
+
+.cart_qq{ overflow:hidden; zoom:1;  width:932px; margin:0 auto; margin-top:16px;}
+.order_gouwu{ float:left; color:#666666; font-size:24px; font-weight:bold; background:url(../images/cart_wu.gif) 18px no-repeat; width:160px; padding-left:90px; height:50px; line-height:50px;margin:0 auto; font-family:"微软雅黑";}
+.cart_nav{ float:left; }
+.order_content .cart_nav ul li{ float:left; list-style:none; color:#666666; height:31px; line-height:31px; font-size:14px; width:220px; text-align:center;}
+.order_content .cart_nav{ width:672px; height:31px; background:url(../images/order_03.gif) no-repeat; margin:0 auto;margin-top:10px; }
+.order_content .cart_nav ul li b{ font-size:20px;}
+.order_content  ul li span{ color:#FFF;}
+.order_content .cart_table{ width:900px; margin:0 auto; margin-top:25px;}
+.cart_td{ text-align:center; }
+.cart_price{ text-align:center; color:#ea4f01;}
+.detede{ font-size:12px; color:#2370c8;}
+
+
+
+
+
+
+
+

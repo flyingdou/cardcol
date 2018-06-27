@@ -1,0 +1,154 @@
+@charset "utf-8";
+/* CSS Document */
+.findmima{ width:800px; height:48px; margin:0 auto 40px;margin-top:40px;}
+.findmima ul{ padding:0px; margin:0px; position:relative; overflow:hidden;}
+.findmima #num4 li{ width:32%;}
+.findmima li{ float:left; display:inline; height:50px; font-size:14px; line-height:23px; list-style:none; background:url(../images/li_background.png) repeat-x 0 13px; font-family:"微软雅黑";}
+.findmima span{ float:left; width:auto;}
+.findmima .current span{ color:#ff6824;}
+.findmima .current span i{background-image:url(../images/bmsk.png);}
+.findmima li i{ position:relative; display:block; height:30px; line-height:28px; color:#ffffff; text-align:center; font-size:16px; font-style:normal; font-weight:bold; background:url(../images/hungoupic.png) no-repeat 50% 50%;}
+
+.findmima .done span i{background-image:url(../images/bmsk.png);}
+.findmima .last{ width:auto!important; position:absolute; right:0; background:#fff;}
+
+.cleft2 {
+	width: 600px;
+	height: 100%;
+	margin:0 auto;
+}
+
+.cleft2 p {
+	font-size: 14px;
+	padding-top: 10px;
+}
+
+.cleft2 .pdiv {
+	width: 80px;
+	height: 30px;
+	float: left;
+	padding-top: 8px;
+	text-align: right;
+	color:#222222;
+}
+
+.cleft2 .inpt {
+	float: left;
+}
+.cleft2 .inpt #email{
+   width:250px;	
+	
+}
+.cleft2 input {
+	
+	height: 25px;
+	line-height: 25px;
+	border: 1px solid #CCCCCC;
+}
+
+.cleft2 .inp {
+	width: 100px;
+	height: 25px;
+	border: 1px solid #CCCCCC;
+}
+
+.cleft2 .imgs {
+	padding-left: 20px;
+}
+
+.cleft2 .yzm {
+	padding-top: 8px;
+}
+
+.cleft2 .yzm a {
+	color: #006699;
+	text-decoration: none;
+}
+
+.cleft2 .yzm a:hover {
+	color: #137DDC;
+	text-decoration: underline;
+}
+
+.cleft2 .inzp {
+	margin-top: 50px;
+	margin-left: 150px;
+}
+.cleft2 .inzp .imgsrs{
+        display:block;
+        width:84px;
+        height:31px;
+        color:#ffffff;
+        background:url(../images/next.png) no-repeat;
+        line-height:31px;
+        text-align: center;
+        font-size:14px;
+		text-decoration:none;
+}
+.cleft2 .clediva {
+	width:480px;
+	height:100px;
+	margin-top:20px;
+	background:#f6f6f6;
+}
+.cleft2 p.twop1 {
+	font-size: 14px;
+	margin-left: 25px;
+	padding:0px 0px 0px 30px;
+	text-indent: 15px;
+	line-height: 30px;
+	background: url(../images/lostpa.jpg) no-repeat;
+	background-position: 0 -58px;
+}
+
+
+
+
+
+
+.check_type{
+   width:700px;
+   margin:0 auto;
+   padding-bottom:15px;
+   border-bottom:1px dotted #FFF;
+   color:#404040;
+   font-size:14px;
+	
+}
+.check_box{ margin-left:140px;}
+.check_box p span{ color:#404040;}
+.name{ font-size:12px;}
+.i_text{ margin-left:10px; width:180px;}
+.emals{ width:200px;}
+#mifei{ float:left;margin-left:270px;margin-top:-36px;width:118px; background:url(../images/imgpick.png) 0px -130px no-repeat; height:28px;}
+#xiayibu{ float:left;margin-left:100px;margin-top:10px;width:118px; background:url(../images/imgpick.png) 0px -130px no-repeat; height:28px;}
+#chenma{ width:120px; margin-left:18px;}
+
+.check_box .swp{ width:180px; margin-left:5px; }
+.check_box .xin{ margin-left:14px;}
+.check_box .reswp{width:180px; margin-left:5px;  border:1px solid #C8C8C8;}
+.check_box .tijiao{}
+
+
+ .tijiao{ margin-left:60px;}
+ .tijiao .imgsrs{
+        display:block;
+        width:84px;
+        height:31px;
+        color:#ffffff;
+        background:url(../images/next.png) no-repeat;
+        line-height:31px;
+        text-align: center;
+        font-size:14px;
+		text-decoration:none;
+}
+
+
+.findmima .done{
+	  background-image:url(../images/backs.png);
+	
+}
+
+
+.findmima ul li{ color:#aaaaaa;}
+

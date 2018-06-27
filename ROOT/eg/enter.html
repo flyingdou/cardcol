@@ -1,0 +1,159 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>可参加的挑战-挑战报名</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<link  rel="stylesheet" href="../css/mui.min.css" />
+		<link rel="stylesheet" href="../css/mui.picker.min.css" />
+		<style type="text/css">
+			.mui-table-view{
+				margin-bottom:20px;
+			}
+			/*选择日历的图标的大小*/
+			#sel_data{
+				width:20px;
+				height:20px;
+			}
+			.mui-table-view-cell a{
+				position: relative;
+			}
+			.center_show{
+				width: 130px;
+				height:23px;
+				border:none;
+			    position: absolute;
+			    left: 130px;
+			    top: 10px;
+			    /*background: red;*/
+			    padding: 0;
+			    color:#999999;
+			}
+			.bzj{
+				height:140px;
+				text-align: center;
+				padding-top: 20px;
+			}
+			.pl_bg{
+				background: -o-linear-gradient(#fe9e3a,#FF8B9E);
+				background: -webkit-linear-gradient(#fe9e3a,#FF8B9E);
+				background: -moz-linear-gradient(#fe9e3a,#FF8B9E);
+				background:linear-gradient(#fe9e3a,#FF8B9E);
+				width:65px;
+				height:65px;
+				border-radius: 100%;
+				text-align: center;
+				margin:0 auto;
+				line-height: 65px;
+				color:#ffffff;
+				font-size: 15px;
+				
+			}
+			.this_bzj{
+				margin-top: 10px;
+			}
+			/*fe9e3a*/
+			.tz_shm{
+				color:#fe9e3a;
+				margin-top: 20px;
+				
+			}
+			.shm1{
+				margin-top:10px;
+				color:#999999;
+				font-size: 14px;
+			}
+			.shm2{
+				margin-top:5px;
+				color:#999999;
+				font-size: 14px;
+			}
+			/*底部样式设计  开始*/
+			.footer_zhifu{
+				text-align:center;
+				background-color:#FF6A00;
+				padding:15px 0;
+				color:white;
+				font-size:15px;
+			}
+			.mui-bar{
+				padding:0px;
+			}
+			/*底部样式设计结束*/
+		</style>
+	</head>
+	<body>
+		<footer class="mui-bar mui-bar-footer">
+			<div class="footer_zhifu" id="to_pay">支付保证金</div>
+		</footer>
+		<div class="mui-content">
+			<div class="mui-scroll-wrapper">
+			    <div class="mui-scroll">
+			    	<ul class="mui-table-view">
+			    		<li class="mui-table-view-cell" id="">
+			    			<a >
+			    				<span class="mui-pull-left">开始挑战时间</span>
+			    				<input class="center_show" id="star_time"  />
+			    				<!--<input type="text" placeholder="请选择挑战时间"/>-->
+			    				<img src="../images/date_sel.jpg" data-options='{"type":"date","beginYear":"2017","endYear":"2100"}' class="mui-pull-right" id="sel_data"/>
+			    			</a>
+			    		</li>
+			    		<li class="mui-table-view-cell">
+			    			<a class="mui-navigate-right" href="referee.html">
+			    				<span class="mui-pull-left">裁判员</span>
+			    				<input class="center_show" placeholder="用户昵称" />
+			    			</a>
+			    		</li>
+			    		<li class="mui-table-view-cell">
+			    			<a class="mui-navigate-right">
+			    				<span class="mui-pull-left">当前体重</span>
+			    				<input class="center_show" placeholder="输入体重"  />
+			    			</a>
+			    		</li>
+			    		
+			    	</ul>
+			    	<ul class="mui-table-view">
+			    		<li class="mui-table-view-cell">
+			    			<div class="bzj">
+			    				<p class="pl_bg"><span>10</span>元</p>
+			    				<div class="this_bzj">本次挑战的保证金</div>
+			    			</div>
+			    			<div class="tz_shm">挑战参加人同意一下声明：</div>
+			    			<div class="shm1">我自愿参加本次挑战，无条件接受裁判和系统的判决结果。</div>
+			    			<div class="shm2">同意运营方根据挑战的规则、挑战成绩及承诺处置保证金。</div>
+			    		</li>
+			    	</ul>
+			    </div>
+			</div>
+			
+		</div>
+	</body>
+	<script src="../js/mui.min.js"></script>
+	<script src="../js/mui.picker.min.js"></script>
+	<script type="text/javascript">
+		mui('.mui-scroll-wrapper').scroll({
+			deceleration:0.0005
+		});
+		
+		//选择日期
+		var sel_data=document.getElementById('sel_data');
+		sel_data.addEventListener('click',function(){
+			var star_time=document.getElementById('star_time');
+			var optionsJson=this.getAttribute('data-options')||'{}';
+			var options=JSON.parse(optionsJson);
+			var picker=new mui.DtPicker(options);
+			picker.show(function(rs){
+				star_time.value=rs.text;
+				picker.dispose();
+			});
+		});
+		
+		//点击支付保证金时跳转到submit_order.html
+		var to_pay=document.getElementById('to_pay');
+		to_pay.addEventListener('click',function(){
+			
+			location.href='submit_order.html';
+		});
+	</script>
+</html>

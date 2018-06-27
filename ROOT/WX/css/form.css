@@ -1,0 +1,27 @@
+/*昵称密码*/
+form{width: 100%;text-align: center;background-color: #fff;padding: 2rem 0;}
+form input{width: 15rem;height: 3rem;padding-left: 1rem;margin-left:1rem; margin-bottom:2rem;border: 0.1rem #ccc solid;
+    border-radius: 0.4rem;background-color: transparent;}
+form .date{width: 15rem;display:inline-block;line-height: 3rem;padding: 0;color: #333;font-size: 1.5rem;background-color: transparent}
+form .send{width:90%;line-height: 3rem;color: #fff;padding: 0 1rem;background-color: #f0ad4e;
+    border-radius: 0.4rem;border: none;}
+form span{display: inline-block;width: 6rem;text-align: right;}
+/* form i{display: inline-block;width:4rem;height:3rem;background-color: #f0ad4e;color: #fff;font-size: 1rem;line-height:1.4rem;
+    padding: 0.2rem 0.2rem;border-bottom-right-radius: 0.4rem;border-top-right-radius: 0.4rem;vertical-align: top;} */
+.phone{display: inline-block;width:4rem;height:3rem;background-color: #f0ad4e;color: #fff;font-size: 1rem;line-height:1.4rem;
+    padding: 0.2rem 0.2rem;border-bottom-right-radius: 0.4rem;border-top-right-radius: 0.4rem;vertical-align: top; margin-left:-1rem;}
+form a{color: #f0ad4e;font-size: 1.2rem;margin-left: 0.5rem;}
+form a:hover{color: #f0ad4e;}
+form #mobilephone{width: 11.5rem;border-top-right-radius: 0;border-bottom-right-radius: 0;border-right: none;}
+
+/*靶心率*/
+.rate form{width: 100%;margin: 2rem auto 0;text-align: center;}
+.rate form input[type=text]{width:13rem;height: 3rem;margin-bottom:1rem;padding-left: 1rem;border: 0.1rem #ccc solid;
+    border-radius: 0.4rem;background-color: transparent;}
+.rate form p{width:25rem;margin:0 auto;text-align:left;line-height: 2rem;font-size: 1.2rem;color: #999;padding:  1rem 0;}
+/*性别*/
+.personaSex label{font-size: 1.5rem;font-weight: normal;display: block;width: 100%;height:3rem;line-height:3rem;text-align: left;padding: 0 10%;}
+.personaSex label input[type=radio]{width: 1.4rem ;height: 1.4rem;margin-top: 0; opacity:0; }
+.personaSex label span{display: inline-block;width: 1.4rem;height: 1.4rem;border: 0.1rem #999 solid;border-radius:50%;float: right;margin-top: 0.8rem; }
+.personaSex label .first_span{background: url("../images/check_radio_10.png") no-repeat center;background-size: 70% 70%;}
+.personaSex .send{margin-top: 2rem;}

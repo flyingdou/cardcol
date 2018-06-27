@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>运动小游戏</title>
+    <link type="text/css" href="css/bootstrap.css" rel="stylesheet">
+    <link type="text/css" href="css/base.css" rel="stylesheet">
+    <link type="text/css" href="css/game.css" rel="stylesheet">
+    <script type="text/javascript" src="js/jquery-2.2.0.min.js"></script>
+    <script>
+        $(function () {
+            $(".game_two>label>input").on("click", function () {
+                if($(this).is(":checked")){
+                    $(".game_two>label>span").css("background","none");
+                    $(this).prev().prev().css("background","url('images/game_ckecked_07.png') no-repeat center");
+                    $(this).prev().prev().css("background-size","0.8rem 0.8rem")
+                }else {
+                    $(".game_two>label>span").css("background","none");
+                    $(this).prev().prev().css("background","url('images/game_ckecked_07.png') no-no-repeat center ");
+                }
+            })
+        })
+    </script>
+</head>
+<body style="background: url('images/game2_bg_02.png') no-repeat left top; background-size: cover ;font-family: '方正黑体简体' ;">
+<div class="container" >
+    <div class="game_two" style="color: #fff;text-align: center;">
+        <div class="my_sex"><img src="images/my_sex_03.png"></div>
+        <label class="check first_check"><span></span><img src="images/xingbie_03.png" style="width: 1.8rem;height: 1.8rem;"> <input type="radio" name="checked" value="" checked ></label>
+        <label class="check"><span></span><img src="images/xingbie_05.png" style="width: 1.8rem;height: 1.8rem;"><input type="radio" name="checked" value=""></label>
+        <div class="shuJu">
+            <label>我的身高：&nbsp;&nbsp;&nbsp;<span>（<input type="text" value="">)cm</span></label><br>
+            <label>我的体重：&nbsp;&nbsp;&nbsp;<span>（<input type="text" value="">）kg</span></label>
+        </div>
+        <div class="shuJu">
+            <label>TA的身高：&nbsp;&nbsp;&nbsp;<span>（<input type="text" value="">）cm</span></label><br>
+            <label>TA的体重：&nbsp;&nbsp;&nbsp;<span>（<input type="text" value="">）kg</span></label>
+        </div>
+        <a href="game_three.html" class="star"><img src="images/result_07.png"></a>
+    </div>
+</div>
+</body>
+</html>

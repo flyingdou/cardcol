@@ -1,0 +1,1159 @@
+#left {
+	width: 193px;
+	float: left;
+	margin-top: 20px;
+}
+
+#left-1 {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	border: none;
+}
+
+#left-1 p {
+	font-size: 12px;
+	text-align: center;
+	margin-top: 5px;
+	height: 30px;
+	line-height: 30px;
+}
+
+#left-1 p input {
+	width: 13px;
+	height: 13px;
+	vertical-align: middle;
+	border: 2px solid #000;
+	margin: 0 2px 0 2px;
+}
+
+#left-1 h1 {
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+}
+
+#left-1 .calendar {
+	width: 100%;
+	height: 100%;
+}
+
+#left-1 img {
+	display: block;
+	margin: 35px auto;
+}
+
+.selectmember {
+	width: 100px;
+	border: 1px solid #CCC;
+}
+
+#left-2 {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	margin-top: 10px;
+	border: 1px solid #999;
+}
+
+#left-2 h1 {
+	width: 219px;
+	height: 30px;
+	line-height: 30px;
+	padding-left: 10px;
+}
+
+#left-2 div.first {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	height: 100%;
+	overflow: hidden;
+}
+
+#left-2 div ul.left2content1 {
+	margin-left: 10px;
+	width: 200px;
+}
+
+#left-2 div ul.left2content1 li {
+	float: left;
+	width: 40px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	background: #fff;
+	margin-right: 5px;
+}
+
+#left-2 div ul.left2content1 li a {
+	display: block;
+	width: 40px;
+	height: 20px;
+	text-decoration: none;
+	color: #000;
+	border: 1px solid #999;
+	border-bottom: none;
+}
+
+#left-2 div ul.left2content1 li a:hover {
+	background: #fff;
+	border: 1px solid #999;
+	border-bottom: none;
+}
+
+#left-2 div .power {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	border: 1px solid #999;
+}
+
+#left-2 p.position {
+	padding-left: 10px;
+	margin-top: 5px;
+	font-size: 12px;
+}
+
+#left-2 p.position select {
+	border: 1px solid #999;
+	width: 100px;
+}
+
+#left-2 div .power .table {
+	width: 193px;
+	height: 230px;
+	overflow: auto;
+	font-size: 12px;
+}
+
+#left-2 div .power table {
+	margin: 0 auto;
+}
+
+#left-2 div .power table input {
+	width: 10px;
+	height: 10px;
+}
+
+#left-2 div table tr {
+	line-height: 180%;
+}
+
+#left-2 div table input {
+	vertical-align: middle;
+	margin-right: 5px;
+	line-height: 100%;
+}
+
+#left-2 div table a {
+	color: #000;
+	text-decoration: none;
+}
+
+.itemmenu {
+	background: #ededed;
+}
+
+.itemmenu a.item-up {
+	background: url(../images/ico_order.gif) no-repeat;
+}
+
+.itemmenu a.item-down {
+	background: url(../images/ico_order.gif) no-repeat 0 -18px;
+}
+
+.itemmenu a {
+	display: block;
+	width: 11px;
+	height: 12px;
+	float: left;
+	margin-left: 12px;
+}
+
+#left-2 div p.add {
+	text-align: center;
+	margin-top: 10px;
+}
+
+#left-2 div p.add input {
+	width: 50px;
+	width: 87px;
+	height: 28px;
+	cursor: pointer;
+	background: url(../images/anjiuall.jpg);
+	background-position: 0px -89px;
+	text-align: left;
+	line-height: 29px;
+	text-indent: 33px;
+	letter-spacing: 10px;
+	margin: 5px 0 0px 0;
+}
+
+#divdetail {
+	float: left;
+	width: 733px;
+	height: 100%;
+	overflow: hidden;
+	margin-top: 20px;
+	margin-left: 12px;
+}
+
+#divplanset {
+	float: left;
+	width: 755px;
+	height: 100%;
+	margin-top: 20px;
+	margin-left: 12px;
+}
+
+#divplanset #right-2 h1 {
+	height: 30px;
+	line-height: 30px;
+	padding-left: 10px;
+}
+
+#righttop div {
+	width: 100%;
+	height: 100%;
+	line-height: 22px;
+	overflow: hidden;
+}
+
+#righttop .inp1 {
+	width: 100px;
+	height: 20px;
+	border: 1px solid #CCCCCC;
+}
+
+#righttop .inpa1 {
+	color: #F60;
+	padding-left: 20px;
+}
+
+#righttop .inpa1:hover {
+	color: red;
+	text-decoration: underline;
+}
+
+#righttop .inpa2 {
+	cursor: pointer;
+	color: #f60;
+}
+
+#colotoa {
+/* 	float: right; */    /* 将这里的float:right;换成text-align; */
+	text-align: center;
+	padding-right: 10px;
+	cursor: pointer;
+	font-size: 13px;
+}
+
+/*#righttop .inpa3:hover {
+	cursor: pointer;
+	color: #ff6633;
+}*/
+#righttop .inpa2:hover {
+	color: red;
+	text-decoration: underline;
+}
+/*#righttop .div1 {
+   margin-top:20px;
+   width:99%;
+   height:400px;
+   line-height:20px;
+   border:1px solid #CCCCCC;
+   padding-top:20px;
+}
+.div1 p {
+  text-indent:15px;
+}*/
+#righttop .div1 {
+	margin-top: 20px;
+	width: 99%;
+	height: 507px;
+	border: 1px solid #CCCCCC;
+	background: url(../images/jianshents.jpg);
+	padding-top: 20px;
+}
+
+.div1 p {
+	font-size: 12px;
+	padding-left: 34px;
+	text-indent: 15px;
+	line-height: 20px;
+	padding-top: 5px;
+}
+
+#righttop .div1 h3 {
+	color: #048018;
+	font-size: 14px;
+}
+
+#righttop .div1 h4 {
+	font-size: 13px;
+	color: #ff6600;
+	padding-top: 10px;
+	padding-left: 34px;
+}
+
+#righttop .div1 a {
+	color: #cf0202;
+}
+
+#righttop .div1 a:hover {
+	text-decoration: underline;
+}
+
+#righttop .div1-1 {
+	width: 654px;
+	height: 380px;
+	margin-left: 15px;
+	/* background:#faf1d8;*/
+}
+
+#righttop .div1-1 .pdiv {
+	color: #666;
+}
+
+#righttop .div1-2 {
+	width: 654px;
+	height: 170px;
+	margin-top: 5px;
+	margin-left: 15px;
+	/*background:#d6e7f6;*/
+}
+
+#righttop .div1-2 .spanp {
+	padding-left: 18px;
+}
+
+#righttop .div1-3 {
+	width: 654px;
+	height: 120px;
+	margin-top: 5px;
+	margin-left: 15px;
+	/*  background:#faf1d8;*/
+}
+
+#righttop ul.time1 {
+	margin-left: 10px;
+	background: green;
+}
+
+#righttop ul.time1 li {
+	float: left;
+	height: 20px;
+	line-height: 20px;
+	margin-bottom: 10px;
+}
+
+#righttop ul.time1 li select {
+	margin-right: 30px;
+}
+
+#righttop ul.time1 li.end {
+	margin-left: 10px;
+}
+
+#righttop ul.time1 li a {
+	text-decoration: underline;
+	color: green;
+}
+
+#righttop p.rightsidebar {
+	float: right;
+	text-align: center;
+}
+
+#righttop p.rightsidebar a {
+	display: block;
+	width: 90px;
+	height: 25px;
+	line-height: 25px;
+	border: 1px solid #999;
+	margin-bottom: 10px;
+	background: url(../images/space_menu.gif);
+}
+
+.copy {
+	text-align: center;
+	clear: both;
+}
+
+/*#righttop p.copy input {
+	width: 80px;
+	height: 25px;
+	border: 1px solid #999;
+	background: url(../images/space_menu.gif);
+	cursor: pointer;
+	margin-left: 15px;
+	margin-bottom: 10px;
+	margin-top: 20px;
+}*/
+.copy .inpsave {
+	width: 96px;
+	height: 27px;
+	text-align: left;
+	text-indent: 31px;
+	line-height: 29px;
+	background: url(../images/anjiuall.jpg) no-repeat;
+	background-position: -100px -264px;
+	cursor: pointer;
+	margin-left: 15px;
+	margin-bottom: 10px;
+	margin-top: 20px;
+}
+
+.copy .inpremove {
+	width: 96px;
+	height: 27px;
+	text-align: left;
+	text-indent: 31px;
+	line-height: 29px;
+	background: url(../images/anjiuall.jpg) no-repeat;
+	background-position: 0px -215px;
+	cursor: pointer;
+	margin-left: 15px;
+	margin-bottom: 10px;
+	margin-top: 20px;
+}
+
+.copy .inpclear {
+	width: 98px;
+	height: 28px;
+	text-align: left;
+	text-indent: 28px;
+	line-height: 29px;
+	background: url(../images/anjiuall.jpg) no-repeat;
+	background-position: 0px -422px;
+	cursor: pointer;
+	margin-left: 15px;
+	margin-bottom: 10px;
+	margin-top: 20px;
+}
+
+.copy .inpprint {
+	width: 96px;
+	height: 27px;
+	text-align: left;
+	text-indent: 29px;
+	line-height: 29px;
+	background: url(../images/anjiuall.jpg) no-repeat;
+	background-position: -100px -215px;
+	cursor: pointer;
+	margin-left: 15px;
+	margin-bottom: 10px;
+	margin-top: 20px;
+}
+
+.copy .inpshare {
+	width: 96px;
+	height: 27px;
+	text-align: left;
+	text-indent: 29px;
+	line-height: 29px;
+	background: url(../images/anjiuall.jpg) no-repeat;
+	background-position: -1px -264px;
+	cursor: pointer;
+	margin-left: 15px;
+	margin-bottom: 10px;
+	margin-top: 20px;
+}
+
+#righttop ul.health {
+	margin-left: 5px;
+	height: 100%;
+	overflow: hidden;
+}
+
+#righttop ul.health li {
+	float: left;
+	width: 90px;
+	height: 25px;
+	line-height: 25px;
+	margin-right: 5px;
+	text-align: center;
+}
+
+#righttop ul.health li a {
+	display: block;
+	width: 90px;
+	height: 25px;
+	background: #fff;
+	border: 1px solid #999;
+}
+
+#righttop ul.health li a.active {
+	background: url(../images/space_menu.gif);
+}
+
+#righttop ul.health li a:hover {
+	background: url(../images/space_menu.gif);
+}
+
+/*#right-2 table {
+	width: 96%;
+	margin: 10px 10px 10px 10px;
+}*/
+.table1 {
+	width: 98%;
+	margin: 20px 10px 20px 10px;
+	background: #cccccc;
+	text-align: center;
+	font-size: 12px;
+}
+
+.table1 input {
+	width: 90%;
+	height: 80%;
+}
+
+.table1 .tda {
+	width: 80px;
+}
+
+.table1 .tdb {
+	width: 50px;
+}
+
+.table1 .tdc {
+	width: 100px;
+}
+
+.table1 img {
+	cursor: pointer;
+}
+
+.table1 .adiv {
+	width: 50px;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.table1 .a1-1 {
+	width: 11px;
+	height: 12px;
+	margin-left: 10px;
+	margin-top: 10px;
+	float: left;
+	background: url(../images/icoorder.gif) no-repeat;
+	background-position: 0px -18px;;
+}
+
+.table1 .a2-1 {
+	float: left;
+	width: 11px;
+	margin-top: 10px;
+	margin-left: 8px;
+	height: 12px;
+	background: url(../images/icoorder.gif) no-repeat;
+	background-position: 0px 0px;;
+}
+
+.table1 .a3 {
+	width: 11px;
+	height: 12px;
+	margin: 0 auto;
+	background: url(../images/icoorder.gif) no-repeat;
+	background-position: -88px -55px;
+}
+
+.table1 #coloa {
+	width: 100px;
+	height: 12px;
+	padding-left: 16px;
+	margin: 0 auto;
+	line-height: 30px;
+	padding-right: 20px;
+	background: url(../images/icoorder.gif) no-repeat;
+	background-position: -0px -70px;
+}
+
+.table1 span #coloa {
+	width: 100px;
+	height: 12px;
+	margin-left: 20px;
+	padding-left: 16px;
+	margin: 0 auto;
+	line-height: 30px;
+	background: url(../images/icoorder.gif) no-repeat;
+	background-position: -0px -86px;
+}
+
+#delect {
+	width: 10px;
+	height: 10px;
+	display: block;
+	margin-left: 20px;
+	background: url(../images/icoorder.gif) no-repeat;
+	background-position: -88px -55px;
+}
+
+.table1 .td1 {
+	background: #c5dbec;
+	height: 50px;
+}
+
+.table1 .td1-1 {
+	background: #c5dbec;
+	height: 25px;
+}
+
+.table1 .td2 {
+	background: #dae9fa;
+	height: 50px;
+}
+
+.table1 .td2-1 {
+	background: #dae9fa;
+	height: 25px;
+}
+
+.table1 .td3 {
+	background: #dae9fa;
+	text-align: left;
+	padding-left: 20px;
+}
+
+.table1 td,.table1 th {
+	height: 30px;
+	background: #FFFFFF;
+}
+
+.footdiv {
+	width: 98%;
+	height: 100%;
+	background: #f2f9ff;
+	margin-top: 20px;
+	margin-left: 10px;
+}
+
+.pin {
+	font-size: 12px;
+	text-align: right;
+	padding-right: 20px;
+}
+
+.footdiv h2 {
+	height: 31px;
+	font-size: 14px;
+	line-height: 31px;
+	padding-left: 15px;
+	background: url(../images/titlebg.png);
+}
+
+.footdiv .text {
+	width: 96%;
+	height: 60px;
+	margin: 7px 7px 7px 7px;
+	border: 1px solid #CCCCCC;
+}
+
+.fontex {
+	width: 500px;
+	height: 50px;
+	margin: 0 auto;
+	margin-top: 15px;
+}
+
+.fontex .pa {
+	line-height: 30px;
+	float: left;
+	text-indent: 15px;
+}
+
+.fontex .inp1 {
+	width: 80px;
+	height: 25px;
+	float: left;
+	font-size: 12px;
+	margin-left: 20px;
+	border: 1px solid #999;
+}
+
+.fontex .inp2 {
+	width: 106px;
+	height: 28px;
+	line-height: 29px;
+	background: url(../images/anjiuall.jpg) no-repeat;
+	background-position: 0px -367px;
+	cursor: pointer;
+	margin-left: 15px;
+	margin-bottom: 10px;
+}
+/*#right-2 table tr td {
+	color: #000;
+	line-height: 250%;
+	text-align: center;
+	border: 1px solid #999;
+}
+
+#right-2 table tr td.td2 {
+	border-left: none;
+}
+
+#right-2 table tr td.td1,#right-2 table tr td.td3,#right-2 table tr td.td5
+	{
+	border-bottom: none;
+}
+
+#right-2 table tr td.td3,#right-2 table tr td.td5 {
+	border-left: none;
+}
+
+#right-2 table tr td.bc3 {
+	background: #fbfbfb;
+}*/
+
+/*alt add*/
+#altdiv {
+	width: 470px;
+	height: 100%;
+	margin: 0 auto;
+	font-size: 13px;
+}
+
+#altdiv img {
+	width: 180px;
+	height: 180px;
+}
+/*#altdiv h2 {
+	width: 650px;
+	height: 30px;
+	line-height: 30px;
+	padding-left: 10px;
+	background: url(../images/menu_03.jpg);
+}*/
+#altdiv .altleft {
+	width: 490px;
+	height: 210px;
+	margin-left: 7px;
+	margin-top: 5px;
+}
+
+.altleft a {
+	float: left;
+	margin-top: -7px;
+	margin-left: 5px;
+	font-size: 13px;
+	font-weight: bold;
+	cursor: pointer;
+	color: #333;
+	display: none;
+}
+
+#altdiv .altleft1 {
+	width: 180px;
+	height: 210px;
+	float: left;
+	margin-top: 5px;
+	border: 1px solid #999;
+}
+
+#altdiv .altleft1 h1 {
+	height: 30px;
+	font-size: 12px;
+	line-height: 30px;
+	letter-spacing: 2px;
+	text-align: center;
+	/*background: url(../images/menu_03.jpg);*/
+}
+
+#altdiv .altleft2 {
+	width: 280px;
+	height: 210px;
+	float: left;
+	margin-left: 8px;
+	margin-top: 5px;
+	border: 1px solid #999;
+}
+
+.altleft2  img {
+	width: 280px;
+	height: 180px;
+}
+
+#altdiv .altright {
+	width: 470px;
+	height: 100%;
+	margin: 0 auto;
+}
+
+#altdiv .altright1 .table1 {
+	margin: 10px 10px 5px 10px;
+}
+
+#altdiv .altright1 {
+	width: 470px;
+	height: 100%;
+	margin-top: 15px;
+	margin-bottom: 10px;
+	border: 1px solid #999;
+}
+
+#altdiv .altright1 .altin {
+	width: 365px;
+	margin: 0 auto;
+}
+
+#altdiv .altright1 .altin .frist {
+	cursor: pointer;
+	width: 80px;
+	height: 28px;
+	text-align: center;
+	line-height: 29px;
+	text-indent: 20px;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	font-size: 13px;
+	background: url(../images/anjiuall.jpg);
+	background-position: -2px -457px;
+}
+#altdiv .altright1 .altin .second {
+	cursor: pointer;
+	width: 80px;
+	height: 28px;
+	text-align: center;
+	line-height: 29px;
+	text-indent: 20px;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	font-size: 13px;
+	background: url(../images/anjiuall.jpg);
+	background-position: -105px -457px;
+}
+
+
+#altdiv .altright1 .altin .serv {
+	cursor: pointer;
+	width: 64px;
+	height: 28px;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+	line-height: 29px;
+	text-indent: 10px;
+	font-size: 13px;
+	margin-right: 10px;
+	letter-spacing: 8px;
+	background: url(../images/anjiuall.jpg);
+	background-position: -2px -50px;
+}
+
+#altdiv .altright1 .altin .last {
+	cursor: pointer;
+	width: 85px;
+	height: 28px;
+	font-size: 13px;
+	text-align: left;
+	text-indent: 5px;
+	line-height: 29px;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	background: url(../images/anjiuall.jpg);
+	background-position: -2px -492px;
+}
+
+#altdiv .altright1 .altdiv {
+	width: 450px;
+	height: 100%;
+	margin-top: 5px;
+	margin-left: 10px;
+	padding: 5px 0 10px 0;
+	line-height: 20px;
+	font-size: 13px;
+	text-indent: 15px;
+	background: url(../images/jianshents.jpg);
+}
+
+/*#altdiv .altright1 input {
+	width: 80px;
+	height: 25px;
+	border: 1px solid #999;
+	background: url(../images/space_menu.gif);
+	cursor: pointer;
+	margin-left: 15px;
+
+	margin-top: 20px;
+}*/
+
+/*#altdiv .altright1 .altp1 {
+	padding-left: 20px;
+	height: 30px;
+	line-height: 30px;
+	background: url(../images/menu_03.jpg);
+}*/
+.altright1 h2 {
+	padding-left: 20px;
+	height: 30px;
+	line-height: 30px;
+	/*background: url(../images/menu_03.jpg);*/
+}
+
+#altdiv .altright1 .alta1 {
+	padding-left: 400px;
+}
+
+#altdiv altright1 div {
+	width: 460px;
+}
+
+/*#altdiv .altright1 .alta1:hover {
+	color: #ff6633;
+}*/
+/*alt add end*/
+
+/* detail*/
+#dialog p {
+	font-size: 12px;
+	margin: 10px 0 10px 0;
+}
+
+#shar p {
+	font-size: 12px;
+	margin: 10px 0 10px 0;
+}
+
+#clea p {
+	font-size: 12px;
+	margin: 10px 0 10px 0;
+}
+
+.inpa {
+	margin-left: 30px;
+	margin-bottom: 5px;
+}
+
+.Data-Figure2 {
+	width: 80px;
+	height: 15px;
+	margin-right: 15px;
+	border: 1px solid #999;
+}
+
+.buttoma {
+	margin-top: 20px;
+	margin-left: 120px;
+	text-align: left;
+	cursor: pointer;
+	text-indent: 33px;
+	letter-spacing: 10px;
+	width: 87px;
+	height: 28px;
+	line-height: 29px;
+	background: url(../images/anjiuall.jpg);
+	background-position: -100px 0px;
+}
+
+.buttomb {
+	margin-top: 20px;
+	margin-left: 20px;
+	text-align: left;
+	cursor: pointer;
+	text-indent: 33px;
+	letter-spacing: 10px;
+	width: 87px;
+	height: 28px;
+	line-height: 29px;
+	background: url(../images/anjiuall.jpg);
+	background-position: -100px -60px;
+}
+
+#aa {
+	background: url(../images/jianshents.jpg);
+}
+
+#aa p {
+	font-size: 12px;
+	padding-left: 34px;
+	text-indent: 15px;
+	line-height: 20px;
+	padding-top: 5px;
+}
+
+#aa h3 {
+	color: #048018;
+	font-size: 14px;
+}
+
+#aa h3 span {
+	float: right;
+	cursor: pointer;
+}
+
+#aa h4 {
+	font-size: 13px;
+	color: #ff6600;
+	padding-top: 10px;
+	padding-left: 34px;
+}
+
+#aa a {
+	color: #cf0202;
+}
+
+#aa a:hover {
+	text-decoration: underline;
+}
+
+#aa  .div1-1 {
+	width: 654px;
+	height: 380px;
+	margin-left: 15px;
+	/* background:#faf1d8;*/
+}
+
+#aa  .div1-1 .pdiv {
+	color: #666;
+}
+
+#aa  .div1-2 {
+	width: 654px;
+	height: 170px;
+	margin-top: 5px;
+	margin-left: 15px;
+	/*background:#d6e7f6;*/
+}
+
+#aa  .div1-2 .spanp {
+	padding-left: 18px;
+}
+
+#aa  .div1-3 {
+	width: 654px;
+	height: 120px;
+	margin-top: 5px;
+	margin-left: 15px;
+	/*  background:#faf1d8;*/
+}
+
+.action_title {
+	height: 20px;
+	color: black;
+	line-height: 15px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.action_img {
+	width: 240px;
+	height: 210px;
+	float: left;
+}
+
+.action_img img {
+	width: 240px;
+	height: 210px;
+}
+
+.action_anm {
+	width: 210px;
+	height: 210px;
+	float: left;
+}
+
+.action_desc {
+	float: left;
+	width: 471px;
+	height: 100%;
+	margin: 5px auto auto 0px;
+	line-height: 18px;
+	font-size: 13px;
+	text-indent: 2em;
+	padding: 3px;
+	border: thin solid #bdcc88;
+	background: url(../images/jianshents.jpg);
+}
+
+.sports_plan {
+	text-align: left;
+	text-indent: 16px;
+	margin-top: 15px;
+}
+
+.onedit {
+	padding-right: 5px;
+}
+
+.btnw {
+	width: 194px;
+	height: 42px;
+	background: url(../images/auto.png) no-repeat 0px -42px;
+	cursor: pointer;
+	margin-top: 10px;
+        border:none;
+}
+
+.btne {
+	width: 194px;
+	height: 42px;
+	background: url(../images/auto.png) no-repeat 0px 0px;
+	cursor: pointer;
+         border:none;
+}
+
+.fangying {
+	border: 1px solid #999;
+	margin-top: 10px;
+	padding-bottom: 10px;
+	width: 100%;
+}
+
+.fangying p {
+	height: 25px;
+	line-height: 25px;
+	padding-left: 10px;
+}
+
+.play {
+	height: 30px;
+	background: url(../images/dhbj.png);
+	line-height: 30px;
+	padding-left: 10px;
+	border-bottom: 1px solid #ccc;
+	font-size: 14px;
+	color: #000;
+}
+
+.msi {
+	margin-left: 15px;
+}
+
+.music {
+	margin-left: 25px;
+}
+
+.fangybi {
+	width: 40px;
+}
+
+.musisk {
+	margin-left: 30px;
+}
+
+.savebtn {
+	border: 0px;
+	width: 64px;
+	height: 30px;
+	background: url(../images/anjiuall.jpg) no-repeat 0 -48px;
+	cursor: pointer;
+	margin-left: 60px;
+	margin-top: 12px;
+}
+
+#righttop.savebtn {
+	margin-left: 60px;
+	width: 70px;
+	height: 25px;
+	margin-top: 10px;
+}
+
+#playercontainer {
+	float: right;
+}
+

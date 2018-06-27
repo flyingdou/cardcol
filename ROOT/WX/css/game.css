@@ -1,0 +1,55 @@
+.game_one{margin:100% auto 0}
+.game_one .p_one{width:80%;line-height: 3rem;font-size: 1.7rem;padding: 0.7rem 5%;margin: 0 auto;
+    background: url("../images/p_two_bg_03.png") no-repeat;background-size: 100% 100%;}
+.game_one .p_two{line-height: 2.4rem;font-size: 1.5rem;padding: 0.5rem 15% 0;}
+.star{display:inline-block;background: url("../images/star_bg_07.png") no-repeat;background-size: 100% 100%;margin-top: 5%;}
+.star img{width:12rem;margin: 0 2.5rem;}
+
+
+.game_two .my_sex img{width:14.4rem;height:5.5rem;margin: 20% auto 0;}
+.game_two .my_sex h4{line-height:5.5rem;font-size: 2.5rem;}
+.game_two .check{width: 10.8rem;height: 3.4rem;border: 0.2rem #fff solid; border-radius: 0.4rem;font-size: 2rem;text-align: left;
+    padding-left: 1rem;line-height: 3.4rem;position: relative;}
+.game_two .first_check{margin-right: 5%;margin-top: 10%;}
+.game_two .check input[type=radio]{width: 1.65rem;height: 1.65rem;margin-left: 4.5rem;vertical-align: middle;margin-top: 0;opacity: 0;}
+.game_two .check span{display: inline-block;width: 1.55rem;height: 1.55rem;border: 0.2rem #fff solid;border-radius: 50%;position: absolute;left: 7.7rem;top: 0.9rem}
+.game_two .first_check span{background: url("../images/game_ckecked_07.png") no-repeat center;background-size: 0.8rem 0.8rem;}
+.game_two .shuJu{width:80%;background: url("../images/shuju_bg_03.png") no-repeat;background-size:100% 100%; margin: 10% auto 0;text-align: center;}
+.game_two .shuJu label {line-height: 4.6rem;font-size: 1.8rem;}
+.game_two .shuJu label input[type=text]{line-height: 4.6rem;width: 2.8rem;background-color: transparent;text-align: center;color: #fff;}
+
+.game_three{margin-top: 15%}
+.game_three .tiXing{margin-bottom: 10%;}
+.game_three .tiXing .pic{width:4.5rem;margin: 0 auto }
+.game_three .tiXing .pic img{width: 4.5rem;}
+.game_three .pic .my_pic{margin-top: 1.3rem}
+.game_three .col-xs-4,.col-xs-8,.col-xs-12{padding: 0}
+.game_three .text{width:15rem;height:15rem;background: url("../images/tixing_bg_07.png") no-repeat;background-size: 100% 100%;padding: 3rem 0 0 3rem;margin: 0 auto}
+.game_three .text p{line-height: 2.3rem; font-size: 1.3rem;}
+.game_three .result{border: 0.2rem #fff solid;border-radius:2rem; background-color: rgba(250,0,0,0.3);margin: 0 auto;width: 80%;padding: 1.2rem 1.7rem;}
+.game_three .result img{display: inline-block;width: 5.3rem;}
+.game_three .result p{line-height: 2.3rem;font-size: 1.7rem;font-family: "方正综艺简体";text-shadow:  0.3rem 0.3rem 0 #7b4b7c}
+.game_three .again{text-align: center;}
+.game_three .again a{display:inline-block;background: url("../images/star_bg_07.png") no-repeat;background-size: 100% 100%;margin-top:  20%;margin-bottom: 10%;}
+.game_three .again a img{width:8rem;margin: 0 1.5rem;}
+
+.game_four img{display: block;margin: 0 auto;}
+.game_four .pic1{width: 60%;margin-top: 15%}
+.game_four .pic2{width: 80%;margin-top:10%;margin-bottom: 15% }
+.game_four .pic3{width: 40%;margin-bottom: 5%}
+.game_four .pic4{width: 40%;margin-bottom: 10%}
+.game_four p{width:80%;font-size: 1.2rem;color: #f7f5f5;line-height: 2.5rem;margin: 0 auto;text-align: center;}
+@media screen and (max-width: 374px){.game_one .p_one{font-size: 1.5rem;line-height: 2.5rem;padding: 0.3rem 5%;}}
+
+
+
+
+
+
+
+
+
+
+
+
+

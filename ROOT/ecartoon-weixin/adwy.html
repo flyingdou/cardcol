@@ -1,0 +1,752 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0"/>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<title>健身E卡通购健身卡促销活动</title>
+<meta itemprop="name" content="健身E卡通购健身卡促销活动"/>
+<meta name="title" itemprop="title" content="健身E卡通购健身卡促销活动" />
+<meta name="description" itemprop="description" content="购买健身卡赠送健身E卡通王严健身专家系统优惠券" />
+<meta itemprop="image" content="http://imgcache.qq.com/qqshow/ac/v4/global/logo.png" />
+<script src="http://api.map.baidu.com/api?v=2.0&ak=22GR1VoZdYMI3SLs8eGRI2HmhvhC1BQQ"></script>
+<script src="js/mui.min.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/vue.min.js" ></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?7fdafa68ef864d4f5eef3bd44e6c3ce9";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+
+
+var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cspan id='cnzz_stat_icon_1263359227'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s19.cnzz.com/stat.php%3Fid%3D1263359227%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));
+document.querySelector("#cnzz_stat_icon_1263359227").style.display = "none";
+</script>
+
+<link href="css/mui.min.css" rel="stylesheet" />
+<style type="text/css">
+   html,body{
+      margin: 0;
+      padding: 0;
+   }
+
+   #dou{
+      background-color: white;
+      width: 100%;
+   }
+   
+   .banner{
+       width: 100%;
+       height: auto;
+   }
+   
+   .ecartoon{
+       position: relative;
+       width: 100%;
+       height: auto;
+   }
+   
+   .dou-ecartoon-font{
+      position: absolute;
+      left: 0;
+      top:0;
+      width:100%;
+   }
+   
+   .ecartoon-img{
+      margin-top: 10px;
+   }
+   
+   .dou-wangyan-font{
+      margin-bottom: 7px;
+   }
+   
+   .wangyan{
+       position:relative;
+       width: 100%;
+       height: auto;
+   }
+   
+   .redFont{
+      position: absolute;
+      left: 5%;
+      top:3%;   
+   }
+   
+   .redFont-1{
+      text-align:left;
+      font-size: 26px;
+      color: #ED5050;
+   }
+  
+   .redFont-2{
+      text-align: left;
+      font-size: 12px;
+      color:#ED5050;
+   }
+   
+   .whiteFont{
+      position: absolute;
+      left: 20%;
+      top: 25%;
+      width:53%;
+      text-align:left;
+      font-size: 12px;
+      color: white;
+      
+   }
+   
+   .dou-img{
+      width: 100%;
+      height: 100%;
+   }
+   
+   .description{
+       background-color: #202A33;
+       padding: 10px;
+       margin-top: 5px;
+   }
+   
+   .dou-description{
+      text-align:left;
+      font-size: 12px;
+      color: white;
+      line-height: 12px;
+   }
+   
+   .dou-notify{
+      text-align: left;
+      font-size: 12px;
+      color: #FB5A1C;
+   }
+   
+  .font13{
+    text-align: left;
+    margin-left: 3%;
+    margin-top: 8px;
+    font-size: 13px;
+    color: black;
+  }
+   
+  .font18{
+     text-align: center;
+     font-size: 18px;
+     color: #FB5A1C;
+     margin-top: 10px;
+  }
+  
+  .font20{
+     text-align: center;
+     font-size: 20px;
+     color: #FB5A1C;
+  }
+  
+  .font14{
+     text-align: center;
+     font-size: 14px;
+     color: #FB5A1C;
+  }
+  
+  .buy{
+     background-color: #202A33;
+     padding: 10px;
+     margin-top: 8px;
+  }
+  
+  .product{
+     overflow: hidden;
+  }
+  
+  .select-div{
+    float: left;
+    width: 8%;
+    height: 100px;
+    line-height: 100px;
+  }
+  
+  .img-div{
+    float: left;
+    width: auto;
+    height: 100px;
+     margin-right:10px;
+  }
+  
+  .info-div{
+    position:relative;
+    float: left;
+    width: 57%;
+  }
+  .selectImg{
+     width: 20px;
+     height: 20px;
+  }
+  
+  .prod-img{
+     width: 100px;
+     height: 80px;
+  }
+  
+  .dou-name{
+     margin-bottom: 5px;
+  }
+  
+  .ecartoon-name{
+     font-size: 20px;
+     color:white;
+  }
+  
+  .RMB{
+     font-size: 8px;
+     color: #FB5A1C;
+  }
+  
+  .price{
+     font-size: 22px;
+     color: #FB5A1C;
+  }
+  
+  
+  .unit{
+     color:white;
+  }
+  
+  .text-right{
+     position:absolute;
+     right:0;
+     padding-right: 10px;
+  }
+  
+  .dou-scope{
+     margin-bottom: 5px;
+  }
+  .ecartoon-scope{
+     font-size: 12px;
+     color: #C6C5C5;
+     width: 100%;
+  }
+  
+  .ecartoon-description{
+     font-size: 14px;
+     color: #C6C5C5;
+  }
+  
+  .goToBuy{
+     background-color:#FB5A1C;
+     width: 40%;
+     height:30px;
+     text-align: center;
+     margin: 0 auto;
+     border-radius: 5px;
+     line-height: 30px;
+     margin-bottom: 10px;
+  }
+  
+  .toBuy{
+     font-size:16px;
+     color: white;
+  }
+  
+  
+   .wechat{
+     text-align: center;
+     background-color: white;
+  }
+  
+  .follow-font{
+     font-size: 12px;
+     color: black;
+     width: 100%;
+     margin-bottom: 10px;
+  }
+  
+  .store{
+     position: relative;
+     margin-bottom: 10px;
+  }
+  
+  .contact{
+     position: fixed;
+     left:0;
+     bottom:0;
+     width: 100%;
+     height: 50px;
+     background-color: rgba(0,0,0,0.8);
+     z-index: 1;
+     text-align: center;
+  }
+  
+  
+  .tell{
+    float: left;
+    width: 50%;
+    height: 50px;
+    padding-top:15px;
+    text-align: center;
+  }
+  
+  .tell-img-div{
+      float: left;
+      height: 100%;
+      margin-left: 40px;
+  }
+  
+  .tell-font-div{
+     float: left;
+     height: 100%;
+     text-align: left;
+     margin-left: 10px;
+  }
+  
+  
+  .tell-img{
+     width: 32px;
+     height: 20px;
+  }
+  
+  .tell-font{
+     font-size:16px;
+     color: white;
+  }
+  
+  .buyNow{
+     float: right;
+     width: 50%;
+     height: 50px;
+     padding-top:15px;
+     text-align: center;
+  }
+  
+  .buy-img-div{
+     float: left;
+     height: 100%;
+     margin-left: 40px;
+  }
+
+  .buy-font-div{
+     float: left;
+     height: 100%;
+     text-align: left;
+     margin-left: 10px;
+  }  
+  
+  
+  
+  
+  .buy-img{
+     width: 32px;
+     height: 20px;
+  }
+  
+  .buy-font{
+     font-size: 16px;
+     color: white;
+  }
+  
+  .dou-a{
+  	background-color: #2c363f;
+  	color: #fff !important;
+  }
+  
+  .mui-active{
+  	background-color: #fb5b1a !important;
+  }
+  
+  .init-active{
+  	background-color: #fff !important;
+  }
+  
+  
+  
+  .parise-img-div{
+     width: 95%;
+     height: auto;
+     margin-top: 2%;
+     margin-bottom: 6%;
+     margin-left: auto;
+     margin-right: auto;
+  }
+  
+  .parise-img{
+     width: 100%;
+     height: auto;
+  }
+  
+</style>
+</head>
+<body>
+	<div style="width:0;height:0;overflow:hidden;"><img src="img/share.jpg" /></div>
+	<div id="dou">
+	    <div class="banner">
+	        <img src="img/adwy-1.png" class="dou-img" />
+	    </div>
+	    
+	    <div class="ecartoon">
+	        <div class="font14 dou-ecartoon-font">全城通用的健身卡</div>
+	    	<img src="img/adwy-2.png" class="dou-img ecartoon-img">
+	    </div>
+	    
+		<div class="font14 dou-wangyan-font">专家指导，新手也不露怯</div>
+	    <div class="wangyan">
+		    <img src="img/adwy-3.png" class="dou-img wangyan-img">
+	    </div>
+	    
+	    <div class="font14">健身E卡通适用店面</div>
+	    <div class="store">
+	    	<!-- 悬浮按钮 -->
+	    	<div class="contact">
+		    	   <div class="tell">
+		    	      <div class="tell-img-div" ><img class = "tell-img" src="img/adwy-10.png"></div>
+		    	      <div class="tell-font-div" ><a href="tel:13260237258"><span class="tell-font">电话咨询</span></a></div>
+		    	    </div>
+		    	    <div class="buyNow">
+		    	      <div class="buy-img-div" ><img class = "buy-img" src="img/adwy-9.png"></div>
+		    	      <div class="buy-font-div" ><a href="#maobuy"><span class="buy-font" >立即购买</span></a></div>
+		    	    </div> 
+	    	</div>
+		        <!-- 浮动在百度地图上面的按钮 -->
+		        <div class="switchStore">
+					<div class="mui-slider">
+						<div class="mui-slider-indicator mui-segmented-control mui-segmented-control-inverted">
+							<a class="mui-control-item dou-a " href="#item1">
+								八通卡适用门店
+							</a>
+							<a class="mui-control-item dou-a mui-active " href="#item3">
+							          八畅卡适用门店
+							</a>
+							<a class="mui-control-item dou-a  " href="#item2">
+								八达卡适用门店
+							</a>
+						</div>
+					</div>
+	        </div>
+	         
+			     <!-- mui-slider-group -->
+			     <div class="mui-slider-group">
+				         <!-- mui-item1 -->
+				         <div id="item1" class="mui-slider-item mui-control-content">
+				            <!-- 具体内容 -->
+				            <div class="demo_main" style="width: 100%;height: auto;">  
+				            <div id="map0" class="dou-map"></div>  
+			  
+				    			</div>  
+				         </div>
+				         
+				         <!-- mui-item2 -->
+				         <div id="item2" class="mui-slider-item mui-control-content">
+				         	<!-- 具体内容 -->
+				         	<div class="demo_main" style="width: 100%;height: auto;">  
+				            <div id="map1" class="dou-map"></div>
+				           
+				    		</div>  
+				         </div>
+				         
+				         
+				         <!-- mui-item3 -->
+				         <div id="item3" class="mui-slider-item mui-control-content init-active mui-active">
+				         	<!-- 具体内容 -->
+				         	<div class="demo_main" style="width: 100%;height: auto;">  
+				            <div id="map2" class="dou-map"></div>
+				            
+				    			</div>  
+				         </div>
+				 </div>
+	    
+	    </div>
+	    
+	    <div class="font14">立即抢购</div>
+	    <div class="buy" id="maobuy">
+	        <!-- 图片 -->
+	        <div class="parise-img-div">
+	             <img class="parise-img" src="img/adwy-17.png">
+	        </div>
+	        <!-- 八通卡 -->
+	    	<div class="product" onclick="changeProduct(1,0)">
+	    	    <div class="select-div">
+	    	    	<img class="selectImg" src="img/adwy-7.png" />
+	    	    </div>
+	    	    
+	    	    <div class="img-div">
+		        	<img  class = "prod-img"src="img/adwy-4.png" />
+	    	    </div>
+	    	    
+	    	    <div class="info-div">
+	    	      <div class="dou-name">
+			        <span class="text-right">
+				        <span class="RMB">￥</span>
+				        <span class="price">{{model.price1}}</span>
+				        <span class="unit">元</span>
+			        </span>
+				    <span class="ecartoon-name">八通卡</span>
+				  </div>
+				  
+				  <div class="dou-scope">
+			        <span class="ecartoon-scope">8天有效，适用{{model.count1}}家健身俱乐部</span>
+				  </div>
+			        <span class="ecartoon-description">普及全民健身，居家办公两宜</span>
+		         </div>
+	    	</div>
+	    	
+	    	<!-- 八达卡 -->
+	    	<div class="product" onclick="changeProduct(2,1)" >
+	    	    <div class="select-div">
+	    	    	<img class="selectImg" src="img/adwy-7.png"  />
+	    	    </div>
+	    	    
+	    	    <div class="img-div">
+		        	<img  class = "prod-img"src="img/adwy-5.png" />
+	    	    </div>
+	    	    
+	    	    <div class="info-div">
+	    	      <div class="dou-name">
+			        <span class="text-right">
+				        <span class="RMB">￥</span>
+				        <span class="price" >{{model.price2}}</span>
+				        <span class="unit">元</span>
+			        </span>
+				    <span class="ecartoon-name">八达卡</span>
+				  </div>
+				  
+				  <div class="dou-scope">
+			        <span class="ecartoon-scope">8天有效，适用{{model.count2}}家健身俱乐部</span>
+				  </div>
+			        <span class="ecartoon-description">游泳场馆汇集，更多健身体验</span>
+		         </div>
+	    	</div>
+	    	
+	    	 <!-- 八畅卡 -->
+	    	<div class="product" onclick="changeProduct(3,2)" >
+	    	    <div class="select-div">
+	    	    	<img class="selectImg" src="img/adwy-7.png"  />
+	    	    </div>
+	    	    
+	    	    <div class="img-div">
+		        	<img  class = "prod-img"src="img/adwy-6.png" />
+	    	    </div>
+	    	    
+	    	    <div class="info-div">
+	    	      <div class="dou-name">
+			        <span class="text-right">
+				        <span class="RMB">￥</span>
+				        <span class="price" >{{model.price3}}</span>
+				        <span class="unit">元</span>
+			        </span>
+				    <span class="ecartoon-name">八畅卡</span>
+				  </div>
+				  
+				  <div class="dou-scope">
+			        <span class="ecartoon-scope">8天有效，适用{{model.count3}}家健身俱乐部</span>
+				  </div>
+			        <span class="ecartoon-description">覆盖全部场馆，至尊健身享受</span>
+		         </div>
+	    	</div>
+	    	
+	    	<!-- 用户点击购买 -->
+	    	<div class="goToBuy" onclick="goBuy()">
+	    	   <span class="toBuy">点击购买</span>
+	    	</div>
+	    	
+	    </div>
+	    
+	    <div class="font13">服务说明</div>
+	    <div class="description">
+			<span class="dou-description">
+				1、购买者须年满16周岁、不满60周岁且身体健康。若因自身身体疾患带来的运动伤害，持卡人
+				      需自行承担责任。
+		    </span>
+		    <br>
+			<span class="dou-description">
+				2、本卡仅限购买者本人使用，不得以任何方式转让他人。
+			</span>
+			<br>
+			<span class="dou-description">
+				3、本卡为时效卡，有效期内可在适用俱乐部使用，每天限打卡一次。
+			</span>
+			<br>
+			<span class="dou-description">
+				4、请在购买时设置开卡日期，如在开卡日之前打卡，则从打卡日计算有效期。
+			</span>
+			<br>
+			<span class="dou-description">
+				5、持卡人享有适用俱乐部普通会员同等权益，各店面服务内容遵照该俱乐部规定执行。
+			</span>
+			<br>
+			<span class="dou-notify">
+			   温馨提示
+			</span>
+			<br>
+			<span class="dou-description">
+			    1、持卡人在运动前应做必要热身，过度及违规运动均有受伤可能，请对自己的身体
+			                情况进行评估并保持适当运动强度。
+			</span>
+			<br>
+			<span class="dou-description">
+			    2、持卡人在接受俱乐部服务过程中产生的服务质量、安全责任事故、人身及财产损害
+			                事故或其它纠纷可由仲裁机构调解或由司法机关处理。健身E卡通平台不承担任何
+			                包括且不限于补偿、赔偿、担保等法律责任。
+			</span>
+	    </div>
+	    
+	    <div class="font18">北京健身E卡通微信公众号</div>
+	    <div class="wechat" style="margin-bottom:50px;padding-bottom: 10px;">
+	       <img  class="follow-qrcode" style="width:258px;height:258px;" src="img/adwy1Code.jpg" />
+	       <br>
+	       <div class="follow-font">请扫描二维码或搜索“ecartoon_bj”关注</div>
+	       <div style="overflow: hidden;font-size: 14px;">
+	       	<a href="about.jsp" class="a-about" style="color:#808080;">关于我们</a>&nbsp;&nbsp;&nbsp;&nbsp;
+	       	<a href="contact.jsp" class="a-contact" style="color:#808080;">联系我们</a>
+	       </div>
+	    </div>
+	    
+	</div>
+	
+	<script>
+	   $(function(){
+		  // 设置地图高度(需要小于当前屏幕的高度)
+		   var height = window.screen.height;
+		   $(".dou-map").each(function(i,item){
+			   $(item).css({"width":"100%","height":(height-260)});
+		   });
+		   // 查询后台数据，并创建地图
+		   getStore();
+		   
+		   
+		   // 加载页面时，清空sessionStorage中存储的productId
+		   sessionStorage.removeItem("productId");
+		   
+		   // 加载页面时默认选中第二个商品
+		   changeProduct(2,1);
+		   
+		   
+	   })
+	   
+	   // 创建vue对象
+	   var vue =  new Vue({
+		   el:"#dou",
+		   data:{
+			   model:{}
+		   },
+		   created:function(){
+			// 查询商品价格，并使用vue渲染页面
+			   getPrice();
+		   }
+	   
+	   
+		   
+	   });
+	   
+	   
+	   //获取E卡通的适用门店数据
+	   function getStore(){
+		   $.ajax({
+			   url:"eloginwx!findStore.asp",
+			   type:"post",
+			   data:{},
+			   dataType:"json",
+			   success: function (res){
+				   createMap(res.clubList0,"map0");
+				   createMap(res.clubList1,"map1");
+				   createMap(res.clubList2,"map2");
+			   },
+			   error: function (e){
+				   alert(JSON.stringify(e));
+			   }
+			   
+		   });
+		   
+	   }
+	   
+	   //创建地图
+	   function createMap (clubList,mapId) {
+   		setTimeout(function(){
+   			var map = new BMap.Map(mapId); 
+   			if (mapId == "map0") {
+       		    map.centerAndZoom(new BMap.Point(116.2, 40.10001), 11);
+   			}
+   			if (mapId == "map1") {
+       		    map.centerAndZoom(new BMap.Point(116.2, 40.10001), 11);
+   			}
+   			if (mapId == "map2") {
+       		    map.centerAndZoom(new BMap.Point(116.4, 39.9), 11);
+   			}
+       		var point = [],marker = [],info = [];
+      			for(var i = 0;i < clubList.length;i++){
+         			(function(i){
+         				point[i] = new BMap.Point(clubList[i].longitude, clubList[i].latitude);
+            			marker[i] = new BMap.Marker(point[i]);
+            			map.addOverlay(marker[i]);
+            			info[i] = new window.BMap.InfoWindow("<p style=’font-size:12px;lineheight:1.8em;’>"+ clubList[i].name + "</p>"); 
+                 	marker[i].addEventListener("click", function(){
+                      this.openInfoWindow(info[i]);
+                  });
+         	   })(i);
+         	}
+   		},1000);
+	   }
+	   
+	   
+	   
+	   // 获取商品价格
+	   function getPrice(){
+		   $.ajax({
+			   url:"eloginwx!getPrice.asp",
+			   type:"post",
+			   data:{},
+			   dataType:"json",
+			   success: function (priceData) {
+				   var prices = priceData;
+				   if (prices) {
+					   // 获取商品价格成功，用vue渲染页面数据
+					  vue.model = prices;
+				   } else {
+					   alert("获取商品价格异常，原因：" + JSON.stringify(prices.message));
+					   return;
+				   }
+			   },
+			   error: function (priceE) {
+				   alert("获取商品价格异常，网络异常");
+				   return;
+			   }
+			   
+		   });
+		   
+	   }
+	   
+	   
+	   
+	   //用户选择E卡通产品时，切换图片、E卡通Id
+	   function changeProduct(id,index){
+		   $(".selectImg").each(function(i,item){
+			   if (i == index){
+				   $(item).attr({"src":"img/adwy-8.png"});
+			   } else {
+				   $(item).attr({"src":"img/adwy-7.png"});
+			   }
+		   });
+		   //将productId存储
+		   sessionStorage.productId = JSON.stringify(id);
+	   }
+	   
+	   
+	   //用户点击立即购买时，跳转到注册页面
+	   function goBuy(){
+		  // 获取用户选中的productId
+		  var productId = sessionStorage.productId;
+		  if (productId == undefined) {
+			  alert("请选择想要购买的产品！");
+			  return;
+		  }
+		  //跳转到注册页面
+		  location.href = "adwy2.html";
+		  
+		   
+	   }
+	
+	
+	</script>
+</body>
+</html>

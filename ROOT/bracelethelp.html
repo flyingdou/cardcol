@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0" />
+  <meta name="keywords" content="健身E卡通 健身手环 帮助页面" />
+      <meta name="description" content="健身E卡通 健身手环 帮助页面" />
+<link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+<script type="text/javascript" src="script/jquery-1.7.2.min.js"></script>
+<title>手环帮助界面</title>
+<style type="text/css">
+p {
+	font-family: 黑体;
+	font-size: 17px;
+	line-height: 34px
+}
+
+.p1 {
+	font-family: 黑体;
+	font-size: 15px;
+	line-height: 20px
+}
+
+.theEquioconnction {
+	padding-top: 15px
+}
+
+.introducing {
+	font-family: 宋体;
+	font-size: 18px;
+	color: #89BC2F;
+}
+
+#touch1{
+ cursor: pointer;
+}
+#touch2{
+ cursor: pointer;
+}
+#basic{
+ cursor: pointer;
+}
+#how{
+ cursor: pointer;
+}
+#how2{
+ cursor: pointer;
+}
+
+</style>
+<script type="text/javascript">
+	$(function() {
+
+		$(".touch").on("click", function () {
+			$(this).next().toggle();//这个是点击显示/隐藏的效果
+
+			if($(this).next().is(":visible")){//判断是否隐藏
+				$(this).find(".icons").find("img").attr("src", "images/toleftgreen.png");//显示是这张图片
+			}else {
+				$(this).find(".icons").find("img").attr("src", "images/toleft.png");//隐藏是这张图片
+			}
+
+		});
+
+		$(".briefing").on("click", function () {
+			$(this).next().toggle();
+		});
+
+
+		/*
+                $("#touch1").toggle(function() {
+                    $(".equioconnction").slideDown(500);
+                    $(".icons1").attr("src", "images/toleftgreen.png")
+                }, function() {
+                    $(".equioconnction").hide();
+                    $(".icons1").attr("src", "images/toleft.png")
+                });
+                $("#touch2").toggle(function() {
+                    $(".briefing").slideDown(500);
+                    $(".icons2").attr("src", "images/toleftgreen.png")
+                }, function() {
+                    $(".briefing").hide();
+                    $(".icons2").attr("src", "images/toleft.png");
+                    $(".shuoming1").hide();
+                    $(".shuoming2").hide();
+                    $(".shuoming3").hide();
+                });
+
+                $("#basic").toggle(function(){
+                            $(".shuoming1").slideDown(500);
+                        },
+                        function(){
+                            $(".shuoming1").hide();
+                        });
+                $("#how").toggle(function(){
+                            $(".shuoming2").slideDown(500);
+                        },
+                        function(){
+                            $(".shuoming2").hide();
+                        });
+                $("#how2").toggle(function(){
+                            $(".shuoming3").slideDown(500);
+                        },
+                        function(){
+                            $(".shuoming3").hide();
+                        })
+        */
+	});
+</script>
+</head>
+<body style="background-color: #F5F5F5">
+	<div style="background-color: #F5F5F5; margin-left:0px;">
+		<div class="touch" style="margin-top: 20px; background-color: #FFFFFF; width: 100%; height: 60px; border-style: outset; border: 1px " align="center">
+			<div style="font-size: 18px; font-family: 黑体; float: left; line-height: 60px; margin-left: 20px;" align="center">设备连接</div>
+			<div class="icons" style="float: right; margin-right: 20px; margin-top: 15px"><img class="icons1" alt="" src="images/toleft.png" style="height: 27px; width: 25px;"></div>
+		</div>
+		<div class="equioconnction theEquioconnction" style="width: 90%; margin-left: 30px; display: none;">
+			<div><p>a.点击主菜单“我”-“手环连接”，进入手环页面。</p></div>
+			<div><img src="images/firststep.png" style="width: 95%; "></div>
+			<div style="margin-top: 15px"><p>b.在手环页面点击“添加手环”。搜索到的手环编号将显示在“新手环”中。</p></div>
+			<div><img src="images/secondstep.png" style="width: 95% ;"></div>
+			<div style="margin-top: 15px"><p>c.在“新手环”中，点击手环编号，手环显示在“我的手环”中。</p></div>
+			<div><p>d.APP打开或在后台运行都会自动搜索并连接手环。</p></div>
+			<div style="margin-bottom: 25px"><img src="images/thirdstep.png" style="width: 95%; "></div>
+		</div>
+
+		<div>
+		<div class="touch" style="margin-top: 2px; background-color: #FFFFFF; width: 100%; height: 60px; border-style: outset; border: 1px ">
+			<div style="font-size: 18px; font-family: 黑体; float: left; line-height: 60px; margin-left: 20px;" align="center">使用说明</div>
+			<div class="icons" style="float: right; margin-right: 20px; margin-top: 15px"><img class="icons2" alt="" src="images/toleft.png" style="height: 27px; width: 25px;"></div>
+		</div>
+			<div class="equioconnction" style="display: none;">
+				<div class="briefing" id="basic" style=" margin-top:10px;width: 100%; height: 30px; border-bottom: 1px solid silver">
+					<div style="font-size: 18px; font-family: 黑体; line-height: 30px; margin-left: 15px;float: left;color:#89BC2F;" align="center">手环基本操作</div>
+					<div style="float: right; margin-right: 20px">》</div>
+				</div>
+				<div class="shuoming" style="width: 90%; margin-left: 25px; display: none;margin-top: 5px">
+					<div><p>a.手环屏幕需单击点亮，无操作10s后自动关闭。</p></div>
+					<div><p>b.默认进入时钟页面，单击可循环切换不同页面。</p></div>
+					<div><p>c.双击锁屏，则显示屏长亮，便于长时间查看心率。</p></div>
+				</div>
+
+				<div class="briefing" id="how" style="margin-top: 10px; width: 100%; height: 30px; border-bottom: 1px solid silver">
+					<div style="font-size: 18px; font-family: 黑体; line-height: 30px; margin-left: 15px;float: left;color:#89BC2F" align="center">如何使用实时心率监测功能</div>
+					<div style="float: right; margin-right: 20px">》</div>
+				</div>
+				<div class="shuoming" style="width: 90%; margin-left: 25px; margin-top: 25px; display: none;">
+					<div style="font-family: 黑体; font-size: 16px; color: #FBA834">开启实时心率监测</div>
+					<div><p>手环佩戴好后并且与APP匹配成功，进入课程播放页面，点击播放按钮，则开启实时心率监测。</p></div>
+					<div style="font-family: 黑体; font-size: 16px; color: #FBA834">查看实时心率监测</div>
+					<div><p>实时心率同步在APP课程播放页面上显示。</p></div>
+					<div><img src="images/lookrate.png" style="width: 95%; "></div>
+
+					<div style="font-family: 黑体; font-size: 16px; color: #FBA834; margin-top: 25px">关闭实时心率监测</div>
+					<div>
+						<p>a.当退出APP课程播放页面时，则关闭了此次的实时心率监测。
+					</div>
+					<div><p>b.在课程播放页面上点击“保存”按钮，存储此次实时心率数据。可在菜单栏切换到“训练日志”点击“运动心率”查看心率数据记录！</p></div>
+					<div><img src="images/saverate.png" style="width: 95%;"></div>
+					<div style="margin-top: 25px; margin-bottom: 25px">
+						<img src="images/getrate.png" style="width: 95%; ">
+					</div>
+				</div>
+
+				<div class="briefing" id="how2" style="margin-top: 10px; width: 100%; height: 30px; border-bottom: 1px solid silver">
+					<div style="font-size: 18px; font-family: 黑体; margin-left: 15px;float: left;color:#89BC2F" align="center">如何使用离线心率监测功能</div>
+					<div style="float: right; margin-right: 20px">》</div>
+				</div>
+				<div class="shuoming" style="width: 90%; margin-left: 25px; display: none;">
+					<div style="font-family: 黑体; font-size: 16px; color: #FBA834; margin-top: 25px">开启离线心率监测</div>
+					<div><p>a.手环屏幕单击点亮后，单击手环按钮切换到心率页面。</p></div>
+					<div style="text-align: center"><img src="images/offline_07.png" style="width: 45%;"></div>
+					<div style="margin-top: 20px"><p>b.长按手环按钮，切换到离线心率即时按钮（手环背面绿灯闪烁），则表示已开启此次的离线心率的心率监测。</p></div>
+					<div style="text-align: center"><img src="images/offline_10.png" style="width: 45%; "></div>
+					<div style="font-family: 黑体; font-size: 16px; color: #FBA834; margin-top: 25px">关闭离线心率监测</div>
+					<div><p>手环屏幕单击点亮后，在离线心率计时页面上长按手环按钮，返回到计步页面（手环背面绿灯不在闪烁），则成功关闭了此次离线心率监测。</p></div>
+					<div style="text-align: center"><img src="images/offline_07.png" style="width: 45%;"></div>
+					<div style="font-family: 黑体; font-size: 16px; color: #FBA834; margin-top: 25px">查看离线心率监测</div>
+					<div><p>手环与APP蓝牙连接匹配后，手环内的离线运动数据将自动导入。可在“训练日志”-“运动心率”中查看运动期间的心率数据！</p></div>
+					<div><img src="images/lookoffline1.png" style="width: 95%; "></div>
+					<div style="margin-top: 25px"><img src="images/lookoffline2.png" style="width: 95%; "></div>
+				</div>
+			</div>
+
+</div>
+	</div>
+</body>
+</html>

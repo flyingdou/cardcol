@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>购买成功</title>
+<title>健身E卡通购健身卡支付成功</title>
+<meta name="description" content="购买健身卡赠送健身E卡通王严健身专家系统优惠券" />
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+<meta name="apple-mobile-web-app-capable" content="yes">
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?7fdafa68ef864d4f5eef3bd44e6c3ce9";
+  var s = document.getElementsByTagName("script")[0]; F
+  s.parentNode.insertBefore(hm, s);
+})();
+
+var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cspan id='cnzz_stat_icon_1263359227'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s19.cnzz.com/stat.php%3Fid%3D1263359227%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));
+document.querySelector("#cnzz_stat_icon_1263359227").style.display = "none";
+
+</script>
+
+<style>
+	html,body{
+		width:100%;
+		height:100%;
+		margin:0;
+		padding:0;
+	}
+	ul,li{
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}
+</style>
+</head>
+<body>
+	<div class="wraper" id="wraper">
+		<div>
+			<div style="text-align: center;">
+				<img src="img/adwy-14.png" style="width: 90px;height: 114px;margin-top: 29px;"/>
+			</div>
+			<div style="text-align: center;margin-top: 30px;">
+				<span style="font-size: 13px;color:#323232;">恭喜您成功购买{{productName}}！</span>
+			</div>
+			<div style="text-align: center;margin-bottom: 22px;">
+				<span style="font-size: 13px;color:#323232;">获得 “王严健身专家系统” 优惠券！</span>
+			</div>
+		</div>
+		<div style="height: 7px;background-color: #eee;"></div>
+		<div style="padding:0 22px;">
+			<div style="margin-top: 11px;">
+				<span style="font-size: 15px;color:#fb3922;">使用说明</span>
+			</div>
+			<div style="margin-top:10px;font-size: 12px;color:#716e6e;">
+				<span>1、下载健身E卡通APP，使用购买时注册的手机 / 密码登录 。</span><br/>
+				<span>2、打卡签到：在APP首页点击 “签到” ，扫描俱乐部前台的签到二维码完成打卡 。</span><br/>
+				<span>3、使用  “王严健身专家系统” </span><br/>
+				<span>登录APP，点击 “私人定制-我要定制” ；按系统提示填写身体真实数据。</span><br/>
+				<span>进入支付页面后选择优惠券，确认支付。</span><br/>
+				<span>支付成功后计划自动生成；在 “私人定制-我的计划” 中查看计划</span><br/>
+			</div>
+			<div style="margin-top:24px;overflow: hidden;">
+				<div style="float:left;overflow: hidden;height:24px;border:1px solid #ff0000;padding:0 20px;border-radius:5px;" @click="downLoadAPP()">
+					<div style="float: left;width: 16px;height: 20px;margin-top: 2px;"><img src="img/adwy-15.png" style="width:100%;height: 100%;"></div>
+					<div style="float: left;height:20px;line-height: 20px;margin-left:15px;margin-top: 2px;font-size: 12px;color:#323232;">APPStore下载</div>
+				</div>
+				<div style="float:right;overflow: hidden;height:24px;border:1px solid #ff0000;padding:0 20px;border-radius:5px;" @click="downLoadAPP()">
+					<div style="float: left;width: 15px;height: 20px;margin-top: 2px;"><img src="img/adwy-16.png" style="width:100%;height:100%;"></div>
+					<div style="float: left;height:20px;line-height: 20px;margin-left:15px;margin-top: 2px;font-size: 12px;color:#323232;">Android下载</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/vue.min.js"></script>
+	<script type="text/javascript">
+		var vue = new Vue({
+			el:"#wraper",
+			data:{
+				productName : ""
+			},
+			created:function(){
+				this.productName = localStorage.getItem("productName");
+			},
+			methods:{
+				downLoadAPP : function(){
+					var sUserAgent = navigator.userAgent.toLowerCase();
+					var bIsIpad = sUserAgent.match(/ipad/i) == "ipad";
+					var bIsIphoneOs = sUserAgent.match(/iphone os/i) == "iphone os";
+					var bIsAndroid = sUserAgent.match(/android/i) == "android";
+					if (bIsIpad || bIsIphoneOs) {
+						location.href = "https://itunes.apple.com/cn/app/%E5%81%A5%E8%BA%ABe%E5%8D%A1%E9%80%9A/id1218667055?mt=8";
+					}else{
+						location.href = "http://www.ecartoon.com.cn/app/ecartoon-V1.4.apk";	
+					}
+				}
+			}
+		});
+	</script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+/*重置样式*/
+*{margin: 0;padding: 0;}
+div,body,a,ul,li,p,h1,h2,h3,h4,h5,h6,span,input,label,form,b,img{padding: 0;margin: 0;}
+ul{list-style: none;}
+a{text-decoration: none;}
+img{border: none;}
+input,textarea{border: none;outline: none;resize: none;}
+h1,h2,h3,h4,h5,h6{font-weight: normal;}
+i,em{font-style: normal;}
+body{font-family: "黑体";}
+a:hover{text-decoration: none;}
+a:link{text-decoration: none;}
+html{font-size: 62.5%;}/*-webkit-transform: scale(83.3%);*/
+body{background-color: #e3e3e3;color: #333;font-size: 1.5rem;}
+.container{padding: 0 ;position: relative;}
+.col-xs-1,.col-xs-2,.col-xs-3,.col-xs-4,.col-xs-5,.col-xs-6,.col-xs-7,.col-xs-8,.col-xs-9,.col-xs-10,.col-xs-11,.col-xs-12{padding: 0;}
+.clearfix:after{content: "";display:block;height: 0;clear: both;*zoom: 1;}
+.fl{float: left;}
+.fr{float: right;}
+
+/*头部*/
+.header{height:3.2rem;background-color: #363d4c;}
+.header .return_icon{font-size: 1.8rem;line-height: 3.2rem;color: #fff;}
+.header .search{width: 100%;height:2.5rem;margin-top:0.35rem;color: #fff;padding-left: 1.4rem;font-size: 1.3rem;
+    border: 0.05rem #888 solid;border-radius: 0.1rem;background-color: #9b9ea6;}
+.header .search_icon{color: #fff;position: absolute;right: 2rem;top: 1rem;}
+.header h2{text-align: center;font-size: 1.8rem;line-height: 3.2rem;color: #fff}
+.header .finish{text-align: right;}
+.header .finish a{font-size: 1.5rem;line-height: 3.2rem;color: #fff;}
+.header .col-xs-6{padding: 0;}
+
+
+

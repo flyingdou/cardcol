@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>健身E卡通购健身卡定单提交</title>
+<meta name="description" content="购买健身卡赠送健身E卡通王严健身专家系统优惠券" />
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+<meta name="apple-mobile-web-app-capable" content="yes">
+<link href="css/mui.min.css" rel="stylesheet" />
+<link rel="stylesheet" type="text/css" href="css/mui.picker.min.css" />
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?7fdafa68ef864d4f5eef3bd44e6c3ce9";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+
+var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cspan id='cnzz_stat_icon_1263359227'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s19.cnzz.com/stat.php%3Fid%3D1263359227%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));
+document.querySelector("#cnzz_stat_icon_1263359227").style.display = "none";
+
+</script>
+<style type="text/css">
+	html,body{
+		width:100%;
+		height:100%;
+		margin:0;
+		padding:0;
+		background-color: #fff;
+	}
+	ul,li{
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}
+	/*页面标题*/
+	.div-title{
+		height:40px;
+		line-height: 40px;
+		text-align:center;
+		position: relative;
+	}
+	.goBack{
+		position: absolute;
+		top:9px;
+		left:10px;
+		width:20px;
+		height:22px;
+	}
+	.title{
+		font-size: 18px;
+		color:#030303;
+	}
+	/*订单信息*/
+	.order > li{
+		overflow: hidden;
+		padding: 15px;
+		border-top: 1px solid #e9e9e9;
+	}
+	.left-div{
+		width: 50%;
+		float:left;
+	}
+	.right-div{
+		width:50%;
+		float:right;
+		text-align: right;
+	}
+	/*选择支付方式*/
+	.div-payType-title{
+		padding: 10px 20px;
+		background-color: #eee;		
+		font-size: 12px;
+		color:#292929;
+	}
+	.payType > li{
+		overflow: hidden;
+		padding: 15px;
+		border-top: 1px solid #e9e9e9;
+	}
+	.div-payment{
+		position: fixed;
+		bottom:0;
+		left:0;
+		width: 100%;
+		height: 44px;
+		line-height: 44px;
+	}
+	.payment{
+		width: 100%;
+		height: 100%;
+		border: 0;
+		background-color: #fb5b1a;
+		color: #fff;
+		font-size: 15px;
+		text-align: center;
+	}
+	#aliPay > form{
+		height:300px;
+	}
+</style>
+</head>
+<body>
+	<div class="wraper" id="wraper">
+		<div class="div-title">
+			<img class="goBack" src="img/back.png" @click="goBack()"/>
+			<span class="title">支付订单</span>
+		</div>
+		<div class="div-order">
+			<ul class="order">
+				<li>
+					<div class="left-div">商品名称</div>
+					<div class="right-div">{{orderInfo.productName}}</div>
+				</li>
+				<li>
+					<div class="left-div">交易金额</div>
+					<div class="right-div" style="color:#fb5b1a;">{{orderInfo.orderMoney}}元</div>
+				</li>
+				<li>
+					<div class="left-div">设置开卡日期</div>
+					<div class="right-div date">{{orderInfo.currentDate}} ></div>
+				</li>
+			</ul>
+		</div>
+		<div class="div-payType">
+			<div class="div-payType-title">
+				选择支付方式
+			</div>
+			<ul class="payType">
+				<li @click="changePayType(0)">
+					<div style="float:left;height: 42px;">
+						<img src="img/adwy-12.png" style="width: 24.5px;height:24.5px;margin-top: 8.5px;"/>
+					</div>
+					<div style="float:left;margin-left: 20px;">
+						<span style="font-size: 15px;color: #292929;">支付宝</span><br/>
+						<span style="font-size: 12px;color:#8f8e8e;">推荐支付宝用户使用</span>
+					</div>
+					<div style="float:right;height:42px;">
+						<img src="img/adwy-7.png" style="width:16px;height:16px;margin-top: 13px;" v-if="payType == 1"/>
+						<img src="img/adwy-8.png" style="width:16px;height:16px;margin-top: 13px;" v-if="payType == 0"/>
+					</div>
+				</li>
+				<li @click="changePayType(1)">
+					<div style="float:left;height:42px;">
+						<img src="img/adwy-13.png" style="width: 27px;height:25px;margin-top: 8.5px;"/>
+					</div>
+					<div style="float:left;margin-left: 20px;">
+						<span style="font-size: 15px;color: #292929;">微信支付</span><br/>
+						<span style="font-size: 12px;color:#8f8e8e;">推荐微信用户使用</span>
+					</div>
+					<div style="float:right;height:42px;">
+						<img src="img/adwy-7.png" style="width:16px;height:16px;margin-top: 13px;" v-if="payType == 0"/>
+						<img src="img/adwy-8.png" style="width:16px;height:16px;margin-top: 13px;" v-if="payType == 1"/>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<div class="div-payment">
+			<div class="payment" @click="payMent()">立即支付</div>
+		</div>
+		<div id="aliPay" style="position: fixed;top:0;left:0;width:100%;height:100%;z-index:1;" v-if="aliPay != ''" v-html="aliPay">
+		</div>
+	</div>
+	<script src="js/vue.min.js"></script>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/mui.min.js"></script>
+	<script src="js/mui.picker.min.js"></script>
+	<script type="text/javascript">
+		var vue = new Vue({
+			el:"#wraper",
+			data:{
+				orderInfo:{},
+				payType:0,
+				aliPay:""
+			},
+			created:function(){
+				//this.orderInfo = {productName:"八达卡",orderMoney:0.01,currentDate:"2018-03-01",orderId:114}
+			  //localStorage.setItem("productName","八达卡");
+			  var productId = sessionStorage.getItem("productId");
+				$.get("eorderwx!createActiveProductOrder45.asp",{
+						productId : productId
+					},function(res){
+						vue.orderInfo = JSON.parse(res);
+						localStorage.setItem("productName",vue.orderInfo.productName);
+				});
+				
+				// 定时扫描 , 订单是否已经支付成功
+				var interval = setInterval(function(){
+					$.get("eorderwx!queryActiveProductOrder45.asp",{
+						orderId : vue.orderInfo.orderId
+					},function(res){
+						res = JSON.parse(res);
+						if(res.status == 1){
+							// 关闭定时器
+							clearInterval(interval);
+							location.href = "adwy4.html";
+						}
+					});
+				},1500);
+			},
+			methods:{
+				goBack : function(){
+					history.go(-1);
+				},
+				changePayType : function(type){
+					this.payType = type;
+				},
+				payMent : function(){
+					if(this.payType == 0){
+						location.href = "ealipaywx!aliPaySignH5.asp?orderId=" + vue.orderInfo.orderId;
+					} else if(this.payType == 1){
+						$.get("ewechatwx!paySignH5.asp",{
+							orderId : vue.orderInfo.orderId
+						},function(res){
+							location.href = JSON.parse(res).xml.mweb_url;
+						});
+					}
+				}
+			}
+		});
+		
+		(function($) {
+			$.init();
+			var result = $('.date')[0];
+			var btns = $('.date');
+			btns.each(function(i, btn) {
+				btn.addEventListener('tap', function() {
+
+					var optionsJson = this.getAttribute('data-options') || '{}';
+					var options = JSON.parse(optionsJson);
+					var id = this.getAttribute('id');
+					/*
+					 * 首次显示时实例化组件
+					 * 示例为了简洁，将 options 放在了按钮的 dom 上
+					 * 也可以直接通过代码声明 optinos 用于实例化 DtPicker
+					 */
+					//var picker = new $.DtPicker(options);
+					var today = new Date();
+					var y = today.getFullYear();
+					var M = today.getMonth() + 1;
+					var d = today.getDate();
+					
+					var picker = new $.DtPicker({
+						type: "date", //设置日历初始视图模式
+						//真正的月份比写的多一个月。  type的类型你还是可以选择date, datetime month time  hour 
+
+						beginDate: new Date(), //设置开始日期   
+
+						endDate: new Date(y, M, d) //设置结束日期    //真正的是10.21
+
+					});
+					picker.show(function(e) {
+						var datetext = e.y.text + "-" + e.m.text + "-" + e.d.text;
+
+						result.innerHTML = datetext+" >";
+
+						jQuery.post("eorderwx!changeActiveProductOrder45.asp",{
+							orderId : vue.orderInfo.orderId,
+							startTime : datetext
+						},function(res){
+							console.log(JSON.parse(res));
+						});
+						
+						/*
+						 * rs.value 拼合后的 value
+						 * rs.text 拼合后的 text
+						 * rs.y 年，可以通过 rs.y.vaue 和 rs.y.text 获取值和文本
+						 * rs.m 月，用法同年
+						 * rs.d 日，用法同年
+						 * rs.h 时，用法同年
+						 * rs.i 分（minutes 的第二个字母），用法同年
+						 */
+						/* result.innerText = rs.text; */
+						/*
+						 * 返回 false 可以阻止选择框的关闭
+						 * return false;
+						 */
+						/*
+						 * 释放组件资源，释放后将将不能再操作组件
+						 * 通常情况下，不需要示放组件，new DtPicker(options) 后，可以一直使用。
+						 * 当前示例，因为内容较多，如不进行资原释放，在某些设备上会较慢。
+						 * 所以每次用完便立即调用 dispose 进行释放，下次用时再创建新实例。
+						 */
+						picker.dispose();
+					});
+				}, false);
+			});
+		})(mui);
+	</script>
+</body>
+</html>

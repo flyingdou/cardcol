@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.piimg{ float:left; margin-left:216px; padding-top:6px; width:670px; height:410px; }
+
+.piimg_plan{ width:668px;  border:1px solid #dcdcdc; margin-top:7px; float:left;}
+.piimg_plan  h2{ height:30px; line-height:30px; background:#f7f7f7; font-size:14px; color:#009e0f; padding-left:10px;}
+.piimg_plan .plan_cont ul li{ list-style-type:none; overflow:hidden;zoom:1; line-height:35px; }
+.piimg_plan .plan_cont ul li span{ display:inline-block ;float:left; background:#ecebeb; width:91px;text-align:center;font-size:12px; color:#616161; font-weight:bold; height:35px; line-height:35px;}
+.piimg_plan .plan_cont ul li .plan_1 { float:left; overflow:hidden; width:545px;margin-left:22px; margin-top:3px;}
+.piimg_plan .plan_cont ul li .plan_1 img{ margin-top:4px; float:left;}
+.piimg_plan .plan_cont ul li .plan_1 a{ float:left; display:block;border:1px solid #e5e5e5; height:22px;font-size:12px; color:#e43339; line-height:22px; text-align:center; padding:2px; margin-right:12px;  }
+.piimg_plan .plan_cont ul li .plan_1 a b{ float:left; margin-left:5px;}
+.piimg_plan .plan_cont ul li .plan_1 .all{ float:right; color:#0172be; border:none;} .plan_cont .con_last{  border-bottom:1px dashed #cbcbcb;}
+.piimg_plan .plan_cont  .plan_2{ padding-left:22px; float:left;}
+.piimg_plan .plan_cont  .plan_2 a{ font-size:12px; color:#0172be; margin-right:45px;}
+.piimg_plan .plan_cont .con_last  .plan_2 a{float:left; display:block; height:30px;font-size:12px; color:#0172be; line-height:30px; text-align:center; padding:2px; margin-right:40px;}
+.piimg_plan .plan_cont .tex_plan{ border:1px  solid #c9c9c9; height:21px; color:#a5a5a5;  padding-left:6px; float:left; margin-top:5px; line-height:21px;}
+.piimg_plan .plan_cont .btn_queding{ background:url(../images/plan_07.gif); width:44px; height:21px; float:left; margin-top:7px; margin-left:10px; border:none; cursor:pointer;}
+.plan_side{ border:1px solid #ededed; width:306px; float:left; margin-left:6px; margin-top:5px;}
+.plan_side .plan_xian{ border-bottom:1px solid #ededed; overflow:hidden; zoom:1; padding-bottom:4px;}
+.plan_side h2{ font-size:14px; height:36px; color:#666; line-height:36px; text-align:center;} 
+.plan_side .plan_pic{ float:left;font-size:12px; font-weight:bold; text-align:center; padding-left:4px; width:128px;padding-bottom:6px;}
+.plan_side .plan_pic .plan_bord{ padding:3px; margin-bottom:10px;}
+.plan_side .plan_pic .plan_price{ color:#d61a00;margin-bottom:10px; }
+.plan_side .plan_pic  .goumai{ width:83px; height:26px; background:#d61a00; color:#FFF; line-height:26px; text-align:center; margin:0 auto; cursor:pointer;}
+.plan_wenzi{ font-size:12px; text-indent:2em; float:left; width:165px; margin-left:5px; line-height:18px; color:#666666;}
+.plan_wenzi_2{ font-size:12px; text-indent:2em; float:left; width:155px; margin-left:5px; line-height:18px; color:#666666; margin-left:15px;}
+#xxx{ height:209px;}
+.plan_content{ float:left; margin-top:12px; width:1200px;}
+.plan_content .plan_leftside{ float:left; width:210px;display:inline;}
+.plan_content .plan_leftside ul li{ list-style-type:none; margin-bottom:20px;}
+.plan_content .plan_rightside{ float:right; width:984px; display:inline; padding-left:6px;}
+.plan_content .plan_rightside .plan_navlan{ height:37px; border:1px solid #dcdcdc; background:#f7f7f7; line-height:37px; width:982px; float:left;}
+.plan_content .plan_rightside .plan_navlan .pauxu{ float:left; color:#616161; font-size:12px; margin-left:8px; margin-top:2px; margin-right:6px;}
+.plan_content .plan_rightside .plan_navlan ul { margin-top:6px;}
+.plan_content .plan_rightside .plan_navlan ul li{ float:left; border:1px solid #ccc7cb; width:44px; height:24px; list-style:none; font-size:12px; background:#fff; margin-right:5px;color:#616161; line-height:24px; text-align:center; }
+.plan_content .plan_rightside .plan_navlan ul li a{ display:block; width:44px; height:24px; text-align:center; line-height:24px; text-decoration:none;;color:#616161; }
+.plan_content .plan_rightside .plan_navlan ul li a:hover{background:#e3393c;  border:1px solid #e3393c; color:#FFFFFF; font-weight:bold;}
+.plan_content .plan_rightside .plan_navlan ul li:hover a{ color:#fff;}
+.plan_content .plan_rightside .plan_navlan  .planli{ background:#e3393c;  border:1px solid #e3393c; color:#FFFFFF; font-weight:bold;}
+.plan_content .plan_rightside .plan_navlan  .planli a { color:#FFF;}
+
+ .plan_navlan .plan_nav{ float:right; margin-right:7px; width:180px; }.plan_fenye{ float:right; line-height:25px; margin-right:12px; }
+.plan_navlan  .plan_yema{ color:#e33439}
+
+.plan_cont_main { padding-top:17px; clear:both; overflow:hidden; zoom:1;}
+.plan_navlan .plan_nav a{ display:block; width:59px; height:25px; float:right; margin-right:5px;} 
+.plan_cont_main .plancont{ float:left; border:1px solid #f2f2f0; padding:6px 4px 0px 4px; width:229px; margin-bottom:25px;}
+.plan_cont_main .plancont:hover{ border:1px solid #f60; cursor:pointer;}
+.plan_cont_main .plancont .plan_pic span{ display:block; color:#616161; font-weight:bold; height:30px; line-height:30px; text-align:center; border-bottom:1px solid #ededed;}
+.plan_cont_main .plancont .plan_infor{ font-size:12px; color:#666666; line-height:18px; padding-left:3px; padding-bottom:10px; border-bottom:1px solid  #ededed; margin-top:9px;}
+.plan_cont_main .plancont .plan_price ul li{ height:32px; line-height:32px; list-style:none; float:left; text-align:center;}
+.plan_cont_main .plancont .plan_price ul li strong{ color:#de0000;}
+.plan_cont_main .plancont .plan_price ul li b{ color:#4484d3;}
+.plan_cont_main .plancont .plan_price ul .price_1{ width:82px;border-right:1px solid #ededed;}
+.plan_cont_main .plancont .plan_price ul .price_2{ width:89px;border-right:1px solid #ededed; color:#666666; font-size:12px;}
+.plan_cont_main .plancont .plan_price ul .price_3{ width:55px; color:#de0000; font-weight:bold;font-size:12px;}
+.plan_cont_main .pmargin{ margin-right:9px;}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,123 @@
+/* CSS Document */
+
+#main {
+	width:960px;
+	margin:0 auto;
+}
+#main-left {
+	width:235px;
+	height:100%;
+	margin-top:15px;
+	float:left;
+	background-color:#EFF9BF;
+}
+#main-left h1 {
+	font-family:"ËÎÌו";
+	font-size:14px;
+	font-weight:bold;
+	width:214px;
+	height:32px;
+	line-height:32px;
+	border-bottom:1px solid #9BB711;
+	padding-left:5px;
+	background:none;
+	margin:0 8px;
+}
+#main-left .content {
+    margin:10px 8px;
+	width:218px;
+	height:100%;
+	/*background:red;*/
+	overflow:hidden;
+}
+#main-left .content a {
+	text-decoration:none;
+	color:#454142;
+	display:block;
+    border-bottom:1px dashed #9BB711;
+}
+#main-left .content a:hover {
+	border-bottom:1px solid #9BB711;
+	color:#FD9D3D;
+}
+#main-left li {
+   /* list-style-type:square;*/
+	text-align:left;
+	padding-left:5px;
+	height:100;
+	cursor:pointer;
+	padding-bottom:1px;
+
+	line-height:22px;
+	font-size:14px;
+	margin-bottom:5px;
+	text-indent:15px;
+}
+#main-right {
+	margin-left:15px;
+	margin-top:6px;
+	float:left;
+	width:710px;
+	height:100%;
+	overflow:hidden;
+}
+#main-right h1 {
+	font-family:"ËÎÌו";
+	font-size:12px;
+	font-weight:bold;
+	height:32px;
+	margin:0px 8px;
+	line-height:32px;
+	padding-left:5px;
+	color:#0099CC;
+	background:none;
+	font-weight:400;
+	border-bottom:none;
+}
+#main-right h1 a {
+	color:#0099CC;
+	text-decoration:none;
+}
+#main-right h1 a:hover {
+	text-decoration:underline;
+}
+#main-right .select {
+	width:708px;
+	border:1px solid #DBDBDB;
+	background:#F8F9F3;
+	float:left;
+	padding-top:13px;
+}
+#main-right .select-1 {
+    height:45px;
+	padding-top:6px;
+	text-align:center;
+}
+#main-right .select-1 h2 {
+  border-bottom:none;
+  font-size:16px;
+  background:none;
+}
+#main-right .select-2 {
+    height:20px;
+    text-align:center;
+	font-size:12px;
+	border-bottom:1px dashed #CCCCCC;
+	color:#999999;
+}
+#main-right .select-3 {
+   padding-top:30px;
+   width:690px;
+   margin:0 auto;
+   line-height:22px;
+   height:100%;
+   font-size:14px;
+   text-indent:2em;
+   margin-bottom:10px;
+}
+#main-right .arrange {
+	width: 710px;
+	float:left;
+	margin-top:10px;
+	height: 450px;
+}

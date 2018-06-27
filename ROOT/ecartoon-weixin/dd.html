@@ -1,0 +1,394 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>提交订单</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<style>
+			.font12 {
+				font-size: 12px;
+			}
+			
+			.font13 {
+				font-size: 13px;
+			}
+			
+			.font15 {
+				font-size: 15px;
+			}
+			
+			.font18 {
+				font-size: 18px;
+			}
+			
+			.font100 {
+				font-weight: 100;
+			}
+			
+			.font700 {
+				font-weight: 700;
+			}
+			
+			.mR10 {
+				margin-right: 10px;
+			}
+			
+			.mL10 {
+				margin-left: 10px;
+			}
+			
+			.pL10 {
+				padding-left: 10px;
+			}
+			
+			.pR10 {
+				padding-right: 10px;
+			}
+			
+			.tright {
+				text-align: right;
+			}
+			
+			.tleft {
+				text-align: left;
+			}
+			
+			.border-none {
+				border: none
+			}
+			
+			.cB {
+				color: black
+			}
+			
+			.cG {
+				color: #999999;
+			}
+			
+			.cW {
+				color: white
+			}
+			
+			.cR {
+				color: #ff4401;
+			}
+			
+			.bgW {
+				background: white;
+			}
+			
+			.bgR {
+				background: #ff4401;
+			}
+			
+			.title_box {
+				margin: 10px 0;
+				height: 45px;
+				display: -webkit-box;
+				-webkit-box-orient: horizontal;
+			}
+			
+			.boxS {
+				box-sizing: border-box;
+				overflow: hidden;
+			}
+			
+			#userName {
+				line-height: 45px;
+			}
+			
+			#phoneNum {
+				line-height: 45px;
+			}
+			
+			#weknow {
+				height: 16px;
+				line-height: 16px!important;
+				margin: 14px;
+			}
+			
+			.card-show {
+				width: 100%;
+				height: 122px;
+			}
+			
+			.card-num {
+				height: 24px;
+				width: 100%;
+				line-height: 24px
+			}
+			
+			.card-mimu {
+				height: 100px;
+				width: 100%;
+				padding: 14px 10px;
+				display: -webkit-box;
+				-webkit-box-orient: horizontal;
+			}
+			
+			.img_box {
+				width: 72px;
+				height: 72px;
+			}
+			
+			.card-xq {
+				-webkit-box-flex: 1;
+			}
+			
+			.cardname {
+				line-height: 18px;
+				margin-top: 10px;
+			}
+			
+			.card-time {
+				line-height: 16px;
+			}
+			
+			.yhq {
+				height: 70px;
+				width: 100%;
+				margin: 10px 0;
+				background: white;
+				display: -webkit-box;
+				-webkit-box-orient: horizontal;
+			}
+			
+			.yhq_nick {
+				-webkit-box-flex: 1;
+				margin-top: 16px;
+				margin-left: 10px;
+			}
+			
+			.yhq_num {
+				-webkit-box-flex: 1;
+				margin-top: 22px;
+			}
+			
+			.yhq_num1 {
+				width: 100%;
+				height: 100%;
+				display: -webkit-box;
+				-webkit-box-orient: horizontal;
+				-webkit-box-pack: end;
+				overflow: hidden;
+			}
+			
+			.yhq_num1-input {
+				display: block;
+				width: 110px;
+			}
+			
+			.arrow-r {
+				display: block;
+			}
+			
+			.raioBox {
+				padding: 14px 10px;
+				background: white;
+				height: 70px;
+				box-sizing: border-box;
+				font-size: 12px;
+				display: -webkit-box;
+				-webkit-box-orient: horizontal;
+				position: relative
+			}
+			
+			.raioBox:after {
+				content: "";
+				width: 100%;
+				bottom: 0;
+				border-bottom: 1px solid #f2f2f2;
+				left: 10px;
+				position: absolute;
+			}
+			
+			.mui-radio input[type=radio] {
+				position: absolute;
+				top: 23px!important;
+				right: 10px!important;
+				display: inline-block;
+				width: 16px;
+				height: 16px;
+				border: 0;
+				outline: 0!important;
+				background-color: inherit;
+				-webkit-appearance: none;
+			}
+			
+			.mui-radio input[type=radio]:before {
+				font-family: Muiicons;
+				font-size: 16px;
+				font-weight: 400;
+				line-height: 1;
+				text-decoration: none;
+				color: #aaa;
+				border-radius: 0;
+				background: 0 0;
+				-webkit-font-smoothing: antialiased;
+			}
+			
+			.mui-radio input[type=radio]:checked:before {
+				content: ''!important;
+				border: 4px solid #FF4401;
+				box-sizing: border-box;
+				border-radius: 50%;
+				width: 16px;
+				height: 16px;
+				top: 3px;
+				position: absolute
+			}
+			
+			.label_box1 {
+				-webkit-box-flex: 9;
+			}
+			
+			.wx {
+				background: white;
+			}
+			
+			.mui-input-row label {
+				font-family: 'Helvetica Neue', Helvetica, sans-serif;
+				line-height: 1.1;
+				padding: 5px 10px;
+			}
+			
+			.wximg {
+				color: green;
+				margin-top: 10px;
+			}
+			
+			.footercss {
+				display: -webkit-box;
+				-webkit-box-orient: horizontal;
+				line-height: 44px;
+				padding: 0px;
+			}
+			
+			.sfk {
+				-webkit-box-flex: 1;
+				text-align: center;
+			}
+			
+			.footer-button {
+				margin: 0;
+				width: 144px;
+				height: 44px;
+				margin: 0;
+				padding: 0;
+				color: white!important;
+				background: #FF4401!important;
+				border:none!important;
+				outline-color: rgba(0, 0, 0, 0)!important;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="mui-content"id="app">
+			<form action="" method="post" v-for="x in datajson">
+
+				<div class="title_box bgW">
+					<div id="userName" class=" font700 font15 cB mR10 mL10 ">
+						用户昵称
+					</div>
+					<div id="phoneNum" class="font700 font15 cB ">
+						{{x.username}}
+					</div>
+					<div id="weknow" class="bgR font12 cW mL10">
+						已认证
+					</div>
+				</div>
+
+				<div class="card-show bgW">
+					<div class="card-num cG font12 boxS pL10">
+						订单编号{{x.number}}
+					</div>
+					<div class="card-mimu">
+						<div class="img_box">
+							<img :src="x.imgsrc" width="72px" height="72px" />
+						</div>
+						<div class="card-xq mL10">
+							<div class="cardname font15">
+								有氧健身操
+							</div>
+							<div class="card-time font13 cG">
+								开始时间 {{x.time}}
+							</div>
+							<div class="card-money cR font12">
+								￥<span class="font18">{{x.money}}</span>.00
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="yhq">
+					
+					
+					<div class="yhq_nick">
+						<div class="">
+							优惠券
+						</div>
+						<div class="font13 cG">
+							分享好友获取更多优惠券
+						</div>
+					</div>
+					<div class="yhq_num">
+						<a class="yhq_num1">
+							<input type="" class="tright yhq_num1-input cR font13 border-none" name="" id="" v-model="x.card" readonly="readonly" />
+							<span class="mui-icon mui-icon-arrowright arrow-r cG"></span>
+						</a>
+					</div>
+					
+				</div>
+
+				<div class="wx">
+					<div class="raioBox mui-input-row mui-radio" style="">
+						<div class="mui-icon mui-icon-weixin wximg">
+
+						</div>
+						<div class="label_box1">
+							<label for="radio" class="labelradio font15">微信支付<div class="font12 cG">推荐安装微信5.0以上版本的用户使用</div></label>
+						</div>
+						<div class="input_box1">
+							<input type="radio" class="" name="radio" id="radio" value="减脂塑形" checked="checked" />
+						</div>
+					</div>
+				</div>
+
+				<footer class="mui-bar mui-bar-footer bgW border-none footercss">
+					<div class="sfk font15 cR">
+						实付款：<span class="font12">￥</span><span class="font18">{{x.money}}.</span><span class="font12">00</span>
+					</div>
+					<input type="submit" name="" class="footer-button" id="" value="确定付款" />
+				</footer>
+			</form>
+		</div>
+
+		<script src="js/mui.min.js"></script>
+		<script src="js/vue.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			mui.init();
+			data1= [{
+				"username":1654,
+				"number":23241646413,
+				"imgsrc": "http://placehold.it/40x30",
+				"name": "超级赛亚人健身营",
+				"mb": "减少重量10kg",
+				"who": "黄大仙",
+				"time": "2014-01-12",
+				"kg": 99,
+				"money": 15,
+				"card":"52元代金券"
+			}];
+			new Vue({
+				el:"#app",
+				data:{
+					datajson:data1
+				}
+			})
+		</script>
+	</body>
+
+</html>

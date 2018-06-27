@@ -1,0 +1,29 @@
+﻿body { font-size:9pt;margin:0px; padding:0px; background:#fafafa}
+.head {background:url(../images/head_bg.jpg)  no-repeat top center; height:657px;}
+.mian_width { width:1000px; margin:0 auto;}
+.cl { clear:both; width:0px; height:0px; font-size:0px;}
+.head_l { float:left}
+.head_r{ float:right; margin-top:40px;}
+.h_ad {padding-top:15px; padding-left:30px; padding-top:120px;}
+.ma { float:left; padding-top:93px; padding-left:78px;}
+.btn { float:left; padding-left:40px; padding-top:90px;}
+.btn a{ display:block; margin-bottom:10px;}
+.btn a:hover img{  filter:alpha(opacity=95);  
+      -moz-opacity:0.95;  
+      -khtml-opacity: 0.95;  
+      opacity: 0.95;  }
+.mian_widths {width:1000px; margin:0 auto; padding-top:60px;}
+.bt {width:1000px; margin:0 auto;  height:80px; line-height:80px; text-align:center; font-size:14px; color:#808080;
+}
+
+
+
+
+
+
+
+.service_y{ border:1px solid #dadada; margin-top:10px; background:#fff; height:69px;}
+.youshi {background:url(../images/youshi1.jpg)  no-repeat left center; height:48px; margin-left:30px; margin-top:12px; border-right:1px solid #e7e7e7; cursor:pointer; width:233px; float:left}
+.youshi:hover {background:url(../images/youshi1.jpg)  no-repeat left center; height:48px; margin-left:29px; margin-top:12px; border-right:1px solid #e7e7e7; cursor:pointer; width:234px;}
+
+

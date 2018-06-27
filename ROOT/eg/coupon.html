@@ -1,0 +1,86 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>优惠券</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<link  rel="stylesheet" href="../css/mui.min.css" />
+		<style type="text/css">
+			.cou{
+				background-image:url('../images/coupon10.png');
+				background-repeat: no-repeat;
+				background-size:300px 100px;
+				width:300px;
+				height:100px;
+				margin: 0 auto;
+				position: relative;
+			}
+			.cou_img{
+				width:300px;
+				height:100px;
+				margin: 0 auto;
+			}
+			/*日期颜色#FE9E3A*/
+			.star_time{
+				position: absolute;
+			    top: 30px;
+			    right: 15px;
+			    /*border: 1px solid #111;*/
+			    color: #FE9E3A;
+			    font-size: 12px;
+			}
+			.end_time{
+				position: absolute;
+			    top: 50px;
+			    right: 15px;
+			    /*border: 1px solid #111;*/
+			    color: #FE9E3A;
+			    font-size: 12px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="mui-content">
+			<div class="mui-scroll-wrapper">
+			    <div class="mui-scroll">
+			    	<ul class="mui-table-view">
+			    		<li class="mui-table-view-cell">
+			    			<div class="cou">
+			    				<img src="../images/coupon5.png" class="cou_img"/>
+			    				<div class="star_time">2017-01-01</div>
+			    				<div class="end_time">2017-03-30</div>
+			    			</div>
+			    		</li>
+			    		<li class="mui-table-view-cell">
+			    			<div class="cou">
+			    				<img src="../images/coupon10.png" class="cou_img"/>
+			    				<div class="star_time">2017-01-01</div>
+			    				<div class="end_time">2017-03-30</div>
+			    			</div>
+			    		</li><li class="mui-table-view-cell">
+			    			<div class="cou">
+			    				<img src="../images/coupon20.png" class="cou_img"/>
+			    				<div class="star_time">2017-01-01</div>
+			    				<div class="end_time">2017-03-30</div>
+			    			</div>
+			    		</li><li class="mui-table-view-cell">
+			    			<div class="cou">
+			    				<img src="../images/coupon30.png" class="cou_img"/>
+			    				<div class="star_time">2017-01-01</div>
+			    				<div class="end_time">2017-03-30</div>
+			    			</div>
+			    		</li>
+			    	</ul>
+			    </div>
+			</div>
+			
+		</div>
+	</body>
+	<script src="../js/mui.min.js"></script>
+	<script type="text/javascript">
+		mui('.mui-scroll-wrapper').scroll({
+			deceleration:0.0005
+		})
+	</script>
+</html>

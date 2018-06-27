@@ -1,0 +1,26 @@
+#centerCalendarMain{width: 100%;height: 20rem;border-bottom:0.05rem #ccc solid; }
+#title { width: 100%; height: 3rem;text-align: center;}
+.selectBtn {font-weight: 900; line-height:3rem;font-size: 1.8rem; color: #333; text-decoration: none; padding: 0 2rem 0 2rem; }
+.week { width: 100%; height: 3rem;}
+.week>h3{float: left;width: 14.28%!important;text-align: center;line-height:3rem;font-size:1.5rem;}
+.dayItem { float: left; }
+.lastItem {color: #d1c7b7 !important; }
+.item{ color: #333; float: left; text-align: center;margin: 0; font-size: 1.5rem;  }
+.item a{color: #333;}
+.main{color: red;}
+.lastItem a{color: #d1c7b7 !important;}
+.thisDay>a{display:inline-block;background-color: #ccc; color:#999;width: 25px; line-height: 25px; border-radius:50%;margin: 0 !important;}
+.currentItem>a { display:inline-block;background-color: #b9121b; width: 25px; line-height: 25px;  border-radius:50%;color: #fff; }
+#Container { overflow: hidden; float: left; }
+#center {width: 100%;overflow: hidden;}
+#centerMain {width: 300%;margin-left: -100%;  }
+#selectYearDiv { width:100%;float: left; background-color: #fff;  }
+#selectYearDiv>div { width:25% !important;float: left; text-align: center; font-size: 1.5rem; margin-left: -1px;
+    margin-top: -1px; color: #909090; }
+.currentYearSd, .currentMontSd { color: #ff4400 !important; }
+#selectMonthDiv { width:100%;float: left; background-color: #fff; }
+#selectMonthDiv>div {width: 25% !important; color: #909090; float: left; text-align: center; font-size: 1.5rem;  margin-left: -1px;
+    margin-top: -1px;
+}
+#selectYearDiv>div:hover, #selectMonthDiv>div:hover { background-color: red; }
+#centerCalendarMain { float: left; }

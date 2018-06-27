@@ -1,0 +1,191 @@
+
+
+#left {
+	width: 200px;
+	height: 235px;
+	float: left;
+	margin-left: 10px;
+}
+
+#right {
+	width: 733px;
+	float: right;
+}
+
+#righttop {
+	height: 100%;
+	overflow: hidden;
+	margin-top: 20px;
+	margin-right: 10px;
+}
+
+#righttop p.copy {
+	text-align: center;
+	clear: both;
+}
+
+/*#righttop p.copy input {
+	width: 80px;
+	height: 25px;
+	border: 1px solid #999;
+	background: url(../images/space_menu.gif);
+	cursor: pointer;
+	margin-left: 15px;
+	margin-bottom: 10px;
+}*/
+#righttop p.copy .inpsave {
+   	width:96px;
+	height:27px;
+    text-align:left;
+	text-indent:31px;
+	line-height:29px;
+	background: url(../images/anjiuall.jpg) no-repeat;
+	background-position:-100px -264px;
+	cursor: pointer;
+	margin-left: 15px;
+	margin-bottom: 10px;
+	margin-top:20px;
+}
+#righttop p.copy .inpremove {
+	width:96px;
+	height:27px;
+	text-align:left;
+	text-indent:31px;
+	line-height:29px;
+	background: url(../images/anjiuall.jpg) no-repeat;
+	background-position:0px -215px;
+	cursor: pointer;
+	margin-left: 15px;
+	margin-bottom: 10px;
+	margin-top:20px;
+}
+
+#righttop .aa {
+	text-align: center;
+	line-height: 30px;
+	text-decoration: none;
+	display: block;
+	width: 90px;
+	height: 25px;
+	background: #fff;
+	border: 1px solid #999;
+}
+
+#righttop .aa:hover {
+	background: url(../images/space_menu.gif);
+}
+
+#rightfot {
+	height: 100%;
+	margin-right: 13px;
+	margin-bottom: 30px;
+	border: 1px solid #999999;
+}
+
+.table1 {
+	width: 97%;
+	margin: 20px 10px 20px 10px;
+	background: #cccccc;
+	text-align: center;
+	font-size: 12px;
+}
+
+.table1 th {
+	height: 30px;
+	background: #c5dbec;
+}
+
+.table1 td {
+	height: 30px;
+	background: #FFFFFF
+}
+
+.table1 td input {
+	width: 94%;
+	border: 0px;
+}
+
+#ptabs .table1 #coloa {
+	width: 100px;
+	height: 12px;
+	padding-left: 16px;
+	margin: 0 auto;
+	background: url(../images/icoorder.gif) no-repeat;
+	background-position: -0px -70px;
+	text-decoration: none;
+}
+
+#ptabs .table1 .a1:hover {
+	color: #137DDC;
+}
+
+#ptabs .table1 .a2 {
+	width: 11px;
+	height: 12px;
+	margin: 0 auto;
+	background: url(../images/icoorder.gif) no-repeat;
+	background-position: -88px -55px;
+}
+
+#ptabs .table1 .a2:hover {
+	cursor: pointer;
+}
+#left p  {
+	margin-top:10px;
+}
+#left p input {
+	width: 13px;
+	height: 13px;
+	vertical-align: middle;
+	border: 2px solid #000;
+	margin: 0 1px 0 1px;
+}
+
+.button1 {
+	background: red;
+}
+
+.button2 {
+	background: green;
+}
+
+.button3 {
+	background: #fff;
+}
+#dialog p{
+font-size:12px;
+margin:10px 0 10px 0;
+}
+.inpa { margin-left:30px;margin-bottom:5px;}
+.Data-Figure2 { 
+	width:80px; 
+	height:15px;
+	margin-right:15px;
+	border:1px solid #999;
+}
+.buttoma{
+	margin-top:20px; 
+	margin-left:120px; 
+	text-align:left;
+	cursor:pointer;
+	text-indent:33px;
+	letter-spacing:10px;
+	width:87px;
+	height:28px; 
+	line-height:29px; 
+	background:url(../images/anjiuall.jpg); 
+	background-position:-100px 0px; 
+}
+.buttomb{
+	margin-top:20px; 
+	margin-left:20px; 
+	text-align:left; 
+	cursor:pointer; 
+	text-indent:33px;
+	letter-spacing:10px; 
+	width:87px;
+	height:28px;
+	line-height:29px;
+	background:url(../images/anjiuall.jpg); 
+	background-position:-100px -60px; 
+}

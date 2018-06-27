@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Context debug="5" reloadable="false" crossContext="true">
+	<WatchedResource>WEB-INF/web.xml</WatchedResource>
+	<Logger className="org.apache.catalina.logger.FileLogger" directory="logs" prefix="freegym_log." suffix=".txt" timestamp="true"/>
+	<Resource name="jdbc/cardcol"
+		type="javax.sql.DataSource"
+		auth="Container"
+		driverClassName="com.mysql.jdbc.Driver"
+		url="jdbc:mysql://192.168.3.14:3306/cardcolv4?characterEncoding=utf-8"
+		username="wuzhijian"
+		password="wuzhijian"
+		maxActive="50"
+		maxIdle="100"
+		minIdle="0"
+		removeAbandoned="true"
+		removeAbandonedTimeout="60"
+		logAbandoned="true"
+	   	maxWait="-1"/>
+</Context>

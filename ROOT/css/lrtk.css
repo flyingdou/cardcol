@@ -1,0 +1,28 @@
+.mainbox{
+    overflow:hidden;
+    position:relative;
+}
+.flashbox{
+   overflow:hidden;
+    position:relative;
+}
+.imagebox{
+    text-align:right;position:relative;z-index:999;
+}
+
+.bitdiv{display:inline-block;width:18px;height:18px;margin:0 10px 10px 0px;cursor:pointer;float:right;}
+.defimg{background-image:url(../images/02.png)}
+.curimg{background-image:url(../images/01.png)}
+
+.right_myself{ width:277px; height:458px; background:url(../images/index_tile.png) no-repeat 0px 0px;}
+.right_myself .myself{ padding-top:2px;}
+.right_myself h2{background:none; font-size:16px; height:35px; line-height:35px; color:#FFF; padding-left:16px; font-family:"ºÚÌå";}
+.right_myself .myself .smail{ width:240px; margin:0 auto; margin-top:5px; overflow:hidden;border:1px solid #dedede;background:#ffffff;padding:10px 0px 10px 10px;}
+.right_myself .myself .smail img{ float:left; margin-right:10px; margin-top:6px; width:70px; height:66px;}
+.right_myself .myself .smail .my_self p{ line-height:16px; font-size:12px; color:#666666;}.bo_bo{ border-bottom:1px  dashed #d0d0d0;}
+.right_myself .myself{background:#f6f6f6;overflow:hidden;zoom:1;height:450px;}
+.right_myself  .my_self .ziti a{color:#575656;font-size:12px; font-weight:bold;}
+.right_myself  .my_self{margin-top:5px;}
+.mychange{background:url(../images/index_pp.png) no-repeat 0px 0px;padding-top:2px; }
+.right_myself .myself{position:relative; }
+.right_myself .myself .sportimg{ position:absolute; left:0px;top:0px;z-index:-999;}

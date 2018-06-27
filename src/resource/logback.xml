@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<configuration scan="true">
+	<property name="logbase" value="logs" />
+	<jmxConfigurator />
+	<appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+		<layout class="ch.qos.logback.classic.PatternLayout">
+			<pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+		</layout>
+	</appender>
+	<appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<file>cardcol.log</file>
+		<rollingPolicy class="ch.qos.logback.core.rolling.FixedWindowRollingPolicy">
+			<fileNamePattern>${logbase}/cardcol%d{yyyyMMdd}.log</fileNamePattern>
+			<minIndex>1</minIndex>
+			<maxIndex>5</maxIndex>
+			<maxHistory>7</maxHistory>
+		</rollingPolicy>
+		<encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+			<pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{50} - %msg%n</pattern>
+		</encoder>
+		<triggeringPolicy class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">
+			<maxFileSize>5MB</maxFileSize>
+		</triggeringPolicy>
+		<layout class="ch.qos.logback.classic.PatternLayout">
+			<Pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36}
+				-%msg%n</Pattern>
+		</layout>
+	</appender>
+
+	<root level="error">
+		<appender-ref ref="STDOUT" />
+	</root>
+
+	<logger name="com.opensymphony" level="ERROR" />
+	<logger name="net.sf.ehcache" level="ERROR" />
+	<logger name="org.hibernate" level="ERROR" />
+	<logger name="org.springframework" level="ERROR" />
+	<logger name="freemarker" level="DEBUG" />
+	<logger name="org.apache" level="ERROR" />
+	<logger name="java.sql.Connection" level="ERROR" />
+	<logger name="java.sql.Statement" level="ERROR" />
+	<logger name="java.sql.PreparedStatement" level="DEBUG" />
+	<logger name="org.hibernate.SQL" additivity="false" level="ERROR" />
+	<logger name="org.hibernate.type" additivity="false" level="ERROR" />
+	<logger name="org.hibernate.engine.QueryParameters" level="ERROR" />
+	<logger name="org.hibernate.engine.query.HQLQueryPlan" level="ERROR" />
+	<logger name="org.hibernate.type.descriptor.sql.BasicBinder" additivity="false" level="ERROR" />
+	<logger name="org.hibernate.type.descriptor.sql.BasicExtractor" level="ERROR" />
+</configuration>

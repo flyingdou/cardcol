@@ -1,0 +1,289 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body, html {
+    font: 12px/1.6 "Hiragino Sans GB",STHeiti,"Î¢ÈíÑÅºÚ","Microsoft YaHei",Helvetica,Arial,serif;
+}
+img {
+    border:0 none;
+    vertical-align:bottom;
+}
+body{
+    width: 100%;
+    height:100%;
+    background:url('../img/login.png')no-repeat fixed center center/auto 160%  ;
+}
+.navbar-header{
+    margin-top: 10px!important;
+}
+input{
+    font-size: 12px;
+}
+.navUla{
+    height: 23px!important;
+    line-height: 20px!important;
+    border-radius: 10px;
+    padding: 3px 8px!important;
+    background-color: red;
+    color:white;
+}
+.navUla:visited{
+    background-color: red!important;
+    color:white!important;
+}
+.navUla:hover{
+    background-color: red!important;
+    color:white!important;
+}
+.navUla:active{
+    background-color: red!important;
+    color:white!important;
+}
+
+
+@media (max-width:770px ) {
+    body{
+        background: url("../img/login1.png")no-repeat fixed 0 0 /100% auto ;
+    }
+
+    .box{
+        position: fixed;
+        background: rgba(0,0,0,.3)!important;
+        top: 20%!important;
+    }
+    .dl{
+        color:white!important;
+    }
+    .zc{
+        color:#dcdcdc!important;
+    }
+    .dl1{
+        color:white!important;
+    }
+    .zc1{
+        color:#dcdcdc!important;
+    }
+    .Mobole{
+        background: url("../img/Mobilephone.png")no-repeat scroll 80% 15px/10px auto!important;
+    }
+    .psw{
+        background: url("../img/password.png")no-repeat scroll 80% 15px/10px auto!important;
+    }
+    input{
+        background: rgba(0,0,0,0)!important;
+    }
+    button{
+        background: rgba(0,0,0,0)!important;
+    }
+    .formDiv{
+        padding-top: 100px;}
+    .navUl{
+        display: none
+    }
+    .navbar-header{
+        margin-left:10px!important; ;
+    }
+    .box{
+        background: rgba(0,0,0,0.1);
+    }
+    .getyz{
+        height: 20px;
+        padding: 2px 6px ;
+        margin-top:7px;
+        font-size:12px;
+        border-radius:8px;
+        color:white!important;
+        border: 1px solid white!important;
+    }
+
+
+}
+.white{
+    color:white!important;
+}
+.grey{
+    color:#dcdcdc!important;
+}
+/*---------------------Ã½Ìå²éÑ¯½áÊø-------------------------------*/
+
+.formDiv{
+    position: relative;
+    margin-top: 100px;
+    margin-left:0;
+    margin-right:0;
+}
+.box{
+    background-color:white;
+    border-radius: 8px;
+    padding: 0!important;
+}
+.box_1{
+    width: 100%!important;
+    border-bottom: 1px solid silver;
+    overflow: hidden;
+    margin-bottom: 25%
+}
+.zc{
+    width: 48%;
+    color:#737373;
+    line-height: 50px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px
+}
+.dl{
+    color:#fc382a;
+    width: 48%;
+    line-height: 50px;
+    text-align: center;
+    border-right: 1px solid silver;
+    display: inline-block;
+    font-size: 16px
+}
+.Mobole{
+    height: 40px;
+    overflow: hidden;!important;
+    background: url("../img/Mobilephone 2.png")no-repeat scroll 80% 15px/10px auto;
+}
+.psw{
+    height: 40px;
+    overflow: hidden;!important;
+    background: url("../img/password 2.png")no-repeat scroll 80% 15px/10px auto;
+}
+.putC{
+    border: none;border-bottom: 1px solid #bfbfbf;text-shadow: none;box-shadow: none;border-radius: 0;
+}
+.butto{
+    border: none;
+    margin-bottom: 20px;
+}
+.butto:hover{
+    background:rgba(0,0,0,0)
+}
+.buttonBox{
+    text-align: center;
+}
+.error{
+    color:#fc382a;
+    padding-left:0 !important;
+    padding-right: 0!important;
+    text-align: center;
+}
+.noM{
+    color:#bfbfbf;text-align: right;
+    padding-left:0 !important;
+    padding-right: 0!important;
+}
+/*------------------------µÇÂ¼--------------------------*/
+.wlmm{
+    padding-left:0!important;
+    padding-right: 0!important;
+}
+.dl:hover,.zc:hover{
+    cursor:pointer;
+}
+
+/*-------------------------------×¢²á---------------------*/
+.hui{
+    color:#737373;
+}
+.hong{
+    color:#ff4401
+}
+.jlb{
+    padding-top: 0!important;
+    text-align:center;
+    font-weight:200;
+    color:#bfbfbf;
+    font-size: 12px;
+    line-height: 20px
+}
+.csjg{
+    padding-top: 0!important;
+    text-align:center;
+    text-indent:0.5em;
+    font-weight:200;
+    color: #bfbfbf;
+    font-size: 12px;
+    line-height: 20px
+}
+.yzm{
+    margin:0 2px;
+    border-bottom: 1px solid #bfbfbf;
+}
+.zcyz{
+    margin-left: -12px;
+    padding: 0
+}
+.zcyzm{
+    font-size: 12px;
+    border: none;
+    margin: 0;
+    padding: 0;
+    text-indent: 2em
+}
+.getyz{
+    height: 20px;
+    padding: 2px 6px ;
+    margin-top:7px;
+    font-size:12px;
+    border-radius:8px;
+    color:#fc382a;
+;border: 1px solid #fc382a;
+}
+.zcdl{
+    width: 100%!important;
+    background-color:#ff4401!important;
+    color:white!important;
+    border: none!important;
+}
+/*----------------------------------Íü¼ÇÃÜÂë-----------*/
+.arrowR{
+    width: 15%;
+    height: 10px;
+    float:left;
+    display:inline-block;
+    overflow:hidden;
+    background: url('../img/back.png')no-repeat scroll 50% 0/5px auto;
+;margin-top: 20px
+}
+.arrowR:hover{
+    cursor: pointer;
+}
+.forgotMM{
+    display:inline-block;
+    float:left;
+    width:85%;
+    text-indent:-15%;
+}
+
+.dll{
+    color:#fc382a;
+    width: 100%;
+    line-height: 50px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px
+}
+
+input[type="radio"] {
+    display: none;
+
+}
+.rAd label.checked {
+    background: url(../img/button_rb_s.png) no-repeat scroll 0 0/20px auto;
+}
+.rAd label{
+    background: url(../img/circle.png) no-repeat scroll 0 0/20px auto;
+}
+.wjyz{
+    margin-left: -12px;
+    padding: 0
+
+}
+.wjsryz{
+    margin:0 2px;
+    border-bottom: 1px solid #bfbfbf;
+}
+

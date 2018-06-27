@@ -1,0 +1,53 @@
+
+.readField {
+	color: #8d2222;
+	border: 0px;
+	background-color: transparent
+}
+
+#loadingTab {
+	position: absolute;
+	left: 38%;
+	top: 40%;
+	padding: 2px;
+	z-index: 20001;
+	height: auto;
+	border: 1px solid #CCCCFF;
+	width: 350px
+}
+
+#loadingTab a {
+	color: #225588;
+	text-decoration: none
+}
+
+#loadingTab a:hover {
+	color: #999900;
+	text-decoration: underline;
+}
+
+#loadingTab .loading-indicator {
+	background: white;
+	color: #444;
+	font: bold 15px tahoma, arial, helvetica;
+	padding: 10px;
+	margin: 0;
+	height: auto;
+}
+
+#loading-yfo a {
+	font: "宋体";
+	font-size: 12px;
+	color: #999999;
+	text-decoration: none
+}
+
+#loading-yfo a:hover {
+	color: #000000;
+	text-decoration: none
+}
+
+#loading-msg {
+	font: "宋体", normal;
+	font-size: 12px
+}

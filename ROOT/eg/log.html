@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<title>健身日志页面</title>
+		<link rel="stylesheet"  href="../css/mui.min.css"  />
+		<style type="text/css">
+			
+			.title{
+				text-align: center;
+			}
+			#date_show{
+				margin:5px 5px;
+				border:1px solid green;
+				border-radius:3px;
+			}
+			.date_sel{
+				width:15px;
+				height:15px;
+			}
+			.tb{
+				width:20px;
+				height:20px;
+			}
+			/*编辑小图标的样式*/
+			.mui-table-view .mui-media-object {
+			    line-height: 20px;
+			    /*max-width: 42px;*/
+			   height:20px;
+			}
+			.yd_shuju{
+				line-height:20px;
+			}
+			/*身高输入一栏样式*/
+			.shg{
+				float:right;
+				text-align:right;
+				margin-right:15px;
+				width:120px;
+				height:23px;
+				line-height:23px;
+				padding:0px;
+				
+			}
+			.shg input{
+				text-align:right;
+				height:23px;
+				line-height:23px;
+				margin-top:-2px;
+				margin-bottom:0px;
+				padding:0px;
+				padding-top:5px;
+				width:80px;
+				font-size:14px;
+				border:none;
+			}
+			.shengao{
+				line-height:20px;
+				padding-top:-12px;
+				padding-right:2px;
+				text-align:right;
+				
+			}
+			.shg1{
+				margin-right:0px;
+				float:right;
+				width:70%;
+				height:23px;
+				line-height:23px;
+				padding:0px;
+				text-align: right;
+			}
+			.shg .shengao1{
+				width:100%;
+				text-align:right;
+				color:gray;
+				height:23px;
+				line-height:23px;
+				margin-top:0px;
+				margin-bottom:0px;
+				padding:0px;
+				padding-top:3px;
+				font-size:14px;
+				border:none;
+			}
+			.shg2{
+				width:60%;
+				margin-right:0px;
+				float:right;
+				height:23px;
+				padding:0px;
+				text-align: right;
+			}
+			.shg2 .shengao2{
+				width:100%;
+				text-align:right;
+				color:gray;
+				font-size:14px;
+				/*height:38px;
+				line-height:23px;
+				margin-top:0px;
+				margin-bottom:0px;
+				padding:0px;
+				padding-top:-2px;
+				border:none;*/
+			}
+			.dw{
+				color:gray;
+				font-size: 14px;
+				position: relative;
+				top:0px;
+			
+			}
+			/*身高输入一栏样式结束*/
+			#ul1_1{
+				margin-left:10%;
+			}
+			/*li前的图标样式*/
+			.tb_img{
+				width:15px;
+				height:15px;
+				padding-top:0px;
+				margin-top:3px;
+				margin-right:5px;
+				line-height:23px;
+			}
+			.btn{
+				height:38px;
+				line-height:8px;
+				margin-top:18px;
+				color:white;
+				/*background-color:#FF6A00;*/
+				
+			}
+			/*p (这里为详细列表图标旁的样式)*/
+			p {
+			    color: #000000;
+			}
+		</style>		
+	</head>
+	<body>
+		<header class="mui-bar mui-bar-nav">
+		    <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+		    <h1 class="mui-title">训练日志</h1>
+		</header>
+		<div class="mui-content">
+			<div class="mui-scroll-wrapper" style="top:45px;">
+			    <div class="mui-scroll">
+			        <!--这里放置真实显示的DOM内容-->
+			        <div class="title"><span>选择日期</span><input  id="date_show" placeholder="选择的日期显示在这里" /><img src="../images/logo.png"  class="date_sel" id="DatePicker02.html"/></div>
+			        <ul class="mui-table-view" id="ul1">
+			        	<li class="mui-table-view-cell mui-media">
+			        		<img class="mui-media-object mui-pull-left tb" src="../images/logo.png" />
+			        		<div class="mui-media-body yd_shuju">运动数据</div>
+			        	</li>
+			        	<ul class="mui-table-view" id="ul1_1"> 
+			        		<li class="mui-table-view-cell">
+			        			<a >
+			        				<img src="../images/logo.png" class="mui-pull-left tb_img" />
+									<p class='mui-ellipsis nav_sel mui-pull-left' style="width:20%;">运动内容</p>
+									<span class="mui-pull-right shg shg1" ><input type="number"  class="shengao1" placeholder="请输入抗阻训练等" style="text-align:right;"  /></span>
+								</a>
+			        		</li>
+			        		<li class="mui-table-view-cell ">
+								<a >
+									<img src="../images/logo.png" class="mui-pull-left tb_img" />
+									<p class='mui-ellipsis nav_sel mui-pull-left' style="width:20%;">本次成绩</p>
+									<span class="mui-pull-right shg shg1"><input type="number" class="shengao1" placeholder="请输入数值"  /></span>
+								</a>
+							</li>
+							<li class="mui-table-view-cell ">
+								<a >
+									<img src="../images/logo.png" class="mui-pull-left tb_img" />
+									<p class='mui-ellipsis nav_sel mui-pull-left' style="width:30%;">成绩计量单位</p>
+									<span class="mui-pull-right shg shg2"><input type="number"  class="shengao2" placeholder="请输入数值"  /></span>
+								</a>
+							</li>
+							<li class="mui-table-view-cell ">
+								<a >
+									<img src="../images/logo.png" class="mui-pull-left tb_img" />
+									<p class='mui-ellipsis nav_sel mui-pull-left' style="width:20%;">运动时间</p>
+									<span class="mui-pull-right shg"><input type="number" class="shengao" placeholder="请输入数值"  /><span class="dw">分钟</span></span>
+								</a>
+							</li>
+			        	</ul>
+			        </ul>
+			        
+			        <ul class="mui-table-view" id="ul1">
+			        	<li class="mui-table-view-cell mui-media">
+			        		<img class="mui-media-object mui-pull-left tb" src="../images/logo.png" />
+			        		<div class="mui-media-body yd_shuju">身体数据</div>
+			        	</li>
+			        	<ul class="mui-table-view" id="ul1_1"> 
+			        		<li class="mui-table-view-cell">
+			        			<a >
+			        				<img src="../images/logo.png" class="mui-pull-left tb_img" />
+									<p class='mui-ellipsis nav_sel mui-pull-left' style="width:30%;">体重:</p>
+									<span class="mui-pull-right shg"><input type="number" class="shengao" placeholder="请输入身高"  /><span class="dw">KG</span></span>
+								</a>
+			        		</li>
+			        		<li class="mui-table-view-cell ">
+								<a >
+									<img src="../images/logo.png" class="mui-pull-left tb_img" />
+									<p class='mui-ellipsis nav_sel mui-pull-left' style="width:30%;">腰围:</p>
+									<span class="mui-pull-right shg"><input type="number"  class="shengao" placeholder="请输入身高"  /><span class="dw">CM</span></span>
+								</a>
+							</li>
+							<li class="mui-table-view-cell ">
+								<a >
+									<img src="../images/logo.png" class="mui-pull-left tb_img" />
+									<p class='mui-ellipsis nav_sel mui-pull-left' style="width:30%;">臀围:</p>
+									<span class="mui-pull-right shg"><input type="number" class="shengao" placeholder="请输入身高"  /><span class="dw">CM</span></span>
+								</a>
+							</li>
+							<li class="mui-table-view-cell ">
+								<a >
+									<img src="../images/logo.png" class="mui-pull-left tb_img" />
+									<p class='mui-ellipsis nav_sel mui-pull-left' style="width:30%;">身高:</p>
+									<span class="mui-pull-right shg"><input type="number" class="shengao" placeholder="请输入身高" /><span class="dw">CM</span></span>
+								</a>
+							</li>
+			        	</ul>
+			        </ul>
+			        <!--保存按钮-->
+			        <div class="title">
+			        	<button type="button" class="mui-btn mui-badge-blue btn mui-btn-block" >保存</button>
+			        </div>
+			        
+			    </div>
+			    
+			</div>
+			
+		</div>
+		
+	</body>
+	<script src="../js/mui.min.js"></script>
+	<script>
+		mui('.mui-scroll-wrapper').scroll({
+			deceleration:0.0005
+		});
+		mui.plusReady(function(){
+			//跳转到日历页面
+			mui('.title').on('tap','img',function(){
+				var url=this.getAttribute('id');
+				if(url){
+					mui.openWindow({
+						url:url,
+						id:url
+					});
+					
+				}
+			});
+		});
+		
+		
+	</script>
+		
+</html>

@@ -1,0 +1,1 @@
+Ext.getDom('loading-msg').innerHTML = '初始化完毕！！';Ext.get('loadingTab').fadeOut({remove: true});
